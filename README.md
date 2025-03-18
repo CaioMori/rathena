@@ -1,72 +1,75 @@
-<img src="doc/logo.png" align="right" height="90" />
 
-# rAthena
-![clang](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_clang.yml?label=clang%20build&logo=llvm) ![cmake](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_cmake.yml?label=cmake%20build&logo=cmake) ![gcc](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_gcc.yml?label=gcc%20build&logo=gnu) ![ms](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_msbuild.yml?label=ms%20build&logo=visualstudio) ![GitHub](https://img.shields.io/github/license/rathena/rathena.svg) ![commit activity](https://img.shields.io/github/commit-activity/w/rathena/rathena) ![GitHub repo size](https://img.shields.io/github/repo-size/rathena/rathena.svg)
-> rAthena is a collaborative software development project revolving around the creation of a robust massively multiplayer online role playing game (MMORPG) server package. Written in C++, the program is very versatile and provides NPCs, warps and modifications. The project is jointly managed by a group of volunteers located around the world as well as a tremendous community providing QA and support. rAthena is a continuation of the eAthena project.
 
-[Forum](https://rathena.org/board)|[Discord](https://rathena.org/discord)|[Wiki](https://github.com/rathena/rathena/wiki)|[FluxCP](https://github.com/rathena/FluxCP)|[Crowdfunding](https://rathena.org/board/crowdfunding/)|[Fork and Pull Request Q&A](https://rathena.org/board/topic/86913-pull-request-qa/)
+# rAthena Brasil
+![clang](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_clang.yml?label=clang%20build&://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_cmake.yml?label=cmake%20build&//img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_gcc.yml?label=gcc%20build&logshields.io/github/actions/workflow/status/rathena/rathena/build_servers_msbuild.yml?label=ms%20build&logimg.shields.io/github/licen activity](https://img.shields.io/github/commit-activit repo size](https://img.shields.io/github/repo-size/ratção no Cenário Brasileiro de Ragnarok Online!
+
+> Sob a liderança de **Caio Mori**, o projeto rAthena Brasil traz uma experiência MMORPG incomparável para a comunidade brasileira. Desenvolvido com tecnologia de ponta em C++, oferecemos um pacote de servidor robusto e altamente personalizável com NPCs exclusivos, sistemas de warp inovadores e modificações que transformarão sua experiência de jogo. Junte-se a nós nesta jornada épica para redefinir o padrão de qualidade dos servidores brasileiros de Ragnarok Online!
+
+[Fórum](https://rathena.org/board)|[Discord](https://rathena.org/discord)|[Wiki](https://github.com/rathena/rathena/wiki)|[FluxCP](https://github.com/rathena/FluxCP)|[Apoie o Projeto](https://rathena.org/board/crowdfunding/)|[Dúvidas sobre Pull Requests](https://rathena.org/board/topic/86913-pull-request-qa/)
 --------|--------|--------|--------|--------|--------
 
-### Table of Contents
-1. [Prerequisites](#1-prerequisites)
-2. [Installation](#2-installation)
-3. [Troubleshooting](#3-troubleshooting)
-4. [More Documentation](#4-more-documentation)
-5. [How to Contribute](#5-how-to-contribute)
-6. [License](#6-license)
+### Índice
+1. [Requisitos](#1-requisitos)
+2. [Instalação](#2-instalação)
+3. [Solução de Problemas](#3-solução-de-problemas)
+4. [Documentação Adicional](#4-documentação-adicional)
+5. [Como Contribuir](#5-como-contribuir)
+6. [Licença](#6-licença)
 
-## 1. Prerequisites
-Before installing rAthena there are certain tools and applications you will need which
-differs between the varying operating systems available.
+## 1. Requisitos
+Antes de instalar o rAthena Brasil, você precisará de certas ferramentas e aplicativos que
+variam de acordo com os diferentes sistemas operacionais disponíveis.
 
 ### Hardware
-Hardware Type | Minimum | Recommended
+Tipo de Hardware | Mínimo | Recomendado
 ------|------|------
-CPU | 1 Core | 2 Cores
+CPU | 1 Núcleo | 2 Núcleos
 RAM | 1 GB | 2 GB
-Disk Space | 300 MB | 500 MB
+Espaço em Disco | 300 MB | 500 MB
 
-### Operating System & Preferred Compiler
-Operating System | Compiler
+### Sistema Operacional e Compilador Recomendado
+Sistema Operacional | Compilador
 ------|------
-Linux  | [gcc-6 or newer](https://www.gnu.org/software/gcc/gcc-6/) / [Make](https://www.gnu.org/software/make/)
-Windows | [MS Visual Studio 2017 or newer](https://www.visualstudio.com/downloads/)
+Linux | [gcc-6 ou mais recente](https://www.gnu.org/software/gcc/gcc-6/) / [Make](https://www.gnu.org/software/make/)
+Windows | [MS Visual Studio 2017 ou mais recente](https://www.visualstudio.com/downloads/)
 
-### Required Applications
-Application | Name
+### Aplicativos Necessários
+Aplicativo | Nome
 ------|------
-Database | [MySQL 5 or newer](https://www.mysql.com/downloads/) / [MariaDB 5 or newer](https://downloads.mariadb.org/)
+Banco de Dados | [MySQL 5 ou mais recente](https://www.mysql.com/downloads/) / [MariaDB 5 ou mais recente](https://downloads.mariadb.org/)
 Git | [Windows](https://gitforwindows.org/) / [Linux](https://git-scm.com/download/linux)
 
-### Optional Applications
-Application | Name
+### Aplicativos Opcionais
+Aplicativo | Nome
 ------|------
-Database | [MySQL Workbench 5 or newer](http://www.mysql.com/downloads/workbench/)
+Banco de Dados | [MySQL Workbench 5 ou mais recente](http://www.mysql.com/downloads/workbench/)
 
-## 2. Installation 
+## 2. Instalação 
 
-### Full Installation Instructions
+### Instruções Completas de Instalação
   * [Windows](https://github.com/rathena/rathena/wiki/Install-on-Windows)
   * [CentOS](https://github.com/rathena/rathena/wiki/Install-on-Centos)
   * [Debian](https://github.com/rathena/rathena/wiki/Install-on-Debian)
   * [FreeBSD](https://github.com/rathena/rathena/wiki/Install-on-FreeBSD)
 
-## 3. Troubleshooting
+## 3. Solução de Problemas
 
-If you're having problems with starting your server, the first thing you should
-do is check what's happening on your consoles. More often that not, all support issues
-can be solved simply by looking at the error messages given. Check out the [wiki](https://github.com/rathena/rathena/wiki)
-or [forums](https://rathena.org/forum) if you need more support on troubleshooting.
+Se você estiver tendo problemas para iniciar seu servidor, a primeira coisa que deve
+fazer é verificar o que está acontecendo nos seus consoles. Na maioria das vezes, todos os problemas
+podem ser resolvidos simplesmente observando as mensagens de erro fornecidas. Consulte a [wiki](https://github.com/rathena/rathena/wiki)
+ou os [fóruns](https://rathena.org/forum) se precisar de mais suporte para solução de problemas.
 
-## 4. More Documentation
-rAthena has a large collection of help files and sample NPC scripts located in the /doc/
-directory. These include detailed explanations of NPC script commands, atcommands (@),
-group permissions, item bonuses, and packet structures, among many other topics. We
-recommend that all users take the time to look over this directory before asking for
-assistance elsewhere.
+## 4. Documentação Adicional
+O rAthena Brasil possui uma grande coleção de arquivos de ajuda e scripts NPC de exemplo localizados no diretório /doc/.
+Estes incluem explicações detalhadas de comandos de script NPC, atcommands (@),
+permissões de grupo, bônus de itens e estruturas de pacotes, entre muitos outros tópicos. Recomendamos
+que todos os usuários dediquem tempo para examinar este diretório antes de buscar
+assistência em outros lugares.
 
-## 5. How to Contribute
-Details on how to contribute to rAthena can be found in [CONTRIBUTING.md](https://github.com/rathena/rathena/blob/master/.github/CONTRIBUTING.md)!
+## 5. Como Contribuir
+Detalhes sobre como contribuir para o rAthena Brasil podem ser encontrados em [CONTRIBUTING.md](https://github.com/rathena/rathena/blob/master/.github/CONTRIBUTING.md)!
 
-## 6. License
-Copyright (c) rAthena Development Team - Licensed under [GNU General Public License v3.0](https://github.com/rathena/rathena/blob/master/LICENSE)
+## 6. Licença
+Copyright (c) rAthena Development Team - Licenciado sob [GNU General Public License v3.0](https://github.com/rathena/rathena/blob/master/LICENSE)
+
+**Nota Especial:** O projeto rAthena Brasil, liderado por Caio Mori, está comprometido em oferecer suporte total em português e criar uma comunidade vibrante de desenvolvedores brasileiros. Junte-se a nós para transformar a experiência de Ragnarok Online no Brasil!
