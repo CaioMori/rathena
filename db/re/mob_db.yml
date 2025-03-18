@@ -49,7 +49,7 @@
 #   ChaseRange              Chase range. (Default: 0)
 #   Size                    Size. (Default: Small)
 #   Race                    Race. (Default: Formless)
-#   RaceGroups:             List of secondary groups the monster may be part of. (Optional)
+#   RaceGroups:            List of secondary groups the monster may be part of. (Optional)
 #     <group>: <value>      Group to toggle.
 #   Element                 Element. (Default: Neutral)
 #   ElementLevel            Level of element. (Default: 1)
@@ -61,14 +61,14 @@
 #   DamageTaken             Rate at which the monster will receive incoming damage. (Default: 100)
 #   Ai                      Aegis monster type AI behavior. (Default: 06)
 #   Class                   Aegis monster class. (Default: Normal)
-#   Modes:                  List of unique behavior not defined by AI, Class, or Attribute. (Optional)
+#   Modes:                 List of unique behavior not defined by AI, Class, or Attribute. (Optional)
 #     <mode>: <value>       Mode to toggle.
-#   MvpDrops:               List of possible MVP prize items. Max of MAX_MVP_DROP. (Optional)
+#   MvpDrops:              List of possible MVP prize items. Max of MAX_MVP_DROP. (Optional)
 #     - Item                Item name.
 #       Rate                Drop rate of item.
 #       RandomOptionGroup   Random Option Group applied to item on drop. (Default: None)
 #       Index               Index used for overwriting item. (Optional)
-#   Drops:                  List of possible normal item drops. Max of MAX_MOB_DROP. (Optional)
+#   Drops:                 List of possible normal item drops. Max of MAX_MOB_DROP. (Optional)
 #     - Item                Item name.
 #       Rate                Drop rate of item.
 #       StealProtected      If the item is shielded from TF_STEAL. (Default: false)
@@ -83,7 +83,7 @@ Header:
 Body:
   - Id: 1001
     AegisName: SCORPION
-    Name: Scorpion
+    Name: Escorpião
     Level: 16
     Hp: 136
     BaseExp: 169
@@ -207,7 +207,7 @@ Body:
 #    AttackMotion: 512
   - Id: 1004
     AegisName: HORNET
-    Name: Hornet
+    Name: Zangão
     Level: 11
     Hp: 85
     BaseExp: 158
@@ -306,7 +306,7 @@ Body:
         StealProtected: true
 #  - Id: 1006
 #    AegisName: THIEF_BUG_LARVA
-#    Name: Thief Bug Larva
+#    Name: Besouro Ladrão Larva
 #    Level: 1
 #    Size: Small
 #    Race: Formless
@@ -468,7 +468,7 @@ Body:
         StealProtected: true
   - Id: 1010
     AegisName: WILOW
-    Name: Willow
+    Name: Salgueiro
     Level: 8
     Hp: 78
     BaseExp: 160
@@ -610,7 +610,7 @@ Body:
         StealProtected: true
   - Id: 1013
     AegisName: WOLF
-    Name: Wolf
+    Name: Lobo
     Level: 45
     Hp: 1091
     BaseExp: 369
@@ -658,7 +658,7 @@ Body:
         StealProtected: true
   - Id: 1014
     AegisName: SPORE
-    Name: Spore
+    Name: Esporo
     Level: 18
     Hp: 223
     BaseExp: 175
@@ -802,7 +802,7 @@ Body:
         StealProtected: true
 #  - Id: 1017
 #    AegisName: THIEF_BUG_FEMALE
-#    Name: Thief Bug Female
+#    Name: Besouro Ladrão Female
 #    Level: 10
 #    Hp: 170
 #    BaseExp: 35
@@ -997,7 +997,7 @@ Body:
         StealProtected: true
 #  - Id: 1021
 #    AegisName: THIEF_BUG_MALE
-#    Name: Thief Bug Male
+#    Name: Besouro Ladrão Male
 #    Level: 19
 #    Hp: 583
 #    BaseExp: 223
@@ -1143,7 +1143,7 @@ Body:
         StealProtected: true
   - Id: 1024
     AegisName: WORM_TAIL
-    Name: Wormtail
+    Name: Rabo-de-Verme
     Level: 17
     Hp: 186
     BaseExp: 180
@@ -1321,7 +1321,7 @@ Body:
 #        Rate: 7000
   - Id: 1028
     AegisName: SOLDIER_SKELETON
-    Name: Soldier Skeleton
+    Name: Esqueleto Soldado
     Level: 34
     Hp: 691
     BaseExp: 284
@@ -1564,7 +1564,7 @@ Body:
         StealProtected: true
   - Id: 1033
     AegisName: ELDER_WILOW
-    Name: Elder Willow
+    Name: WillowAncião
     Level: 34
     Hp: 535
     BaseExp: 259
@@ -1659,7 +1659,7 @@ Body:
         StealProtected: true
   - Id: 1035
     AegisName: HUNTER_FLY
-    Name: Hunter Fly
+    Name: Mosca Caçadora 
     Level: 63
     Hp: 1902
     BaseExp: 588
@@ -1865,7 +1865,7 @@ Body:
         StealProtected: true
   - Id: 1039
     AegisName: BAPHOMET
-    Name: Baphomet
+    Name: Bafomé
     Level: 81
     Hp: 668000
     BaseExp: 218089
@@ -1975,7 +1975,7 @@ Body:
         StealProtected: true
   - Id: 1041
     AegisName: MUMMY
-    Name: Mummy
+    Name: Múmia
     Level: 55
     Hp: 1899
     BaseExp: 512
@@ -2303,7 +2303,7 @@ Body:
         StealProtected: true
   - Id: 1048
     AegisName: THIEF_BUG_EGG
-    Name: Thief Bug Egg
+    Name: Besouro Ladrão Egg
     Level: 20
     Hp: 290
     BaseExp: 181
@@ -2448,7 +2448,7 @@ Body:
         StealProtected: true
   - Id: 1051
     AegisName: THIEF_BUG
-    Name: Thief Bug
+    Name: Besouro Ladrão
     Level: 21
     Hp: 238
     BaseExp: 188
@@ -2552,7 +2552,7 @@ Body:
         StealProtected: true
   - Id: 1053
     AegisName: THIEF_BUG_
-    Name: Thief Bug Female
+    Name: Besouro Ladrão Female
     Level: 28
     Hp: 475
     BaseExp: 219
@@ -2603,7 +2603,7 @@ Body:
         StealProtected: true
   - Id: 1054
     AegisName: THIEF_BUG__
-    Name: Thief Bug Male
+    Name: Besouro Ladrão Male
     Level: 30
     Hp: 537
     BaseExp: 229
@@ -2703,7 +2703,7 @@ Body:
         StealProtected: true
   - Id: 1056
     AegisName: SMOKIE
-    Name: Smokie
+    Name: Fumacento
     Level: 29
     Hp: 414
     BaseExp: 235
@@ -2907,7 +2907,7 @@ Body:
         StealProtected: true
   - Id: 1060
     AegisName: BIGFOOT
-    Name: Bigfoot
+    Name: Pé Grande
     Level: 29
     Hp: 506
     BaseExp: 235
@@ -3648,7 +3648,7 @@ Body:
 #    Ai: 01
   - Id: 1076
     AegisName: SKELETON
-    Name: Skeleton
+    Name: Esqueleto
     Level: 27
     Hp: 445
     BaseExp: 235
@@ -3696,7 +3696,7 @@ Body:
         StealProtected: true
   - Id: 1077
     AegisName: POISON_SPORE
-    Name: Poison Spore
+    Name: Esporo Venenoso
     Level: 26
     Hp: 379
     BaseExp: 209
@@ -3744,7 +3744,7 @@ Body:
         StealProtected: true
   - Id: 1078
     AegisName: RED_PLANT
-    Name: Red Plant
+    Name: Planta Vermelho
     Level: 1
     Hp: 5
     Sp: 0
@@ -3850,7 +3850,7 @@ Body:
         StealProtected: true
   - Id: 1080
     AegisName: GREEN_PLANT
-    Name: Green Plant
+    Name: Planta Verde
     Level: 1
     Hp: 5
     Sp: 0
@@ -3903,7 +3903,7 @@ Body:
         StealProtected: true
   - Id: 1081
     AegisName: YELLOW_PLANT
-    Name: Yellow Plant
+    Name: Planta Amarelo
     Level: 1
     Hp: 6
     Sp: 0
@@ -3956,7 +3956,7 @@ Body:
         StealProtected: true
   - Id: 1082
     AegisName: WHITE_PLANT
-    Name: White Plant
+    Name: Planta Branco
     Level: 1
     Hp: 7
     Sp: 0
@@ -4062,7 +4062,7 @@ Body:
         StealProtected: true
   - Id: 1084
     AegisName: BLACK_MUSHROOM
-    Name: Black Mushroom
+    Name: Cogumelo Negro
     Level: 1
     Hp: 5
     Sp: 0
@@ -4123,7 +4123,7 @@ Body:
         StealProtected: true
   - Id: 1085
     AegisName: RED_MUSHROOM
-    Name: Red Mushroom
+    Name: Cogumelo Vermelho
     Level: 1
     Hp: 5
     Sp: 0
@@ -4184,7 +4184,7 @@ Body:
         StealProtected: true
   - Id: 1086
     AegisName: GOLDEN_BUG
-    Name: Golden Thief Bug
+    Name: Besouro Ladrão Dourado
     Level: 65
     Hp: 222750
     BaseExp: 102060
@@ -4357,7 +4357,7 @@ Body:
         StealProtected: true
   - Id: 1089
     AegisName: TOAD
-    Name: Toad
+    Name: Sapo
     Level: 27
     Hp: 660
     BaseExp: 81
@@ -4455,7 +4455,7 @@ Body:
         StealProtected: true
   - Id: 1091
     AegisName: DRAGON_FLY
-    Name: Dragon Fly
+    Name: Mosca Dragão 
     Level: 47
     Hp: 1035
     BaseExp: 180
@@ -4748,7 +4748,7 @@ Body:
         StealProtected: true
   - Id: 1097
     AegisName: ANT_EGG
-    Name: Ant Egg
+    Name: Ovo de Formiga
     Level: 28
     Hp: 469
     BaseExp: 219
@@ -4936,7 +4936,7 @@ Body:
         StealProtected: true
   - Id: 1101
     AegisName: BAPHOMET_
-    Name: Baphomet Jr.
+    Name: Bafomé Jr.
     Level: 57
     Hp: 1763
     Sp: 0
@@ -5135,7 +5135,7 @@ Body:
         StealProtected: true
   - Id: 1105
     AegisName: DENIRO
-    Name: Deniro
+    Name: Robert Deniro
     Level: 31
     Hp: 480
     BaseExp: 253
@@ -5185,7 +5185,7 @@ Body:
         StealProtected: true
   - Id: 1106
     AegisName: DESERT_WOLF
-    Name: Desert Wolf
+    Name: Lobo do Deserto
     Level: 103
     Hp: 10244
     BaseExp: 1585
@@ -5234,7 +5234,7 @@ Body:
         StealProtected: true
   - Id: 1107
     AegisName: DESERT_WOLF_B
-    Name: Baby Desert Wolf
+    Name: Lobo do Deserto Bebê
     JapaneseName: Desert Wolf Baby
     Level: 14
     Hp: 113
@@ -8265,7 +8265,7 @@ Body:
         StealProtected: true
 #  - Id: 1168
 #    AegisName: SCORPION_KING
-#    Name: Scorpion King
+#    Name: Escorpião King
 #    Level: 50
 #    Hp: 5719
 #    BaseExp: 1968
@@ -8310,7 +8310,7 @@ Body:
 #        StealProtected: true
   - Id: 1169
     AegisName: SKEL_WORKER
-    Name: Skeleton Worker
+    Name: Esqueleto Worker
     Level: 44
     Hp: 1151
     BaseExp: 378
@@ -8408,7 +8408,7 @@ Body:
         StealProtected: true
 #  - Id: 1171
 #    AegisName: SOLDIER_ANDRE
-#    Name: Soldier Andre
+#    Name: Andre Soldado
 #    Level: 22
 #    Hp: 1245
 #    BaseExp: 219
@@ -8451,7 +8451,7 @@ Body:
 #        StealProtected: true
 #  - Id: 1172
 #    AegisName: SOLDIER_DENIRO
-#    Name: Soldier Deniro
+#    Name: Deniro Soldado
 #    Level: 29
 #    Hp: 2047
 #    BaseExp: 450
@@ -8494,7 +8494,7 @@ Body:
 #        StealProtected: true
 #  - Id: 1173
 #    AegisName: SOLDIER_PIERE
-#    Name: Soldier Piere
+#    Name: Piere Soldado
 #    Level: 23
 #    Hp: 1217
 #    BaseExp: 240
@@ -8824,7 +8824,7 @@ Body:
         StealProtected: true
   - Id: 1180
     AegisName: NINE_TAIL
-    Name: Nine Tail
+    Name: Nove Caudas
     Level: 72
     Hp: 2422
     BaseExp: 752
@@ -9065,7 +9065,7 @@ Body:
         Rate: 1
   - Id: 1186
     AegisName: WHISPER_BOSS
-    Name: Giant Whisper
+    Name: Whisper Gigante
     Level: 66
     Hp: 2570
     Sp: 0
@@ -9281,7 +9281,7 @@ Body:
         StealProtected: true
   - Id: 1191
     AegisName: MIMIC
-    Name: Mimic
+    Name: Mimico
     Level: 56
     Hp: 1707
     BaseExp: 477
@@ -9532,7 +9532,7 @@ Body:
         StealProtected: true
   - Id: 1196
     AegisName: SKEL_PRISONER
-    Name: Skeleton Prisoner
+    Name: Esqueleto Prisoner
     Level: 91
     Hp: 8378
     BaseExp: 1342
@@ -10638,7 +10638,7 @@ Body:
         StealProtected: true
   - Id: 1220
     AegisName: M_DESERT_WOLF
-    Name: Desert Wolf
+    Name: Lobo do Deserto
     Level: 103
     Hp: 9447
     BaseExp: 209
@@ -10822,7 +10822,7 @@ Body:
 #        StealProtected: true
 #  - Id: 1224
 #    AegisName: L_POISON_SPORE
-#    Name: Poison Spore
+#    Name: Esporo Venenoso
 #    Level: 19
 #    Hp: 665
 #    BaseExp: 169
@@ -11367,7 +11367,7 @@ Body:
         StealProtected: true
   - Id: 1236
     AegisName: META_ANT_EGG
-    Name: Ant Egg
+    Name: Ovo de Formiga
     Level: 4
     Hp: 420
     BaseExp: 2
@@ -12637,7 +12637,7 @@ Body:
         StealProtected: true
   - Id: 1262
     AegisName: MUTANT_DRAGON
-    Name: Mutant Dragonoid
+    Name: Dragonoid Mutante
     JapaneseName: Mutant Dragon
     Level: 65
     Hp: 50706
@@ -13820,7 +13820,7 @@ Body:
     Class: Guardian
   - Id: 1287
     AegisName: SOLDIER_GUARDIAN
-    Name: Soldier Guardian
+    Name: Guardian Soldado
     Level: 56
     Hp: 15670
     BaseExp: 1
@@ -13930,7 +13930,7 @@ Body:
         Rate: 1
   - Id: 1290
     AegisName: SKELETON_GENERAL
-    Name: Skeleton General
+    Name: Esqueleto General
     Level: 139
     Hp: 180130
     Sp: 0
@@ -14230,7 +14230,7 @@ Body:
         StealProtected: true
   - Id: 1296
     AegisName: KOBOLD_LEADER
-    Name: Kobold Leader
+    Name: Líder Kobold
     Level: 112
     Hp: 13520
     BaseExp: 1718
@@ -14281,7 +14281,7 @@ Body:
         StealProtected: true
   - Id: 1297
     AegisName: ANCIENT_MUMMY
-    Name: Ancient Mummy
+    Name: Múmia Ancião
     Level: 114
     Hp: 20935
     BaseExp: 2446
@@ -14386,7 +14386,7 @@ Body:
         StealProtected: true
   - Id: 1299
     AegisName: GOBLIN_LEADER
-    Name: Goblin Leader
+    Name: Líder Goblin
     Level: 55
     Hp: 21692
     BaseExp: 2336
@@ -14590,7 +14590,7 @@ Body:
         StealProtected: true
   - Id: 1303
     AegisName: GIANT_HONET
-    Name: Giant Hornet
+    Name: Hornet Gigante
     Level: 120
     Hp: 18495
     Sp: 0
@@ -14641,7 +14641,7 @@ Body:
         StealProtected: true
   - Id: 1304
     AegisName: GIANT_SPIDER
-    Name: Giant Spider
+    Name: Aranha Gigante
     Level: 117
     Hp: 25039
     Sp: 0
@@ -14692,7 +14692,7 @@ Body:
         StealProtected: true
   - Id: 1305
     AegisName: ANCIENT_WORM
-    Name: Ancient Worm
+    Name: Verme Ancião
     Level: 121
     Hp: 31663
     Sp: 0
@@ -15487,7 +15487,7 @@ Body:
         StealProtected: true
   - Id: 1321
     AegisName: DRAGON_TAIL
-    Name: Dragon Tail
+    Name: Dragão Tail
     Level: 86
     Hp: 5217
     BaseExp: 1035
@@ -15629,7 +15629,7 @@ Body:
         StealProtected: true
   - Id: 1324
     AegisName: TREASURE_BOX1
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15668,7 +15668,7 @@ Body:
         StealProtected: true
   - Id: 1325
     AegisName: TREASURE_BOX2
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15707,7 +15707,7 @@ Body:
         StealProtected: true
   - Id: 1326
     AegisName: TREASURE_BOX3
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15746,7 +15746,7 @@ Body:
         StealProtected: true
   - Id: 1327
     AegisName: TREASURE_BOX4
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15785,7 +15785,7 @@ Body:
         StealProtected: true
   - Id: 1328
     AegisName: TREASURE_BOX5
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15824,7 +15824,7 @@ Body:
         StealProtected: true
   - Id: 1329
     AegisName: TREASURE_BOX6
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15863,7 +15863,7 @@ Body:
         StealProtected: true
   - Id: 1330
     AegisName: TREASURE_BOX7
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15902,7 +15902,7 @@ Body:
         StealProtected: true
   - Id: 1331
     AegisName: TREASURE_BOX8
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15941,7 +15941,7 @@ Body:
         StealProtected: true
   - Id: 1332
     AegisName: TREASURE_BOX9
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -15980,7 +15980,7 @@ Body:
         StealProtected: true
   - Id: 1333
     AegisName: TREASURE_BOX10
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16019,7 +16019,7 @@ Body:
         StealProtected: true
   - Id: 1334
     AegisName: TREASURE_BOX11
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16058,7 +16058,7 @@ Body:
         StealProtected: true
   - Id: 1335
     AegisName: TREASURE_BOX12
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16097,7 +16097,7 @@ Body:
         StealProtected: true
   - Id: 1336
     AegisName: TREASURE_BOX13
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16136,7 +16136,7 @@ Body:
         StealProtected: true
   - Id: 1337
     AegisName: TREASURE_BOX14
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16175,7 +16175,7 @@ Body:
         StealProtected: true
   - Id: 1338
     AegisName: TREASURE_BOX15
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16214,7 +16214,7 @@ Body:
         StealProtected: true
   - Id: 1339
     AegisName: TREASURE_BOX16
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16253,7 +16253,7 @@ Body:
         StealProtected: true
   - Id: 1340
     AegisName: TREASURE_BOX17
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16292,7 +16292,7 @@ Body:
         StealProtected: true
   - Id: 1341
     AegisName: TREASURE_BOX18
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16331,7 +16331,7 @@ Body:
         StealProtected: true
   - Id: 1342
     AegisName: TREASURE_BOX19
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16370,7 +16370,7 @@ Body:
         StealProtected: true
   - Id: 1343
     AegisName: TREASURE_BOX20
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16409,7 +16409,7 @@ Body:
         StealProtected: true
   - Id: 1344
     AegisName: TREASURE_BOX21
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16448,7 +16448,7 @@ Body:
         StealProtected: true
   - Id: 1345
     AegisName: TREASURE_BOX22
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16487,7 +16487,7 @@ Body:
         StealProtected: true
   - Id: 1346
     AegisName: TREASURE_BOX23
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16526,7 +16526,7 @@ Body:
         StealProtected: true
   - Id: 1347
     AegisName: TREASURE_BOX24
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16565,7 +16565,7 @@ Body:
         StealProtected: true
   - Id: 1348
     AegisName: TREASURE_BOX25
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16604,7 +16604,7 @@ Body:
         StealProtected: true
   - Id: 1349
     AegisName: TREASURE_BOX26
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16643,7 +16643,7 @@ Body:
         StealProtected: true
   - Id: 1350
     AegisName: TREASURE_BOX27
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16682,7 +16682,7 @@ Body:
         StealProtected: true
   - Id: 1351
     AegisName: TREASURE_BOX28
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16721,7 +16721,7 @@ Body:
         StealProtected: true
   - Id: 1352
     AegisName: TREASURE_BOX29
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16760,7 +16760,7 @@ Body:
         StealProtected: true
   - Id: 1353
     AegisName: TREASURE_BOX30
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16799,7 +16799,7 @@ Body:
         StealProtected: true
   - Id: 1354
     AegisName: TREASURE_BOX31
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16838,7 +16838,7 @@ Body:
         StealProtected: true
   - Id: 1355
     AegisName: TREASURE_BOX32
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16877,7 +16877,7 @@ Body:
         StealProtected: true
   - Id: 1356
     AegisName: TREASURE_BOX33
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16916,7 +16916,7 @@ Body:
         StealProtected: true
   - Id: 1357
     AegisName: TREASURE_BOX34
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16955,7 +16955,7 @@ Body:
         StealProtected: true
   - Id: 1358
     AegisName: TREASURE_BOX35
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -16994,7 +16994,7 @@ Body:
         StealProtected: true
   - Id: 1359
     AegisName: TREASURE_BOX36
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -17033,7 +17033,7 @@ Body:
         StealProtected: true
   - Id: 1360
     AegisName: TREASURE_BOX37
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -17072,7 +17072,7 @@ Body:
         StealProtected: true
   - Id: 1361
     AegisName: TREASURE_BOX38
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -17111,7 +17111,7 @@ Body:
         StealProtected: true
   - Id: 1362
     AegisName: TREASURE_BOX39
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -17150,7 +17150,7 @@ Body:
         StealProtected: true
   - Id: 1363
     AegisName: TREASURE_BOX40
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -17810,7 +17810,7 @@ Body:
         StealProtected: true
   - Id: 1377
     AegisName: ELDER
-    Name: Elder
+    Name: Ancião
     Level: 92
     Hp: 7780
     BaseExp: 1238
@@ -18570,7 +18570,7 @@ Body:
         StealProtected: true
   - Id: 1393
     AegisName: G_MUMMY
-    Name: Mummy
+    Name: Múmia
     Level: 55
     Hp: 1899
     Attack: 126
@@ -18812,7 +18812,7 @@ Body:
         Rate: 150
   - Id: 1399
     AegisName: EVENT_BAPHO
-    Name: Baphomet
+    Name: Bafomé
     Level: 68
     Hp: 1264000
     Sp: 0
@@ -19324,7 +19324,7 @@ Body:
         StealProtected: true
   - Id: 1410
     AegisName: LIVE_PEACH_TREE
-    Name: Enchanted Peach Tree
+    Name: Peach Tree Encantado
     JapaneseName: Live Peach Tree
     Level: 92
     Hp: 7426
@@ -19488,7 +19488,7 @@ Body:
 #    ElementLevel: 0
   - Id: 1415
     AegisName: BABY_LEOPARD
-    Name: Baby Leopard
+    Name: Leopard Bebê
     Level: 68
     Hp: 1793
     BaseExp: 586
@@ -19781,7 +19781,7 @@ Body:
       FixedItemDrop: true
   - Id: 1422
     AegisName: G_HUNTER_FLY
-    Name: Hunter Fly
+    Name: Mosca Caçadora 
     Level: 63
     Hp: 1902
     Attack: 153
@@ -19965,7 +19965,7 @@ Body:
       FixedItemDrop: true
   - Id: 1428
     AegisName: G_POISON_SPORE
-    Name: Poison Spore
+    Name: Esporo Venenoso
     Level: 26
     Hp: 379
     Attack: 23
@@ -20057,7 +20057,7 @@ Body:
       FixedItemDrop: true
   - Id: 1431
     AegisName: G_BAPHOMET_
-    Name: Baphomet Jr.
+    Name: Bafomé Jr.
     Level: 57
     Hp: 1763
     Sp: 0
@@ -20089,7 +20089,7 @@ Body:
       FixedItemDrop: true
   - Id: 1432
     AegisName: G_DESERT_WOLF
-    Name: Desert Wolf
+    Name: Lobo do Deserto
     Level: 103
     Hp: 10244
     Attack: 511
@@ -20605,7 +20605,7 @@ Body:
       FixedItemDrop: true
   - Id: 1449
     AegisName: G_MUTANT_DRAGON
-    Name: Mutant Dragonoid
+    Name: Dragonoid Mutante
     JapaneseName: Mutant Dragon
     Level: 65
     Hp: 50706
@@ -21211,7 +21211,7 @@ Body:
       FixedItemDrop: true
   - Id: 1469
     AegisName: G_SKEL_WORKER
-    Name: Skeleton Worker
+    Name: Esqueleto Worker
     Level: 44
     Hp: 1151
     Attack: 77
@@ -21271,7 +21271,7 @@ Body:
       FixedItemDrop: true
   - Id: 1471
     AegisName: G_NINE_TAIL
-    Name: Nine Tail
+    Name: Nove Caudas
     Level: 72
     Hp: 2422
     Attack: 225
@@ -21361,7 +21361,7 @@ Body:
       FixedItemDrop: true
   - Id: 1474
     AegisName: G_MIMIC
-    Name: Mimic
+    Name: Mimico
     Level: 56
     Hp: 1707
     Attack: 131
@@ -21513,7 +21513,7 @@ Body:
       FixedItemDrop: true
   - Id: 1479
     AegisName: G_SKEL_PRISONER
-    Name: Skeleton Prisoner
+    Name: Esqueleto Prisoner
     Level: 91
     Hp: 8378
     Attack: 370
@@ -22021,7 +22021,7 @@ Body:
         StealProtected: true
   - Id: 1494
     AegisName: KIND_OF_BEETLE
-    Name: Beetle King
+    Name: Besouro Rei
     Level: 55
     Hp: 1487
     BaseExp: 489
@@ -22967,7 +22967,7 @@ Body:
         StealProtected: true
   - Id: 1515
     AegisName: GARM_BABY
-    Name: Baby Hatii
+    Name: Hatii Bebê
     JapaneseName: Garm Baby
     Level: 94
     Hp: 10016
@@ -23101,7 +23101,7 @@ Body:
         StealProtected: true
   - Id: 1518
     AegisName: BACSOJIN
-    Name: White Lady
+    Name: Lady Branco
     JapaneseName: Bacsojin
     Level: 97
     Hp: 720500
@@ -23161,7 +23161,7 @@ Body:
         StealProtected: true
   - Id: 1519
     AegisName: CHUNG_E
-    Name: Green Maiden
+    Name: Maiden Verde
     JapaneseName: Chung E
     Level: 49
     Hp: 23900
@@ -23284,7 +23284,7 @@ Body:
       FixedItemDrop: true
   - Id: 1522
     AegisName: G_ANCIENT_MUMMY
-    Name: Ancient Mummy
+    Name: Múmia Ancião
     Level: 115
     Hp: 29157
     Attack: 981
@@ -23345,7 +23345,7 @@ Body:
       FixedItemDrop: true
   - Id: 1524
     AegisName: G_BABY_LEOPARD
-    Name: Baby Leopard
+    Name: Leopard Bebê
     Level: 68
     Hp: 1793
     Attack: 188
@@ -23801,7 +23801,7 @@ Body:
       FixedItemDrop: true
   - Id: 1539
     AegisName: G_GOBLIN_LEADER
-    Name: Goblin Leader
+    Name: Líder Goblin
     Level: 55
     Hp: 21692
     Attack: 173
@@ -24072,7 +24072,7 @@ Body:
       FixedItemDrop: true
   - Id: 1548
     AegisName: G_KOBOLD_LEADER
-    Name: Kobold Leader
+    Name: Líder Kobold
     Level: 112
     Hp: 13520
     Attack: 995
@@ -24132,7 +24132,7 @@ Body:
       FixedItemDrop: true
   - Id: 1550
     AegisName: G_LIVE_PEACH_TREE
-    Name: Enchanted Peach Tree
+    Name: Peach Tree Encantado
     JapaneseName: Live Peach Tree
     Level: 92
     Hp: 7426
@@ -24407,7 +24407,7 @@ Body:
       FixedItemDrop: true
   - Id: 1559
     AegisName: G_SCORPION
-    Name: Scorpion
+    Name: Escorpião
     Level: 16
     Hp: 136
     Attack: 7
@@ -24470,7 +24470,7 @@ Body:
       FixedItemDrop: true
   - Id: 1561
     AegisName: G_SMOKIE
-    Name: Smokie
+    Name: Fumacento
     Level: 29
     Hp: 414
     Attack: 29
@@ -24499,7 +24499,7 @@ Body:
       FixedItemDrop: true
   - Id: 1562
     AegisName: G_SOLDIER_SKELETON
-    Name: Soldier Skeleton
+    Name: Esqueleto Soldado
     Level: 34
     Hp: 691
     Attack: 43
@@ -24654,7 +24654,7 @@ Body:
       FixedItemDrop: true
   - Id: 1567
     AegisName: G_ANCIENT_WORM
-    Name: Ancient Worm
+    Name: Verme Ancião
     Level: 83
     Hp: 4140
     Sp: 0
@@ -24834,7 +24834,7 @@ Body:
       FixedItemDrop: true
   - Id: 1573
     AegisName: G_ELDER
-    Name: Elder
+    Name: Ancião
     Level: 92
     Hp: 7780
     Attack: 416
@@ -24864,7 +24864,7 @@ Body:
       FixedItemDrop: true
   - Id: 1574
     AegisName: G_ELDER_WILOW
-    Name: Elder Willow
+    Name: WillowAncião
     Level: 34
     Hp: 535
     Attack: 43
@@ -25561,7 +25561,7 @@ Body:
         Rate: 5000
   - Id: 1593
     AegisName: A_ANCIENT_MUMMY
-    Name: Ancient Mummy
+    Name: Múmia Ancião
     Level: 52
     Hp: 8613
     Sp: 0
@@ -25747,7 +25747,7 @@ Body:
       FixedItemDrop: true
   - Id: 1599
     AegisName: G_WHISPER_BOSS
-    Name: Giant Whisper
+    Name: Whisper Gigante
     Level: 66
     Hp: 2570
     Sp: 0
@@ -25869,7 +25869,7 @@ Body:
       FixedItemDrop: true
   - Id: 1603
     AegisName: G_BIGFOOT
-    Name: Bigfoot
+    Name: Pé Grande
     Level: 29
     Hp: 506
     Attack: 33
@@ -25899,7 +25899,7 @@ Body:
       FixedItemDrop: true
   - Id: 1604
     AegisName: G_GIANT_HONET
-    Name: Giant Hornet
+    Name: Hornet Gigante
     Level: 82
     Hp: 3960
     Sp: 0
@@ -25963,7 +25963,7 @@ Body:
       FixedItemDrop: true
   - Id: 1606
     AegisName: G_GARM_BABY
-    Name: Baby Hatii
+    Name: Hatii Bebê
     JapaneseName: Garm Baby
     Level: 94
     Hp: 10016
@@ -26023,7 +26023,7 @@ Body:
       FixedItemDrop: true
   - Id: 1608
     AegisName: G_THIEF_BUG__
-    Name: Thief Bug Male
+    Name: Besouro Ladrão Male
     Level: 19
     Hp: 583
     Attack: 76
@@ -26991,7 +26991,7 @@ Body:
         StealProtected: true
   - Id: 1630
     AegisName: BACSOJIN_
-    Name: White Lady
+    Name: Lady Branco
     JapaneseName: Bacsojin
     Level: 97
     Hp: 720500
@@ -27052,7 +27052,7 @@ Body:
         StealProtected: true
   - Id: 1631
     AegisName: CHUNG_E_
-    Name: Green Maiden
+    Name: Maiden Verde
     JapaneseName: Chung E
     Level: 82
     Hp: 4154
@@ -29777,7 +29777,7 @@ Body:
         StealProtected: true
   - Id: 1689
     AegisName: G_BACSOJIN
-    Name: White Lady
+    Name: Lady Branco
     JapaneseName: Bacsojin
     Level: 97
     Hp: 720500
@@ -30202,7 +30202,7 @@ Body:
         StealProtected: true
   - Id: 1699
     AegisName: ANCIENT_MIMIC
-    Name: Ancient Mimic
+    Name: Mimico Ancião
     Level: 112
     Hp: 19778
     BaseExp: 2180
@@ -31284,7 +31284,7 @@ Body:
         StealProtected: true
   - Id: 1721
     AegisName: DRAGON_EGG
-    Name: Dragon Egg
+    Name: Dragão Egg
     Level: 119
     Hp: 27826
     BaseExp: 2629
@@ -31509,7 +31509,7 @@ Body:
     Ai: 02
   - Id: 1728
     AegisName: R_DESERT_WOLF_B
-    Name: Baby Desert Wolf
+    Name: Lobo do Deserto Bebê
     JapaneseName: Desert Wolf Baby
     Level: 14
     Hp: 140
@@ -31537,7 +31537,7 @@ Body:
     Ai: 02
   - Id: 1729
     AegisName: R_BAPHOMET_
-    Name: Baphomet Jr.
+    Name: Bafomé Jr.
     Level: 50
     Hp: 8578
     Sp: 0
@@ -31630,7 +31630,7 @@ Body:
         Rate: 5000
   - Id: 1732
     AegisName: G_TREASURE_BOX
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 98
     Hp: 500
     Str: 0
@@ -32291,7 +32291,7 @@ Body:
       FixedItemDrop: true
   - Id: 1750
     AegisName: G_RED_PLANT
-    Name: Red Plant
+    Name: Planta Vermelho
     Level: 1
     Hp: 100
     Attack: 100
@@ -34437,7 +34437,7 @@ Body:
         StealProtected: true
   - Id: 1798
     AegisName: TREASURE_BOX_
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -35259,7 +35259,7 @@ Body:
         Rate: 1000
   - Id: 1820
     AegisName: EVENT_BIGFOOT
-    Name: Bigfoot
+    Name: Pé Grande
     Level: 29
     Hp: 587
     Attack: 50
@@ -35290,7 +35290,7 @@ Body:
         Rate: 1000
   - Id: 1821
     AegisName: EVENT_DESERT_WOLF
-    Name: Desert Wolf
+    Name: Lobo do Deserto
     Level: 103
     Hp: 9447
     Attack: 676
@@ -35385,7 +35385,7 @@ Body:
         Rate: 1500
   - Id: 1824
     AegisName: EVENT_GARM_BABY
-    Name: Baby Hatii
+    Name: Hatii Bebê
     JapaneseName: Garm Baby
     Level: 94
     Hp: 10016
@@ -36051,7 +36051,7 @@ Body:
         StealProtected: true
   - Id: 1840
     AegisName: GOLDEN_SAVAGE
-    Name: Golden Savage
+    Name: Savage Dourado
     Level: 99
     Hp: 500
     BaseExp: 1
@@ -36263,7 +36263,7 @@ Body:
         Rate: 250
   - Id: 1845
     AegisName: G_TREASURE_BOX_
-    Name: Treasure Box
+    Name: Caixa de Tesouro
     Level: 98
     Hp: 500
     Str: 0
@@ -36369,7 +36369,7 @@ Body:
     Class: Boss
   - Id: 1848
     AegisName: EVENT_BAPHOMET
-    Name: Baphomet
+    Name: Bafomé
     Level: 50
     Hp: 10000
     Sp: 0
@@ -36608,7 +36608,7 @@ Body:
         StealProtected: true
   - Id: 1855
     AegisName: E_POISONSPORE
-    Name: Poison Spore
+    Name: Esporo Venenoso
     Level: 19
     Hp: 665
     Sp: 0
@@ -37402,7 +37402,7 @@ Body:
         StealProtected: true
   - Id: 1872
     AegisName: BEELZEBUB_FLY
-    Name: Hell Fly
+    Name: Mosca Hell 
     Level: 127
     Hp: 502000
     Attack: 900
@@ -38070,7 +38070,7 @@ Body:
         Rate: 1000
   - Id: 1888
     AegisName: GARM_BABY_R
-    Name: Baby Hatii
+    Name: Hatii Bebê
     JapaneseName: Garm Baby
     Level: 61
     Hp: 15199
@@ -38369,7 +38369,7 @@ Body:
 #   Ai: 
   - Id: 1897
     AegisName: EVENT_BAPHOMET_
-    Name: Baphomet
+    Name: Bafomé
     Level: 81
     Hp: 668000
     Attack: 3150
@@ -38516,7 +38516,7 @@ Body:
         Rate: 500
   - Id: 1902
     AegisName: E_TREASURE1
-    Name: Treasure Box
+    Name: Caixa de Tesouro
     Level: 99
     Hp: 49
     Sp: 0
@@ -38540,7 +38540,7 @@ Body:
         Rate: 500
   - Id: 1903
     AegisName: E_TREASURE2
-    Name: Treasure Box
+    Name: Caixa de Tesouro
     Level: 99
     Hp: 49
     Sp: 0
@@ -39598,7 +39598,7 @@ Body:
       IgnoreRanged: true
   - Id: 1935
     AegisName: RED_FLOWER
-    Name: Red Flower
+    Name: Flower Vermelho
     Level: 98
     Hp: 10500
     Attack: 1
@@ -39625,7 +39625,7 @@ Body:
       IgnoreRanged: true
   - Id: 1936
     AegisName: YELL_FLOWER
-    Name: Yellow Flower
+    Name: Flower Amarelo
     Level: 98
     Hp: 10500
     Attack: 1
@@ -39681,7 +39681,7 @@ Body:
     Ai: 04
   - Id: 1938
     AegisName: TREASURE_BOX41
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39720,7 +39720,7 @@ Body:
         StealProtected: true
   - Id: 1939
     AegisName: TREASURE_BOX42
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39759,7 +39759,7 @@ Body:
         StealProtected: true
   - Id: 1940
     AegisName: TREASURE_BOX43
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39798,7 +39798,7 @@ Body:
         StealProtected: true
   - Id: 1941
     AegisName: TREASURE_BOX44
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39837,7 +39837,7 @@ Body:
         StealProtected: true
   - Id: 1942
     AegisName: TREASURE_BOX45
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39876,7 +39876,7 @@ Body:
         StealProtected: true
   - Id: 1943
     AegisName: TREASURE_BOX46
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39915,7 +39915,7 @@ Body:
         StealProtected: true
   - Id: 1944
     AegisName: TREASURE_BOX47
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39954,7 +39954,7 @@ Body:
         StealProtected: true
   - Id: 1945
     AegisName: TREASURE_BOX48
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -39993,7 +39993,7 @@ Body:
         StealProtected: true
   - Id: 1946
     AegisName: TREASURE_BOX49
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -40303,7 +40303,7 @@ Body:
         StealProtected: true
   - Id: 1955
     AegisName: TREASURE_BOX_I
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 1
     Hp: 40
     Str: 0
@@ -42063,7 +42063,7 @@ Body:
         StealProtected: true
 #  - Id: 1996
 #    AegisName: BACSOJIN_T
-#    Name: White Lady
+#    Name: Lady Branco
 #    JapaneseName: Bacsojin
 #    Level: 97
 #    Hp: 720500
@@ -42965,7 +42965,7 @@ Body:
         StealProtected: true
   - Id: 2019
     AegisName: ANCIENT_TREE
-    Name: Ancient Tree
+    Name: Tree Ancião
     Level: 144
     Hp: 388933
     BaseExp: 4750
@@ -43537,7 +43537,7 @@ Body:
       Detector: true
   - Id: 2033
     AegisName: GOLDEN_TULIP
-    Name: Golden Tulip
+    Name: Tulip Dourado
     Level: 1
     Hp: 100
     Sp: 0
@@ -43575,7 +43575,7 @@ Body:
         Rate: 10000
   - Id: 2034
     AegisName: M_DESERT_WOLF_B
-    Name: Baby Desert Wolf
+    Name: Lobo do Deserto Bebê
     Level: 9
     Hp: 164
     Sp: 15
@@ -43845,7 +43845,7 @@ Body:
         Rate: 500
   - Id: 2043
     AegisName: MAGICDECOY_FIRE
-    Name: Magic Decoy
+    Name: Decoy Mágico
     Level: 100
     Hp: 2500
     Sp: 0
@@ -43876,7 +43876,7 @@ Body:
         Rate: 500
   - Id: 2044
     AegisName: MAGICDECOY_WATER
-    Name: Magic Decoy
+    Name: Decoy Mágico
     Level: 100
     Hp: 2500
     Sp: 0
@@ -43907,7 +43907,7 @@ Body:
         Rate: 500
   - Id: 2045
     AegisName: MAGICDECOY_EARTH
-    Name: Magic Decoy
+    Name: Decoy Mágico
     Level: 100
     Hp: 2500
     Sp: 0
@@ -43938,7 +43938,7 @@ Body:
         Rate: 500
   - Id: 2046
     AegisName: MAGICDECOY_WIND
-    Name: Magic Decoy
+    Name: Decoy Mágico
     Level: 100
     Hp: 2500
     Sp: 0
@@ -44094,7 +44094,7 @@ Body:
         Rate: 50
 #  - Id: 2051
 #    AegisName: E_BAPHOMET
-#    Name: Baphomet
+#    Name: Bafomé
 #    Level: 1
 #    Attack: 1
 #    Attack2: 2
@@ -44355,7 +44355,7 @@ Body:
         StealProtected: true
   - Id: 2058
     AegisName: M_MIMIC
-    Name: Mimic
+    Name: Mimico
     Level: 51
     Hp: 6120
     Sp: 182
@@ -46278,7 +46278,7 @@ Body:
         StealProtected: true
   - Id: 2100
     AegisName: E_BAPHOMET2
-    Name: Baphomet
+    Name: Bafomé
     Level: 81
     Hp: 668000
     BaseExp: 1105
@@ -47329,7 +47329,7 @@ Body:
       Detector: true
   - Id: 2127
     AegisName: M_HORNET
-    Name: Hornet
+    Name: Zangão
     Level: 110
     Hp: 9000
     Attack: 455
@@ -47357,7 +47357,7 @@ Body:
       Detector: true
   - Id: 2128
     AegisName: M_HORNET2
-    Name: Hornet
+    Name: Zangão
     Level: 120
     Hp: 10000
     Attack: 560
@@ -47441,7 +47441,7 @@ Body:
       Detector: true
   - Id: 2131
     AegisName: LOST_DRAGON
-    Name: Lost Dragon
+    Name: Dragão Perdido
     Level: 135
     Hp: 608920
     Sp: 0
@@ -47499,7 +47499,7 @@ Body:
         Rate: 50
   - Id: 2132
     AegisName: POM_SPIDER
-    Name: Pom Spider
+    Name: Pom Aranha
     Level: 145
     Hp: 122110
     BaseExp: 5206
@@ -48037,7 +48037,7 @@ Body:
       FixedItemDrop: true
   - Id: 2147
     AegisName: E_WHITE_PLANT
-    Name: White Plant
+    Name: Planta Branco
     Level: 0
     Hp: 0
     Sp: 0
@@ -48438,7 +48438,7 @@ Body:
       FixedItemDrop: true
   - Id: 2158
     AegisName: S_HORNET
-    Name: Hornet
+    Name: Zangão
     Level: 95
     Hp: 5000
     Attack: 381
@@ -48468,7 +48468,7 @@ Body:
       Detector: true
   - Id: 2159
     AegisName: S_GIANT_HORNET
-    Name: Giant Hornet
+    Name: Hornet Gigante
     Level: 110
     Hp: 11960
     Sp: 0
@@ -49875,7 +49875,7 @@ Body:
         StealProtected: true
   - Id: 2189
     AegisName: COELACANTH_H_M
-    Name: Mutant Coelacanth
+    Name: Coelacanth Mutante
     Level: 155
     Hp: 5200000
     BaseExp: 1500000
@@ -50123,7 +50123,7 @@ Body:
         StealProtected: true
   - Id: 2194
     AegisName: MD_GIANT_OCTOPUS
-    Name: Giant Octopus
+    Name: Octopus Gigante
     Level: 95
     Hp: 500000
     BaseExp: 20000
@@ -50246,7 +50246,7 @@ Body:
     Class: Boss
   - Id: 2197
     AegisName: RED_ERUMA
-    Name: Red Eruma
+    Name: Eruma Vermelho
     Level: 91
     Hp: 8029
     BaseExp: 1220
@@ -50765,7 +50765,7 @@ Body:
         StealProtected: true
   - Id: 2209
     AegisName: E_THIEF_BUG
-    Name: Thief Bug
+    Name: Besouro Ladrão
     Level: 1
     Hp: 7
     Attack: 1
@@ -51165,7 +51165,7 @@ Body:
         Rate: 500
   - Id: 2219
     AegisName: E_GIANT_OCTOPUS
-    Name: Giant Octopus
+    Name: Octopus Gigante
     Level: 10
     Hp: 20
     Attack: 13
@@ -52290,7 +52290,7 @@ Body:
         StealProtected: true
   - Id: 2242
     AegisName: MD_DESERT_WOLF
-    Name: Desert Wolf
+    Name: Lobo do Deserto
     Level: 135
     Hp: 551578
     Attack: 676
@@ -52320,7 +52320,7 @@ Body:
       Detector: true
   - Id: 2243
     AegisName: MD_DESERT_WOLF_B
-    Name: Desert Wolf
+    Name: Lobo do Deserto
     Level: 130
     Hp: 274531
     Attack: 33
@@ -52498,7 +52498,7 @@ Body:
         StealProtected: true
   - Id: 2248
     AegisName: GOLDPORING
-    Name: Golden Poring
+    Name: Poring Dourado
     Level: 15
     Hp: 15
     Attack: 10
@@ -52539,7 +52539,7 @@ Body:
         StealProtected: true
   - Id: 2249
     AegisName: PYURIEL
-    Name: Angry Student Pyuriel
+    Name: Student Pyuriel Puto
     JapaneseName: Pyuriel
     Level: 141
     Hp: 2205000
@@ -53839,7 +53839,7 @@ Body:
         Rate: 40
   - Id: 2288
     AegisName: GLD_TREASURE
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 140
     Hp: 5
     Sp: 0
@@ -53927,7 +53927,7 @@ Body:
         Rate: 100
   - Id: 2290
     AegisName: J_THIEF_BUG
-    Name: Thief Bug
+    Name: Besouro Ladrão
     Level: 0
     Hp: 0
     Sp: 0
@@ -53962,7 +53962,7 @@ Body:
         Rate: 100
   - Id: 2291
     AegisName: E_HORNET
-    Name: Hornet
+    Name: Zangão
     Level: 0
     Hp: 0
     Sp: 0
@@ -54032,7 +54032,7 @@ Body:
         Rate: 100
   - Id: 2293
     AegisName: E_KIND_OF_BEETLE
-    Name: Beetle King
+    Name: Besouro Rei
     Level: 0
     Hp: 0
     Sp: 0
@@ -54102,7 +54102,7 @@ Body:
         Rate: 100
   - Id: 2295
     AegisName: E_GIANT_SPIDER
-    Name: Giant Spider
+    Name: Aranha Gigante
     Level: 0
     Hp: 0
     Sp: 0
@@ -54172,7 +54172,7 @@ Body:
         Rate: 100
   - Id: 2297
     AegisName: E_GIANT_HONET
-    Name: Giant Hornet
+    Name: Hornet Gigante
     Level: 0
     Hp: 0
     Sp: 0
@@ -54207,7 +54207,7 @@ Body:
         Rate: 100
   - Id: 2298
     AegisName: E_DRAGON_TAIL
-    Name: Dragon Tail
+    Name: Dragão Tail
     Level: 0
     Hp: 0
     Sp: 0
@@ -54332,7 +54332,7 @@ Body:
 #   Ai: 
   - Id: 2302
     AegisName: E_HUNTER_FLY
-    Name: Hunter Fly
+    Name: Mosca Caçadora 
     Level: 0
     Hp: 0
     Sp: 0
@@ -54414,7 +54414,7 @@ Body:
 #   Ai: 
   - Id: 2306
     AegisName: E_GOLDEN_BUG
-    Name: Golden Thief Bug
+    Name: Besouro Ladrão Dourado
     Level: 65
     Hp: 100000000
     BaseExp: 102060
@@ -55222,7 +55222,7 @@ Body:
         Rate: 1000
   - Id: 2325
     AegisName: M_BAPHOMET_
-    Name: Baphomet
+    Name: Bafomé
     Level: 57
     Hp: 7510
     Sp: 204
@@ -56243,7 +56243,7 @@ Body:
         StealProtected: true
   - Id: 2354
     AegisName: N_MUMMY
-    Name: Mummy (Nightmare)
+    Name: Múmia (Nightmare)
     JapaneseName: Nightmare Mummy
     Level: 117
     Hp: 26177
@@ -56340,7 +56340,7 @@ Body:
         StealProtected: true
   - Id: 2356
     AegisName: N_MIMIC
-    Name: Mimic (Nightmare)
+    Name: Mimico (Nightmare)
     JapaneseName: Nightmare Mimic
     Level: 137
     Hp: 63101
@@ -56387,7 +56387,7 @@ Body:
         StealProtected: true
   - Id: 2357
     AegisName: G_N_MIMIC
-    Name: Mimic (Nightmare)
+    Name: Mimico (Nightmare)
     JapaneseName: Nightmare Mimic
     Level: 137
     Hp: 63101
@@ -56509,7 +56509,7 @@ Body:
       FixedItemDrop: true
   - Id: 2360
     AegisName: N_ANCIENT_MUMMY
-    Name: Ancient Mummy (Nightmare
+    Name: Múmia (Nightmare Ancião
     JapaneseName: Nightmare Ancient Mummy
     Level: 141
     Hp: 90157
@@ -56558,7 +56558,7 @@ Body:
         StealProtected: true
   - Id: 2361
     AegisName: G_N_ANCIENT_MUMMY
-    Name: Ancient Mummy (Nightmare
+    Name: Múmia (Nightmare Ancião
     JapaneseName: Nightmare Ancient Mummy
     Level: 141
     Hp: 90157
@@ -57581,7 +57581,7 @@ Body:
         Rate: 10
   - Id: 2405
     AegisName: WEAK_SKELETON
-    Name: Weak Skeleton
+    Name: Skeleton Fraco
     Level: 18
     Hp: 223
     BaseExp: 192
@@ -57625,7 +57625,7 @@ Body:
         Rate: 15
   - Id: 2406
     AegisName: WEAK_SKEL_SOLDIER
-    Name: Weak Soldier Skeleton
+    Name: Soldado Esqueleto Fraco
     Level: 23
     Hp: 337
     BaseExp: 215
@@ -57722,7 +57722,7 @@ Body:
         Rate: 5
   - Id: 2408
     AegisName: DUMMY_10
-    Name: Dummy 10
+    Name: Boneco 10
     Level: 10
     Hp: 99999999
     Str: 0
@@ -57745,7 +57745,7 @@ Body:
       TeleportBlock: true
   - Id: 2409
     AegisName: DUMMY_50
-    Name: Dummy 50
+    Name: Boneco 50
     Level: 50
     Hp: 99999999
     Defense: 50
@@ -57770,7 +57770,7 @@ Body:
       TeleportBlock: true
   - Id: 2410
     AegisName: DUMMY_100
-    Name: Dummy 100
+    Name: Boneco 100
     Level: 100
     Hp: 99999999
     Defense: 90
@@ -57795,7 +57795,7 @@ Body:
       TeleportBlock: true
   - Id: 2411
     AegisName: DUMMY_150
-    Name: Dummy 150
+    Name: Boneco 150
     Level: 150
     Hp: 99999999
     Defense: 120
@@ -57822,7 +57822,7 @@ Body:
 #    AegisName: E_VALKIWI
   - Id: 2413
     AegisName: DUMMY_10_FIRE
-    Name: Dummy 10
+    Name: Boneco 10
     Level: 10
     Hp: 99999999
     Str: 0
@@ -58443,7 +58443,7 @@ Body:
         Rate: 2
   - Id: 2428
     AegisName: G_L_SEYREN
-    Name: Knight Seyren
+    Name: Cavaleiro Seyren
     Level: 98
     Hp: 13260
     Attack: 827
@@ -59472,7 +59472,7 @@ Body:
         Rate: 100
   - Id: 2452
     AegisName: TREASURE_BOX_TE
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59519,7 +59519,7 @@ Body:
         StealProtected: true
   - Id: 2453
     AegisName: TREASURE_BOX_TE_1
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59566,7 +59566,7 @@ Body:
         StealProtected: true
   - Id: 2454
     AegisName: TREASURE_BOX_TE_2
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59613,7 +59613,7 @@ Body:
         StealProtected: true
   - Id: 2455
     AegisName: TREASURE_BOX_TE_3
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59660,7 +59660,7 @@ Body:
         StealProtected: true
   - Id: 2456
     AegisName: TREASURE_BOX_TE_4
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59707,7 +59707,7 @@ Body:
         StealProtected: true
   - Id: 2457
     AegisName: TREASURE_BOX_TE_5
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59754,7 +59754,7 @@ Body:
         StealProtected: true
   - Id: 2458
     AegisName: TREASURE_BOX_TE_6
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59801,7 +59801,7 @@ Body:
         StealProtected: true
   - Id: 2459
     AegisName: TREASURE_BOX_TE_7
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59848,7 +59848,7 @@ Body:
         StealProtected: true
   - Id: 2460
     AegisName: TREASURE_BOX_TE_8
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59895,7 +59895,7 @@ Body:
         StealProtected: true
   - Id: 2461
     AegisName: TREASURE_BOX_TE_9
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -59942,7 +59942,7 @@ Body:
         StealProtected: true
   - Id: 2462
     AegisName: TREASURE_BOX_TE_10
-    Name: Treasure Chest
+    Name: Baú do Tesouro
     Level: 99
     Hp: 0
     Str: 0
@@ -61210,7 +61210,7 @@ Body:
         Rate: 5000
   - Id: 2532
     AegisName: FACEWORM_QUEEN_R
-    Name: Red Faceworm Queen
+    Name: Faceworm Queen Vermelho
     JapaneseName: Faceworm Queen (Red)
     Level: 155
     Hp: 50000000
@@ -61267,7 +61267,7 @@ Body:
         StealProtected: true
   - Id: 2533
     AegisName: FACEWORM_QUEEN_G
-    Name: Green Faceworm Queen
+    Name: Faceworm Queen Verde
     JapaneseName: Faceworm Queen (Green)
     Level: 155
     Hp: 50000000
@@ -61381,7 +61381,7 @@ Body:
         StealProtected: true
   - Id: 2535
     AegisName: FACEWORM_QUEEN_Y
-    Name: Yellow Faceworm Queen
+    Name: Faceworm Queen Amarelo
     JapaneseName: Faceworm Queen (Yellow)
     Level: 155
     Hp: 50000000
@@ -63509,7 +63509,7 @@ Body:
       FixedItemDrop: true
   - Id: 2600
     AegisName: G_WOLF
-    Name: Wolf
+    Name: Lobo
     Level: 45
     Hp: 1091
     Attack: 89
@@ -63598,7 +63598,7 @@ Body:
       FixedItemDrop: true
   - Id: 2603
     AegisName: C1_ZOMBIE_SLAUGHTER
-    Name: Swift Zombie Slaughter
+    Name: Zombie Slaughter Swift
     Level: 124
     Hp: 174905
     BaseExp: 17150
@@ -63647,7 +63647,7 @@ Body:
         StealProtected: true
   - Id: 2604
     AegisName: C2_ZOMBIE_PRISONER
-    Name: Solid Zombie Prisoner
+    Name: Zombie Prisoner Solido
     Level: 89
     Hp: 69020
     BaseExp: 5970
@@ -63696,7 +63696,7 @@ Body:
         StealProtected: true
   - Id: 2605
     AegisName: C3_ZOMBIE_MASTER
-    Name: Zombie Master Ringleader
+    Name: Zombie Master Líder
     Level: 119
     Hp: 126485
     Sp: 0
@@ -63754,7 +63754,7 @@ Body:
         StealProtected: true
   - Id: 2606
     AegisName: C4_ZOMBIE
-    Name: Furious Zombie
+    Name: Zombie Furioso
     Level: 17
     Hp: 1020
     BaseExp: 945
@@ -63801,7 +63801,7 @@ Body:
         StealProtected: true
   - Id: 2607
     AegisName: C5_ZAKUDAM
-    Name: Elusive Zakudam
+    Name: Zakudam Fujão
     Level: 115
     Hp: 100750
     Sp: 0
@@ -63851,7 +63851,7 @@ Body:
         StealProtected: true
   - Id: 2608
     AegisName: C1_YOYO
-    Name: Swift Yoyo
+    Name: Yoyo Swift
     Level: 38
     Hp: 3470
     BaseExp: 1500
@@ -63899,7 +63899,7 @@ Body:
         StealProtected: true
   - Id: 2609
     AegisName: C2_YOYO
-    Name: Solid Yoyo
+    Name: Yoyo Solido
     Level: 38
     Hp: 6940
     BaseExp: 1500
@@ -63947,7 +63947,7 @@ Body:
         StealProtected: true
   - Id: 2610
     AegisName: C3_WORM_TAIL
-    Name: Wormtail Ringleader
+    Name: Rabo-de-Verme Líder
     Level: 17
     Hp: 930
     BaseExp: 900
@@ -63996,7 +63996,7 @@ Body:
         StealProtected: true
   - Id: 2611
     AegisName: C4_WOOTAN_FIGHTER
-    Name: Furious Wootan Fighter
+    Name: Wootan Fighter Furioso
     Level: 67
     Hp: 10600
     BaseExp: 3190
@@ -64045,7 +64045,7 @@ Body:
         StealProtected: true
   - Id: 2612
     AegisName: C5_WOOD_GOBLIN
-    Name: Elusive Wood Goblin
+    Name: Goblin da Floresta Fujão
     Level: 81
     Hp: 23600
     BaseExp: 5005
@@ -64094,7 +64094,7 @@ Body:
         StealProtected: true
   - Id: 2613
     AegisName: C1_WOLF
-    Name: Swift Wolf
+    Name: Lobo Swift
     Level: 45
     Hp: 5455
     BaseExp: 1845
@@ -64143,7 +64143,7 @@ Body:
         StealProtected: true
   - Id: 2614
     AegisName: C2_WIND_GHOST
-    Name: Solid Wind Ghost
+    Name: Wind Ghost Solido
     Level: 80
     Hp: 36310
     BaseExp: 4345
@@ -64194,7 +64194,7 @@ Body:
         StealProtected: true
   - Id: 2615
     AegisName: C3_WILOW
-    Name: Willow Ringleader
+    Name: Salgueiro Líder
     Level: 8
     Hp: 390
     BaseExp: 800
@@ -64243,7 +64243,7 @@ Body:
         StealProtected: true
   - Id: 2616
     AegisName: C4_WILD_ROSE
-    Name: Furious Wild Rose
+    Name: Wild Rose Furioso
     Level: 70
     Hp: 10800
     BaseExp: 3385
@@ -64292,7 +64292,7 @@ Body:
         StealProtected: true
   - Id: 2617
     AegisName: C5_WICKED_NYMPH
-    Name: Elusive Evil Nymph
+    Name: Evil Nymph Fujão
     Level: 97
     Hp: 49160
     BaseExp: 6650
@@ -64345,7 +64345,7 @@ Body:
         StealProtected: true
   - Id: 2618
     AegisName: C2_WHISPER
-    Name: Solid Whisper
+    Name: Whisper Solido
     Level: 46
     Hp: 7960
     BaseExp: 1625
@@ -64392,7 +64392,7 @@ Body:
         StealProtected: true
   - Id: 2619
     AegisName: C3_WEAK_SKELETON
-    Name: Weak Skeleton Ringleader
+    Name: Skeleton Líder Fraco
     Level: 18
     Hp: 1115
     BaseExp: 960
@@ -64437,7 +64437,7 @@ Body:
         Rate: 75
   - Id: 2620
     AegisName: C4_WANDER_MAN
-    Name: Furious Wanderer
+    Name: Wanderer Furioso
     Level: 120
     Hp: 104030
     BaseExp: 13260
@@ -64486,7 +64486,7 @@ Body:
         StealProtected: true
   - Id: 2621
     AegisName: C5_VIOLY
-    Name: Elusive Violy
+    Name: Violy Fujão
     Level: 118
     Hp: 114400
     BaseExp: 13030
@@ -64536,7 +64536,7 @@ Body:
         StealProtected: true
   - Id: 2622
     AegisName: C1_VIOLY
-    Name: Swift Violy
+    Name: Violy Swift
     Level: 118
     Hp: 114400
     BaseExp: 13030
@@ -64586,7 +64586,7 @@ Body:
         StealProtected: true
   - Id: 2623
     AegisName: C2_VIOLY
-    Name: Solid Violy
+    Name: Violy Solido
     Level: 118
     Hp: 228800
     BaseExp: 13030
@@ -64636,7 +64636,7 @@ Body:
         StealProtected: true
   - Id: 2624
     AegisName: C3_VENOMOUS
-    Name: Venomous Ringleader
+    Name: Venomous Líder
     Level: 87
     Hp: 27885
     BaseExp: 5260
@@ -64685,7 +64685,7 @@ Body:
         StealProtected: true
   - Id: 2625
     AegisName: C4_VENATU_1
-    Name: Furious Venatu
+    Name: Venatu Furioso
     Level: 113
     Hp: 90460
     BaseExp: 11010
@@ -64734,7 +64734,7 @@ Body:
         StealProtected: true
   - Id: 2626
     AegisName: C5_VAVAYAGA
-    Name: Elusive Vavayaga
+    Name: Vavayaga Fujão
     Level: 87
     Hp: 30670
     BaseExp: 5260
@@ -64783,7 +64783,7 @@ Body:
         StealProtected: true
   - Id: 2627
     AegisName: C1_VANBERK
-    Name: Swift Vanberk
+    Name: Vanberk Swift
     Level: 123
     Hp: 145140
     BaseExp: 15475
@@ -64842,7 +64842,7 @@ Body:
         StealProtected: true
   - Id: 2628
     AegisName: C2_VADON
-    Name: Solid Vadon
+    Name: Vadon Solido
     Level: 45
     Hp: 10910
     BaseExp: 1760
@@ -64891,7 +64891,7 @@ Body:
         StealProtected: true
   - Id: 2629
     AegisName: C3_UNGOLIANT
-    Name: Ungoliant Ringleader
+    Name: Ungoliant Líder
     Level: 94
     Hp: 135350
     BaseExp: 20500
@@ -64942,7 +64942,7 @@ Body:
         StealProtected: true
   - Id: 2630
     AegisName: C4_TOUCAN
-    Name: Furious Toucan
+    Name: Toucan Furioso
     Level: 70
     Hp: 12820
     BaseExp: 3385
@@ -64987,7 +64987,7 @@ Body:
         StealProtected: true
   - Id: 2631
     AegisName: C5_TIYANAK
-    Name: Elusive Tiyanak
+    Name: Tiyanak Fujão
     Level: 105
     Hp: 57945
     BaseExp: 8125
@@ -65027,7 +65027,7 @@ Body:
         Rate: 5000
   - Id: 2632
     AegisName: C2_THIEF_BUG
-    Name: Solid Thief Bug
+    Name: Besouro Ladrão Solido
     Level: 21
     Hp: 2380
     BaseExp: 940
@@ -65080,7 +65080,7 @@ Body:
         StealProtected: true
   - Id: 2633
     AegisName: C3_THIEF_BUG
-    Name: Thief Bug Ringleader
+    Name: Besouro Ladrão Líder
     Level: 21
     Hp: 1190
     BaseExp: 940
@@ -65133,7 +65133,7 @@ Body:
         StealProtected: true
   - Id: 2634
     AegisName: C4_THIEF_BUG
-    Name: Furious Thief Bug
+    Name: Besouro Ladrão Furioso
     Level: 21
     Hp: 1190
     BaseExp: 940
@@ -65186,7 +65186,7 @@ Body:
         StealProtected: true
   - Id: 2635
     AegisName: C5_THARA_FROG
-    Name: Elusive Thara Frog
+    Name: Thara Frog Fujão
     Level: 40
     Hp: 4875
     BaseExp: 1500
@@ -65235,7 +65235,7 @@ Body:
         StealProtected: true
   - Id: 2636
     AegisName: C1_TEDDY_BEAR
-    Name: Swift Teddy Bear
+    Name: Teddy Bear Swift
     Level: 91
     Hp: 31420
     BaseExp: 6100
@@ -65284,7 +65284,7 @@ Body:
         StealProtected: true
   - Id: 2637
     AegisName: C2_TATACHO
-    Name: Solid Tatacho
+    Name: Tatacho Solido
     Level: 128
     Hp: 369710
     BaseExp: 19365
@@ -65333,7 +65333,7 @@ Body:
         StealProtected: true
   - Id: 2638
     AegisName: C3_TAROU
-    Name: Tarou Ringleader
+    Name: Tarou Líder
     Level: 22
     Hp: 1425
     BaseExp: 960
@@ -65379,7 +65379,7 @@ Body:
         StealProtected: true
   - Id: 2639
     AegisName: C4_TAMRUAN
-    Name: Furious Tamruan
+    Name: Tamruan Furioso
     Level: 73
     Hp: 18585
     BaseExp: 3830
@@ -65429,7 +65429,7 @@ Body:
         StealProtected: true
   - Id: 2640
     AegisName: C5_STING
-    Name: Elusive Sting
+    Name: Sting Fujão
     Level: 104
     Hp: 63165
     BaseExp: 8425
@@ -65478,7 +65478,7 @@ Body:
         StealProtected: true
   - Id: 2641
     AegisName: C1_STEM_WORM
-    Name: Swift Stem Worm
+    Name: Stem Worm Swift
     Level: 84
     Hp: 20420
     BaseExp: 5010
@@ -65528,7 +65528,7 @@ Body:
         StealProtected: true
   - Id: 2642
     AegisName: C2_STEEL_CHONCHON
-    Name: Solid Steel Chonchon
+    Name: Steel Chonchon Solido
     Level: 48
     Hp: 9850
     BaseExp: 1895
@@ -65579,7 +65579,7 @@ Body:
         StealProtected: true
   - Id: 2643
     AegisName: C3_STAPO
-    Name: Stapo Ringleader
+    Name: Stapo Líder
     Level: 95
     Hp: 34920
     BaseExp: 6780
@@ -65628,7 +65628,7 @@ Body:
         StealProtected: true
   - Id: 2644
     AegisName: C4_STALACTIC_GOLEM
-    Name: Furious Stalactic Golem
+    Name: Stalactic Golem Furioso
     Level: 68
     Hp: 14085
     BaseExp: 3255
@@ -65676,7 +65676,7 @@ Body:
         StealProtected: true
   - Id: 2645
     AegisName: C5_STAINER
-    Name: Elusive Stainer
+    Name: Stainer Fujão
     Level: 21
     Hp: 1060
     BaseExp: 940
@@ -65727,7 +65727,7 @@ Body:
         StealProtected: true
   - Id: 2646
     AegisName: C1_SPORE
-    Name: Swift Spore
+    Name: Spore Swift
     Level: 18
     Hp: 1115
     BaseExp: 875
@@ -65776,7 +65776,7 @@ Body:
         StealProtected: true
   - Id: 2647
     AegisName: C2_SOLIDER
-    Name: Solid Solider
+    Name: Solider Solido
     Level: 92
     Hp: 74260
     BaseExp: 6495
@@ -65826,7 +65826,7 @@ Body:
         StealProtected: true
   - Id: 2648
     AegisName: C3_SOLDIER_SKELETON
-    Name: Soldier Skeleton Ringlea
+    Name: Esqueleto Ringlea Soldado
     Level: 34
     Hp: 3455
     BaseExp: 1420
@@ -65875,7 +65875,7 @@ Body:
         StealProtected: true
   - Id: 2649
     AegisName: C4_SOLDIER_SKELETON
-    Name: Furious Soldier Skeleton
+    Name: Soldier Skeleton Furioso
     Level: 34
     Hp: 3455
     BaseExp: 1420
@@ -65924,7 +65924,7 @@ Body:
         StealProtected: true
   - Id: 2650
     AegisName: C5_SOLACE
-    Name: Elusive Lady Solace
+    Name: Lady Solace Fujão
     Level: 123
     Hp: 145140
     BaseExp: 15475
@@ -65974,7 +65974,7 @@ Body:
         StealProtected: true
   - Id: 2651
     AegisName: C1_SOHEE
-    Name: Swift Sohee
+    Name: Sohee Swift
     Level: 64
     Hp: 12640
     BaseExp: 3000
@@ -66025,7 +66025,7 @@ Body:
         StealProtected: true
   - Id: 2652
     AegisName: C2_SNOWIER
-    Name: Solid Snowier
+    Name: Snowier Solido
     Level: 103
     Hp: 142270
     BaseExp: 7925
@@ -66074,7 +66074,7 @@ Body:
         StealProtected: true
   - Id: 2653
     AegisName: C3_SNAKE
-    Name: Boa Ringleader
+    Name: Boa Líder
     Level: 18
     Hp: 1015
     BaseExp: 915
@@ -66124,7 +66124,7 @@ Body:
         StealProtected: true
   - Id: 2654
     AegisName: C4_SMOKIE
-    Name: Furious Smokie
+    Name: Smokie Furioso
     Level: 29
     Hp: 2070
     BaseExp: 1175
@@ -66172,7 +66172,7 @@ Body:
         StealProtected: true
   - Id: 2655
     AegisName: C5_SLEEPER
-    Name: Elusive Sleeper
+    Name: Sleeper Fujão
     Level: 81
     Hp: 22525
     BaseExp: 5005
@@ -66222,7 +66222,7 @@ Body:
         StealProtected: true
   - Id: 2656
     AegisName: C1_SLEEPER
-    Name: Swift Sleeper
+    Name: Sleeper Swift
     Level: 81
     Hp: 22525
     BaseExp: 5005
@@ -66272,7 +66272,7 @@ Body:
         StealProtected: true
   - Id: 2657
     AegisName: C2_SKOGUL
-    Name: Solid Skogul
+    Name: Skogul Solido
     Level: 126
     Hp: 403890
     BaseExp: 18195
@@ -66323,7 +66323,7 @@ Body:
         StealProtected: true
   - Id: 2658
     AegisName: C3_SKELETON_GENERAL
-    Name: Skeleton General Ringlea
+    Name: Esqueleto General Ringlea
     Level: 139
     Hp: 900650
     Sp: 0
@@ -66374,7 +66374,7 @@ Body:
         StealProtected: true
   - Id: 2659
     AegisName: C4_SKELETON_GENERAL
-    Name: Furious Skeleton General
+    Name: Skeleton General Furioso
     Level: 139
     Hp: 900650
     Sp: 0
@@ -66425,7 +66425,7 @@ Body:
         StealProtected: true
   - Id: 2660
     AegisName: C5_SKEL_WORKER
-    Name: Elusive Skeleton Worker
+    Name: Esqueleto Worker Fujão
     Level: 44
     Hp: 5755
     BaseExp: 1890
@@ -66474,7 +66474,7 @@ Body:
         StealProtected: true
   - Id: 2661
     AegisName: C1_SIROMA
-    Name: Swift Siroma
+    Name: Siroma Swift
     Level: 98
     Hp: 49700
     BaseExp: 6745
@@ -66521,7 +66521,7 @@ Body:
         StealProtected: true
   - Id: 2662
     AegisName: C2_SIDE_WINDER
-    Name: Solid Side Winder
+    Name: Side Winder Solido
     Level: 70
     Hp: 26980
     BaseExp: 3385
@@ -66570,7 +66570,7 @@ Body:
         StealProtected: true
   - Id: 2663
     AegisName: C3_SIDE_WINDER
-    Name: Side Winder Ringleader
+    Name: Side Winder Líder
     Level: 70
     Hp: 13490
     BaseExp: 3385
@@ -66619,7 +66619,7 @@ Body:
         StealProtected: true
   - Id: 2664
     AegisName: C4_SHINOBI
-    Name: Furious Shinobi
+    Name: Shinobi Furioso
     Level: 95
     Hp: 40435
     BaseExp: 6460
@@ -66668,7 +66668,7 @@ Body:
         StealProtected: true
   - Id: 2665
     AegisName: C5_SHELTER
-    Name: Elusive Mistress of Shel
+    Name: Mistress of Shel Fujão
     Level: 125
     Hp: 146375
     BaseExp: 15715
@@ -66722,7 +66722,7 @@ Body:
         StealProtected: true
   - Id: 2666
     AegisName: C1_SHELLFISH
-    Name: Swift Shellfish
+    Name: Shellfish Swift
     Level: 50
     Hp: 6630
     BaseExp: 1985
@@ -66771,7 +66771,7 @@ Body:
         StealProtected: true
   - Id: 2667
     AegisName: C2_SHECIL
-    Name: Solid Cecil Damon
+    Name: Cecil Damon Solido
     Level: 141
     Hp: 2002550
     BaseExp: 82835
@@ -66820,7 +66820,7 @@ Body:
         StealProtected: true
   - Id: 2668
     AegisName: C3_SEE_OTTER
-    Name: Sea Otter Ringleader
+    Name: Sea Otter Líder
     Level: 48
     Hp: 7370
     BaseExp: 1895
@@ -66869,7 +66869,7 @@ Body:
         StealProtected: true
   - Id: 2669
     AegisName: C4_SEDORA
-    Name: Furious Lamp Rey
+    Name: Lamp Rey Furioso
     Level: 110
     Hp: 83700
     Sp: 0
@@ -66919,7 +66919,7 @@ Body:
         StealProtected: true
   - Id: 2670
     AegisName: C5_SCORPION
-    Name: Elusive Scorpion
+    Name: Scorpion Fujão
     Level: 16
     Hp: 680
     BaseExp: 845
@@ -66970,7 +66970,7 @@ Body:
         StealProtected: true
   - Id: 2671
     AegisName: C1_SAVAGE_BABE
-    Name: Swift Savage Babe
+    Name: Savage Babe Swift
     Level: 14
     Hp: 635
     BaseExp: 860
@@ -67019,7 +67019,7 @@ Body:
         StealProtected: true
   - Id: 2672
     AegisName: C2_SAVAGE
-    Name: Solid Savage
+    Name: Savage Solido
     Level: 59
     Hp: 21580
     BaseExp: 2675
@@ -67068,7 +67068,7 @@ Body:
         StealProtected: true
   - Id: 2673
     AegisName: C3_SAVAGE
-    Name: Savage Ringleader
+    Name: Savage Líder
     Level: 59
     Hp: 10790
     BaseExp: 2675
@@ -67117,7 +67117,7 @@ Body:
         StealProtected: true
   - Id: 2674
     AegisName: C4_SAND_MAN
-    Name: Furious Sandman
+    Name: Sandman Furioso
     Level: 61
     Hp: 11620
     BaseExp: 2960
@@ -67166,7 +67166,7 @@ Body:
         StealProtected: true
   - Id: 2675
     AegisName: C5_SALAMANDER
-    Name: Elusive Salamander
+    Name: Salamander Fujão
     Level: 138
     Hp: 401950
     BaseExp: 19235
@@ -67215,7 +67215,7 @@ Body:
         StealProtected: true
   - Id: 2676
     AegisName: C1_SAILOR_SKELETON
-    Name: Swift Sailor Skeleton
+    Name: Sailor Skeleton Swift
     Level: 48
     Hp: 13510
     BaseExp: 290
@@ -67261,7 +67261,7 @@ Body:
         Rate: 25
   - Id: 2677
     AegisName: C2_ROWEEN
-    Name: Solid Roween
+    Name: Roween Solido
     Level: 95
     Hp: 66170
     BaseExp: 6460
@@ -67308,7 +67308,7 @@ Body:
         StealProtected: true
   - Id: 2678
     AegisName: C3_RODA_FROG
-    Name: Roda Frog Ringleader
+    Name: Roda Frog Líder
     Level: 13
     Hp: 700
     BaseExp: 810
@@ -67353,7 +67353,7 @@ Body:
         StealProtected: true
   - Id: 2679
     AegisName: C4_RODA_FROG
-    Name: Furious Roda Frog
+    Name: Roda Frog Furioso
     Level: 13
     Hp: 700
     BaseExp: 810
@@ -67398,7 +67398,7 @@ Body:
         StealProtected: true
   - Id: 2680
     AegisName: C5_ROCKER
-    Name: Elusive Rocker
+    Name: Rocker Fujão
     Level: 15
     Hp: 775
     BaseExp: 870
@@ -67451,7 +67451,7 @@ Body:
         StealProtected: true
   - Id: 2681
     AegisName: C1_RIDEWORD
-    Name: Swift Rideword
+    Name: Rideword Swift
     Level: 74
     Hp: 14275
     BaseExp: 3900
@@ -67500,7 +67500,7 @@ Body:
         StealProtected: true
   - Id: 2682
     AegisName: C2_RIDEWORD
-    Name: Solid Rideword
+    Name: Rideword Solido
     Level: 74
     Hp: 28550
     BaseExp: 3900
@@ -67596,7 +67596,7 @@ Body:
         StealProtected: true
   - Id: 2684
     AegisName: C4_RETRIBUTION
-    Name: Furious Baroness of Retr
+    Name: Baroness of Retr Furioso
     Level: 121
     Hp: 158315
     BaseExp: 15235
@@ -67646,7 +67646,7 @@ Body:
         StealProtected: true
   - Id: 2685
     AegisName: C5_RETRIBUTION
-    Name: Elusive Baroness of Retr
+    Name: Baroness of Retr Fujão
     Level: 121
     Hp: 158315
     BaseExp: 15235
@@ -67696,7 +67696,7 @@ Body:
         StealProtected: true
   - Id: 2686
     AegisName: C1_RETRIBUTION
-    Name: Swift Baroness of Retrib
+    Name: Baroness of Retrib Swift
     Level: 121
     Hp: 158315
     BaseExp: 15235
@@ -67746,7 +67746,7 @@ Body:
         StealProtected: true
   - Id: 2687
     AegisName: C2_REQUIEM
-    Name: Solid Requiem
+    Name: Requiem Solido
     Level: 71
     Hp: 32510
     BaseExp: 3690
@@ -67795,7 +67795,7 @@ Body:
         StealProtected: true
   - Id: 2688
     AegisName: C3_REMOVAL
-    Name: Remover Ringleader
+    Name: Remover Líder
     Level: 121
     Hp: 165510
     Sp: 0
@@ -67843,7 +67843,7 @@ Body:
         StealProtected: true
   - Id: 2689
     AegisName: C5_RED_ERUMA
-    Name: Elusive Red Eruma
+    Name: Eruma Fujão Vermelho
     Level: 91
     Hp: 40145
     BaseExp: 6100
@@ -67892,7 +67892,7 @@ Body:
         StealProtected: true
   - Id: 2690
     AegisName: C1_RAYDRIC
-    Name: Swift Raydric
+    Name: Raydric Swift
     Level: 115
     Hp: 109905
     BaseExp: 11230
@@ -67941,7 +67941,7 @@ Body:
         StealProtected: true
   - Id: 2691
     AegisName: C2_RAYDRIC
-    Name: Solid Raydric
+    Name: Raydric Solido
     Level: 115
     Hp: 219810
     BaseExp: 11230
@@ -68039,7 +68039,7 @@ Body:
         StealProtected: true
   - Id: 2693
     AegisName: C4_RAKE_SCARABA
-    Name: Furious Rake Scaraba
+    Name: Rake Scaraba Furioso
     Level: 139
     Hp: 338500
     BaseExp: 17475
@@ -68090,7 +68090,7 @@ Body:
         StealProtected: true
   - Id: 2694
     AegisName: C5_RAGGLER
-    Name: Elusive Raggler
+    Name: Raggler Fujão
     Level: 48
     Hp: 4925
     BaseExp: 1895
@@ -68139,7 +68139,7 @@ Body:
         StealProtected: true
   - Id: 2695
     AegisName: C1_RAFFLESIA
-    Name: Swift Rafflesia
+    Name: Rafflesia Swift
     Level: 86
     Hp: 24710
     BaseExp: 5430
@@ -68188,7 +68188,7 @@ Body:
         StealProtected: true
   - Id: 2696
     AegisName: C3_PORING
-    Name: Poring Ringleader
+    Name: Poring Líder
     Level: 1
     Hp: 275
     BaseExp: 750
@@ -68244,7 +68244,7 @@ Body:
         StealProtected: true
   - Id: 2697
     AegisName: C4_PORING
-    Name: Furious Poring
+    Name: Poring Furioso
     Level: 1
     Hp: 275
     BaseExp: 750
@@ -68300,7 +68300,7 @@ Body:
         StealProtected: true
   - Id: 2698
     AegisName: C5_PORING
-    Name: Elusive Poring
+    Name: Poring Fujão
     Level: 1
     Hp: 275
     BaseExp: 750
@@ -68356,7 +68356,7 @@ Body:
         StealProtected: true
   - Id: 2699
     AegisName: C1_PORING
-    Name: Swift Poring
+    Name: Poring Swift
     Level: 1
     Hp: 275
     BaseExp: 750
@@ -68412,7 +68412,7 @@ Body:
         StealProtected: true
   - Id: 2700
     AegisName: C2_PORCELLIO
-    Name: Solid Porcellio
+    Name: Porcellio Solido
     Level: 85
     Hp: 46210
     BaseExp: 5340
@@ -68462,7 +68462,7 @@ Body:
         StealProtected: true
   - Id: 2701
     AegisName: C3_POPORING
-    Name: Poporing Ringleader
+    Name: Poporing Líder
     Level: 30
     Hp: 2445
     BaseExp: 1145
@@ -68512,7 +68512,7 @@ Body:
         StealProtected: true
   - Id: 2702
     AegisName: C4_POPORING
-    Name: Furious Poporing
+    Name: Poporing Furioso
     Level: 30
     Hp: 2445
     BaseExp: 1145
@@ -68562,7 +68562,7 @@ Body:
         StealProtected: true
   - Id: 2703
     AegisName: C5_POPORING
-    Name: Elusive Poporing
+    Name: Poporing Fujão
     Level: 30
     Hp: 2445
     BaseExp: 1145
@@ -68612,7 +68612,7 @@ Body:
         StealProtected: true
   - Id: 2704
     AegisName: C1_POISON_TOAD
-    Name: Swift Poison Toad
+    Name: Poison Toad Swift
     Level: 87
     Hp: 27885
     BaseExp: 5260
@@ -68661,7 +68661,7 @@ Body:
         StealProtected: true
   - Id: 2705
     AegisName: C2_POISON_SPORE
-    Name: Solid Poison Spore
+    Name: Esporo Venenoso Solido
     Level: 26
     Hp: 3790
     BaseExp: 1045
@@ -68710,7 +68710,7 @@ Body:
         StealProtected: true
   - Id: 2706
     AegisName: C3_PLASMA_Y
-    Name: Plasma Ringleader
+    Name: Plasma Líder
     Level: 119
     Hp: 80500
     BaseExp: 11835
@@ -68757,7 +68757,7 @@ Body:
         StealProtected: true
   - Id: 2707
     AegisName: C4_PLANKTON
-    Name: Furious Plankton
+    Name: Plankton Furioso
     Level: 40
     Hp: 4665
     BaseExp: 1500
@@ -68806,7 +68806,7 @@ Body:
         StealProtected: true
   - Id: 2708
     AegisName: C5_PITMAN
-    Name: Elusive Pitman
+    Name: Pitman Fujão
     Level: 90
     Hp: 33585
     BaseExp: 5790
@@ -68855,7 +68855,7 @@ Body:
         StealProtected: true
   - Id: 2709
     AegisName: C1_PIRANHA
-    Name: Swift Piranha
+    Name: Piranha Swift
     Level: 75
     Hp: 21095
     BaseExp: 3970
@@ -68904,7 +68904,7 @@ Body:
         StealProtected: true
   - Id: 2710
     AegisName: C2_PINGUICULA_D
-    Name: Solid Dark Pinguicula
+    Name: Dark Pinguicula Solido
     Level: 113
     Hp: 180920
     BaseExp: 11010
@@ -68953,7 +68953,7 @@ Body:
         StealProtected: true
   - Id: 2711
     AegisName: C3_PINGUICULA
-    Name: Pinguicula Ringleader
+    Name: Pinguicula Líder
     Level: 105
     Hp: 63735
     BaseExp: 8530
@@ -69002,7 +69002,7 @@ Body:
         StealProtected: true
   - Id: 2712
     AegisName: C4_PICKY_
-    Name: Furious Picky
+    Name: Picky Furioso
     Level: 10
     Hp: 385
     BaseExp: 775
@@ -69051,7 +69051,7 @@ Body:
         StealProtected: true
   - Id: 2713
     AegisName: C5_PHEN
-    Name: Elusive Phen
+    Name: Phen Fujão
     Level: 52
     Hp: 8580
     BaseExp: 2180
@@ -69098,7 +69098,7 @@ Body:
         StealProtected: true
   - Id: 2714
     AegisName: C1_PETIT
-    Name: Swift Petite
+    Name: Petite Swift
     Level: 86
     Hp: 27455
     BaseExp: 5430
@@ -69148,7 +69148,7 @@ Body:
         StealProtected: true
   - Id: 2715
     AegisName: C2_PETIT
-    Name: Solid Petite
+    Name: Petite Solido
     Level: 86
     Hp: 54910
     BaseExp: 5430
@@ -69198,7 +69198,7 @@ Body:
         StealProtected: true
   - Id: 2716
     AegisName: C3_PENOMENA
-    Name: Penomena Ringleader
+    Name: Penomena Líder
     Level: 85
     Hp: 23105
     BaseExp: 5090
@@ -69247,7 +69247,7 @@ Body:
         StealProtected: true
   - Id: 2717
     AegisName: C4_PENOMENA
-    Name: Furious Penomena
+    Name: Penomena Furioso
     Level: 85
     Hp: 23105
     BaseExp: 5090
@@ -69296,7 +69296,7 @@ Body:
         StealProtected: true
   - Id: 2718
     AegisName: C5_PECOPECO
-    Name: Elusive Peco Peco
+    Name: Peco Peco Fujão
     Level: 25
     Hp: 1770
     BaseExp: 1020
@@ -69343,7 +69343,7 @@ Body:
         StealProtected: true
   - Id: 2719
     AegisName: C1_PASANA
-    Name: Swift Pasana
+    Name: Pasana Swift
     Level: 79
     Hp: 15100
     BaseExp: 4270
@@ -69392,7 +69392,7 @@ Body:
         StealProtected: true
   - Id: 2720
     AegisName: C2_PARASITE
-    Name: Solid Parasite
+    Name: Parasite Solido
     Level: 76
     Hp: 31550
     BaseExp: 4045
@@ -69441,7 +69441,7 @@ Body:
         StealProtected: true
   - Id: 2721
     AegisName: C3_OWL_DUKE
-    Name: Owl Duke Ringleader
+    Name: Owl Duke Líder
     Level: 92
     Hp: 38900
     BaseExp: 6190
@@ -69493,7 +69493,7 @@ Body:
         StealProtected: true
   - Id: 2722
     AegisName: C4_ORK_WARRIOR
-    Name: Furious Orc Warrior
+    Name: Orc Warrior Furioso
     Level: 44
     Hp: 5235
     BaseExp: 1805
@@ -69542,7 +69542,7 @@ Body:
         StealProtected: true
   - Id: 2723
     AegisName: C5_ORC_ZOMBIE
-    Name: Elusive Orc Zombie
+    Name: Orc Zombie Fujão
     Level: 51
     Hp: 7930
     BaseExp: 2340
@@ -69583,7 +69583,7 @@ Body:
         StealProtected: true
   - Id: 2724
     AegisName: C1_ORC_SKELETON
-    Name: Swift Orc Skeleton
+    Name: Orc Skeleton Swift
     Level: 53
     Hp: 8495
     BaseExp: 2450
@@ -69630,7 +69630,7 @@ Body:
         StealProtected: true
   - Id: 2725
     AegisName: C2_ORC_LADY
-    Name: Solid Orc Lady
+    Name: Orc Lady Solido
     Level: 45
     Hp: 11450
     BaseExp: 1845
@@ -69728,7 +69728,7 @@ Body:
         StealProtected: true
   - Id: 2727
     AegisName: C4_NOXIOUS
-    Name: Furious Noxious
+    Name: Noxious Furioso
     Level: 87
     Hp: 22310
     BaseExp: 4735
@@ -69777,7 +69777,7 @@ Body:
         StealProtected: true
   - Id: 2728
     AegisName: C5_NOVUS
-    Name: Elusive Novus
+    Name: Novus Fujão
     Level: 90
     Hp: 26285
     BaseExp: 5515
@@ -69818,7 +69818,7 @@ Body:
         StealProtected: true
   - Id: 2729
     AegisName: C1_NOVUS
-    Name: Swift Novus
+    Name: Novus Swift
     Level: 90
     Hp: 26285
     BaseExp: 5515
@@ -69859,7 +69859,7 @@ Body:
         StealProtected: true
   - Id: 2730
     AegisName: C2_NOVUS
-    Name: Solid Novus
+    Name: Novus Solido
     Level: 90
     Hp: 52570
     BaseExp: 5515
@@ -69900,7 +69900,7 @@ Body:
         StealProtected: true
   - Id: 2731
     AegisName: C3_NOVUS
-    Name: Novus Ringleader
+    Name: Novus Líder
     Level: 90
     Hp: 26285
     BaseExp: 5515
@@ -69941,7 +69941,7 @@ Body:
         StealProtected: true
   - Id: 2732
     AegisName: C4_NIGHTMARE_TERROR
-    Name: Furious Nightmare Terror
+    Name: Nightmare Terror Furioso
     Level: 107
     Hp: 85395
     BaseExp: 9225
@@ -69992,7 +69992,7 @@ Body:
         StealProtected: true
   - Id: 2733
     AegisName: C5_NG_WRAITH_DEAD
-    Name: Elusive Wraith Dead (Nig
+    Name: Wraith Dead (Nig Fujão
     Level: 110
     Hp: 94615
     BaseExp: 10490
@@ -70036,7 +70036,7 @@ Body:
         Rate: 50
   - Id: 2734
     AegisName: C1_NG_WANDER_MAN
-    Name: Furious Wanderer (Nightm
+    Name: Wanderer (Nightm Furioso
     Level: 151
     Hp: 653410
     BaseExp: 49535
@@ -70084,7 +70084,7 @@ Body:
         Rate: 50
   - Id: 2735
     AegisName: C2_NEPENTHES
-    Name: Solid Nephentes
+    Name: Nephentes Solido
     Level: 114
     Hp: 182050
     BaseExp: 11120
@@ -70133,7 +70133,7 @@ Body:
         StealProtected: true
   - Id: 2736
     AegisName: C3_NECROMANCER
-    Name: Necromancer Ringleader
+    Name: Necromancer Líder
     Level: 133
     Hp: 456520
     BaseExp: 14950
@@ -70180,7 +70180,7 @@ Body:
         StealProtected: true
   - Id: 2737
     AegisName: C4_MYSTCASE
-    Name: Furious Myst Case
+    Name: Myst Case Furioso
     Level: 39
     Hp: 4045
     BaseExp: 1465
@@ -70229,7 +70229,7 @@ Body:
         StealProtected: true
   - Id: 2738
     AegisName: C5_MUSCIPULAR
-    Name: Elusive Muscipular
+    Name: Muscipular Fujão
     Level: 105
     Hp: 57945
     BaseExp: 8530
@@ -70278,7 +70278,7 @@ Body:
         StealProtected: true
   - Id: 2739
     AegisName: C1_MUMMY
-    Name: Swift Mummy
+    Name: Mummy Swift
     Level: 55
     Hp: 9495
     BaseExp: 2560
@@ -70326,7 +70326,7 @@ Body:
         StealProtected: true
   - Id: 2740
     AegisName: C2_MUMMY
-    Name: Solid Mummy
+    Name: Mummy Solido
     Level: 55
     Hp: 18990
     BaseExp: 2560
@@ -70374,7 +70374,7 @@ Body:
         StealProtected: true
   - Id: 2741
     AegisName: C3_MUKA
-    Name: Muka Ringleader
+    Name: Muka Líder
     Level: 23
     Hp: 1685
     BaseExp: 1025
@@ -70423,7 +70423,7 @@ Body:
         StealProtected: true
   - Id: 2742
     AegisName: C4_MOROCC_1
-    Name: Furious Incarnation of M
+    Name: Incarnation of M Furioso
     Level: 132
     Hp: 319500
     BaseExp: 14275
@@ -70469,7 +70469,7 @@ Body:
         Rate: 50
   - Id: 2743
     AegisName: C5_MOROCC_1
-    Name: Elusive Incarnation of M
+    Name: Incarnation of M Fujão
     Level: 132
     Hp: 319500
     BaseExp: 14275
@@ -70515,7 +70515,7 @@ Body:
         Rate: 50
   - Id: 2744
     AegisName: C1_MOROCC_1
-    Name: Swift Incarnation of Mor
+    Name: Incarnation of Mor Swift
     Level: 132
     Hp: 319500
     BaseExp: 14275
@@ -70561,7 +70561,7 @@ Body:
         Rate: 50
   - Id: 2745
     AegisName: C2_MOLE
-    Name: Solid Holden
+    Name: Holden Solido
     Level: 85
     Hp: 43900
     BaseExp: 5340
@@ -70604,7 +70604,7 @@ Body:
         StealProtected: true
   - Id: 2746
     AegisName: C3_MIYABI_NINGYO
-    Name: Miyabi Doll Ringleader
+    Name: Miyabi Doll Líder
     Level: 85
     Hp: 25415
     BaseExp: 5090
@@ -70656,7 +70656,7 @@ Body:
         StealProtected: true
   - Id: 2747
     AegisName: C4_MINOROUS
-    Name: Furious Minorous
+    Name: Minorous Furioso
     Level: 58
     Hp: 8645
     BaseExp: 2495
@@ -70705,7 +70705,7 @@ Body:
         StealProtected: true
   - Id: 2748
     AegisName: C5_MINOROUS
-    Name: Elusive Minorous
+    Name: Minorous Fujão
     Level: 58
     Hp: 8645
     BaseExp: 2495
@@ -70754,7 +70754,7 @@ Body:
         StealProtected: true
   - Id: 2749
     AegisName: C1_MINOROUS
-    Name: Swift Minorous
+    Name: Minorous Swift
     Level: 58
     Hp: 8645
     BaseExp: 2495
@@ -70803,7 +70803,7 @@ Body:
         StealProtected: true
   - Id: 2750
     AegisName: C2_MINERAL
-    Name: Solid Mineral
+    Name: Mineral Solido
     Level: 96
     Hp: 79590
     BaseExp: 6555
@@ -70852,7 +70852,7 @@ Body:
         StealProtected: true
   - Id: 2751
     AegisName: C3_MIMING
-    Name: Miming Ringleader
+    Name: Miming Líder
     Level: 140
     Hp: 406000
     BaseExp: 23075
@@ -70895,7 +70895,7 @@ Body:
         StealProtected: true
   - Id: 2752
     AegisName: C4_MIMIC
-    Name: Furious Mimic
+    Name: Mimic Furioso
     Level: 56
     Hp: 8535
     BaseExp: 2385
@@ -70942,7 +70942,7 @@ Body:
         StealProtected: true
   - Id: 2753
     AegisName: C5_MIMIC
-    Name: Elusive Mimic
+    Name: Mimic Fujão
     Level: 56
     Hp: 8535
     BaseExp: 2385
@@ -70989,7 +70989,7 @@ Body:
         StealProtected: true
   - Id: 2754
     AegisName: C1_METALLER
-    Name: Swift Metaller
+    Name: Metaller Swift
     Level: 55
     Hp: 7435
     BaseExp: 2330
@@ -71040,7 +71040,7 @@ Body:
         StealProtected: true
   - Id: 2755
     AegisName: C2_METALING
-    Name: Solid Metaling
+    Name: Metaling Solido
     Level: 81
     Hp: 38620
     BaseExp: 4770
@@ -71089,7 +71089,7 @@ Body:
         StealProtected: true
   - Id: 2756
     AegisName: C3_METALING
-    Name: Metaling Ringleader
+    Name: Metaling Líder
     Level: 81
     Hp: 19310
     BaseExp: 4770
@@ -71138,7 +71138,7 @@ Body:
         StealProtected: true
   - Id: 2757
     AegisName: C4_MERMAN
-    Name: Furious Merman
+    Name: Merman Furioso
     Level: 60
     Hp: 11620
     BaseExp: 2605
@@ -71187,7 +71187,7 @@ Body:
         StealProtected: true
   - Id: 2758
     AegisName: C5_MENBLATT
-    Name: Elusive Menblatt
+    Name: Menblatt Fujão
     Level: 143
     Hp: 411000
     BaseExp: 20750
@@ -71229,7 +71229,7 @@ Body:
         Rate: 25
   - Id: 2759
     AegisName: C1_MEDUSA
-    Name: Swift Medusa
+    Name: Medusa Swift
     Level: 102
     Hp: 56400
     BaseExp: 7825
@@ -71280,7 +71280,7 @@ Body:
         StealProtected: true
   - Id: 2760
     AegisName: C2_MARTIN
-    Name: Solid Martin
+    Name: Martin Solido
     Level: 39
     Hp: 7690
     BaseExp: 1535
@@ -71329,7 +71329,7 @@ Body:
         StealProtected: true
   - Id: 2761
     AegisName: C3_MARIONETTE
-    Name: Marionette Ringleader
+    Name: Marionette Líder
     Level: 90
     Hp: 20445
     BaseExp: 4965
@@ -71381,7 +71381,7 @@ Body:
         StealProtected: true
   - Id: 2762
     AegisName: C4_MARIN
-    Name: Furious Marin
+    Name: Marin Furioso
     Level: 37
     Hp: 4220
     BaseExp: 1395
@@ -71430,7 +71430,7 @@ Body:
         StealProtected: true
   - Id: 2763
     AegisName: C5_MARDUK
-    Name: Elusive Marduk
+    Name: Marduk Fujão
     Level: 73
     Hp: 15495
     BaseExp: 3830
@@ -71479,7 +71479,7 @@ Body:
         StealProtected: true
   - Id: 2764
     AegisName: C1_MANTIS
-    Name: Swift Mantis
+    Name: Mantis Swift
     Level: 65
     Hp: 11815
     BaseExp: 3210
@@ -71529,7 +71529,7 @@ Body:
         StealProtected: true
   - Id: 2765
     AegisName: C2_MANDRAGORA
-    Name: Solid Mandragora
+    Name: Mandragora Solido
     Level: 13
     Hp: 1400
     BaseExp: 850
@@ -71580,7 +71580,7 @@ Body:
         StealProtected: true
   - Id: 2766
     AegisName: C3_MANANANGGAL
-    Name: Manananggal Ringleader
+    Name: Manananggal Líder
     Level: 107
     Hp: 78280
     BaseExp: 9225
@@ -71628,7 +71628,7 @@ Body:
         Rate: 500
   - Id: 2767
     AegisName: C4_MAJORUROS
-    Name: Furious Majoruros
+    Name: Majoruros Furioso
     Level: 107
     Hp: 67610
     BaseExp: 9225
@@ -71678,7 +71678,7 @@ Body:
         StealProtected: true
   - Id: 2768
     AegisName: C5_MAGNOLIA
-    Name: Elusive Magnolia
+    Name: Magnolia Fujão
     Level: 53
     Hp: 7725
     BaseExp: 2230
@@ -71729,7 +71729,7 @@ Body:
         StealProtected: true
   - Id: 2769
     AegisName: C1_MAGMARING
-    Name: Swift Magmaring
+    Name: Magmaring Swift
     Level: 110
     Hp: 54595
     BaseExp: 9540
@@ -71768,7 +71768,7 @@ Body:
         StealProtected: true
   - Id: 2770
     AegisName: C2_LUNATIC
-    Name: Solid Lunatic
+    Name: Lunatic Solido
     Level: 3
     Hp: 480
     BaseExp: 750
@@ -71817,7 +71817,7 @@ Body:
         StealProtected: true
   - Id: 2771
     AegisName: C3_LUNATIC
-    Name: Lunatic Ringleader
+    Name: Lunatic Líder
     Level: 3
     Hp: 240
     BaseExp: 750
@@ -71866,7 +71866,7 @@ Body:
         StealProtected: true
   - Id: 2772
     AegisName: C4_LUDE
-    Name: Furious Lude
+    Name: Lude Furioso
     Level: 101
     Hp: 55895
     BaseExp: 8495
@@ -71915,7 +71915,7 @@ Body:
         StealProtected: true
   - Id: 2773
     AegisName: C5_LUCIOLA_VESPA
-    Name: Elusive Luciola Vespa
+    Name: Luciola Vespa Fujão
     Level: 109
     Hp: 65020
     BaseExp: 9435
@@ -71966,7 +71966,7 @@ Body:
         StealProtected: true
   - Id: 2774
     AegisName: C1_LOLI_RURI
-    Name: Swift Loli Ruri
+    Name: Loli Ruri Swift
     Level: 109
     Hp: 86680
     BaseExp: 9435
@@ -72017,7 +72017,7 @@ Body:
         StealProtected: true
   - Id: 2775
     AegisName: C2_LIVE_PEACH_TREE
-    Name: Solid Enchanted Peach Tr
+    Name: Peach Tr Solido Encantado
     Level: 92
     Hp: 74260
     BaseExp: 6495
@@ -72064,7 +72064,7 @@ Body:
         StealProtected: true
   - Id: 2776
     AegisName: C3_LITTLE_PORING
-    Name: Baby Poring Ringleader
+    Name: Poring Líder Bebê
     Level: 1
     Hp: 200
     BaseExp: 90
@@ -72120,7 +72120,7 @@ Body:
         StealProtected: true
   - Id: 2777
     AegisName: C4_LITTLE_FATUM
-    Name: Furious Little Fatum
+    Name: Little Fatum Furioso
     Level: 142
     Hp: 425500
     BaseExp: 24375
@@ -72161,7 +72161,7 @@ Body:
         StealProtected: true
   - Id: 2778
     AegisName: C5_LI_ME_MANG_RYANG
-    Name: Elusive Jing Guai
+    Name: Jing Guai Fujão
     Level: 80
     Hp: 19970
     BaseExp: 4560
@@ -72207,7 +72207,7 @@ Body:
         StealProtected: true
   - Id: 2779
     AegisName: C1_LES
-    Name: Swift Les
+    Name: Les Swift
     Level: 82
     Hp: 24045
     BaseExp: 5090
@@ -72256,7 +72256,7 @@ Body:
         StealProtected: true
   - Id: 2780
     AegisName: C2_LEIB_OLMAI
-    Name: Solid Leib Olmai
+    Name: Leib Olmai Solido
     Level: 118
     Hp: 251680
     Sp: 0
@@ -72306,7 +72306,7 @@ Body:
         StealProtected: true
   - Id: 2781
     AegisName: C3_LEAF_CAT
-    Name: Leaf Cat Ringleader
+    Name: Leaf Cat Líder
     Level: 64
     Hp: 10350
     BaseExp: 3150
@@ -72355,7 +72355,7 @@ Body:
         StealProtected: true
   - Id: 2782
     AegisName: C4_L_WHIKEBAIN
-    Name: Furious Wickebine Tres
+    Name: Wickebine Tres Furioso
     Level: 98
     Hp: 58560
     BaseExp: 4350
@@ -72401,7 +72401,7 @@ Body:
         Rate: 10
   - Id: 2783
     AegisName: C5_L_EREMES
-    Name: Elusive Eremes
+    Name: Eremes Fujão
     Level: 98
     Hp: 45145
     BaseExp: 7875
@@ -72447,7 +72447,7 @@ Body:
         Rate: 10
   - Id: 2784
     AegisName: C1_KOBOLD_ARCHER
-    Name: Swift Kobold Archer
+    Name: Kobold Archer Swift
     Level: 108
     Hp: 57360
     BaseExp: 9330
@@ -72496,7 +72496,7 @@ Body:
         StealProtected: true
   - Id: 2785
     AegisName: C2_KOBOLD_1
-    Name: Solid Kobold
+    Name: Kobold Solido
     Level: 107
     Hp: 135220
     BaseExp: 9225
@@ -72545,7 +72545,7 @@ Body:
         StealProtected: true
   - Id: 2786
     AegisName: C3_KNOCKER
-    Name: Knocker Ringleader
+    Name: Knocker Líder
     Level: 126
     Hp: 165235
     BaseExp: 19100
@@ -72596,7 +72596,7 @@ Body:
         StealProtected: true
   - Id: 2787
     AegisName: C4_KIND_OF_BEETLE
-    Name: Furious Beetle King
+    Name: Rei Besouro Furioso
     Level: 55
     Hp: 7435
     BaseExp: 2445
@@ -72643,7 +72643,7 @@ Body:
         StealProtected: true
   - Id: 2788
     AegisName: C5_KASA
-    Name: Elusive Kasa
+    Name: Kasa Fujão
     Level: 135
     Hp: 350640
     BaseExp: 18195
@@ -72692,7 +72692,7 @@ Body:
         StealProtected: true
   - Id: 2789
     AegisName: C1_KARAKASA
-    Name: Swift Karakasa
+    Name: Karakasa Swift
     Level: 72
     Hp: 15135
     BaseExp: 3760
@@ -72741,7 +72741,7 @@ Body:
         StealProtected: true
   - Id: 2790
     AegisName: C2_ISIS
-    Name: Solid Isis
+    Name: Isis Solido
     Level: 59
     Hp: 22520
     BaseExp: 2550
@@ -72792,7 +72792,7 @@ Body:
         StealProtected: true
   - Id: 2791
     AegisName: C3_ISILLA
-    Name: Isilla Ringleader
+    Name: Isilla Líder
     Level: 124
     Hp: 145755
     BaseExp: 15595
@@ -72851,7 +72851,7 @@ Body:
         StealProtected: true
   - Id: 2792
     AegisName: C4_INJUSTICE
-    Name: Furious Injustice
+    Name: Injustice Furioso
     Level: 95
     Hp: 40435
     BaseExp: 6460
@@ -72901,7 +72901,7 @@ Body:
         StealProtected: true
   - Id: 2793
     AegisName: C5_INCREASE_SOIL
-    Name: Elusive Mi Gao
+    Name: Mi Gao Fujão
     Level: 83
     Hp: 24495
     BaseExp: 5175
@@ -72944,7 +72944,7 @@ Body:
         StealProtected: true
   - Id: 2794
     AegisName: C1_ICE_TITAN
-    Name: Swift Ice Titan
+    Name: Ice Titan Swift
     Level: 110
     Hp: 94615
     BaseExp: 9540
@@ -72993,7 +72993,7 @@ Body:
         StealProtected: true
   - Id: 2795
     AegisName: C2_IARA
-    Name: Solid Iara
+    Name: Iara Solido
     Level: 79
     Hp: 42620
     BaseExp: 4270
@@ -73041,7 +73041,7 @@ Body:
         StealProtected: true
   - Id: 2796
     AegisName: C3_HYEGUN
-    Name: Yao Jun Ringleader
+    Name: Yao Jun Líder
     Level: 87
     Hp: 32065
     BaseExp: 5785
@@ -73088,7 +73088,7 @@ Body:
         StealProtected: true
   - Id: 2797
     AegisName: C4_HUNTER_FLY
-    Name: Furious Hunter Fly
+    Name: Mosca Caçadora Furiosa
     Level: 63
     Hp: 9510
     BaseExp: 2940
@@ -73139,7 +73139,7 @@ Body:
         StealProtected: true
   - Id: 2798
     AegisName: C5_HORNET
-    Name: Elusive Hornet
+    Name: Hornet Fujão
     Level: 11
     Hp: 425
     BaseExp: 790
@@ -73191,7 +73191,7 @@ Body:
         StealProtected: true
   - Id: 2799
     AegisName: C1_HORN_SCARABA
-    Name: Swift Uni-horn Scaraba
+    Name: Uni-horn Scaraba Swift
     Level: 130
     Hp: 255500
     BaseExp: 13050
@@ -73242,7 +73242,7 @@ Body:
         StealProtected: true
   - Id: 2800
     AegisName: C2_HORN
-    Name: Solid Horn
+    Name: Horn Solido
     Level: 32
     Hp: 5640
     BaseExp: 1295
@@ -73293,7 +73293,7 @@ Body:
         StealProtected: true
   - Id: 2801
     AegisName: C3_HODREMLIN
-    Name: Hodremlin Ringleader
+    Name: Hodremlin Líder
     Level: 122
     Hp: 158980
     BaseExp: 15355
@@ -73346,7 +73346,7 @@ Body:
         StealProtected: true
   - Id: 2802
     AegisName: C4_HODE
-    Name: Furious Hode
+    Name: Hode Furioso
     Level: 63
     Hp: 11735
     BaseExp: 3085
@@ -73395,7 +73395,7 @@ Body:
         StealProtected: true
   - Id: 2803
     AegisName: C5_HILL_WIND_1
-    Name: Elusive Hill Wind
+    Name: Hill Wind Fujão
     Level: 101
     Hp: 55895
     BaseExp: 7725
@@ -73440,7 +73440,7 @@ Body:
         StealProtected: true
   - Id: 2804
     AegisName: C1_HILL_WIND_1
-    Name: Swift Hill Wind
+    Name: Hill Wind Swift
     Level: 101
     Hp: 55895
     BaseExp: 7725
@@ -73485,7 +73485,7 @@ Body:
         StealProtected: true
   - Id: 2805
     AegisName: C2_HIGH_ORC
-    Name: Solid High Orc
+    Name: High Orc Solido
     Level: 81
     Hp: 40770
     BaseExp: 4770
@@ -73534,7 +73534,7 @@ Body:
         StealProtected: true
   - Id: 2806
     AegisName: C3_HARPY
-    Name: Harpy Ringleader
+    Name: Harpy Líder
     Level: 83
     Hp: 22270
     BaseExp: 4930
@@ -73590,7 +73590,7 @@ Body:
         StealProtected: true
   - Id: 2807
     AegisName: C4_HARPY
-    Name: Furious Harpy
+    Name: Harpy Furioso
     Level: 83
     Hp: 22270
     BaseExp: 4930
@@ -73646,7 +73646,7 @@ Body:
         StealProtected: true
   - Id: 2808
     AegisName: C5_GREEN_IGUANA
-    Name: Elusive Grove
+    Name: Grove Fujão
     Level: 55
     Hp: 8670
     BaseExp: 2445
@@ -73695,7 +73695,7 @@ Body:
         StealProtected: true
   - Id: 2809
     AegisName: C1_GREATEST_GENERAL
-    Name: Swift Greatest General
+    Name: Greatest General Swift
     Level: 55
     Hp: 7025
     BaseExp: 2330
@@ -73744,7 +73744,7 @@ Body:
         StealProtected: true
   - Id: 2810
     AegisName: C2_GRAND_PECO
-    Name: Solid Grand Peco
+    Name: Grand Peco Solido
     Level: 75
     Hp: 30840
     BaseExp: 3970
@@ -73789,7 +73789,7 @@ Body:
         StealProtected: true
   - Id: 2811
     AegisName: C3_GRAND_PECO
-    Name: Grand Peco Ringleader
+    Name: Grand Peco Líder
     Level: 75
     Hp: 15420
     BaseExp: 3970
@@ -73834,7 +73834,7 @@ Body:
         StealProtected: true
   - Id: 2812
     AegisName: C4_GOLEM
-    Name: Furious Golem
+    Name: Golem Furioso
     Level: 61
     Hp: 11620
     BaseExp: 2820
@@ -73883,7 +73883,7 @@ Body:
         StealProtected: true
   - Id: 2813
     AegisName: C5_GOBLIN_1
-    Name: Elusive Goblin
+    Name: Goblin Fujão
     Level: 48
     Hp: 5535
     BaseExp: 1895
@@ -73932,7 +73932,7 @@ Body:
         StealProtected: true
   - Id: 2814
     AegisName: C1_GOBLIN_1
-    Name: Swift Goblin
+    Name: Goblin Swift
     Level: 48
     Hp: 5535
     BaseExp: 1895
@@ -73981,7 +73981,7 @@ Body:
         StealProtected: true
   - Id: 2815
     AegisName: C2_GOAT
-    Name: Solid Goat
+    Name: Goat Solido
     Level: 80
     Hp: 29050
     BaseExp: 4345
@@ -74028,7 +74028,7 @@ Body:
         StealProtected: true
   - Id: 2816
     AegisName: C3_GOAT
-    Name: Goat Ringleader
+    Name: Goat Líder
     Level: 80
     Hp: 14525
     BaseExp: 4345
@@ -74075,7 +74075,7 @@ Body:
         StealProtected: true
   - Id: 2817
     AegisName: C4_GLD_KOBOLD_2
-    Name: Furious Dark Hammer Kobo
+    Name: Dark Hammer Kobo Furioso
     Level: 142
     Hp: 906700
     BaseExp: 51800
@@ -74119,7 +74119,7 @@ Body:
         Rate: 10
   - Id: 2818
     AegisName: C5_GLD_KOBOLD_2
-    Name: Elusive Dark Hammer Kobo
+    Name: Dark Hammer Kobo Fujão
     Level: 142
     Hp: 906700
     BaseExp: 51800
@@ -74163,7 +74163,7 @@ Body:
         Rate: 10
   - Id: 2819
     AegisName: C1_GLD_DARK_SHADOW
-    Name: Swift Dark Shadow
+    Name: Dark Shadow Swift
     Level: 147
     Hp: 1020545
     BaseExp: 57500
@@ -74209,7 +74209,7 @@ Body:
         Rate: 10
   - Id: 2820
     AegisName: C2_GLD_DARK_SHADOW
-    Name: Solid Dark Shadow
+    Name: Dark Shadow Solido
     Level: 147
     Hp: 2041090
     BaseExp: 57500
@@ -74255,7 +74255,7 @@ Body:
         Rate: 10
   - Id: 2821
     AegisName: C3_GIANT_HONET
-    Name: Giant Hornet Ringleader
+    Name: Hornet Líder Gigante
     Level: 120
     Hp: 92475
     Sp: 0
@@ -74307,7 +74307,7 @@ Body:
         StealProtected: true
   - Id: 2822
     AegisName: C4_GHOUL
-    Name: Furious Ghoul
+    Name: Ghoul Furioso
     Level: 61
     Hp: 12145
     BaseExp: 3100
@@ -74356,7 +74356,7 @@ Body:
         StealProtected: true
   - Id: 2823
     AegisName: C5_GHOUL
-    Name: Elusive Ghoul
+    Name: Ghoul Fujão
     Level: 61
     Hp: 12145
     BaseExp: 3100
@@ -74405,7 +74405,7 @@ Body:
         StealProtected: true
   - Id: 2824
     AegisName: C1_GEOGRAPHER
-    Name: Swift Geographer
+    Name: Geographer Swift
     Level: 73
     Hp: 17040
     BaseExp: 4020
@@ -74450,7 +74450,7 @@ Body:
         StealProtected: true
   - Id: 2825
     AegisName: C2_GEOGRAPHER
-    Name: Solid Geographer
+    Name: Geographer Solido
     Level: 73
     Hp: 34080
     BaseExp: 4020
@@ -74495,7 +74495,7 @@ Body:
         StealProtected: true
   - Id: 2826
     AegisName: C3_GARGOYLE
-    Name: Gargoyle Ringleader
+    Name: Gargoyle Líder
     Level: 100
     Hp: 46165
     BaseExp: 6935
@@ -74544,7 +74544,7 @@ Body:
         StealProtected: true
   - Id: 2827
     AegisName: C4_GARGOYLE
-    Name: Furious Gargoyle
+    Name: Gargoyle Furioso
     Level: 100
     Hp: 46165
     BaseExp: 6935
@@ -74593,7 +74593,7 @@ Body:
         StealProtected: true
   - Id: 2828
     AegisName: C5_GALION
-    Name: Elusive Galion
+    Name: Galion Fujão
     Level: 100
     Hp: 43860
     BaseExp: 6935
@@ -74636,7 +74636,7 @@ Body:
         StealProtected: true
   - Id: 2829
     AegisName: C1_FUR_SEAL
-    Name: Swift Seal
+    Name: Seal Swift
     Level: 47
     Hp: 6500
     BaseExp: 1850
@@ -74685,7 +74685,7 @@ Body:
         StealProtected: true
   - Id: 2830
     AegisName: C2_FREEZER
-    Name: Solid Freezer
+    Name: Freezer Solido
     Level: 94
     Hp: 83460
     BaseExp: 6370
@@ -74734,7 +74734,7 @@ Body:
         StealProtected: true
   - Id: 2831
     AegisName: C3_FREEZER
-    Name: Freezer Ringleader
+    Name: Freezer Líder
     Level: 94
     Hp: 41730
     BaseExp: 6370
@@ -74783,7 +74783,7 @@ Body:
         StealProtected: true
   - Id: 2832
     AegisName: C4_FERUS_
-    Name: Furious Ferus
+    Name: Ferus Furioso
     Level: 126
     Hp: 211120
     BaseExp: 19100
@@ -74840,7 +74840,7 @@ Body:
         StealProtected: true
   - Id: 2833
     AegisName: C5_FARMILIAR
-    Name: Elusive Familiar
+    Name: Familiar Fujão
     Level: 24
     Hp: 1650
     BaseExp: 1000
@@ -74889,7 +74889,7 @@ Body:
         StealProtected: true
   - Id: 2834
     AegisName: C1_FAKE_ANGEL
-    Name: Swift False Angel
+    Name: False Angel Swift
     Level: 105
     Hp: 52155
     BaseExp: 8125
@@ -74938,7 +74938,7 @@ Body:
         StealProtected: true
   - Id: 2835
     AegisName: C2_FABRE
-    Name: Solid Fabre
+    Name: Fabre Solido
     Level: 6
     Hp: 590
     BaseExp: 790
@@ -74990,7 +74990,7 @@ Body:
         StealProtected: true
   - Id: 2836
     AegisName: C3_FABRE
-    Name: Fabre Ringleader
+    Name: Fabre Líder
     Level: 6
     Hp: 295
     BaseExp: 790
@@ -75042,7 +75042,7 @@ Body:
         StealProtected: true
   - Id: 2837
     AegisName: C4_EXPLOSION
-    Name: Furious Explosion
+    Name: Explosion Furioso
     Level: 100
     Hp: 32320
     BaseExp: 6935
@@ -75087,7 +75087,7 @@ Body:
         StealProtected: true
   - Id: 2838
     AegisName: C5_EVIL_DRUID
-    Name: Elusive Evil Druid
+    Name: Evil Druid Fujão
     Level: 80
     Hp: 23600
     BaseExp: 4775
@@ -75135,7 +75135,7 @@ Body:
         StealProtected: true
   - Id: 2839
     AegisName: C1_ELDER_WILOW
-    Name: Swift Elder Willow
+    Name: Ancião Willow Swift
     Level: 34
     Hp: 2675
     BaseExp: 1295
@@ -75183,7 +75183,7 @@ Body:
         StealProtected: true
   - Id: 2840
     AegisName: C2_ELDER_WILOW
-    Name: Solid Elder Willow
+    Name: Ancião Willow Solido
     Level: 34
     Hp: 5350
     BaseExp: 1295
@@ -75231,7 +75231,7 @@ Body:
         StealProtected: true
   - Id: 2841
     AegisName: C3_ECHIO
-    Name: Echio Ringleader
+    Name: Echio Líder
     Level: 126
     Hp: 183590
     BaseExp: 18195
@@ -75290,7 +75290,7 @@ Body:
         StealProtected: true
   - Id: 2842
     AegisName: C4_DUSTINESS
-    Name: Furious Dustiness
+    Name: Dustiness Furioso
     Level: 62
     Hp: 9245
     BaseExp: 2880
@@ -75339,7 +75339,7 @@ Body:
         StealProtected: true
   - Id: 2843
     AegisName: C1_DRYAD
-    Name: Swift Dryad
+    Name: Dryad Swift
     Level: 68
     Hp: 14085
     BaseExp: 3415
@@ -75388,7 +75388,7 @@ Body:
         StealProtected: true
   - Id: 2844
     AegisName: C2_DROSERA
-    Name: Solid Drosera
+    Name: Drosera Solido
     Level: 101
     Hp: 111790
     BaseExp: 8110
@@ -75437,7 +75437,7 @@ Body:
         StealProtected: true
   - Id: 2845
     AegisName: C3_DROPS
-    Name: Drops Ringleader
+    Name: Drops Líder
     Level: 2
     Hp: 230
     BaseExp: 750
@@ -75492,7 +75492,7 @@ Body:
         StealProtected: true
   - Id: 2846
     AegisName: C4_DRILLER
-    Name: Furious Driller
+    Name: Driller Furioso
     Level: 65
     Hp: 11815
     BaseExp: 3210
@@ -75533,7 +75533,7 @@ Body:
         StealProtected: true
   - Id: 2847
     AegisName: C5_DRAINLIAR
-    Name: Elusive Drainliar
+    Name: Drainliar Fujão
     Level: 47
     Hp: 5910
     BaseExp: 1850
@@ -75582,7 +75582,7 @@ Body:
         StealProtected: true
   - Id: 2848
     AegisName: C1_DRAGON_TAIL
-    Name: Swift Dragon Tail
+    Name: Dragon Tail Swift
     Level: 86
     Hp: 26085
     BaseExp: 5175
@@ -75629,7 +75629,7 @@ Body:
         StealProtected: true
   - Id: 2849
     AegisName: C2_DRACO
-    Name: Solid Draco
+    Name: Draco Solido
     Level: 114
     Hp: 182050
     BaseExp: 11675
@@ -75678,7 +75678,7 @@ Body:
         StealProtected: true
   - Id: 2850
     AegisName: C3_DOLOMEDES
-    Name: Dolomedes Ringleader
+    Name: Dolomedes Líder
     Level: 132
     Hp: 272955
     BaseExp: 16755
@@ -75729,7 +75729,7 @@ Body:
         StealProtected: true
   - Id: 2851
     AegisName: C4_DOKEBI
-    Name: Furious Dokebi
+    Name: Dokebi Furioso
     Level: 68
     Hp: 12805
     BaseExp: 3255
@@ -75780,7 +75780,7 @@ Body:
         StealProtected: true
   - Id: 2852
     AegisName: C5_DISGUISE
-    Name: Elusive Disguise
+    Name: Disguise Fujão
     Level: 103
     Hp: 62600
     BaseExp: 8320
@@ -75831,7 +75831,7 @@ Body:
         StealProtected: true
   - Id: 2853
     AegisName: C1_DIMIK_1
-    Name: Swift Dimik
+    Name: Dimik Swift
     Level: 116
     Hp: 107575
     BaseExp: 12800
@@ -75880,7 +75880,7 @@ Body:
         StealProtected: true
   - Id: 2854
     AegisName: C2_DEVIRUCHI
-    Name: Solid Deviruchi
+    Name: Deviruchi Solido
     Level: 93
     Hp: 71650
     BaseExp: 6280
@@ -75931,7 +75931,7 @@ Body:
         StealProtected: true
   - Id: 2855
     AegisName: C3_DESERT_WOLF_B
-    Name: Baby Desert Wolf Ringlea
+    Name: Lobo do Deserto Ringlea Bebê
     Level: 14
     Hp: 565
     BaseExp: 820
@@ -75982,7 +75982,7 @@ Body:
         StealProtected: true
   - Id: 2856
     AegisName: C4_DESERT_WOLF_B
-    Name: Furious Baby Desert Wolf
+    Name: Lobo do Deserto Furioso Bebê
     Level: 14
     Hp: 565
     BaseExp: 820
@@ -76033,7 +76033,7 @@ Body:
         StealProtected: true
   - Id: 2857
     AegisName: C5_DENIRO
-    Name: Elusive Deniro
+    Name: Deniro Fujão
     Level: 31
     Hp: 2400
     BaseExp: 1265
@@ -76084,7 +76084,7 @@ Body:
         StealProtected: true
   - Id: 2858
     AegisName: C1_DEATHWORD
-    Name: Swift Death Word
+    Name: Death Word Swift
     Level: 114
     Hp: 91025
     BaseExp: 11120
@@ -76133,7 +76133,7 @@ Body:
         StealProtected: true
   - Id: 2859
     AegisName: C2_DEATHWORD
-    Name: Solid Death Word
+    Name: Death Word Solido
     Level: 114
     Hp: 182050
     BaseExp: 11120
@@ -76182,7 +76182,7 @@ Body:
         StealProtected: true
   - Id: 2860
     AegisName: C3_DEATHWORD
-    Name: Death Word Ringleader
+    Name: Death Word Líder
     Level: 114
     Hp: 91025
     BaseExp: 11120
@@ -76231,7 +76231,7 @@ Body:
         StealProtected: true
   - Id: 2861
     AegisName: C4_DARK_PRIEST
-    Name: Furious Dark Priest
+    Name: Dark Priest Furioso
     Level: 98
     Hp: 54215
     Sp: 0
@@ -76283,7 +76283,7 @@ Body:
         StealProtected: true
   - Id: 2862
     AegisName: C5_DANCING_DRAGON
-    Name: Elusive Zhu Po Long
+    Name: Zhu Po Long Fujão
     Level: 82
     Hp: 20770
     BaseExp: 4850
@@ -76328,7 +76328,7 @@ Body:
         StealProtected: true
   - Id: 2863
     AegisName: C1_CREAMY
-    Name: Swift Creamy
+    Name: Creamy Swift
     Level: 23
     Hp: 1235
     BaseExp: 980
@@ -76377,7 +76377,7 @@ Body:
         StealProtected: true
   - Id: 2864
     AegisName: C2_CORNUTUS
-    Name: Solid Cornutus
+    Name: Cornutus Solido
     Level: 48
     Hp: 12290
     BaseExp: 1895
@@ -76426,7 +76426,7 @@ Body:
         StealProtected: true
   - Id: 2865
     AegisName: C3_COOKIE
-    Name: Cookie Ringleader
+    Name: Cookie Líder
     Level: 35
     Hp: 2985
     BaseExp: 1325
@@ -76475,7 +76475,7 @@ Body:
         StealProtected: true
   - Id: 2866
     AegisName: C4_CONSTANT
-    Name: Furious Constant
+    Name: Constant Furioso
     Level: 108
     Hp: 71700
     Sp: 0
@@ -76518,7 +76518,7 @@ Body:
         Rate: 25
   - Id: 2867
     AegisName: C5_COMODO
-    Name: Elusive Comodo
+    Name: Comodo Fujão
     Level: 81
     Hp: 21455
     BaseExp: 4770
@@ -76561,7 +76561,7 @@ Body:
         StealProtected: true
   - Id: 2868
     AegisName: C1_COCO
-    Name: Swift Coco
+    Name: Coco Swift
     Level: 38
     Hp: 3470
     BaseExp: 1500
@@ -76609,7 +76609,7 @@ Body:
         StealProtected: true
   - Id: 2869
     AegisName: C2_COCO
-    Name: Solid Coco
+    Name: Coco Solido
     Level: 38
     Hp: 6940
     BaseExp: 1500
@@ -76657,7 +76657,7 @@ Body:
         StealProtected: true
   - Id: 2870
     AegisName: C3_CLOCK
-    Name: Clock Ringleader
+    Name: Clock Líder
     Level: 81
     Hp: 22525
     BaseExp: 5005
@@ -76706,7 +76706,7 @@ Body:
         StealProtected: true
   - Id: 2871
     AegisName: C4_CLOCK
-    Name: Furious Clock
+    Name: Clock Furioso
     Level: 81
     Hp: 22525
     BaseExp: 5005
@@ -76755,7 +76755,7 @@ Body:
         StealProtected: true
   - Id: 2872
     AegisName: C5_CHONCHON
-    Name: Elusive Chonchon
+    Name: Chonchon Fujão
     Level: 5
     Hp: 240
     BaseExp: 750
@@ -76806,7 +76806,7 @@ Body:
         StealProtected: true
   - Id: 2873
     AegisName: C1_CENTIPEDE
-    Name: Swift Centipede
+    Name: Centipede Swift
     Level: 125
     Hp: 146375
     BaseExp: 15715
@@ -76857,7 +76857,7 @@ Body:
         StealProtected: true
   - Id: 2874
     AegisName: C2_CENERE
-    Name: Solid Cenere
+    Name: Cenere Solido
     Level: 146
     Hp: 1301310
     BaseExp: 35585
@@ -76899,7 +76899,7 @@ Body:
         Rate: 2500
   - Id: 2875
     AegisName: C3_CELIA
-    Name: Celia Ringleader
+    Name: Celia Líder
     Level: 141
     Hp: 1265725
     BaseExp: 110535
@@ -76945,7 +76945,7 @@ Body:
         Rate: 750
   - Id: 2876
     AegisName: C4_CATERPILLAR
-    Name: Furious Caterpillar
+    Name: Caterpillar Furioso
     Level: 121
     Hp: 129535
     Sp: 0
@@ -76997,7 +76997,7 @@ Body:
         StealProtected: true
   - Id: 2877
     AegisName: C5_CARAT
-    Name: Elusive Carat
+    Name: Carat Fujão
     Level: 103
     Hp: 54065
     BaseExp: 7925
@@ -77048,7 +77048,7 @@ Body:
         StealProtected: true
   - Id: 2878
     AegisName: C1_CARAMEL
-    Name: Swift Caramel
+    Name: Caramel Swift
     Level: 25
     Hp: 1595
     BaseExp: 1070
@@ -77100,7 +77100,7 @@ Body:
         StealProtected: true
   - Id: 2879
     AegisName: C2_BUNGISNGIS
-    Name: Solid Bungisngis
+    Name: Bungisngis Solido
     Level: 121
     Hp: 331020
     Sp: 0
@@ -77141,7 +77141,7 @@ Body:
         Rate: 500
   - Id: 2880
     AegisName: C3_BREEZE
-    Name: Breeze Ringleader
+    Name: Breeze Líder
     Level: 92
     Hp: 35365
     BaseExp: 6190
@@ -77190,7 +77190,7 @@ Body:
         StealProtected: true
   - Id: 2881
     AegisName: C4_BREEZE
-    Name: Furious Breeze
+    Name: Breeze Furioso
     Level: 92
     Hp: 35365
     BaseExp: 6190
@@ -77239,7 +77239,7 @@ Body:
         StealProtected: true
   - Id: 2882
     AegisName: C5_BRADIUM_GOLEM
-    Name: Elusive Bradium Golem
+    Name: Bradium Golem Fujão
     Level: 133
     Hp: 228695
     BaseExp: 21295
@@ -77286,7 +77286,7 @@ Body:
         StealProtected: true
   - Id: 2883
     AegisName: C1_BLOOD_BUTTERFLY
-    Name: Swift Bloody Butterfly
+    Name: Bloody Butterfly Swift
     Level: 94
     Hp: 34480
     BaseExp: 6370
@@ -77338,7 +77338,7 @@ Body:
         StealProtected: true
   - Id: 2884
     AegisName: C3_BIGFOOT
-    Name: Bigfoot Ringleader
+    Name: Pé Grande Líder
     Level: 29
     Hp: 2530
     BaseExp: 1175
@@ -77387,7 +77387,7 @@ Body:
         StealProtected: true
   - Id: 2885
     AegisName: C4_BATHORY
-    Name: Furious Bathory
+    Name: Bathory Furioso
     Level: 86
     Hp: 30200
     BaseExp: 5175
@@ -77436,7 +77436,7 @@ Body:
         StealProtected: true
   - Id: 2886
     AegisName: C5_BANSHEE_MASTER
-    Name: Elusive Banshee Master
+    Name: Banshee Master Fujão
     Level: 118
     Hp: 125840
     Sp: 0
@@ -77488,7 +77488,7 @@ Body:
         StealProtected: true
   - Id: 2887
     AegisName: C1_BANSHEE
-    Name: Swift Banshee
+    Name: Banshee Swift
     Level: 130
     Hp: 204750
     BaseExp: 18695
@@ -77537,7 +77537,7 @@ Body:
         StealProtected: true
   - Id: 2888
     AegisName: C2_BANASPATY
-    Name: Solid Banaspaty
+    Name: Banaspaty Solido
     Level: 85
     Hp: 32350
     BaseExp: 5090
@@ -77582,7 +77582,7 @@ Body:
         StealProtected: true
   - Id: 2889
     AegisName: C3_ASSULTER
-    Name: Assaulter Ringleader
+    Name: Assaulter Líder
     Level: 100
     Hp: 43860
     BaseExp: 6935
@@ -77631,7 +77631,7 @@ Body:
         StealProtected: true
   - Id: 2890
     AegisName: C4_ARGOS
-    Name: Furious Argos
+    Name: Argos Furioso
     Level: 47
     Hp: 6500
     BaseExp: 1850
@@ -77682,7 +77682,7 @@ Body:
         StealProtected: true
   - Id: 2891
     AegisName: C5_ARGIOPE
-    Name: Elusive Argiope
+    Name: Argiope Fujão
     Level: 75
     Hp: 17850
     BaseExp: 3970
@@ -77731,7 +77731,7 @@ Body:
         StealProtected: true
   - Id: 2892
     AegisName: C1_ARGIOPE
-    Name: Swift Argiope
+    Name: Argiope Swift
     Level: 75
     Hp: 17850
     BaseExp: 3970
@@ -77780,7 +77780,7 @@ Body:
         StealProtected: true
   - Id: 2893
     AegisName: C2_ARCLOUSE
-    Name: Solid Arclouze
+    Name: Arclouze Solido
     Level: 107
     Hp: 149440
     BaseExp: 9685
@@ -77839,7 +77839,7 @@ Body:
         StealProtected: true
   - Id: 2894
     AegisName: C3_ARCLOUSE
-    Name: Arclouze Ringleader
+    Name: Arclouze Líder
     Level: 107
     Hp: 74720
     BaseExp: 9685
@@ -77898,7 +77898,7 @@ Body:
         StealProtected: true
   - Id: 2895
     AegisName: C4_APOCALIPS
-    Name: Furious Apocalypse
+    Name: Apocalypse Furioso
     Level: 121
     Hp: 158315
     BaseExp: 15235
@@ -77947,7 +77947,7 @@ Body:
         StealProtected: true
   - Id: 2896
     AegisName: C5_ANTLER_SCARABA
-    Name: Elusive Antler Scaraba
+    Name: Antler Scaraba Fujão
     Level: 136
     Hp: 313000
     BaseExp: 15825
@@ -77996,7 +77996,7 @@ Body:
         StealProtected: true
   - Id: 2897
     AegisName: C1_ANTIQUE_BOOK
-    Name: Swift Antique Book
+    Name: Antique Book Swift
     Level: 148
     Hp: 673075
     BaseExp: 36125
@@ -78036,7 +78036,7 @@ Body:
         Rate: 25
   - Id: 2898
     AegisName: C2_ANTIQUE_BOOK
-    Name: Solid Antique Book
+    Name: Antique Book Solido
     Level: 148
     Hp: 1346150
     BaseExp: 36125
@@ -78076,7 +78076,7 @@ Body:
         Rate: 25
   - Id: 2899
     AegisName: C4_ANOLIAN
-    Name: Furious Anolian
+    Name: Anolian Furioso
     Level: 109
     Hp: 83075
     BaseExp: 9435
@@ -78125,7 +78125,7 @@ Body:
         StealProtected: true
   - Id: 2900
     AegisName: C5_ANGRA_MANTIS
-    Name: Elusive Angra Mantis
+    Name: Angra Mantis Fujão
     Level: 144
     Hp: 458600
     BaseExp: 25315
@@ -78170,7 +78170,7 @@ Body:
         StealProtected: true
   - Id: 2901
     AegisName: C1_ANGRA_MANTIS
-    Name: Swift Angra Mantis
+    Name: Angra Mantis Swift
     Level: 144
     Hp: 458600
     BaseExp: 25315
@@ -78215,7 +78215,7 @@ Body:
         StealProtected: true
   - Id: 2902
     AegisName: C2_ANDRE
-    Name: Solid Andre
+    Name: Andre Solido
     Level: 33
     Hp: 5370
     BaseExp: 1325
@@ -78266,7 +78266,7 @@ Body:
         StealProtected: true
   - Id: 2903
     AegisName: C3_ANCIENT_MIMIC
-    Name: Ancient Mimic Ringleader
+    Name: Mimico Líder Ancião
     Level: 112
     Hp: 98890
     BaseExp: 10900
@@ -78315,7 +78315,7 @@ Body:
         StealProtected: true
   - Id: 2904
     AegisName: C4_ANACONDAQ
-    Name: Furious Anacondaq
+    Name: Anacondaq Furioso
     Level: 100
     Hp: 46165
     BaseExp: 6935
@@ -78364,7 +78364,7 @@ Body:
         StealProtected: true
   - Id: 2905
     AegisName: C5_AMBERNITE
-    Name: Elusive Ambernite
+    Name: Ambernite Fujão
     Level: 19
     Hp: 1325
     BaseExp: 890
@@ -78414,7 +78414,7 @@ Body:
         StealProtected: true
   - Id: 2906
     AegisName: C1_ALNOLDI
-    Name: Swift Rafflesia Arnoldi
+    Name: Rafflesia Arnoldi Swift
     Level: 80
     Hp: 18155
     BaseExp: 4560
@@ -78461,7 +78461,7 @@ Body:
         StealProtected: true
   - Id: 2907
     AegisName: C2_ALLIGATOR
-    Name: Solid Alligator
+    Name: Alligator Solido
     Level: 57
     Hp: 19390
     BaseExp: 2440
@@ -78506,7 +78506,7 @@ Body:
         StealProtected: true
   - Id: 2908
     AegisName: C3_ALIZA
-    Name: Aliza Ringleader
+    Name: Aliza Líder
     Level: 112
     Hp: 89900
     BaseExp: 10900
@@ -78555,7 +78555,7 @@ Body:
         StealProtected: true
   - Id: 2909
     AegisName: C4_ALICEL
-    Name: Furious Alicel
+    Name: Alicel Furioso
     Level: 115
     Hp: 91595
     BaseExp: 11230
@@ -78606,7 +78606,7 @@ Body:
         StealProtected: true
   - Id: 2910
     AegisName: C5_ALARM
-    Name: Elusive Alarm
+    Name: Alarm Fujão
     Level: 88
     Hp: 28320
     BaseExp: 5345
@@ -78653,7 +78653,7 @@ Body:
         StealProtected: true
   - Id: 2911
     AegisName: C1_AGAV
-    Name: Swift Agav
+    Name: Agav Swift
     Level: 128
     Hp: 184855
     BaseExp: 18445
@@ -78712,7 +78712,7 @@ Body:
         StealProtected: true
   - Id: 2912
     AegisName: C2_ACIDUS_
-    Name: Solid Acidus
+    Name: Acidus Solido
     Level: 130
     Hp: 390890
     BaseExp: 18695
@@ -78769,7 +78769,7 @@ Body:
         StealProtected: true
   - Id: 2913
     AegisName: C3_ACIDUS_
-    Name: Acidus Ringleader
+    Name: Acidus Líder
     Level: 130
     Hp: 195445
     BaseExp: 18695
@@ -79074,7 +79074,7 @@ Body:
         StealProtected: true
   - Id: 2920
     AegisName: ARC_ELDER
-    Name: Arc Elder
+    Name: Arc Ancião
     Level: 168
     Hp: 293640
     BaseExp: 18172
@@ -79257,7 +79257,7 @@ Body:
         StealProtected: true
   - Id: 2924
     AegisName: T_ELDER_WILOW
-    Name: Elder Willow
+    Name: WillowAncião
     Level: 34
     Hp: 599
     BaseExp: 58
@@ -79293,7 +79293,7 @@ Body:
         Rate: 500
   - Id: 2925
     AegisName: T_WILOW
-    Name: Willow
+    Name: Salgueiro
     Level: 8
     Hp: 91
     BaseExp: 15
@@ -79769,7 +79769,7 @@ Body:
     DamageMotion: 300
   - Id: 2938
     AegisName: MM_MAGIC_SEAL
-    Name: Magic Seal
+    Name: Seal Mágico
     Level: 140
     Hp: 10000000
     BaseExp: 1
@@ -82427,7 +82427,7 @@ Body:
 #      Mvp: true
   - Id: 3061
     AegisName: E_ANGRY_MIMIC
-    Name: Angry Mimic
+    Name: Mimico Puto
     Level: 1
     Hp: 30
     Sp: 0
@@ -82462,7 +82462,7 @@ Body:
       IgnoreRanged: true
 #  - Id: 3062
 #    AegisName: GIANT_DEVIRUCHI
-#    Name: Giant Deviruchi
+#    Name: Deviruchi Gigante
 #    Level: 93
 #    Hp: 8912
 #    BaseExp: 1083
@@ -82514,7 +82514,7 @@ Body:
 #      Detector: true
 #  - Id: 3064
 #    AegisName: GIANT_DEVIRUCHI_W
-#    Name: Giant Deviruchi W
+#    Name: Deviruchi W Gigante
 #    Level: 93
 #    Hp: 8912
 #    BaseExp: 1083
@@ -82852,7 +82852,7 @@ Body:
         StealProtected: true
   - Id: 3075
     AegisName: WA_TREASURE
-    Name: Treasure
+    Name: Tesouro
     Level: 1
     Hp: 3
     Sp: 0
@@ -82897,7 +82897,7 @@ Body:
         StealProtected: true
   - Id: 3076
     AegisName: WA_MONSTER_1
-    Name: Go!
+    Name: Vai!
     Level: 100
     Hp: 10000
     Sp: 0
@@ -82925,7 +82925,7 @@ Body:
     Ai: 21
   - Id: 3077
     AegisName: WA_MONSTER_2
-    Name: Go!
+    Name: Vai!
     Level: 100
     Hp: 10500
     Sp: 0
@@ -82953,7 +82953,7 @@ Body:
     Ai: 21
   - Id: 3078
     AegisName: WA_MONSTER_3
-    Name: Go!
+    Name: Vai!
     Level: 105
     Hp: 11000
     Attack: 657
@@ -82981,7 +82981,7 @@ Body:
     Ai: 21
   - Id: 3079
     AegisName: WA_MONSTER_4
-    Name: Go!
+    Name: Vai!
     Level: 120
     Hp: 12000
     Attack: 403
@@ -83009,7 +83009,7 @@ Body:
     Ai: 21
   - Id: 3080
     AegisName: WA_MONSTER_5
-    Name: Go!
+    Name: Vai!
     Level: 123
     Hp: 13000
     Attack: 1234
@@ -83037,7 +83037,7 @@ Body:
     Ai: 21
   - Id: 3081
     AegisName: WA_MONSTER_6
-    Name: Go!
+    Name: Vai!
     Level: 125
     Hp: 14000
     Attack: 1067
@@ -83065,7 +83065,7 @@ Body:
     Ai: 21
   - Id: 3082
     AegisName: WA_MONSTER_7
-    Name: Go!
+    Name: Vai!
     Level: 131
     Hp: 15000
     Attack: 1100
@@ -83093,7 +83093,7 @@ Body:
     Ai: 21
   - Id: 3083
     AegisName: WA_MONSTER_8
-    Name: Go!
+    Name: Vai!
     Level: 131
     Hp: 18000
     Attack: 1151
@@ -83121,7 +83121,7 @@ Body:
     Ai: 21
   - Id: 3084
     AegisName: WA_MONSTER_9
-    Name: Go!
+    Name: Vai!
     Level: 135
     Hp: 20000
     Attack: 1401
@@ -83149,7 +83149,7 @@ Body:
     Ai: 21
   - Id: 3085
     AegisName: WA_MONSTER_10
-    Name: Go!
+    Name: Vai!
     Level: 98
     Hp: 30000
     Attack: 8450
@@ -83238,7 +83238,7 @@ Body:
     DamageMotion: 300
   - Id: 3088
     AegisName: MM_BRINARANEA_BABY
-    Name: Frost Spider
+    Name: Aranha Congelado
     Level: 155
     Hp: 155600
     JobExp: 1
@@ -85377,7 +85377,7 @@ Body:
         StealProtected: true
   - Id: 3193
     AegisName: MM_M_GIGAN3
-    Name: Ancient Medium Gigantes
+    Name: Medium Gigantes Ancião
     Level: 160
     Hp: 1126300
     Attack: 3967
@@ -85481,7 +85481,7 @@ Body:
         StealProtected: true
   - Id: 3196
     AegisName: MM_L_GIGAN3
-    Name: Ancient Gigantes
+    Name: Gigantes Ancião
     Level: 160
     Hp: 12063464
     Attack: 8957
@@ -85515,7 +85515,7 @@ Body:
         StealProtected: true
   - Id: 3197
     AegisName: MM_M_GARGOYLE
-    Name: Mutant Gargoyle
+    Name: Gargoyle Mutante
     JapaneseName: Gargoyle
     Level: 150
     Hp: 256780
@@ -85559,7 +85559,7 @@ Body:
         Rate: 119
   - Id: 3198
     AegisName: MM_M_GALION
-    Name: Mutant Galion
+    Name: Galion Mutante
     JapaneseName: Galion
     Level: 150
     Hp: 293165
@@ -88003,7 +88003,7 @@ Body:
         StealProtected: true
   - Id: 3247
     AegisName: CENERE_G
-    Name: Green Cenere
+    Name: Cenere Verde
     JapaneseName: Cenere G
     Level: 150
     Hp: 140088
@@ -88943,7 +88943,7 @@ Body:
         StealProtected: true
   - Id: 3389
     AegisName: MIN_WILOW
-    Name: Willow
+    Name: Salgueiro
     Level: 101
     Hp: 40000
     BaseExp: 1300
@@ -88991,7 +88991,7 @@ Body:
         StealProtected: true
   - Id: 3390
     AegisName: MIN_SPORE
-    Name: Spore
+    Name: Esporo
     Level: 101
     Hp: 40000
     BaseExp: 1300
@@ -89087,7 +89087,7 @@ Body:
         StealProtected: true
   - Id: 3392
     AegisName: MIN_SMOKIE
-    Name: Smokie
+    Name: Fumacento
     Level: 102
     Hp: 55000
     BaseExp: 1400
@@ -89184,7 +89184,7 @@ Body:
         StealProtected: true
   - Id: 3394
     AegisName: MIN_BIGFOOT
-    Name: Bigfoot
+    Name: Pé Grande
     Level: 102
     Hp: 55000
     BaseExp: 1400
@@ -89232,7 +89232,7 @@ Body:
         StealProtected: true
   - Id: 3395
     AegisName: MIN_WORM_TAIL
-    Name: Wormtail
+    Name: Rabo-de-Verme
     Level: 102
     Hp: 55000
     BaseExp: 1400
@@ -89279,7 +89279,7 @@ Body:
         StealProtected: true
   - Id: 3396
     AegisName: MIN_WOLF
-    Name: Wolf
+    Name: Lobo
     Level: 103
     Hp: 70000
     BaseExp: 1500
@@ -89762,7 +89762,7 @@ Body:
         StealProtected: true
   - Id: 3406
     AegisName: MIN_SCORPION
-    Name: Scorpion
+    Name: Escorpião
     Level: 105
     Hp: 100000
     BaseExp: 3000
@@ -90007,7 +90007,7 @@ Body:
         StealProtected: true
   - Id: 3411
     AegisName: MIN_DRAGON_TAIL
-    Name: Dragon Tail
+    Name: Dragão Tail
     Level: 106
     Hp: 115000
     BaseExp: 4000
@@ -91052,7 +91052,7 @@ Body:
     Ai: 04
   - Id: 3432
     AegisName: MIN_G_WOLF
-    Name: Wolf
+    Name: Lobo
     Level: 100
     Hp: 100000
     Attack: 650
@@ -91167,7 +91167,7 @@ Body:
       Detector: true
   - Id: 3436
     AegisName: MIN_G_BIGFOOT
-    Name: Bigfoot
+    Name: Pé Grande
     Level: 100
     Hp: 100000
     Attack: 650
@@ -91195,7 +91195,7 @@ Body:
     Ai: 04
   - Id: 3437
     AegisName: MIN_G_ANCIENT_MUMMY
-    Name: Ancient Mummy
+    Name: Múmia Ancião
     Level: 100
     Hp: 100000
     Attack: 650
@@ -91448,7 +91448,7 @@ Body:
         StealProtected: true
   - Id: 3445
     AegisName: P_ARCHER_SKELETON
-    Name: Enchanted Archer Skelet
+    Name: Archer Skelet Encantado
     JapaneseName: P Archer Skeleton
     Level: 114
     Hp: 10000
@@ -91491,7 +91491,7 @@ Body:
         StealProtected: true
   - Id: 3446
     AegisName: P_SKELETON
-    Name: Enchanted Skeleton
+    Name: Esqueleto Encantado
     JapaneseName: P Skeleton
     Level: 114
     Hp: 10000
@@ -91535,7 +91535,7 @@ Body:
         StealProtected: true
   - Id: 3447
     AegisName: P_SOLDIER_SKELETON
-    Name: Enchanted Soldier Skele
+    Name: Skele Encantado Soldado
     JapaneseName: P Soldier Skeleton
     Level: 115
     Hp: 20000
@@ -93352,7 +93352,7 @@ Body:
         StealProtected: true
   - Id: 3507
     AegisName: DR_POM_SPIDER
-    Name: Fruits Pom Spider
+    Name: Fruits Pom Aranha
     Level: 150
     Hp: 156532
     BaseExp: 8809
@@ -95052,7 +95052,7 @@ Body:
       Detector: true
   - Id: 3637
     AegisName: MD_SKELETON_60
-    Name: Skeleton
+    Name: Esqueleto
     Level: 60
     Hp: 2120
     BaseExp: 1380
@@ -95100,7 +95100,7 @@ Body:
         StealProtected: true
   - Id: 3638
     AegisName: MD_SKELETON_80
-    Name: Skeleton
+    Name: Esqueleto
     Level: 80
     Hp: 4070
     BaseExp: 2500
@@ -95148,7 +95148,7 @@ Body:
         StealProtected: true
   - Id: 3639
     AegisName: MD_SKELETON_100
-    Name: Skeleton
+    Name: Esqueleto
     Level: 100
     Hp: 16430
     BaseExp: 3370
@@ -95196,7 +95196,7 @@ Body:
         StealProtected: true
   - Id: 3640
     AegisName: MD_SKELETON_120
-    Name: Skeleton
+    Name: Esqueleto
     Level: 120
     Hp: 31790
     BaseExp: 6220
@@ -95244,7 +95244,7 @@ Body:
         StealProtected: true
   - Id: 3641
     AegisName: MD_SKELETON_140
-    Name: Skeleton
+    Name: Esqueleto
     Level: 140
     Hp: 72040
     BaseExp: 16750
@@ -95292,7 +95292,7 @@ Body:
         StealProtected: true
   - Id: 3642
     AegisName: MD_SKELETON_160
-    Name: Skeleton
+    Name: Esqueleto
     Level: 160
     Hp: 135210
     BaseExp: 29190
@@ -96644,7 +96644,7 @@ Body:
 #    AegisName: PORING_X2016
   - Id: 3736
     AegisName: COWRAIDERS1
-    Name: Buffalo Bandit Sharpsho
+    Name: Bandido Bufalo Sharpsho
     Level: 103
     Hp: 11819
     BaseExp: 1583
@@ -96690,7 +96690,7 @@ Body:
         StealProtected: true
   - Id: 3737
     AegisName: COWRAIDERS2
-    Name: Buffalo Bandit Duelist
+    Name: Bandido Bufalo Duelist
     Level: 101
     Hp: 9700
     BaseExp: 1443
@@ -96878,7 +96878,7 @@ Body:
         StealProtected: true
   - Id: 3741
     AegisName: MECHASPIDER
-    Name: Spider Chariot
+    Name: Aranha Chariot
     JapaneseName: Mechaspider
     Level: 158
     Hp: 9799123
@@ -97018,7 +97018,7 @@ Body:
       KnockBackImmune: true
   - Id: 3744
     AegisName: G_COWRAIDERS1
-    Name: Buffalo Bandit
+    Name: Bandido Bufalo
     Level: 103
     Hp: 11819
     Attack: 509
@@ -97046,7 +97046,7 @@ Body:
     Ai: 04
   - Id: 3745
     AegisName: G_COWRAIDERS2
-    Name: Buffalo Bandit
+    Name: Bandido Bufalo
     Level: 101
     Hp: 9700
     Attack: 476
@@ -97074,7 +97074,7 @@ Body:
     Ai: 04
   - Id: 3746
     AegisName: G_COWRAIDERS3
-    Name: Buffalo Bandit
+    Name: Bandido Bufalo
     Level: 107
     Hp: 14547
     Attack: 557
@@ -97102,7 +97102,7 @@ Body:
     Ai: 04
   - Id: 3747
     AegisName: E_COWRAIDERS1
-    Name: Elite Buffalo Bandit
+    Name: Bandido Bufalo de Elite
     Level: 148
     Hp: 135292
     BaseExp: 7628
@@ -97152,7 +97152,7 @@ Body:
         StealProtected: true
   - Id: 3748
     AegisName: E_COWRAIDERS2
-    Name: Elite Buffalo Bandit
+    Name: Bandido Bufalo de Elite
     Level: 151
     Hp: 160515
     BaseExp: 9597
@@ -97202,7 +97202,7 @@ Body:
         StealProtected: true
   - Id: 3749
     AegisName: E_COWRAIDERS3
-    Name: Elite Buffalo Bandit
+    Name: Bandido Bufalo de Elite
     Level: 152
     Hp: 174345
     BaseExp: 9563
@@ -97299,7 +97299,7 @@ Body:
         StealProtected: true
   - Id: 3751
     AegisName: ILL_ZOMBIE_C
-    Name: Living Dead
+    Name: Morto Vivo
     Level: 139
     Hp: 253926
     Sp: 0
@@ -97348,7 +97348,7 @@ Body:
         StealProtected: true
   - Id: 3752
     AegisName: ILL_ZOMBIE
-    Name: Starving Living Dead
+    Name: Morto Vivo Faminto
     Level: 139
     Hp: 240984
     Sp: 0
@@ -97393,7 +97393,7 @@ Body:
         StealProtected: true
   - Id: 3753
     AegisName: ILL_GHOUL
-    Name: Living Dead
+    Name: Morto Vivo
     Level: 142
     Hp: 267379
     Sp: 0
@@ -97495,7 +97495,7 @@ Body:
         StealProtected: true
   - Id: 3755
     AegisName: ILL_BLACK_MUSHROOM
-    Name: Black Mushroom
+    Name: Cogumelo Negro
     Level: 130
     Hp: 150000
     Sp: 0
@@ -97646,7 +97646,7 @@ Body:
         StealProtected: true
   - Id: 3758
     AegisName: ILL_MOONLIGHT
-    Name: Angry Moonlight Flower
+    Name: Moonlight Flower Puto
     Level: 118
     Hp: 4287803
     BaseExp: 1403238
@@ -97705,7 +97705,7 @@ Body:
         StealProtected: true
   - Id: 3759
     AegisName: ILL_NINE_TAIL
-    Name: Angry Nine Tail
+    Name: Nove Caudas Puto
     Level: 116
     Hp: 21875
     Sp: 0
@@ -98255,7 +98255,7 @@ Body:
 #    AegisName: JP_E_MONSTER_73
   - Id: 3792
     AegisName: ILL_GAZETI
-    Name: Angry Gazeti
+    Name: Gazeti Puto
     Level: 126
     Hp: 57541
     Sp: 0
@@ -98304,7 +98304,7 @@ Body:
         StealProtected: true
   - Id: 3793
     AegisName: ILL_SNOWIER
-    Name: Angry Snowier
+    Name: Snowier Puto
     Level: 129
     Hp: 66540
     BaseExp: 9486
@@ -98350,7 +98350,7 @@ Body:
         StealProtected: true
   - Id: 3794
     AegisName: ILL_ICE_TITAN
-    Name: Angry Ice Titan
+    Name: Ice Titan Puto
     Level: 133
     Hp: 72045
     BaseExp: 9785
@@ -98396,7 +98396,7 @@ Body:
         StealProtected: true
   - Id: 3795
     AegisName: ILL_ICEICLE
-    Name: Solid Icicle
+    Name: Icicle Solido
     Level: 135
     Hp: 1012
     BaseExp: 200
@@ -100117,7 +100117,7 @@ Body:
 #    AegisName: VH_MIMIC
   - Id: 20255
     AegisName: ILL_TEDDY_BEAR_R
-    Name: Red Teddy Bear
+    Name: Teddy Bear Vermelho
     Level: 155
     Hp: 328072
     BaseExp: 19972
@@ -100161,7 +100161,7 @@ Body:
         StealProtected: true
   - Id: 20256
     AegisName: ILL_TEDDY_BEAR_Y
-    Name: Yellow Teddy Bear
+    Name: Teddy Bear Amarelo
     Level: 155
     Hp: 294044
     BaseExp: 19384
@@ -100205,7 +100205,7 @@ Body:
         StealProtected: true
   - Id: 20257
     AegisName: ILL_TEDDY_BEAR_G
-    Name: Green Teddy Bear
+    Name: Teddy Bear Verde
     Level: 157
     Hp: 331960
     BaseExp: 21646
@@ -100247,7 +100247,7 @@ Body:
         StealProtected: true
   - Id: 20258
     AegisName: ILL_TEDDY_BEAR_W
-    Name: White Teddy Bear
+    Name: Teddy Bear Branco
     Level: 155
     Hp: 311841
     BaseExp: 20334
@@ -100504,7 +100504,7 @@ Body:
         StealProtected: true
   - Id: 20264
     AegisName: G_ILL_TEDDY_BEAR_R
-    Name: Red Teddy Bear
+    Name: Teddy Bear Vermelho
     Level: 155
     Hp: 309520
     Attack: 2022
@@ -100532,7 +100532,7 @@ Body:
     Ai: 24
   - Id: 20265
     AegisName: G_ILL_TEDDY_BEAR_Y
-    Name: Yellow Teddy Bear
+    Name: Teddy Bear Amarelo
     Level: 155
     Hp: 294044
     Attack: 1819
@@ -100560,7 +100560,7 @@ Body:
     Ai: 24
   - Id: 20266
     AegisName: G_ILL_TEDDY_BEAR_G
-    Name: Green Teddy Bear
+    Name: Teddy Bear Verde
     Level: 157
     Hp: 331960
     Attack: 2113
@@ -100588,7 +100588,7 @@ Body:
     Ai: 24
   - Id: 20267
     AegisName: G_ILL_TEDDY_BEAR_W
-    Name: White Teddy Bear
+    Name: Teddy Bear Branco
     Level: 155
     Hp: 311841
     Attack: 1985
@@ -100675,7 +100675,7 @@ Body:
       TeleportBlock: true
   - Id: 20270
     AegisName: ILL_TRI_JOINT
-    Name: Ancient Tri Joint
+    Name: Tri Joint Ancião
     Level: 164
     Hp: 694500
     BaseExp: 75839
@@ -100727,7 +100727,7 @@ Body:
         StealProtected: true
   - Id: 20271
     AegisName: ILL_STALACTIC_GOLEM
-    Name: Ancient Stalactic Golem
+    Name: Stalactic Golem Ancião
     Level: 167
     Hp: 725400
     BaseExp: 79214
@@ -100777,7 +100777,7 @@ Body:
         StealProtected: true
   - Id: 20272
     AegisName: ILL_MEGALITH
-    Name: Ancient Megalith
+    Name: Megalith Ancião
     Level: 166
     Hp: 708500
     BaseExp: 77368
@@ -100825,7 +100825,7 @@ Body:
         StealProtected: true
   - Id: 20273
     AegisName: ILL_TAO_GUNKA
-    Name: Ancient Tao Gunka
+    Name: Tao Gunka Ancião
     Level: 169
     Hp: 19280000
     BaseExp: 4001752
@@ -100886,7 +100886,7 @@ Body:
         StealProtected: true
   - Id: 20274
     AegisName: ILL_STONE_SHOOTER
-    Name: Ancient Stone Shooter
+    Name: Stone Shooter Ancião
     Level: 166
     Hp: 692500
     BaseExp: 75621
@@ -100936,7 +100936,7 @@ Body:
         StealProtected: true
   - Id: 20275
     AegisName: ILL_WOOTAN_SHOOTER
-    Name: Ancient Wootan Shooter
+    Name: Wootan Shooter Ancião
     Level: 164
     Hp: 702100
     BaseExp: 76669
@@ -100986,7 +100986,7 @@ Body:
         StealProtected: true
   - Id: 20276
     AegisName: ILL_WOOTAN_FIGHTER
-    Name: Ancient Wootan Fighter
+    Name: Wootan Fighter Ancião
     Level: 167
     Hp: 725500
     BaseExp: 79225
@@ -101036,7 +101036,7 @@ Body:
         StealProtected: true
   - Id: 20277
     AegisName: ILL_WOOTAN_DEFENDER
-    Name: Ancient Wootan Defender
+    Name: Wootan Defender Ancião
     Level: 169
     Hp: 20154000
     BaseExp: 4001552
@@ -101097,7 +101097,7 @@ Body:
         StealProtected: true
   - Id: 20278
     AegisName: G_ILL_MEGALITH
-    Name: Ancient Megalith
+    Name: Megalith Ancião
     Level: 166
     Hp: 708500
     Attack: 2877
@@ -101127,7 +101127,7 @@ Body:
     Ai: 24
   - Id: 20279
     AegisName: G_ILL_WOOTAN_SHOOTER
-    Name: Ancient Wootan Shooter
+    Name: Wootan Shooter Ancião
     Level: 164
     Hp: 702100
     Attack: 2460
@@ -101157,7 +101157,7 @@ Body:
     Ai: 24
   - Id: 20280
     AegisName: G_ILL_WOOTAN_FIGHTER
-    Name: Ancient Wootan Fighter
+    Name: Wootan Fighter Ancião
     Level: 167
     Hp: 725500
     Attack: 3062
@@ -102086,7 +102086,7 @@ Body:
         StealProtected: true
   - Id: 20360
     AegisName: EP17_1_PLAGA2
-    Name: Mutant Plaga
+    Name: Plaga Mutante
     Level: 178
     Hp: 760548
     BaseExp: 69141
@@ -102178,7 +102178,7 @@ Body:
         StealProtected: true
   - Id: 20362
     AegisName: EP17_1_DOLOR2
-    Name: Mutant Dolor
+    Name: Dolor Mutante
     Level: 173
     Hp: 742501
     Sp: 0
@@ -102273,7 +102273,7 @@ Body:
         StealProtected: true
   - Id: 20364
     AegisName: EP17_1_VENENUM2
-    Name: Mutant Venenum
+    Name: Venenum Mutante
     Level: 176
     Hp: 755670
     BaseExp: 68697
@@ -102365,7 +102365,7 @@ Body:
         StealProtected: true
   - Id: 20366
     AegisName: EP17_1_TWIN_CAPUT2
-    Name: Mutant Twin Caput
+    Name: Twin Caput Mutante
     Level: 175
     Hp: 750501
     BaseExp: 68227
@@ -103372,7 +103372,7 @@ Body:
         StealProtected: true
   - Id: 20421
     AegisName: BRINARANEA_H
-    Name: Corrupted Spider Queen
+    Name: Corrupted Aranha Queen
     Level: 195
     Hp: 74623473
     BaseExp: 14924695
@@ -103801,7 +103801,7 @@ Body:
 #    AegisName: G_MINERAL_P
   - Id: 20560
     AegisName: G_MINERAL_G
-    Name: Green Mineral
+    Name: Mineral Verde
     Level: 190
     Hp: 2435702
     Attack: 3729
@@ -103987,7 +103987,7 @@ Body:
         StealProtected: true
   - Id: 20594
     AegisName: MINERAL_G
-    Name: Green Mineral
+    Name: Mineral Verde
     Level: 190
     Hp: 2435702
     BaseExp: 173979
@@ -104035,7 +104035,7 @@ Body:
         StealProtected: true
   - Id: 20595
     AegisName: MINERAL_R
-    Name: Red Mineral
+    Name: Mineral Vermelho
     Level: 190
     Hp: 2435702
     BaseExp: 173979
@@ -104083,7 +104083,7 @@ Body:
         StealProtected: true
   - Id: 20596
     AegisName: MINERAL_W
-    Name: White Mineral
+    Name: Mineral Branco
     Level: 190
     Hp: 2436177
     BaseExp: 174013
@@ -104179,7 +104179,7 @@ Body:
         StealProtected: true
   - Id: 20598
     AegisName: JEWELIANT
-    Name: Jewelry Ant
+    Name: Jewelry Formiga
     Level: 191
     Hp: 2445656
     BaseExp: 174690
@@ -104229,7 +104229,7 @@ Body:
         StealProtected: true
   - Id: 20599
     AegisName: G_JEWELIANT
-    Name: Jewelry Ant
+    Name: Jewelry Formiga
     Level: 191
     Hp: 2445656
     Attack: 3748
@@ -104374,7 +104374,7 @@ Body:
         StealProtected: true
   - Id: 20602
     AegisName: PORCELLIO_W
-    Name: White Porcellio
+    Name: Porcellio Branco
     Level: 188
     Hp: 2403326
     BaseExp: 171666
@@ -104506,7 +104506,7 @@ Body:
 #    AegisName: GLOOMUNDERNIGHT2
   - Id: 20620
     AegisName: MD_REDPEPPER
-    Name: Red Pepper
+    Name: Pepper Vermelho
     Level: 135
     Hp: 9514800
     BaseExp: 426099
@@ -105500,7 +105500,6 @@ Body:
     Race: Formless
     RaceGroups:
       EP172ALPHA: true
-      EP172ALPHA: true
     Element: Neutral
     ElementLevel: 2
     WalkSpeed: 200
@@ -105774,7 +105773,7 @@ Body:
         StealProtected: true
   - Id: 20647
     AegisName: EP17_2_BATH_MERMAID
-    Name: Elder of Chung-Geum
+    Name: of Chung-GeumAncião
     Level: 141
     Hp: 1823441
     BaseExp: 121563
@@ -105873,7 +105872,7 @@ Body:
         StealProtected: true
   - Id: 20649
     AegisName: EP17_2_PITAYA_R
-    Name: Red Pitaya
+    Name: Pitaya Vermelho
     Level: 162
     Hp: 648023
     BaseExp: 54002
@@ -105920,7 +105919,7 @@ Body:
         StealProtected: true
   - Id: 20650
     AegisName: EP17_2_PITAYA_Y
-    Name: Yellow Pitaya
+    Name: Pitaya Amarelo
     Level: 164
     Hp: 658607
     BaseExp: 54884
@@ -106061,7 +106060,7 @@ Body:
         StealProtected: true
   - Id: 20653
     AegisName: EP17_2_PITAYA_G
-    Name: Green Pitaya
+    Name: Pitaya Verde
     Level: 166
     Hp: 668381
     BaseExp: 44559
@@ -106108,7 +106107,7 @@ Body:
         StealProtected: true
   - Id: 20654
     AegisName: G_PITAYA_R
-    Name: Red Pitaya
+    Name: Pitaya Vermelho
     Level: 132
     Hp: 158478
     Attack: 1205
@@ -106136,7 +106135,7 @@ Body:
     Ai: 04
   - Id: 20655
     AegisName: G_PITAYA_Y
-    Name: Yellow Pitaya
+    Name: Pitaya Amarelo
     Level: 134
     Hp: 162599
     Attack: 1206
@@ -106220,7 +106219,7 @@ Body:
     Ai: 04
   - Id: 20658
     AegisName: G_PITAYA_G
-    Name: Green Pitaya
+    Name: Pitaya Verde
     Level: 136
     Hp: 165105
     Attack: 1666
@@ -106301,7 +106300,7 @@ Body:
         StealProtected: true
   - Id: 20660
     AegisName: MD_PITAYA_R
-    Name: Red Pitaya
+    Name: Pitaya Vermelho
     Level: 132
     Hp: 158478
     BaseExp: 14407
@@ -106346,7 +106345,7 @@ Body:
         StealProtected: true
   - Id: 20661
     AegisName: MD_PITAYA_Y
-    Name: Yellow Pitaya
+    Name: Pitaya Amarelo
     Level: 134
     Hp: 162599
     BaseExp: 14782
@@ -106481,7 +106480,7 @@ Body:
         StealProtected: true
   - Id: 20664
     AegisName: MD_PITAYA_G
-    Name: Green Pitaya
+    Name: Pitaya Verde
     Level: 136
     Hp: 165105
     BaseExp: 15010
@@ -107540,7 +107539,7 @@ Body:
         StealProtected: true
   - Id: 20688
     AegisName: EP17_2_BELLARE3
-    Name: Elite Bellare
+    Name: Bellare de Elite
     Level: 143
     Hp: 295508
     BaseExp: 19701
@@ -109703,7 +109702,7 @@ Body:
         StealProtected: true
   - Id: 20929
     AegisName: GIANT_CAPUT
-    Name: Giant Caput
+    Name: Caput Gigante
     Level: 213
     Hp: 12405430
     BaseExp: 340908
@@ -110715,7 +110714,7 @@ Body:
 #    AegisName: MD_AIRBOAT_BOSS4
   - Id: 21064
     AegisName: S_DUMMY_100_SMALL
-    Name: Training Dummy (Small)
+    Name: Training Boneco (Small)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110738,7 +110737,7 @@ Body:
       TeleportBlock: true
   - Id: 21065
     AegisName: S_DUMMY_100_MEDIUM
-    Name: Training Dummy (Medium)
+    Name: Training Boneco (Medium)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110761,7 +110760,7 @@ Body:
       TeleportBlock: true
   - Id: 21066
     AegisName: S_DUMMY_100_LARGE
-    Name: Training Dummy (Large)
+    Name: Training Boneco (Large)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110784,7 +110783,7 @@ Body:
       TeleportBlock: true
   - Id: 21067
     AegisName: S_DUMMY_100_NOTHING
-    Name: Training Dummy (Neutral)
+    Name: Training Boneco (Neutral)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110807,7 +110806,7 @@ Body:
       TeleportBlock: true
   - Id: 21068
     AegisName: S_DUMMY_100_DRAGON
-    Name: Training Dummy (Dragon)
+    Name: Training Boneco (Dragon)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110830,7 +110829,7 @@ Body:
       TeleportBlock: true
   - Id: 21069
     AegisName: S_DUMMY_100_ANIMAL
-    Name: Training Dummy (Brute)
+    Name: Training Boneco (Brute)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110853,7 +110852,7 @@ Body:
       TeleportBlock: true
   - Id: 21070
     AegisName: S_DUMMY_100_HUMAN
-    Name: Training Dummy (Human)
+    Name: Training Boneco (Human)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110876,7 +110875,7 @@ Body:
       TeleportBlock: true
   - Id: 21071
     AegisName: S_DUMMY_100_INSECT
-    Name: Training Dummy (Insect)
+    Name: Training Boneco (Insect)
     Level: 100
     Hp: 2000000000
     Sp: 0
@@ -110900,7 +110899,7 @@ Body:
       TeleportBlock: true
   - Id: 21072
     AegisName: S_DUMMY_100_FISH
-    Name: Training Dummy (Fish)
+    Name: Training Boneco (Fish)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110923,7 +110922,7 @@ Body:
       TeleportBlock: true
   - Id: 21073
     AegisName: S_DUMMY_100_DEMON
-    Name: Training Dummy (Demon)
+    Name: Training Boneco (Demon)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110946,7 +110945,7 @@ Body:
       TeleportBlock: true
   - Id: 21074
     AegisName: S_DUMMY_100_PLANT
-    Name: Training Dummy (Plant)
+    Name: Training Boneco (Plant)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110969,7 +110968,7 @@ Body:
       TeleportBlock: true
   - Id: 21075
     AegisName: S_DUMMY_100_ANGEL
-    Name: Training Dummy (Angel)
+    Name: Training Boneco (Angel)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110992,7 +110991,7 @@ Body:
       TeleportBlock: true
   - Id: 21076
     AegisName: S_DUMMY_100_UNDEAD
-    Name: Training Dummy (Undead)
+    Name: Training Boneco (Undead)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111015,7 +111014,7 @@ Body:
       TeleportBlock: true
   - Id: 21077
     AegisName: S_DUMMY_100_NOTHING2
-    Name: Dummy (Neutral Lv1)
+    Name: Boneco (Neutral Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111038,7 +111037,7 @@ Body:
       TeleportBlock: true
   - Id: 21078
     AegisName: S_DUMMY_100_WATER
-    Name: Dummy (Water Lv1)
+    Name: Boneco (Water Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111061,7 +111060,7 @@ Body:
       TeleportBlock: true
   - Id: 21079
     AegisName: S_DUMMY_100_GROUND
-    Name: Dummy (Earth Lv1)
+    Name: Boneco (Earth Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111084,7 +111083,7 @@ Body:
       TeleportBlock: true
   - Id: 21080
     AegisName: S_DUMMY_100_FIRE
-    Name: Dummy (Fire Lv1)
+    Name: Boneco (Fire Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111107,7 +111106,7 @@ Body:
       TeleportBlock: true
   - Id: 21081
     AegisName: S_DUMMY_100_WIND
-    Name: Dummy (Wind Lv1)
+    Name: Boneco (Wind Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111130,7 +111129,7 @@ Body:
       TeleportBlock: true
   - Id: 21082
     AegisName: S_DUMMY_100_POISON
-    Name: Dummy (Poison Lv1)
+    Name: Boneco (Poison Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111153,7 +111152,7 @@ Body:
       TeleportBlock: true
   - Id: 21083
     AegisName: S_DUMMY_100_SAINT
-    Name: Dummy (Holy Lv1)
+    Name: Boneco (Holy Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111176,7 +111175,7 @@ Body:
       TeleportBlock: true
   - Id: 21084
     AegisName: S_DUMMY_100_DARKNESS
-    Name: Dummy (Dark Lv1)
+    Name: Boneco (Dark Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111199,7 +111198,7 @@ Body:
       TeleportBlock: true
   - Id: 21085
     AegisName: S_DUMMY_100_TELEKINESIS
-    Name: Dummy (Ghost Lv1)
+    Name: Boneco (Ghost Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -111222,7 +111221,7 @@ Body:
       TeleportBlock: true
   - Id: 21086
     AegisName: S_DUMMY_100_UNDEAD2
-    Name: Dummy (Undead Lv1)
+    Name: Boneco (Undead Lv1)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -112842,7 +112841,7 @@ Body:
         StealProtected: true
   - Id: 21324
     AegisName: EP18_GREY_WOLF_BABY
-    Name: Baby Gray Wolf
+    Name: Gray Wolf Bebê
     Level: 165
     Hp: 944679
     BaseExp: 62979
@@ -113388,7 +113387,7 @@ Body:
         StealProtected: true
   - Id: 21391
     AegisName: ILL_ANT_EGG
-    Name: Mushy Ant Egg
+    Name: Mushy Ovo de Formiga
     Level: 164
     Hp: 659810
     BaseExp: 34992
@@ -115177,7 +115176,7 @@ Body:
         Rate: 100
   - Id: 22194
     AegisName: SPIRIT_G_LAND_L
-#   Name: Giant Blue Earth Spirit
+#   Name: Blue Earth Spirit Gigante
     Name: G Blue Earth Spirit
     Level: 264
     Hp: 22277336
@@ -115224,7 +115223,7 @@ Body:
         Rate: 100
   - Id: 22195
     AegisName: SPIRIT_G_LAND_SL
-#   Name: Mutant Blue Earth Spirit
+#   Name: Blue Earth Spirit Mutante
     Name: M Blue Earth Spirit
     Level: 264
     Hp: 37875440
@@ -115363,7 +115362,7 @@ Body:
         Rate: 100
   - Id: 22198
     AegisName: SPIRIT_B_FLAME_L
-#   Name: Giant Blue Flame Spirit
+#   Name: Blue Flame Spirit Gigante
     Name: G Blue Flame Spirit
     Level: 264
     Hp: 25531520
@@ -115548,7 +115547,7 @@ Body:
         Rate: 100
   - Id: 22202
     AegisName: SPIRIT_S_WIND_L
-#   Name: Giant Strong Wind Spirit
+#   Name: Strong Wind Spirit Gigante
     Name: G Strong Wind Spirit
     Level: 264
     Hp: 22275936
@@ -115595,7 +115594,7 @@ Body:
         Rate: 100
   - Id: 22203
     AegisName: SPIRIT_S_WIND_SL
-#   Name: Mutant Strong Wind Spirit
+#   Name: Strong Wind Spirit Mutante
     Name: M Strong Wind Spirit
     Level: 264
     Hp: 37839992
@@ -115734,7 +115733,7 @@ Body:
         Rate: 100
   - Id: 22206
     AegisName: SPIRIT_I_WATER_L
-#   Name: Giant Cold Water Spirit
+#   Name: Cold Water Spirit Gigante
     Name: G Cold Water Spirit
     Level: 264
     Hp: 25183728
@@ -115781,7 +115780,7 @@ Body:
         Rate: 100
   - Id: 22207
     AegisName: SPIRIT_I_WATER_SL
-#   Name: Mutant Cold Water Spirit
+#   Name: Cold Water Spirit Mutante
     Name: M Cold Water Spirit
     Level: 264
     Hp: 40183012
@@ -115925,7 +115924,7 @@ Body:
         Rate: 500
   - Id: 22210
     AegisName: SPIRIT_C_LAND_L
-#   Name: Giant Polluted Earth Spirit
+#   Name: Polluted Earth Spirit Gigante
     Name: G Polluted Earth Spirit
     Level: 265
     Hp: 26039004
@@ -115974,7 +115973,7 @@ Body:
         Rate: 500
   - Id: 22211
     AegisName: SPIRIT_C_LAND_SL
-#   Name: Mutant Polluted Earth Spirit
+#   Name: Polluted Earth Spirit Mutante
     Name: M Polluted Earth Spirit
     Level: 265
     Hp: 49912004
@@ -116120,7 +116119,7 @@ Body:
         Rate: 500
   - Id: 22214
     AegisName: SPIRIT_C_FLAME_L
-#   Name: Giant Tainted Flame Spirit
+#   Name: Tainted Flame Spirit Gigante
     Name: G Tainted Flame Spirit
     Level: 265
     Hp: 25601332
@@ -116169,7 +116168,7 @@ Body:
         Rate: 500
   - Id: 22215
     AegisName: SPIRIT_C_FLAME_SL
-#   Name: Mutant Tainted Flame Spirit
+#   Name: Tainted Flame Spirit Mutante
     Name: M Tainted Flame Spirit
     Level: 265
     Hp: 48817296
@@ -116310,7 +116309,7 @@ Body:
         Rate: 100
   - Id: 22218
     AegisName: SPIRIT_H_WATER_L
-#   Name: Giant Hot Water Spirit
+#   Name: Hot Water Spirit Gigante
     Name: G Hot Water Spirit
     Level: 264
     Hp: 22203156
@@ -116357,7 +116356,7 @@ Body:
         Rate: 100
   - Id: 22219
     AegisName: SPIRIT_H_WATER_SL
-#   Name: Mutant Hot Water Spirit
+#   Name: Hot Water Spirit Mutante
     Name: M Hot Water Spirit
     Level: 264
     Hp: 37234928
@@ -116496,7 +116495,7 @@ Body:
         Rate: 100
   - Id: 22222
     AegisName: SPIRIT_D_WIND_L
-#   Name: Giant Dry Wind Spirit
+#   Name: Dry Wind Spirit Gigante
     Name: G Dry Wind Spirit
     Level: 264
     Hp: 24499424
@@ -116543,7 +116542,7 @@ Body:
         Rate: 100
   - Id: 22223
     AegisName: SPIRIT_D_WIND_SL
-#   Name: Mutant Dry Wind Spirit
+#   Name: Dry Wind Spirit Mutante
     Name: M Dry Wind Spirit
     Level: 264
     Hp: 40955240
@@ -116636,7 +116635,7 @@ Body:
         Rate: 100
   - Id: 22225
     AegisName: SPIRIT_R_FLAME_M
-    Name: Red Flame Spirit
+    Name: Flame Spirit Vermelho
     Level: 263
     Hp: 21678280
     BaseExp: 1187378
@@ -116682,7 +116681,7 @@ Body:
         Rate: 100
   - Id: 22226
     AegisName: SPIRIT_R_FLAME_L
-#   Name: Giant Red Flame Spirit
+#   Name: Flame Spirit Gigante Vermelho
     Name: G Red Flame Spirit
     Level: 264
     Hp: 22163556
@@ -116729,7 +116728,7 @@ Body:
         Rate: 100
   - Id: 22227
     AegisName: SPIRIT_R_FLAME_SL
-#   Name: Mutant Red Flame Spirit
+#   Name: Red Flame Spirit Mutante
     Name: M Red Flame Spirit
     Level: 264
     Hp: 37686044
@@ -116822,7 +116821,7 @@ Body:
         Rate: 100
   - Id: 22229
     AegisName: SPIRIT_F_LAND_M
-    Name: Solid Earth Spirit
+    Name: Earth Spirit Solido
     Level: 263
     Hp: 23889840
     BaseExp: 1182751
@@ -116868,7 +116867,7 @@ Body:
         Rate: 100
   - Id: 22230
     AegisName: SPIRIT_F_LAND_L
-#   Name: Giant Solid Earth Spirit
+#   Name: Earth Spirit Gigante Solido
     Name: G Solid Earth Spirit
     Level: 264
     Hp: 24501384
@@ -116915,7 +116914,7 @@ Body:
         Rate: 100
   - Id: 22231
     AegisName: SPIRIT_F_LAND_SL
-#   Name: Mutant Solid Earth Spirit
+#   Name: Solid Earth Spirit Mutante
     Name: M Solid Earth Spirit
     Level: 264
     Hp: 41655832
@@ -117059,7 +117058,7 @@ Body:
         Rate: 500
   - Id: 22234
     AegisName: SPIRIT_C_WATER_L
-#   Name: Giant Polluted Water Spirit
+#   Name: Polluted Water Spirit Gigante
     Name: G Polluted Water Spirit
     Level: 265
     Hp: 25758488
@@ -117108,7 +117107,7 @@ Body:
         Rate: 500
   - Id: 22235
     AegisName: SPIRIT_C_WATER_SL
-#   Name: Mutant Polluted Water Spirit
+#   Name: Polluted Water Spirit Mutante
     Name: M Polluted Water Spirit
     Level: 265
     Hp: 48794736
@@ -117254,7 +117253,7 @@ Body:
         Rate: 500
   - Id: 22238
     AegisName: SPIRIT_C_WIND_L
-#   Name: Giant Tainted Wind Spirit
+#   Name: Tainted Wind Spirit Gigante
     Name: G Tainted Wind Spirit
     Level: 265
     Hp: 26007004
@@ -117303,7 +117302,7 @@ Body:
         Rate: 500
   - Id: 22239
     AegisName: SPIRIT_C_WIND_SL
-#   Name: Mutant Tainted Wind Spirit
+#   Name: Tainted Wind Spirit Mutante
     Name: M Tainted Wind Spirit
     Level: 265
     Hp: 49852100
