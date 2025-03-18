@@ -24,7 +24,7 @@
 //callfunc "F_CoolEventCorp","<menu>","<location>","<save map>",<x>,<y>,"<warp map>";
 function	script	F_CoolEventCorp	{
 	cutin "zonda_01",2;
-	mes "[Cool Event Corp. Staff]";
+	mes "[Corno do caraio]";
 	mes "Welcome to Cool Event Corp.";
 	mes "Our staff is always working";
 	mes "to surpass your expactations";
@@ -33,7 +33,7 @@ function	script	F_CoolEventCorp	{
 	next;
 	switch(select(getarg(0))) {
 	case 1:
-		mes "[Cool Event Corp. Staff]";
+		mes "[Corno do caraio]";
 		mes "Your Respawn Point";
 		mes "has been saved here";
 		mes getarg(1)+".";
@@ -43,7 +43,7 @@ function	script	F_CoolEventCorp	{
 		close2;
 		break;
 	case 2:
-		mes "[Cool Event Corp. Staff]";
+		mes "[Corno do caraio]";
 		if(!callfunc("F_CanOpenStorage")){
 			mes "I'm sorry, but you";
 			mes "need the Novice's";
@@ -93,7 +93,7 @@ function	script	F_CoolEventCorp	{
 				end;
 			}
 			else {
-				mes "[Cool Event Corp. Staff]";
+				mes "[Corno do caraio]";
 				mes "I'm sorry, but you don't have";
 				mes "enough zeny for the Teleport";
 				mes "Service. The fee to teleport";
@@ -103,7 +103,7 @@ function	script	F_CoolEventCorp	{
 		close2;
 		break;
 	case 4:
-		mes "[Cool Event Corp. Staff]";
+		mes "[Corno do caraio]";
 		if(BaseClass != Job_Merchant){
 			mes "I'm sorry, but the";
 			mes "Pushcart rental service";
@@ -144,7 +144,7 @@ function	script	F_CoolEventCorp	{
 		next;
 		if(select("Rent a Pushcart:Cancel") == 1){
 			if(Zeny < 800){
-				mes "[Cool Event Corp. Staff]";
+				mes "[Corno do caraio]";
 				mes "I'm sorry, but you";
 				mes "don't have enough";
 				mes "Zeny to pay the Pushcart";
@@ -161,7 +161,7 @@ function	script	F_CoolEventCorp	{
 		//the function closes msg and removes cutins
 	case 6:
 	default:
-		mes "[Cool Event Corp. Staff]";
+		mes "[Corno do caraio]";
 		mes "Cool Event Corp. is always";
 		mes "striving to provide the best";
 		mes "services for our customers.";
