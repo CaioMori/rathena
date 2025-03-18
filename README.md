@@ -1,7 +1,7 @@
 
 
-# rAthena Brasil
-![clang](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_clang.yml?label=clang%20build&://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_cmake.yml?label=cmake%20build&//img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_gcc.yml?label=gcc%20build&logshields.io/github/actions/workflow/status/rathena/rathena/build_servers_msbuild.yml?label=ms%20build&logimg.shields.io/github/licen activity](https://img.shields.io/github/commit-activit repo size](https://img.shields.io/github/repo-size/ratção no Cenário Brasileiro de Ragnarok Online!
+# rAthena
+![clang](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_clang.yml?label=clang%20build&logo=llvm) ![cmake](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_cmake.yml?label=cmake%20build&logo=cmake) ![gcc](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_gcc.yml?label=gcc%20build&logo=gnu) ![ms](https://img.shields.io/github/actions/workflow/status/rathena/rathena/build_servers_msbuild.yml?label=ms%20build&logo=visualstudio) ![GitHub](https://img.shields.io/github/license/rathena/rathena.svg) ![commit activity](https://img.shields.io/github/commit-activity/w/rathena/rathena) ![GitHub repo size](https://img.shields.io/github/repo-size/rathena/rathena.svg)
 
 > Sob a liderança de **Caio Mori**, o projeto rAthena Brasil traz uma experiência MMORPG incomparável para a comunidade brasileira. Desenvolvido com tecnologia de ponta em C++, oferecemos um pacote de servidor robusto e altamente personalizável com NPCs exclusivos, sistemas de warp inovadores e modificações que transformarão sua experiência de jogo. Junte-se a nós nesta jornada épica para redefinir o padrão de qualidade dos servidores brasileiros de Ragnarok Online!
 
