@@ -35,78 +35,78 @@ Header:
 Body:
   - Command: accept
     Help: |
-      Accepts an invitation to a duel.
+      Aceita um convite para um duelo.
   - Command: accinfo
     Aliases:
       - accountinfo
     Help: |
-      Params: <char name>. Searches for a character with the name <char name>. You may use % as a placeholder.
-      Params: <account ID>. Searches login information for the account <account ID>.
-      Displays basic information about the account with the account ID <account ID> or with the character <char name> on it.
+      Parâmetros: <nome do personagem>. Procura por um personagem com o nome <nome do personagem>. Você pode usar % como um caractere curinga.
+      Parâmetros: <ID da conta>. Procura informações de login para a conta <ID da conta>.
+      Exibe informações básicas sobre a conta com o ID <ID da conta> ou com o personagem <nome do personagem> nela.
   - Command: addfame
     Aliases:
       - famepoint
       - famepoints
     Help: |
-      Params: <amount>.
-      Adds or reduces the player's fame points by <amount>.
+      Parâmetros: <quantidade>.
+      Adiciona ou reduz os pontos de fama do jogador em <quantidade>.
   - Command: addperm
     Help: |
-      Params: <permission_name>
-      Temporarily add a permission to a player.
+      Parâmetros: <nome_da_permissão>
+      Adiciona temporariamente uma permissão a um jogador.
   - Command: addwarp
     Help: |
-      Params: <map name> <x coord> <y coord> <NPC name>
+      Parâmetros: <nome do mapa> <coordenada x> <coordenada y> <nome do NPC>
   - Command: adjgroup
     Help: |
-      Params: <level> <char name>
-      Do a temporary adjustment of the group level of a player.
+      Parâmetros: <nível> <nome do personagem>
+      Faz um ajuste temporário no nível do grupo de um jogador.
   - Command: adopt
     Help: |
-      Params: <char name>
-      Adopts the specified player <char name>.
+      Parâmetros: <nome do personagem>
+      Adota o jogador especificado <nome do personagem>.
   - Command: agi
     Help: |
-      Params: <amount>
-      Raises AGI by given amount.
+      Parâmetros: <quantidade>
+      Aumenta AGI pela quantidade especificada.
   - Command: agitend
     Help: |
-      End War of Emperium
+      Termina a Guerra do Emperium.
   - Command: agitend2
     Help: |
-      End War of Emperium SE
+      Termina a Guerra do Emperium SE.
   - Command: agitend3
     Help: |
-      End War of Emperium TE
+      Termina a Guerra do Emperium TE.
   - Command: agitstart
     Help: |
-      Starts War of Emperium
+      Inicia a Guerra do Emperium.
   - Command: agitstart2
     Help: |
-      Starts War of Emperium SE
+      Inicia a Guerra do Emperium SE.
   - Command: agitstart3
     Help: |
-      Starts War of Emperium TE
+      Inicia a Guerra do Emperium TE.
   - Command: alive
     Help: |
-      Revives yourself from death.
+      Revive você da morte.
   - Command: allowks
     Help: |
-      Enables or disables kill stealing on this map.
+      Ativa ou desativa o roubo de kill neste mapa.
   - Command: allskill
     Aliases:
       - allskills
       - skillall
       - skillsall
     Help: |
-      Give you all skills.
+      Concede todas as habilidades para você.
   - Command: auction
     Help: |
-      Opens the auction window.
+      Abre a janela de leilão.
   - Command: autoloot
     Help: |
-      Params: <on|off|#>
-      Makes items go straight into your inventory.
+      Parâmetros: <on|off|#>
+      Faz com que os itens vão diretamente para o seu inventário.
   - Command: autolootitem
     Aliases:
       - alootid
@@ -132,7 +132,7 @@ Body:
     Aliases:
       - at
     Help: |
-      Allows you to vend while you are offline.
+      Permite que você venda enquanto está offline.
   - Command: ban
     Aliases:
       - banish
@@ -162,8 +162,8 @@ Body:
       You must be the guildmaster to use this command.
   - Command: broadcast
     Help: |
-      Params: <message>
-      Broadcasts a message with your name (in yellow).
+      Parâmetros: <mensagem>
+      Envia uma mensagem global com o seu nome (em amarelo).
   - Command: camerainfo
     Aliases:
       - viewpointvalue
@@ -472,24 +472,24 @@ Body:
       Broadcasts the Message of The Day to all players.
   - Command: go
     Help: |
-      Params: <city name|number>
-      Warps you to a city.
-      -3: (Memo point 2)  14: louyang         31: mora
-      -2: (Memo point 1)  15: start point     32: dewata
-      -1: (Memo point 0)  16: prison/jail     33: malangdo island
-       0: prontera              17: jawaii             34: malaya port
-       1: morocc                18: ayothaya       35: eclage
-       2: geffen                  19: einbroch       36: lasagna
-       3: payon                  20: lighthalzen
-       4: alberta                 21: einbech
-       5: izlude                   22: hugel
-       6: aldebaran           23: rachel
-       7: xmas (lutie)        24: veins
-       8: comodo               25: moscovia
-       9: yuno                     26: midgard camp
-      10: amatsu               27: manuk
-      11: gonryun              28: splendide
-      12: umbala               29: brasilis
+      Parâmetros: <nome da cidade|número>
+      Teleporta você para uma cidade.
+      -3: (Ponto de Memória 2)  14: louyang         31: mora
+      -2: (Ponto de Memória 1)  15: ponto inicial   32: dewata
+      -1: (Ponto de Memória 0)  16: prisão/jail     33: ilha malangdo
+       0: prontera              17: jawaii          34: porto malaya
+       1: morocc                18: ayothaya        35: eclage
+       2: geffen                19: einbroch        36: lasagna
+       3: payon                 20: lighthalzen
+       4: alberta               21: einbech
+       5: izlude                22: hugel
+       6: aldebaran             23: rachel
+       7: xmas (lutie)          24: veins
+       8: comodo                25: moscovia
+       9: yuno                  26: acampamento midgard
+      10: amatsu                27: manuk
+      11: gonryun               28: splendide
+      12: umbala                29: brasilis
       13: niflheim              30: el dicastes
   - Command: grade
     Help: |
@@ -543,8 +543,8 @@ Body:
       Resets a Star Gladiator's marked monsters.
   - Command: heal
     Help: |
-      Params: [<HP> <SP>]
-      Heals the desired amount of HP and SP. No value specified will do a full heal.
+      Parâmetros: [<HP> <SP>]
+      Cura a quantidade desejada de HP e SP. Sem valores especificados, fará uma cura completa.
   - Command: healap
     Help: |
       Params: [<AP>]
@@ -557,7 +557,7 @@ Body:
       Shows help for specified command.
   - Command: hide
     Help: |
-      Makes you character invisible (GM invisibility). Type again to become visible.
+      Torna seu personagem invisível (invisibilidade de GM). Digite novamente para se tornar visível.
   - Command: hidenpc
     Help: |
       Params: <NPC name>
@@ -620,8 +620,8 @@ Body:
       Invites a player to a duel.
   - Command: item
     Help: |
-      Params: <item name or ID> <quantity>
-      Gives you the desired item.
+      Parâmetros: <nome ou ID do item> <quantidade>
+      Dá o item desejado para você.
   - Command: item2
     Help: |
       Params: <item name or ID> <quantity> <identified_flag> <refine> <broken_flag> <Card1> <Card2> <Card3> <Card4>
@@ -677,8 +677,8 @@ Body:
     Aliases:
       - job
     Help: |
-      Params: <job name|ID>
-      Changes your job.
+      Parâmetros: <nome ou ID do job>
+      Altera o seu job.
       ----- Novice / 1st Class -----
          0 Novice              1 Swordman            2 Magician            3 Archer
          4 Acolyte              5 Merchant               6 Thief
@@ -897,8 +897,8 @@ Body:
       - rura
       - warp
     Help: |
-      Params: <mapname> [<x> <y>]
-      Warps you to the selected map and position.
+      Parâmetros: <nome do mapa> [<x> <y>]
+      Teleporta você para o mapa e posição selecionados.
   - Command: marry
     Help: |
       Params: <player name>
@@ -1102,14 +1102,14 @@ Body:
       Resurrects all characters on the map.
   - Command: rates
     Help: |
-      Displays the server's current rates.
+      Exibe as taxas atuais do servidor.
   - Command: recall
     Help: |
-      Params: <char name>
-      Warps target character to you.
+      Parâmetros: <nome do personagem>
+      Teleporta o personagem alvo para você.
   - Command: recallall
     Help: |
-      Warps every character online to you.
+      Teleporta todos os personagens online para você.
   - Command: refine
     Help: |
       Params: <equip position> <+/- amount>
@@ -1358,7 +1358,7 @@ Body:
       Transfer items from cart to your inventory. No type specified will transfer all items.
   - Command: storage
     Help: |
-      Opens storage.
+      Abre o armazenamento.
   - Command: storeall
     Help: |
       Puts all your possessions in storage.
@@ -1452,6 +1452,12 @@ Body:
     Help: |
       Params: <amount>
       Raises VIT by given amount.
+  - Command: warp
+    Aliases:
+      - mapmove
+    Help: |
+      Parâmetros: <nome do mapa> [<x> <y>]
+      Teleporta você para o mapa e posição selecionados.
   - Command: where
     Help: |
       Params: <char name>
@@ -1464,8 +1470,8 @@ Body:
     Aliases:
       - whois
     Help: |
-      Params: [<name>]
-      Shows a list of online players and their party and guild.
+      Parâmetros: [<nome>]
+      Mostra uma lista de jogadores online e suas respectivas guildas e grupos.
   - Command: who2
     Help: |
       Params: [<name>]
@@ -1499,7 +1505,8 @@ Body:
       Raises WIS by given amount.
   - Command: zeny
     Help: |
-      Params: <amount> - Gives you desired amount of Zeny.
+      Parâmetros: <quantidade>
+      Dá a quantidade desejada de Zeny.
 
 Footer:
   Imports:

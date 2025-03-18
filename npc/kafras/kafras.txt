@@ -230,74 +230,74 @@ pay_arche,55,123,0	script	Kafra Employee::kaf_payon3	4_F_KAFRA1,{
 
 // Prontera
 //============================================================
-prontera,152,326,3	script	Kafra Employee::kaf_prontera	112,{
+prontera,152,326,3	script	Funcionária Kafra::kaf_prontera	112,{
 	cutin "kafra_06",2;
 	callfunc "F_KafSet";
-	mes "[Kafra Employee]";
-	mes "Welcome to the";
-	mes "Kafra Corporation~";
-	mes "The Kafra Services are";
-	mes "always here to support";
-	mes "you. So how can I be";
-	mes "of service today?";
+	mes "[Funcionária Kafra]";
+	mes "Bem-vindo à";
+	mes "Corporação Kafra~";
+	mes "Os Serviços Kafra estão";
+	mes "sempre aqui para apoiar";
+	mes "você. Como posso ser";
+	mes "útil hoje?";
 	callfunc "F_Kafra",5,0,0,40,800;
 	savepoint "prontera",157,327,1,1;
-	callfunc "F_KafEnd",0,1,"in the city of Prontera";
+	callfunc "F_KafEnd",0,1,"na cidade de Prontera";
 }
 
-prontera,151,29,0	script	Kafra Employee::kaf_prontera2	115,{
+prontera,151,29,0	script	Funcionária Kafra::kaf_prontera2	115,{
 	cutin "kafra_03",2;
 	callfunc "F_KafSet";
-	mes "[Kafra Employee]";
-	mes "Welcome~!";
-	mes "The Kafra Services";
-	mes "are always on your side.";
-	mes "So how can I help you?";
+	mes "[Funcionária Kafra]";
+	mes "Bem-vindo~!";
+	mes "Os Serviços Kafra";
+	mes "estão sempre ao seu lado.";
+	mes "Como posso ajudá-lo?";
 	callfunc "F_Kafra",5,0,0,40,800;
 	savepoint "prontera",150,33,1,1;
-	callfunc "F_KafEnd",0,1,"in the city of Prontera";
+	callfunc "F_KafEnd",0,1,"na cidade de Prontera";
 }
 
-prontera,29,207,6	script	Kafra Employee::kaf_prontera3	113,{
+prontera,29,207,6	script	Funcionária Kafra::kaf_prontera3	113,{
 	cutin "kafra_05",2;
 	callfunc "F_KafSet";
-	mes "[Kafra Employee]";
-	mes "The Kafra Corporation";
-	mes "is always working to provide";
-	mes "you with convenient services.";
-	mes "How may I be of assistance?";
+	mes "[Funcionária Kafra]";
+	mes "A Corporação Kafra";
+	mes "está sempre trabalhando para fornecer";
+	mes "serviços convenientes para você.";
+	mes "Como posso ajudá-lo?";
 	callfunc "F_Kafra",5,0,0,40,800;
 	savepoint "prontera",33,208,1,1;
-	callfunc "F_KafEnd",0,1,"in the city of Prontera";
+	callfunc "F_KafEnd",0,1,"na cidade de Prontera";
 }
 
-prontera,282,200,2	script	Kafra Employee::kaf_prontera4	114,{
+prontera,282,200,2	script	Funcionária Kafra::kaf_prontera4	114,{
 	cutin "kafra_04",2;
 	callfunc "F_KafSet";
-	mes "[Kafra Employee]";
-	mes "Welcome!";
-	mes "The Kafra Corporation";
-	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
-	mes "with its excellent service. So";
-	mes "what can I do for you today?";
+	mes "[Funcionária Kafra]";
+	mes "Bem-vindo!";
+	mes "A Corporação Kafra";
+	mes "sempre apoiará os";
+	mes "aventureiros de Rune-Midgarts";
+	mes "com seu excelente serviço. Então,";
+	mes "o que posso fazer por você hoje?";
 	callfunc "F_Kafra",5,0,0,40,800;
 	savepoint "prontera",281,203,1,1;
-	callfunc "F_KafEnd",0,1,"in the city of Prontera";
+	callfunc "F_KafEnd",0,1,"na cidade de Prontera";
 }
 
-prontera,146,89,6	script	Kafra Employee::kaf_prontera5	117,{
+prontera,146,89,6	script	Funcionária Kafra::kaf_prontera5	117,{
 	cutin "kafra_01",2;
 	callfunc "F_KafSet";
-	mes "[Kafra Employee]";
-	mes "Welcome to the";
-	mes "Kafra Corporation.";
-	mes "The Kafra services";
-	mes "are always on your side.";
-	mes "How may I assist you?";
+	mes "[Funcionária Kafra]";
+	mes "Bem-vindo à";
+	mes "Corporação Kafra.";
+	mes "Os serviços Kafra";
+	mes "estão sempre ao seu lado.";
+	mes "Como posso ajudá-lo?";
 	callfunc "F_Kafra",5,0,0,40,800;
 	savepoint "prontera",116,73,1,1;
-	callfunc "F_KafEnd",0,1,"in the city of Prontera";
+	callfunc "F_KafEnd",0,1,"na cidade de Prontera";
 }
 
 // Juno

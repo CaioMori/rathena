@@ -1,41 +1,42 @@
 //===== rAthena Script =======================================
-//= Reset NPC
-//===== Description: =========================================
-//= Resets skills, stats, or both.
-//===== Additional Comments: =================================
-//= 1.0 First Version
-//= 1.1 Optimized for the greater good. [Kisuka]
-//= 1.2 Cleaning [Euphy]
-//= 1.3 All statuses removed upon skill reset. [Euphy]
-//= 1.4 Compressed Script, Added limit use option [Stolao]
-//=	Changed set -> setarray, Improved text with F_InsertPlural
-//= 1.5 Added sc_end_class to reset related status changes [sader1992]
+//= NPC de Reset
+//===== Descrição: ==========================================
+//= Reseta habilidades, atributos ou ambos.
+//===== Comentários Adicionais: =============================
+//= 1.0 Primeira Versão
+//= 1.1 Otimizado para o bem maior. [Kisuka]
+//= 1.2 Limpeza [Euphy]
+//= 1.3 Todos os status removidos ao resetar habilidades. [Euphy]
+//= 1.4 Script Comprimido, Adicionada opção de limite de uso [Stolao]
+//=	Alterado set -> setarray, Texto melhorado com F_InsertPlural
+//= 1.5 Adicionado sc_end_class para resetar mudanças de status relacionadas [sader1992]
 //============================================================
-prontera,150,193,4	script	Reset Girl	124,{
-	//	 		Skills,	Stats,	Both,	Limit
-	setarray .@Reset,	5000,	5000,	9000,	0;
-	mes "[Reset Girl]";
-	if(.@Reset[3] && reset_limit > .@Reset[3]) {
-		mes "Sorry you can only reset "+callfunc("F_InsertPlural",.@Reset[3],"time")+" in your life.";
+
+prontera,150,193,4	script	Garota de Reset	760,{
+	//	 		Habilidades,	Atributos,	Ambos,	Limite
+	setarray .@Reset,	5000,		5000,		9000,	0;
+	mes "[Garota de Reset]";
+	if(.@Reset && reset_limit > .@Reset) {
+		mes "Desculpe, você só pode resetar "+callfunc("F_InsertPlural",.@Reset,"vez")+" em sua vida.";
 		close;
 	}
-	mes "I am the Reset Girl.";
-	mes "Reset Stats: "+ callfunc("F_InsertComma",.@Reset[1]) +"z";
-	mes "Reset Skills: "+ callfunc("F_InsertComma",.@Reset[0]) +"z";
-	mes "Reset Both: "+ callfunc("F_InsertComma",.@Reset[2]) +"z";
-	if(.@Reset[3]) mes "You may only reset "+callfunc("F_InsertPlural",.@Reset[3],"time")+", so use "+((.@Reset[3]>1)?"them":"it")+" wisely.";
-	mes "Please select the service you want:";
+	mes "Eu sou a Garota de Reset.";
+	mes "Resetar Atributos: "+ callfunc("F_InsertComma",.@Reset) +"z";
+	mes "Resetar Habilidades: "+ callfunc("F_InsertComma",.@Reset) +"z";
+	mes "Resetar Ambos: "+ callfunc("F_InsertComma",.@Reset) +"z";
+	if(.@Reset) mes "Você só pode resetar "+callfunc("F_InsertPlural",.@Reset,"vez")+", então use "+((.@Reset>1)?"com":"com")+" sabedoria.";
+	mes "Por favor, selecione o serviço que deseja:";
 	next;
-	set .@i,(select("^FF3355Reset Skills:Reset Stats:Reset Both^000000:Cancel"));
+	set .@i,(select("^FF3355Resetar Habilidades:Resetar Atributos:Resetar Ambos^000000:Cancelar"));
 	if(.@i > 3) close;
-	mes "[Reset Girl]";
+	mes "[Garota de Reset]";
 	if (Zeny < .@Reset[.@i-1]) {
-		mes "Sorry, you don't have enough Zeny.";
+		mes "Desculpe, você não tem zeny suficiente.";
 		close;
 	}
-	if(.@Reset[3]){
-		mes "You can only reset "+callfunc("F_InsertPlural",.@Reset[3],"time")+" in your life, are you sure?";
-		if(select("Let me think:That's fine") == 1) close;
+	if(.@Reset){
+		mes "Você só pode resetar "+callfunc("F_InsertPlural",.@Reset,"vez")+" em sua vida, tem certeza?";
+		if(select("Deixe-me pensar:Tudo bem") == 1) close;
 	}
 	set Zeny, Zeny-.@Reset[.@i-1];
 	if(.@i&1){
@@ -43,7 +44,7 @@ prontera,150,193,4	script	Reset Girl	124,{
 		ResetSkill;
 	}
 	if(.@i&2) ResetStatus;
-	mes "There you go!";
-	if(.@Reset[3]) set reset_limit,reset_limit + 1;
+	mes "Prontinho!";
+	if(.@Reset) set reset_limit,reset_limit + 1;
 	close;
 }

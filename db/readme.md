@@ -1,20 +1,20 @@
-# Import Directories
+# Diretórios de Importação
 
-## What is the import directory for?
+## Para que serve o diretório de importação?
 
-The `import/` directory provides a way for you to change your config settings without the need to even touch the main `/conf/` and `/db/` files.
+O diretório `import/` oferece uma maneira de alterar suas configurações sem a necessidade de modificar os arquivos principais em `/conf/` e `/db/`.
 
-By placing your custom entries into the `import/` directory within these two locations, your core files will not need to have any conflicts resolved when you update your server. You store your changes, and the rest is updated with rAthena.
+Ao colocar suas entradas personalizadas no diretório `import/` dentro dessas duas localizações, seus arquivos principais não terão conflitos a serem resolvidos quando você atualizar seu servidor. Você mantém suas alterações, e o restante é atualizado com o rAthena.
 
-## How does this work?
+## Como isso funciona?
 
-Think of "import" as in "override". Place only the settings you have changed in the import files, or settings you are "overriding".
+Pense em "importar" como "sobrescrever". Coloque apenas as configurações que você alterou nos arquivos de importação, ou configurações que você está "sobrescrevendo".
 
-For example, when setting up a server there are always a few config settings that users would like to change in order for rAthena to suit their needs. The following example will show you how to use the `/db/import/` directory correctly. (for `/conf/import/` examples, see [/conf/readme.md](/conf/readme.md))
+Por exemplo, ao configurar um servidor, sempre há algumas configurações que os usuários gostariam de alterar para que o rAthena atenda às suas necessidades. O exemplo a seguir mostrará como usar corretamente o diretório `/db/import/`. (para exemplos de `/conf/import/`, veja [/conf/readme.md](/conf/readme.md))
 
-### Achievements
+### Conquistas
 ---
-We want to add our own custom achievement that can be given to a player via an NPC Script and another that we can give to our GMs.
+Queremos adicionar nossa própria conquista personalizada que pode ser dada a um jogador através de um Script NPC e outra que podemos dar aos nossos GMs.
 
 #### /db/import/achievement_db.yml
 
@@ -34,9 +34,9 @@ We want to add our own custom achievement that can be given to a player via an N
 ```
 
 
-### Instances
+### Instâncias
 ---
-We want to add our own customized Housing Instance.
+Queremos adicionar nossa própria Instância de Moradia personalizada.
 
 #### /db/import/instance_db.yml
 
@@ -54,9 +54,9 @@ We want to add our own customized Housing Instance.
 ```
 
 
-### Mob Alias
+### Alias de Monstros
 ---
-We want to make Porings look like Baphomet.
+Queremos fazer com que Porings pareçam com Baphomet.
 
 #### /db/import/mob_avail.yml
 
@@ -66,9 +66,9 @@ We want to make Porings look like Baphomet.
 ```
 
 
-### Custom Maps
+### Mapas Personalizados
 ---
-We want to add our own custom maps. For this we need to add our map names to `import/map_index.txt` and then to the `import/map_cache.dat` file for the Map Server to load.
+Queremos adicionar nossos próprios mapas personalizados. Para isso, precisamos adicionar os nomes dos nossos mapas ao arquivo `import/map_index.txt` e depois ao arquivo `import/map_cache.dat` para que o Servidor de Mapas os carregue.
 
 #### /db/import/map_index.txt
 
@@ -82,14 +82,14 @@ We want to add our own custom maps. For this we need to add our map names to `im
 ```
 
 
-### Item Trade Restrictions
+### Restrições de Comércio de Itens
 ---
-We want to ensure that specific items cannot be traded, sold, dropped, placed in storage, etc.
+Queremos garantir que itens específicos não possam ser negociados, vendidos, descartados, colocados em armazenamento, etc.
 
 #### /db/import/item_db.yml
 
 ```yml
-    - Id: 34000 # Old Green Box
+    - Id: 34000 # Caixa Verde Antiga
       Trade:
         NoDrop: true
         NoTrade: true
@@ -100,7 +100,7 @@ We want to ensure that specific items cannot be traded, sold, dropped, placed in
         NoGuildStorage: true
         NoMail: true
         NoAuction: true
-    - Id: 34001 # House Keys
+    - Id: 34001 # Chaves da Casa
       Trade:
         NoDrop: true
         NoTrade: true
@@ -111,7 +111,7 @@ We want to ensure that specific items cannot be traded, sold, dropped, placed in
         NoGuildStorage: true
         NoMail: true
         NoAuction: true
-    - Id: 34002 # Reputation Journal
+    - Id: 34002 # Diário de Reputação
       Trade:
         NoDrop: true
         NoTrade: true
@@ -125,19 +125,19 @@ We want to ensure that specific items cannot be traded, sold, dropped, placed in
 ```
 
 
-### Custom Quests
+### Missões Personalizadas
 ---
-We want to add our own custom quests to the quest_db.
+Queremos adicionar nossas próprias missões personalizadas ao quest_db.
 
 #### /db/import/quest_db.yml
 
 ```yml
     - Id: 89001
-      Title: "Reputation Quest"
+      Title: "Missão de Reputação"
     - Id: 89002
-      Title: "Reputation Quest"
+      Title: "Missão de Reputação"
 ```
 
 
 
-We cannot stress enough how helpful this system is for everyone. The majority of git conflicts will simply go away if users make use of the `import/` system.
+Não podemos enfatizar o suficiente o quanto esse sistema é útil para todos. A maioria dos conflitos no git simplesmente desaparecerá se os usuários fizerem uso do sistema `import/`.

@@ -11,18 +11,18 @@
 //= 1.2 Update for monster mode and enchants [Lemongrass]
 //============================================================
 
-prontera,155,177,5	script	Card Seller	100,{
+prontera,155,177,5	script	Vendedor de Cartas	100,{
 	.@menu$ = getvariableofnpc( .alphabet_menu$, "card_seller_creation" );
 	if (.@menu$ == "") {
-		mes "[Card Seller]";
-		mes "I am sorry, it seems like something went wrong.";
-		mes "I cannot find any cards in our database at the moment.";
-		mes "Please contact a game master.";
+		mes "[Vendedor de Cartas]";
+		mes "Desculpe, parece que algo deu errado.";
+		mes "Não consigo encontrar nenhuma carta em nosso banco de dados no momento.";
+		mes "Por favor, entre em contato com um administrador do jogo.";
 		close;
 	}
-	mes "[Card Seller]";
-	mes "Welcome!";
-	mes "I can sell you any normal monster card in the game. Would you like to have a look?";
+	mes "[Vendedor de Cartas]";
+	mes "Bem-vindo!";
+	mes "Posso vender qualquer carta de monstro normal do jogo. Gostaria de dar uma olhada?";
 	next;
 	.@s = select(.@menu$) -1;
 	close2;
