@@ -65826,7 +65826,7 @@ Body:
         StealProtected: true
   - Id: 2648
     AegisName: C3_SOLDIER_SKELETON
-    Name: Esqueleto Ringlea Soldado
+    Name: Esqueleto R Soldado
     Level: 34
     Hp: 3455
     BaseExp: 1420
@@ -66323,7 +66323,7 @@ Body:
         StealProtected: true
   - Id: 2658
     AegisName: C3_SKELETON_GENERAL
-    Name: Esqueleto General Ringlea
+    Name: Esqueleto General R
     Level: 139
     Hp: 900650
     Sp: 0
@@ -67549,7 +67549,7 @@ Body:
         StealProtected: true
   - Id: 2683
     AegisName: C3_RICE_CAKE_BOY
-    Name: Dumpling Child Ringleade
+    Name: Criança do Bolinho
     Level: 60
     Hp: 8720
     BaseExp: 2605
@@ -67990,7 +67990,7 @@ Body:
         StealProtected: true
   - Id: 2692
     AegisName: C3_RAWREL
-    Name: Laurell Weinder Ringlead
+    Name: Laurell Weinder
     Level: 133
     Hp: 201410
     BaseExp: 14625
@@ -69679,7 +69679,7 @@ Body:
         StealProtected: true
   - Id: 2726
     AegisName: C3_OBSERVATION
-    Name: Dame of Sentinel Ringlea
+    Name: Dame of Sentinel
     Level: 127
     Hp: 184220
     BaseExp: 18320
@@ -72017,7 +72017,7 @@ Body:
         StealProtected: true
   - Id: 2775
     AegisName: C2_LIVE_PEACH_TREE
-    Name: Peach Tr Solido Encantado
+    Name: Pêssegueiro do Mal
     Level: 92
     Hp: 74260
     BaseExp: 6495
@@ -75931,7 +75931,7 @@ Body:
         StealProtected: true
   - Id: 2855
     AegisName: C3_DESERT_WOLF_B
-    Name: Lobo do Deserto Ringlea Bebê
+    Name: Lobo do Deserto Bebê
     Level: 14
     Hp: 565
     BaseExp: 820
@@ -75982,7 +75982,7 @@ Body:
         StealProtected: true
   - Id: 2856
     AegisName: C4_DESERT_WOLF_B
-    Name: Lobo do Deserto Furioso Bebê
+    Name: Lobo Bebê PUTO
     Level: 14
     Hp: 565
     BaseExp: 820
@@ -110714,7 +110714,7 @@ Body:
 #    AegisName: MD_AIRBOAT_BOSS4
   - Id: 21064
     AegisName: S_DUMMY_100_SMALL
-    Name: Training Boneco (Small)
+    Name: João Bobo (Small)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110737,7 +110737,7 @@ Body:
       TeleportBlock: true
   - Id: 21065
     AegisName: S_DUMMY_100_MEDIUM
-    Name: Training Boneco (Medium)
+    Name: João Bobo (Medium)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110760,7 +110760,7 @@ Body:
       TeleportBlock: true
   - Id: 21066
     AegisName: S_DUMMY_100_LARGE
-    Name: Training Boneco (Large)
+    Name: João Bobo (Large)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110783,7 +110783,7 @@ Body:
       TeleportBlock: true
   - Id: 21067
     AegisName: S_DUMMY_100_NOTHING
-    Name: Training Boneco (Neutral)
+    Name: João Bobo (Neutro)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110806,7 +110806,7 @@ Body:
       TeleportBlock: true
   - Id: 21068
     AegisName: S_DUMMY_100_DRAGON
-    Name: Training Boneco (Dragon)
+    Name: João Bobo (Dragon)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110829,7 +110829,7 @@ Body:
       TeleportBlock: true
   - Id: 21069
     AegisName: S_DUMMY_100_ANIMAL
-    Name: Training Boneco (Brute)
+    Name: João Bobo (Brute)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110852,7 +110852,7 @@ Body:
       TeleportBlock: true
   - Id: 21070
     AegisName: S_DUMMY_100_HUMAN
-    Name: Training Boneco (Human)
+    Name: João Bobo (Human)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110875,7 +110875,7 @@ Body:
       TeleportBlock: true
   - Id: 21071
     AegisName: S_DUMMY_100_INSECT
-    Name: Training Boneco (Insect)
+    Name: João Bobo (Insect)
     Level: 100
     Hp: 2000000000
     Sp: 0
@@ -110899,7 +110899,7 @@ Body:
       TeleportBlock: true
   - Id: 21072
     AegisName: S_DUMMY_100_FISH
-    Name: Training Boneco (Fish)
+    Name: João Bobo (Fish)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110922,7 +110922,7 @@ Body:
       TeleportBlock: true
   - Id: 21073
     AegisName: S_DUMMY_100_DEMON
-    Name: Training Boneco (Demon)
+    Name: João Bobo (Demon)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110945,7 +110945,7 @@ Body:
       TeleportBlock: true
   - Id: 21074
     AegisName: S_DUMMY_100_PLANT
-    Name: Training Boneco (Plant)
+    Name: João Bobo (Plant)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110968,7 +110968,7 @@ Body:
       TeleportBlock: true
   - Id: 21075
     AegisName: S_DUMMY_100_ANGEL
-    Name: Training Boneco (Angel)
+    Name: João Bobo (Angel)
     Level: 100
     Hp: 2000000000
     Str: 0
@@ -110991,7 +110991,7 @@ Body:
       TeleportBlock: true
   - Id: 21076
     AegisName: S_DUMMY_100_UNDEAD
-    Name: Training Boneco (Undead)
+    Name: João Bobo (Undead)
     Level: 100
     Hp: 2000000000
     Str: 0
