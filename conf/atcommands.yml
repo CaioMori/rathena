@@ -40,7 +40,7 @@ Body:
     Aliases:
       - accountinfo
     Help: |
-      Parâmetros: <nome do personagem>. Procura por um personagem com o nome <nome do personagem>. Você pode usar % como um caractere curinga.
+      Parâmetros: <nome do personagem>. Procura por um personagem com o nome <nome do personagem>. Você pode usar % como umcaractere curinga.
       Parâmetros: <ID da conta>. Procura informações de login para a conta <ID da conta>.
       Exibe informações básicas sobre a conta com o ID <ID da conta> ou com o personagem <nome do personagem> nela.
   - Command: addfame
@@ -111,20 +111,20 @@ Body:
     Aliases:
       - alootid
     Help: |
-      Params: None. Shows a short help.
-      Params: +<Item ID> to add an item ID
-      Params: -<Item ID> to remove an item ID
-      Params: reset to remove all item IDs
-      Makes items of this specific item ID go straight into your inventory.
+      Parâmetros: None. Mostra uma ajuda rápida.
+      Parâmetros: +<ID do Item> para adicionar algum item ID
+      Parâmetros: -<ID do Item> para remover algum item ID
+      Parâmetros: reset para remover todos os item IDs
+      Faz com que itens deste ID específico vão diretamente para seu inventário.
   - Command: autoloottype
     Aliases:
       - aloottype
     Help: |
-      Params: None. Shows a short help.
-      Params: +<type name/ID> to add an item type
-      Params: -<type name/ID> to remove an item type
-      Params: reset to remove all item types
-      Makes items of this specific item type go straight into your inventory.
+      Parâmetros: None. Mostra uma ajuda rápida.
+      Parâmetros: +<type name/ID> para adicionar algum tipo de item
+      Parâmetros: -<type name/ID> para remover algum tipo de item
+      Parâmetros: reset para remover todos os tipos de item
+      Faz com que itens deste tipo específico vão diretamente para seu inventário.
       Type List:
         healing = 0, usable = 2, etc = 3, weapon = 4, armor = 5,
         card = 6, petegg = 7, petarmor = 8, ammo = 10
@@ -137,7 +137,7 @@ Body:
     Aliases:
       - banish
     Help: |
-      Params: <time> <name>\n" "Temporarily ban an account.
+      Parâmetros: <time> <name>\n" "Banir temporariamente alguma conta.
       time usage: adjustment (+/- value) and element (y/a, m, d/j, h, mn, s)
       Example: @ban +1m-2mn1s-6y testplayer
   - Command: baselevelup
@@ -150,12 +150,12 @@ Body:
       - blvl
       - lvup
     Help: |
-      Params: <number of levels>
-      Raises your base level the desired number of levels.
+      Parâmetros: <number of levels>
+      Aumenta seu nível base pelo número desejado de níveis.
   - Command: bodystyle
     Help: |
-      Params: <bodystyle> - value between 0-1
-      Changes the character's bodystyle to <bodystyle>.
+      Parâmetros: <bodystyle> - valor entre 0-1
+      Muda o estilo corporal do personagem para <bodystyle>.
   - Command: breakguild
     Help: |
       Breaks the guild of the attached character.
@@ -172,18 +172,18 @@ Body:
       Shows or updates the client's camera settings.
   - Command: cart
     Help: |
-      Params: <cart ID>
-      Gives or removes a cart to a player and also change the cart skin.
+      Parâmetros: <cart ID>
+      Dá ou remove um carrinho para um jogador e também muda a aparência do carrinho.
       Available cart IDs:
           0: remove cart
         1-5: normal carts
         6-9: new carts
   - Command: cartlist
     Help: |
-      Displays a list of items in the cart.
+      Exibe uma lista de itens no carrinho.
   - Command: cash
     Help: |
-      Params: <amount> - Gives you the specified amount of cash points.
+      Parâmetros: <amount> - Dá a você a quantidade especificada de pontos de cash.
   - Command: changedress
     Aliases:
       - nocosplay
@@ -191,12 +191,12 @@ Body:
       Removes all character costumes.
   - Command: changegm
     Help: |
-      Params: <charname>
-      Changes the leader of your guild (You must be guild leader)
+      Parâmetros: <charname>
+      Muda o líder da sua guilda (Você deve ser o líder da guilda)
   - Command: changeleader
     Help: |
-      Params: <charname>
-      Changes the leader of your party (You must be party leader)
+      Parâmetros: <charname>
+      Muda o líder do seu grupo (Você deve ser o líder do grupo)
   - Command: channel
     Aliases:
       - main
@@ -204,11 +204,11 @@ Body:
       If you run this command without any parameters, you will get a more detailed help information.
   - Command: changecharsex
     Help: |
-      Changes your character's gender.
+      Muda o gênero do seu personagem.
   - Command: changelook
     Help: |
-      Params: <position> <view ID>
-      Changes the player's appearance to the specified view ID.
+      Parâmetros: <position> <view ID>
+      Muda a aparência do jogador para o ID de visualização especificado.
       Available positions:
         1: Top
         2: Middle
@@ -220,12 +220,12 @@ Body:
         8: Bodystyle
   - Command: changesex
     Help: |
-      Changes your account's gender.
+      Muda o gênero da sua conta.
   - Command: char_ban
     Aliases:
       - charban
     Help: |
-      Params: <time> <name>
+      Parâmetros: <time> <name>
       Temporarily ban a character.
       time usage: adjustment (+/- value) and element (y/a, m, d/j, h, mn, s)
       Example: @char_ban +1m-2mn1s-6y testplayer
@@ -233,30 +233,30 @@ Body:
     Aliases:
       - block
     Help: |
-      Params: <char name>
-      Permanently blocks an account.
+      Parâmetros: <char name>
+      Permanently blocks algum account.
   - Command: char_unban
     Aliases:
       - charunban
     Help: |
-      Params: <name>
+      Parâmetros: <name>
       Unban a character
   - Command: char_unblock
     Aliases:
       - unblock
     Help: |
-      Params: <char name>
-      Unblocks an account.
+      Parâmetros: <char name>
+      Unblocks algum account.
   - Command: charcommands
     Help: |
-      Displays a list of charcommands that you can use.
+      Exibe uma lista de comandos de personagem que você pode usar.
   - Command: checkquest
     Help: |
-      Params: <quest ID>
+      Parâmetros: <quest ID>
       Shows status information for the quest with quest ID <quest ID>.
   - Command: clanspy
     Help: |
-      Params: <clan name|id>
+      Parâmetros: <clan name|id>
       You will receive all messages of the clan chat (Chat logging must be enabled)
   - Command: cleanarea
     Aliases:
@@ -282,43 +282,43 @@ Body:
       Stops all weather effects on the current map.
   - Command: clone
     Help: |
-      Params: <charname>
-      Spawns a supportive clone of the given player.
+      Parâmetros: <charname>
+      Invoca um clone de suporte do jogador especificado.
   - Command: cloneequip
     Aliases:
       - eqclone
     Help: |
-      Params: <char name>
-      Params: <char ID>
+      Parâmetros: <char name>
+      Parâmetros: <char ID>
       Copies the equipment of player <char name/char ID>.
   - Command: clonestat
     Aliases:
       - stclone
     Help: |
-      Params: <char name>
-      Params: <char ID>
+      Parâmetros: <char name>
+      Parâmetros: <char ID>
       Copies the status values of player <char name/char ID>.
   - Command: clouds
     Help: |
-      Makes all maps to have the cloudy weather effect.
+      Faz com que todos os mapas tenham o efeito climático de nuvens.
   - Command: clouds2
     Help: |
-      Makes all maps to have another cloudy weather effect.
+      Faz com que todos os mapas tenham outro efeito climático de nuvens.
   - Command: commands
     Help: |
-      Displays a list of atcommands that you can use.
+      Exibe uma lista de comandos administrativos que você pode usar.
   - Command: completequest
     Help: |
-      Params: <quest ID>
+      Parâmetros: <quest ID>
       Completes the quest with quest ID <quest ID>.
   - Command: con
     Help: |
-      Params: <amount>
-      Raises CON by given amount.
+      Parâmetros: <amount>
+      Aumenta CON pela quantidade fornecida.
   - Command: costume
     Help: |
-      Params: <costume>
-      Changes the player's visible appearance to that of the selected <costume>.
+      Parâmetros: <costume>
+      Muda a aparência visível do jogador para a do <costume> selecionado.
       Available costumes:
         Hanbok
         Oktoberfest
@@ -327,48 +327,48 @@ Body:
         Xmas
   - Command: crt
     Help: |
-      Params: <amount>
-      Raises CRT by given amount.
+      Parâmetros: <amount>
+      Aumenta CRT pela quantidade fornecida.
   - Command: day
     Help: |
       Disables night mode and restores regular lighting, all characters are affected.
   - Command: delitem
     Help: |
-      Params: <item name> <amount>
-      Params: <item ID> <amount>
+      Parâmetros: <item name> <amount>
+      Parâmetros: <item ID> <amount>
       Deletes <amount> of the specified item <item name/ID> from the player's inventory.
   - Command: dex
     Help: |
-      Params: <amount>
-      Raises DEX by given amount.
+      Parâmetros: <amount>
+      Aumenta DEX pela quantidade fornecida.
   - Command: disguise
     Help: |
-      Params: <monster name|ID>
+      Parâmetros: <monster name|ID>
       Change your appearence to other players to a mob.
   - Command: disguiseall
     Help: |
-      Params: <monster name|ID>
+      Parâmetros: <monster name|ID>
       Disguises all online characters.
   - Command: disguiseguild
     Help: |
-      Params: <monster name|ID>
+      Parâmetros: <monster name|ID>
       Disguises all online characters of a guild.
   - Command: displayskill
     Help: |
-      Params: <skill ID> {<skill level>}
-      Displays the skill animation of a skill without really using the skill.
+      Parâmetros: <skill ID> {<skill level>}
+      Exibe a animação de habilidade sem realmente usar a habilidade.
   - Command: displayskillcast
     Help: |
-      Params: <skill ID> {<skill level> <ground target flag> <cast time>}
-      Displays the cast animation of a skill without really casting the skill.
+      Parâmetros: <skill ID> {<skill level> <ground target flag> <cast time>}
+      Exibe a animação de conjuração de uma habilidade sem realmente conjurar a habilidade.
   - Command: displayskillunit
     Help: |
-      Params: <skill unit ID> {<skill level> <range>}
-      Displays the skill unit animation of a skill unit without really using the skill.
+      Parâmetros: <skill unit ID> {<skill level> <range>}
+      Exibe a animação de unidade de habilidade sem realmente usar a habilidade.
   - Command: displaystatus
     Help: |
-      Params: <status ID> <flag> <tick> {<val1> <val2> <val3>}
-      Displays the status animation of a status change without really having the status change.
+      Parâmetros: <status ID> <flag> <tick> {<val1> <val2> <val3>}
+      Exibe a animação de status de uma mudança de status sem realmente ter a mudança de status.
   - Command: divorce
     Help: |
       Divorce player.
@@ -380,7 +380,7 @@ Body:
       Kills all non GM characters on the map.
   - Command: dropall
     Help: |
-      Params: [<item type>]
+      Parâmetros: [<item type>]
       Throws all your possession on the ground. No type specified will drop all items.
   - Command: duel
     Help: |
@@ -389,46 +389,46 @@ Body:
     Aliases:
       - ccolor
     Help: |
-      Params: <clothes palette no.>
-      Changes your characters clothes color.
+      Parâmetros: <clothes palette no.>
+      Muda a cor das roupas do seu personagem.
   - Command: effect
     Help: |
-      Params: <effect id> [<flag>]
-      Give an effect to your character.
+      Parâmetros: <effect id> [<flag>]
+      Give algum effect to your character.
   - Command: email
     Help: |
-      Params: <current email> <new email>
-      Changes your account e-mail address.
+      Parâmetros: <current email> <new email>
+      Muda o endereço de e-mail da sua conta.
   - Command: enchantgradeui
     Help: |
-      Opens the enchantgrade UI.
+      Abre a interface de encantamento de grau.
   - Command: erasequest
     Help: |
-      Params: <quest ID>
+      Parâmetros: <quest ID>
       Removes the quest <quest ID> from the quest log.
   - Command: evilclone
     Help: |
-      Params: <charname>
-      Spawns an aggressive clone of the given player.
+      Parâmetros: <charname>
+      Invoca um clone agressivo do jogador especificado.
   - Command: exp
     Help: |
-      Displays current levels and % progress.
+      Exibe níveis atuais e % de progresso.
   - Command: fakename
     Help: |
-      Params: <name>
-      Changes your name to your choice temporarily.
+      Parâmetros: <name>
+      Muda seu nome temporariamente para o de sua escolha.
   - Command: feelreset
     Help: |
       Resets a Star Gladiator's marked maps.
   - Command: fireworks
     Help: |
-      Makes all maps to have the fireworks weather effect.
+      Faz com que todos os mapas tenham o efeito climático de fogos de artifício.
   - Command: fog
     Help: |
-      Makes all maps to have the fog weather effect.
+      Faz com que todos os mapas tenham o efeito climático de neblina.
   - Command: font
     Help: |
-      Params: <type> - value between 0-9
+      Parâmetros: <type> - valor entre 0-9
       Sets the client font to <type>.
       Available types:
         0: Default
@@ -443,15 +443,15 @@ Body:
         9: RixJJangu
   - Command: fontcolor
     Help: |
-      Params: <color_name>
+      Parâmetros: <color_name>
       Sets channel chat font color for the invoking character only.
   - Command: follow
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Follow a player.
   - Command: fullstrip
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Unequips all items currently equipped by <char name>.
   - Command: gat
     Help: |
@@ -465,7 +465,7 @@ Body:
       - guildlvlup
       - guildlvup
     Help: |
-      Params: <# of levels>
+      Parâmetros: <# of levels>
       Raise Guild by desired number of levels
   - Command: gmotd
     Help: |
@@ -493,24 +493,24 @@ Body:
       13: niflheim              30: el dicastes
   - Command: grade
     Help: |
-      Params: <equip position> <+/- amount>
+      Parâmetros: <equip position> <+/- amount>
   - Command: guild
     Help: |
-      Params: <guild_name>
+      Parâmetros: <guild_name>
       Create a guild.
   - Command: guildrecall
     Help: |
-      Params: <guild name|ID>
+      Parâmetros: <guild name|ID>
       Warps all online characters of a guild to you.
   - Command: guildspy
     Help: |
-      Params: <guild name|id>
+      Parâmetros: <guild name|id>
       You will receive all messages of the guild chat (Chat logging must be enabled)
   - Command: guildstorage
     Aliases:
       - gstorage
     Help: |
-      Opens guild storage.
+      Abre o armazém da guilda.
   - Command: gvgoff
     Aliases:
       - gpvpoff
@@ -527,14 +527,14 @@ Body:
       - hcolor
     Help: |
       Params <hair palette no.>
-      Changes your hair color.
+      Muda a cor do seu cabelo.
   - Command: hair_style
     Aliases:
       - hairstyle
       - hstyle
     Help: |
-      Params: <hairstyle no.>
-      Changes your hair style.
+      Parâmetros: <hairstyle no.>
+      Muda o estilo do seu cabelo.
   - Command: hatch
     Help: |
       Create a pet from your inventory eggs list.
@@ -547,20 +547,20 @@ Body:
       Cura a quantidade desejada de HP e SP. Sem valores especificados, fará uma cura completa.
   - Command: healap
     Help: |
-      Params: [<AP>]
+      Parâmetros: [<AP>]
       Heals the desired amount of AP. No value specified will do a full AP heal.
   - Command: help
     Aliases:
       - h
     Help: |
-      Params: <command>
+      Parâmetros: <command>
       Shows help for specified command.
   - Command: hide
     Help: |
       Torna seu personagem invisível (invisibilidade de GM). Digite novamente para se tornar visível.
   - Command: hidenpc
     Help: |
-      Params: <NPC name>
+      Parâmetros: <NPC name>
       Disable a NPC.
   - Command: homevolution
     Aliases:
@@ -569,15 +569,15 @@ Body:
       Evolves your homunculus, if possible.
   - Command: homfriendly
     Help: |
-      Params: <level of intimacy> - value between 0-1000
+      Parâmetros: <level of intimacy> - valor entre 0-1000
       Sets your homunculus intimacy level to the desired value.
   - Command: homhungry
     Help: |
-      Params: <level of hunger> - value between 0-100
+      Parâmetros: <level of hunger> - valor entre 0-100
       Sets your homunculus hunger level to the desired value.
   - Command: hominfo
     Help: |
-      Displays homunculus stats.
+      Exibe estatísticas do homúnculo.
   - Command: homlevel
     Aliases:
       - hlvl
@@ -585,36 +585,36 @@ Body:
       - homlvl
       - homlvup
     Help: |
-      Params: <level>
+      Parâmetros: <level>
       Increases the homunculus level by <level>.
   - Command: hommutate
     Help: |
-      Params: <mutated homunculus ID>
+      Parâmetros: <mutated homunculus ID>
       Mutates your homunculus to <mutated homunculus ID>, if possible.
   - Command: homshuffle
     Help: |
       Recalculates the homunculus stats, as if the homunculus was leveled again from level 1.
   - Command: homstats
     Help: |
-      Displays homunculus stats.
+      Exibe estatísticas do homúnculo.
   - Command: homtalk
     Help: |
-      Params: <message>
+      Parâmetros: <message>
       Let the player's homunculus say the text <message>.
   - Command: identify
     Help: |
-      Opens the identification window if any unidentified items are in your inventory.
+      Abre a janela de identificação se houver itens não identificados em seu inventário.
   - Command: identifyall
     Help: |
       Any unidentified items in your inventory will automatically be identified.
   - Command: idsearch
     Help: |
-      Params: <part_of_item_name>
+      Parâmetros: <part_of_item_name>
       Search all items that name have part_of_item_name
   - Command: int
     Help: |
-      Params: <amount>
-      Raises INT by given amount.
+      Parâmetros: <amount>
+      Aumenta INT pela quantidade fornecida.
   - Command: invite
     Help: |
       Invites a player to a duel.
@@ -624,12 +624,12 @@ Body:
       Dá o item desejado para você.
   - Command: item2
     Help: |
-      Params: <item name or ID> <quantity> <identified_flag> <refine> <broken_flag> <Card1> <Card2> <Card3> <Card4>
-      Gives you the desired item.
+      Parâmetros: <item name or ID> <quantity> <identified_flag> <refine> <broken_flag> <Card1> <Card2> <Card3> <Card4>
+      Dá a você o item desejado.
   - Command: itembound
     Help: |
-      Params: <item name or ID> <quantity> <bound type>
-      Creates an item bounded to the character.
+      Parâmetros: <item name or ID> <quantity> <bound type>
+      Creates algum item bounded to the character.
       The items cannot be dropped, sold, vended, auctioned, or mailed, and in some cases cannot be traded or stored.
       Available bound types:
         1: Account
@@ -638,8 +638,8 @@ Body:
         4: Character
   - Command: itembound2
     Help: |
-      Params: <item name or ID> <quantity> <identified_flag> <refine> <broken_flag> <Card1> <Card2> <Card3> <Card4> <bound type>
-      Creates an item bounded to the character.
+      Parâmetros: <item name or ID> <quantity> <identified_flag> <refine> <broken_flag> <Card1> <Card2> <Card3> <Card4> <boundtype>
+      Creates algum item bounded to the character.
       The items cannot be dropped, sold, vended, auctioned, or mailed, and in some cases cannot be traded or stored.
       Available bound types:
         1: Account
@@ -650,13 +650,13 @@ Body:
     Aliases:
       - ii
     Help: |
-      Params: <item name|ID>
+      Parâmetros: <item name|ID>
       Shows item info (type, price etc).
   - Command: itemlist
     Aliases:
       - inventorylist
     Help: |
-      Displays a list of items in the inventory.
+      Exibe uma lista de itens no inventário.
   - Command: itemreset
     Aliases:
       - clearinventory
@@ -664,15 +664,15 @@ Body:
       Remove all your items.
   - Command: jail
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Sends specified character in jails.
   - Command: jailfor
     Help: |
-      Params: <time> <char name>
+      Parâmetros: <time> <char name>
       Sends specified character in jails for the given <time>.
   - Command: jailtime
     Help: |
-      Displays remaining jail time.
+      Exibe o tempo restante na prisão.
   - Command: jobchange
     Aliases:
       - job
@@ -744,38 +744,38 @@ Body:
       - joblvlup
       - joblvup
     Help: |
-      Params: <number of levels>
-      Raises your job level the desired number of levels.
+      Parâmetros: <number of levels>
+      Aumenta seu nível de classe pelo número desejado de níveis.
   - Command: join
     Help: |
-      Params: <#channel_name> {<password>}
+      Parâmetros: <#channel_name> {<password>}
       Joins the specified channel <#channel_name>, if necessary by using the supplied <password>.
   - Command: jump
     Help: |
-      Params: [<x> [<y>]]
+      Parâmetros: [<x> [<y>]]
       Randomly warps you like a flywing.
   - Command: jumpto
     Aliases:
       - goto
       - warpto
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Warps you to selected character.
   - Command: kami
     Help: |
-      Params: <message>
+      Parâmetros: <message>
       Broadcasts a message without your name (in yellow).
   - Command: kamib
     Help: |
-      Params: <message>
+      Parâmetros: <message>
       Broadcasts a message without your name (in blue).
   - Command: kamic
     Help: |
-      Params: <color> <message> - color is a hexadecimal value
+      Parâmetros: <color> <message> - color é um valor hexadecimal
       Broadcasts a message without your name in the color <color>.
   - Command: kick
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Kicks specified character off the server
   - Command: kickall
     Help: |
@@ -793,7 +793,7 @@ Body:
       Allows you to attack other players outside of PvP.
   - Command: killmonster
     Help: |
-      Params: <map>
+      Parâmetros: <map>
       Kill all monsters of the map (they drop)
   - Command: killmonster2
     Help: |
@@ -802,27 +802,27 @@ Body:
     Aliases:
       - noks
     Help: |
-      Params: None. Disables kill stealing protection or displays a help message.
-      Params: self. Enables kill stealing protection against any other players.
-      Params: party. Enables kill stealing protection against any other players not in your party.
-      Params: guilds. Enables kill stealing protection against any other players not in your guild.
+      Parâmetros: None. Desativa a proteção contra roubo de kills ou exibe uma mensagem de ajuda.
+      Parâmetros: self. Ativa a proteção contra roubo de kills contra quaisquer outros jogadores.
+      Parâmetros: party. Ativa a proteção contra roubo de kills contra quaisquer outros jogadores que não estejam em seu grupo.
+      Parâmetros: guilds. Ativa a proteção contra roubo de kills contra quaisquer outros jogadores que não estejam em sua guilda.
       Prevents other players from kill stealing.
   - Command: langtype
     Help: |
-      Params: <language>
-      Changes your language setting.
+      Parâmetros: <language>
+      Muda sua configuração de idioma.
   - Command: leave
     Help: |
       Leaves a duel.
   - Command: leaves
     Help: |
-      Makes all maps to have the leaves weather effect.
+      Faz com que todos os mapas tenham o efeito climático de folhas.
   - Command: limitedsale
     Help: |
-      Opens the limited sale window.
+      Abre a janela de venda limitada.
   - Command: lkami
     Help: |
-      Params: <message>
+      Parâmetros: <message>
       Broadcasts a message without your name on the current map (in yellow).
   - Command: load
     Aliases:
@@ -831,15 +831,15 @@ Body:
       Warps you to your save point.
   - Command: loadnpc
     Help: |
-      Params: <path to script>
+      Parâmetros: <path to script>
       Load the specified script file path.
   - Command: localbroadcast
     Help: |
-      Params: <message>
+      Parâmetros: <message>
       Broadcasts a message with your name (in yellow) only on your map.
   - Command: lostskill
     Help: |
-      Params: <#>
+      Parâmetros: <#>
       Takes away the specified quest skill from you
       Novice = 142: First Aid, 143: Act Dead
       Archer = 147: Create Arrow, 148: Charge Arrow
@@ -863,34 +863,34 @@ Body:
       Sage = 1007: Create Elemental Converter, 1008: Elemental Change (Water), 1017: Elemental Change (Earth), 1018: Elemental Change (Fire), 1019: Elemental Change (Wind)
   - Command: luk
     Help: |
-      Params: <amount>
-      Raises LUK by given amount.
+      Parâmetros: <amount>
+      Aumenta LUK pela quantidade fornecida.
   - Command: macrochecker
     Help: |
-      Params: <mapname>
+      Parâmetros: <mapname>
       Trigger a macro detection on all players of the given map.
   - Command: mail
     Help: |
       Open mail box.
   - Command: makeegg
     Help: |
-      Params: <pet_id>
-      Gives pet egg for monster number in pet DB
+      Parâmetros: <pet_id>
+      Dá ovo de pet para o número do monstro no banco de dados de pets
   - Command: makehomun
     Help: |
-      Params: <homunculus ID>
+      Parâmetros: <homunculus ID>
       Creates a homunculus with the given <homunculus ID>.
   - Command: mapexit
     Help: |
       Kick all players and shut down map-server.
   - Command: mapflag
     Help: |
-      Params: None - Shows mapflags that are active on the current map.
-      Params: "available" - Shows a list of possible mapflags.
-      Params: <name> - Activates mapflag <name> on the current map.
+      Parâmetros: None - Mostra mapflags que estão ativos no mapa atual.
+      Parâmetros: "available" - Mostra uma lista de mapflags possíveis.
+      Parâmetros: <name> - Ativa o mapflag <name> no mapa atual.
   - Command: mapinfo
     Help: |
-      Params: [<0-3> [map]]
+      Parâmetros: [<0-3> [map]]
       Give information about a map (general info +: 0: no more, 1: players, 2: NPC, 3: chatrooms).
   - Command: mapmove
     Aliases:
@@ -901,19 +901,19 @@ Body:
       Teleporta você para o mapa e posição selecionados.
   - Command: marry
     Help: |
-      Params: <player name>
+      Parâmetros: <player name>
       Marry another player.
   - Command: me
     Help: |
-      Params: <message>
-      Displays normal text as a message in this format: *name message* (like /me in mIRC).
+      Parâmetros: <message>
+      Exibe texto normal como uma mensagem neste formato: nome mensagem (como /me no mIRC).
   - Command: memo
     Help: |
-      Params: [memo position]
+      Parâmetros: [memo position]
       Set/change a memo location (no position: display memo points).
   - Command: misceffect
     Help: |
-      Params: <effect ID>
+      Parâmetros: <effect ID>
       Does some visual effect on the character.
       Available effect IDs:
         0 = base level up
@@ -931,37 +931,37 @@ Body:
       - monsterinfo
       - mi
     Help: |
-      Params: <monster name|ID>
+      Parâmetros: <monster name|ID>
       Shows monster info (stats, exp, drops etc).
   - Command: mobsearch
     Help: |
-      Params: <monster name|ID>
+      Parâmetros: <monster name|ID>
       Shows the location of a certain mob on the current map.
   - Command: model
     Help: |
-      Params:  <hair ID: 0-17> <hair color: 0-8> <clothes color: 0-4> - Changes your characters appearence.
+      Parâmetros: <hair ID: 0-17> <hair color: 0-8> <clothes color: 0-4> - Muda a aparência do seu personagem.
   - Command: monster
     Aliases:
       - spawn
     Help: |
-      Params: <monster name|ID> [<number to spawn> [<desired_monster_name> [<x coord> [<y coord>]]]]
+      Parâmetros: <monster name|ID> [<number to spawn> [<desired_monster_name> [<x coord> [<y coord>]]]]
       @monster2 <desired_monster_name> <monster name|ID> [<number to spawn> [<x coord> [<y coord>]]]
       @spawn/@monster/@summon/@monster2 "desired monster name" <monster name|ID> [<number to spawn> [<x coord> [<y coord>]]]
       @spawn/@monster/@summon/@monster2 <monster name|ID> "desired monster name" [<number to spawn> [<x coord> [<y coord>]]]
-      Spawns the desired monster with any desired name.
+      Invoca o monstro desejado com qualquer nome desejado.
   - Command: monsterbig
     Help: |
-      Params: <monster name|ID>
-      Spawns a larger version of a monster.
+      Parâmetros: <monster name|ID>
+      Invoca uma versão maior de um monstro.
   - Command: monsterignore
     Aliases:
       - battleignore
     Help: |
-      Makes the player unattackable by monsters, other players, etc.
+      Faz com que o jogador não possa ser atacado por monstros, outros jogadores, etc.
   - Command: monstersmall
     Help: |
-      Params: <monster name|ID>
-      Spawns a smaller version of a monster.
+      Parâmetros: <monster name|ID>
+      Invoca uma versão menor de um monstro.
   - Command: mount_peco
     Aliases:
       - mount
@@ -973,13 +973,13 @@ Body:
       Give/remove a cash mount.
   - Command: mute
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Mutes the player <char name> (prevents talking, usage of skills, and commands).
   - Command: mutearea
     Aliases:
       - stfu
     Help: |
-      Params: <time> amount of minutes to mute the players
+      Parâmetros: <time> quantidade de minutos para silenciar os jogadores
       Mutes every player on screen for the specified time (prevents talking, usage of skills, and commands).
   - Command: night
     Help: |
@@ -989,22 +989,22 @@ Body:
       Auto rejects deals/invites.
   - Command: npcmove
     Help: |
-      Params: <x coord> <y coord> <NPC name>
+      Parâmetros: <x coord> <y coord> <NPC name>
       Move a NPC.
   - Command: npctalk
     Aliases:
       - npctalkc
     Help: |
-      Params: <NPC name> <message>
+      Parâmetros: <NPC name> <message>
       Forces a NPC to display a message in normal chat.
   - Command: nuke
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Blow somebody up, including those surrounding them.
   - Command: option
     Help: |
-      Params: <param1> <param2>(stackable) <param3>(stackable)
-      Adds different visual effects on or around your character.
+      Parâmetros: <param1> <param2>(stackable) <param3>(stackable)
+      Adiciona diferentes efeitos visuais em ou ao redor do seu personagem.
        <param1>       <param2>        <param3>
       01: Stone      01: Sight       01: Sight          512: Cart Lv. 4
       02: Frozen     02: Curse       02: Hiding        1024: Cart Lv. 5
@@ -1017,48 +1017,48 @@ Body:
       32: (Nothing) 256: Fear       256: Cart Lv. 3
   - Command: party
     Help: |
-      Params: <party_name>
+      Parâmetros: <party_name>
       Create a party.
   - Command: partyoption
     Help: |
-      Params: <item sharing> <item distribution> - yes/no
-      Changes party options for item sharing and item distribution.
+      Parâmetros: <item sharing> <item distribution> - yes/no
+      Muda as opções de grupo para compartilhamento de itens e distribuição de itens.
   - Command: partyrecall
     Help: |
-      Params: <party name|ID>
+      Parâmetros: <party name|ID>
       Warps all online characters of a party to you.
   - Command: partysharelvl
     Help: |
-      Params: <level difference>
+      Parâmetros: <level difference>
       Temporarily adjusts the party share level range to <level difference>.
   - Command: partyspy
     Help: |
       @partyspy <party name|id> - You will receive all messages of the party channel (Chat logging must be enabled)
   - Command: petfriendly
     Help: |
-      Params: <#>
+      Parâmetros: <#>
       Set pet friendly amount (0-1000) 1000 = Max
   - Command: pethungry
     Help: |
-      Params: <#>
+      Parâmetros: <#>
       Set pet hungry amount (0-100) 100 = Max
   - Command: petrename
     Help: |
       Re-enable pet rename
   - Command: pettalk
     Help: |
-      Params: <message>
-      Makes your pet say a message.
+      Parâmetros: <message>
+      Faz com que seu pet diga uma mensagem.
   - Command: points
     Help: |
-      Params: <amount> - Gives you the specified amount of Kafra Points.
+      Parâmetros: <amount> - Dá a você a quantidade especificada de Pontos Kafra.
   - Command: pow
     Help: |
-      Params: <amount>
-      Raises POW by given amount.
+      Parâmetros: <amount>
+      Aumenta POW pela quantidade fornecida.
   - Command: produce
     Help: |
-      Params: <equip name or equip ID> <element> <# of very's>
+      Parâmetros: <equip name or equip ID> <element> <# of very's>
       Element: 0=None 1=Ice 2=Earth 3=Fire 4=Wind
       You can add up to 3 Star Crumbs and 1 element
   - Command: pvpoff
@@ -1069,8 +1069,8 @@ Body:
       Enables PvP on the current map
   - Command: questskill
     Help: |
-      Params: <#>
-      Gives you the specified quest skill
+      Parâmetros: <#>
+      Dá a você a habilidade de quest especificada
       Novice = 142: First Aid, 143: Act Dead
       Archer = 147: Create Arrow, 148: Charge Arrow
       Swordman = 144: Moving HP Recovery, 145: Attack Weak Point, 146: Auto Berserk
@@ -1095,7 +1095,7 @@ Body:
     Aliases:
       - revive
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Revives target character.
   - Command: raisemap
     Help: |
@@ -1112,13 +1112,13 @@ Body:
       Teleporta todos os personagens online para você.
   - Command: refine
     Help: |
-      Params: <equip position> <+/- amount>
+      Parâmetros: <equip position> <+/- amount>
   - Command: refineui
     Help: |
-      Opens the refine UI.
+      Abre a interface de refinamento.
   - Command: refineui
     Help: |
-      Opens the refine UI.
+      Abre a interface de refinamento.
   - Command: refresh
     Help: |
       Synchronizes the position and state between client and server.
@@ -1168,7 +1168,7 @@ Body:
       Reload message configuration.
   - Command: reloadnpcfile
     Help: |
-      Params: <path> - path to script
+      Parâmetros: <path> - caminho para o script
       Unloads and loads a script file from <path>.
   - Command: reloadpcdb
     Help: |
@@ -1190,7 +1190,7 @@ Body:
       Repair all items of your inventory
   - Command: request
     Help: |
-      Params: <message>
+      Parâmetros: <message>
       Sends a message to all connected GMs (via the gm whisper system)
   - Command: reset
     Help: |
@@ -1215,20 +1215,20 @@ Body:
       Resurrects a player, if the necessary conditions (items in inventory or status changes) are fulfilled.
   - Command: rmvperm
     Help: |
-      Params: <permission_name>
+      Parâmetros: <permission_name>
       Temporarily remove a permission from a player.
   - Command: roulette
     Help: |
-      Opens the roulette UI.
+      Abre a interface da roleta.
   - Command: sakura
     Help: |
-      Makes all maps to have the sakura weather effect.
+      Faz com que todos os mapas tenham o efeito climático de sakura.
   - Command: save
     Help: |
       Sets respawn point to current spot.
   - Command: send
     Help: |
-      Params: <Hex Number> [<value>]
+      Parâmetros: <Hex Number> [<value>]
       For debugging (packet variety)
   - Command: servertime
     Aliases:
@@ -1239,55 +1239,55 @@ Body:
       Shows the date and time of the server.
   - Command: set
     Help: |
-      Params: <variable name> {<value>}
+      Parâmetros: <variable name> {<value>}
       Shows the value of the variable <variable name>.
       If a <value> is provided, it changes the variable <variable name> to the given value.
   - Command: setbattleflag
     Help: |
-      Params: <battle config name> <value> {<reload>}
-      Changes <battle config name> to <value> without rebooting the server.
+      Parâmetros: <battle config name> <value> {<reload>}
+      Muda <battle config name> para <value> sem reiniciar o servidor.
       If <reload> is specified, the monster database will also be reloaded.
   - Command: setcard
     Help: |
-      Adds a card or enchant to the specific slot of the equipment.
+      Adiciona um card ou encantamento ao slot específico do equipamento.
   - Command: setquest
     Help: |
-      Params: <quest ID>
+      Parâmetros: <quest ID>
       Activates the quest with quest ID <quest ID>.
   - Command: showdelay
     Help: |
       Shows/hides the "There is a delay after this skill" message.
   - Command: showexp
     Help: |
-      Displays/hides experience gained.
+      Exibe/oculta experiência ganha.
   - Command: showmobs
     Help: |
-      Params: <monster ID>
-      Params: <monster name>
+      Parâmetros: <monster ID>
+      Parâmetros: <monster name>
       Locates and displays the position of a certain mob on your mini-map.
       This shows up as a small white cross (+).
   - Command: shownpc
     Help: |
-      Params: <NPC name>
+      Parâmetros: <NPC name>
       Enable a NPC.
   - Command: showrate
     Help: |
       Enable or disable to show the rate information on every mapchange.
   - Command: showzeny
     Help: |
-      Displays/hides Zeny gained.
+      Exibe/oculta Zeny ganho.
   - Command: size
     Help: |
-      Params:  <0-2> Changes your size (0-Normal 1-Small 2-Large)
+      Parâmetros: <0-2> Muda seu tamanho (0-Normal 1-Pequeno 2-Grande)
   - Command: sizeall
     Help: |
-      Changes the size of all players.
+      Muda o tamanho de todos os jogadores.
   - Command: sizeguild
     Help: |
-      Changes the size of all online characters of a guild.
+      Muda o tamanho de todos os personagens online de uma guilda.
   - Command: skillid
     Help: |
-      Params: <name>
+      Parâmetros: <name>
       Look up a skill by name
   - Command: skilloff
     Help: |
@@ -1299,42 +1299,42 @@ Body:
     Aliases:
       - skpoint
     Help: |
-      Params: <number of points> - Gives you the desired number of skill points.
+      Parâmetros: <number of points> - Dá a você o número desejado de pontos de habilidade.
   - Command: skilltree
     Help: |
-      Params: <skillnum> <charname>
+      Parâmetros: <skillnum> <charname>
       Prints the skill tree needed to get a skill for the target player.
   - Command: slaveclone
     Help: |
-      Params: <charname>
-      Spawns a supportive clone of the given player that follows the creator around.
+      Parâmetros: <charname>
+      Invoca um clone de suporte do jogador especificado que segue o criador.
   - Command: snow
     Help: |
-      Makes all maps to have the snow weather effect.
+      Faz com que todos os mapas tenham o efeito climático de neve.
   - Command: soulball
     Help: |
-      Params: <amount> - value between 0-20
+      Parâmetros: <amount> - valor entre 0-20
       Summons the specified <amount> of soul spheres around you.
   - Command: sound
     Help: |
-      Params: <path to file in data folder or GRF file>
+      Parâmetros: <path to file in data folder or GRF file>
       Plays a sound from the data folder or GRF file located on the client.
   - Command: speed
     Help: |
-      Params: <1-1000>
-      Changes you walking speed. 1 being the fastest and 1000 the slowest. Default is 150.
+      Parâmetros: <1-1000>
+      Muda sua velocidade de caminhada. 1 sendo o mais rápido e 1000 o mais lento. O padrão é 150.
   - Command: spiritball
     Help: |
-      Params: <1-100>
-      Gives you "spirit spheres" like from the skill "Call Spirits".
+      Parâmetros: <1-100>
+      Dá a você "esferas espirituais" como da habilidade "Invocar Esferas Espirituais".
   - Command: spl
     Help: |
-      Params: <amount>
-      Raises SPL by given amount.
+      Parâmetros: <amount>
+      Aumenta SPL pela quantidade fornecida.
   - Command: sta
     Help: |
-      Params: <amount>
-      Raises STA by given amount.
+      Parâmetros: <amount>
+      Aumenta STA pela quantidade fornecida.
   - Command: stat_all
     Aliases:
       - allstat
@@ -1342,19 +1342,19 @@ Body:
       - statall
       - statsall
     Help: |
-      Params: <value>
-      Adds value in all stats (maximum if no value).
+      Parâmetros: <value>
+      Adiciona valor em todos os atributos (máximo se nenhum valor for especificado).
   - Command: stats
     Help: |
-      Displays the stats of the player in your chat.
+      Exibe as estatísticas do jogador no seu chat.
   - Command: statuspoint
     Aliases:
       - stpoint
     Help: |
-      Params: <number of points> - Gives you the desired number of stat points.
+      Parâmetros: <number of points> - Dá a você o número desejado de pontos de status.
   - Command: stockall
     Help: |
-      Params: [<item type>]
+      Parâmetros: [<item type>]
       Transfer items from cart to your inventory. No type specified will transfer all items.
   - Command: storage
     Help: |
@@ -1364,26 +1364,26 @@ Body:
       Puts all your possessions in storage.
   - Command: storagelist
     Help: |
-      Displays a list of items in the storage.
+      Exibe uma lista de itens no armazém.
   - Command: str
     Help: |
-      Params: <amount>
-      Raises STR by given amount.
+      Parâmetros: <amount>
+      Aumenta STR pela quantidade fornecida.
   - Command: stylist
     Help: |
-      Opens the stylist user interface.
+      Abre a interface do estilista.
   - Command: summon
     Help: |
-      Params: <monster name/ID> {<duration>}
-      Spawns the monster with <monster name/ID> and let it treat you as their master.
+      Parâmetros: <monster name/ID> {<duration>}
+      Invoca o monstro com <nome/ID do monstro> e faz com que ele o trate como seu mestre.
       If a duration is specified, it will stay with you until the duration has ended.
   - Command: tonpc
     Help: |
-      Params: <NPC name>
+      Parâmetros: <NPC name>
       Warps to the specified NPC.
   - Command: trade
     Help: |
-      Params: <char name> - Open a trade window with a another player
+      Parâmetros: <char name> - Abre uma janela de comércio com outro jogador
   - Command: trait_all
     Aliases:
       - alltrait
@@ -1391,18 +1391,18 @@ Body:
       - traitall
       - traitsall
     Help: |
-      Params: <value>
-      Adds value in all traits (maximum if no value).
+      Parâmetros: <value>
+      Adiciona valor em todas as características (máximo se nenhum valor for especificado).
   - Command: traitpoint
     Aliases:
       - trpoint
     Help: |
-      Params: <number of points> - Gives you the desired number of trait stat points.
+      Parâmetros: <number of points> - Dá a você o número desejado de pontos de característica.
   - Command: unban
     Aliases:
       - unbanish
     Help: |
-      Params: <name> - Unban an account
+      Parâmetros: <name> - Desbanir alguma conta
   - Command: undisguise
     Help: |
       Restore your normal appearance.
@@ -1416,42 +1416,42 @@ Body:
     Aliases:
       - discharge
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Discharges specified character/prisoner
   - Command: unloadnpc
     Help: |
-      Params: <NPC name>
+      Parâmetros: <NPC name>
       Unload the specified NPC according to name.
   - Command: unloadnpcfile
     Help: |
-      Params: <path>
+      Parâmetros: <path>
       Unload the specified script file path.
   - Command: unmute
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Unmutes the player <char name>.
   - Command: uptime
     Help: |
-      Displays how long the server has been online.
+      Exibe há quanto tempo o servidor está online.
   - Command: users
     Help: |
-      Displays the distribution of players on the server per map.
+      Exibe a distribuição de jogadores no servidor por mapa.
   - Command: useskill
     Help: |
-      Params: <skillid> <skillv> <target>
+      Parâmetros: <skillid> <skillv> <target>
       Use a skill on target
   - Command: version
     Help: |
-      Displays SVN version of the server.
+      Exibe a versão SVN do servidor.
   - Command: vip
     Help: |
-      Params: <+/- time> <char name>
+      Parâmetros: <+/- time> <char name>
       Set a player in VIP mode for a limited time.
       Time elements: y/a, m, d/j, h, mn, s
   - Command: vit
     Help: |
-      Params: <amount>
-      Raises VIT by given amount.
+      Parâmetros: <amount>
+      Aumenta VIT pela quantidade fornecida.
   - Command: warp
     Aliases:
       - mapmove
@@ -1460,12 +1460,12 @@ Body:
       Teleporta você para o mapa e posição selecionados.
   - Command: where
     Help: |
-      Params: <char name>
+      Parâmetros: <char name>
       Tells you the location of a character.
   - Command: whereis
     Help: |
-      Params: <monster name/ID>
-      Displays the maps in which monster <monster name/ID> normally spawns.
+      Parâmetros: <monster name/ID>
+      Exibe os mapas nos quais o monstro <nome/ID do monstro> normalmente aparece.
   - Command: who
     Aliases:
       - whois
@@ -1474,35 +1474,35 @@ Body:
       Mostra uma lista de jogadores online e suas respectivas guildas e grupos.
   - Command: who2
     Help: |
-      Params: [<name>]
+      Parâmetros: [<name>]
       Shows a list of online players and their job.
   - Command: who3
     Help: |
-      Params: [<name>]
+      Parâmetros: [<name>]
       Shows a list of online players and their location.
   - Command: whodrops
     Help: |
-      Params: <item name|ID>
-      Shows who drops an item (monster with highest drop rates).
+      Parâmetros: <item name|ID>
+      Shows who drops algum item (monster with highest drop rates).
   - Command: whogm
     Help: |
-      Params: [match_text] - Like @who+@who2+who3, but only for GM.
+      Parâmetros: [match_text] - Como @who+@who2+who3, mas apenas para GM.
   - Command: whomap
     Help: |
-      Params: <mapname>
+      Parâmetros: <mapname>
       Like @who but only for specified map <mapname>.
   - Command: whomap2
     Help: |
-      Params: <mapname>
+      Parâmetros: <mapname>
       Like @who2 but only for specified map <mapname>.
   - Command: whomap3
     Help: |
-      Params: <mapname>
+      Parâmetros: <mapname>
       Like @who3 but only for specified map <mapname>.
   - Command: wis
     Help: |
-      Params: <amount>
-      Raises WIS by given amount.
+      Parâmetros: <amount>
+      Aumenta WIS pela quantidade fornecida.
   - Command: zeny
     Help: |
       Parâmetros: <quantidade>
