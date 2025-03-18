@@ -53,37 +53,37 @@ Body:
   - Id: 1000
     Title: Transcend
   - Id: 1001
-    Title: Job Change to Acolyte
+    Title: Mudança de Classe para Acólito
   - Id: 1002
-    Title: Job Change to Acolyte
+    Title: Mudança de Classe para Acólito
   - Id: 1003
-    Title: Job Change to Acolyte
+    Title: Mudança de Classe para Acólito
   - Id: 1004
-    Title: Job Change to Archer
+    Title: Mudança de Classe para Arqueiro
   - Id: 1005
-    Title: Job Change to Mage
+    Title: Mudança de Classe para Mago
   - Id: 1006
-    Title: Job Change to Mage
+    Title: Mudança de Classe para Mago
   - Id: 1007
-    Title: Job Change to Mage
+    Title: Mudança de Classe para Mago
   - Id: 1008
-    Title: Job Change to Mage
+    Title: Mudança de Classe para Mago
   - Id: 1009
-    Title: Job Change to Merchant
+    Title: Mudança de Classe para Merchant
   - Id: 1010
-    Title: Job Change to Merchant
+    Title: Mudança de Classe para Merchant
   - Id: 1011
-    Title: Job Change to Merchant
+    Title: Mudança de Classe para Merchant
   - Id: 1012
-    Title: Job Change to Merchant
+    Title: Mudança de Classe para Merchant
   - Id: 1013
-    Title: Job Change to Thief
+    Title: Mudança de Classe para Gatuno
   - Id: 1014
-    Title: Job Change to Swordman
+    Title: Mudança de Classe para Swordman
   - Id: 1015
-    Title: Your first quest
+    Title: Sua Primeira Missão
   - Id: 1016
-    Title: Gaining base levels
+    Title: Ganhando Níveis Base
   - Id: 1100
     Title: Solo in the Sphinx Dungeon!
     Targets:
@@ -153,31 +153,31 @@ Body:
     Title: Neighborhood Knight - Cooldown
     TimeLimit: 4h
   - Id: 1145
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1146
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1147
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1148
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1149
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1150
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1151
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1152
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
     TimeLimit: 4h
   - Id: 1153
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1154
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
     Targets:
       - Mob: RED_ERUMA
         Count: 20
   - Id: 1155
-    Title: Help the poor cat
+    Title: Ajude o gato fudido
   - Id: 1174
     Title: Rumor, Time and Legend
   - Id: 1175
@@ -430,131 +430,131 @@ Body:
     Title: No more Sweets
     TimeLimit: 4h
   - Id: 2000
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2001
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2002
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2003
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2004
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2005
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2006
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2007
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2008
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2009
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2010
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2011
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2012
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2013
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2014
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2015
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2016
-    Title: Job Change to Blacksmith
+    Title: Mudança de Classe para Ferreiro
   - Id: 2017
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2018
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2019
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2020
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2021
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2022
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2023
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2024
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2025
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2026
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2027
-    Title: Job Change to Rogue
+    Title: Mudança de Classe para Rogue
   - Id: 2028
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2029
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2030
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2031
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2032
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2033
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2034
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2035
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2036
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2037
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2038
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2039
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2040
-    Title: Job Change to Alchemist
+    Title: Mudança de Classe para Alchemist
   - Id: 2041
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2042
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2043
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2044
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2045
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2046
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2047
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2048
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2049
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2050
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2051
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2052
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2053
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2054
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2055
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2056
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2057
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2058
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2059
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2060
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2061
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2062
-    Title: Job Change to Sage
+    Title: Mudança de Classe para Sage
   - Id: 2063
     Title: The Crow of the Fate - 1
   - Id: 2064
@@ -574,35 +574,35 @@ Body:
     Title: Flavius Battle
     TimeLimit: +5mn
   - Id: 2071
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2072
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2073
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2074
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2075
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2076
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2077
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2078
-    Title: Cursed Property
+    Title: Propriedade Amaldiçoada
   - Id: 2079
-    Title: The past went wrong
+    Title: Deu ruim no passado
   - Id: 2080
-    Title: The past went wrong
+    Title: Deu ruim no passado
   - Id: 2081
-    Title: The past went wrong
+    Title: Deu ruim no passado
   - Id: 2082
-    Title: The past went wrong
+    Title: Deu ruim no passado
   - Id: 2083
-    Title: The past went wrong
+    Title: Deu ruim no passado
   - Id: 2084
-    Title: The past went wrong
+    Title: Deu ruim no passado
   - Id: 2085
-    Title: The past went wrong
+    Title: Deu ruim no passado
   - Id: 2086
     Title: The Enterprise
   - Id: 2087
@@ -892,98 +892,98 @@ Body:
   - Id: 2302
     Title: "Training Center: Formation"
   - Id: 3000
-    Title: Job Change to Bard
+    Title: Mudança de Classe para Bard
   - Id: 3001
-    Title: Job Change to Bard
+    Title: Mudança de Classe para Bard
   - Id: 3002
-    Title: Job Change to Bard
+    Title: Mudança de Classe para Bard
   - Id: 3003
-    Title: Job Change to Bard
+    Title: Mudança de Classe para Bard
   - Id: 3004
-    Title: Job Change to Bard
+    Title: Mudança de Classe para Bard
   - Id: 3006
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3007
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3008
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3009
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3010
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3011
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3012
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3013
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3014
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3015
-    Title: Job Change to Crusader
+    Title: Mudança de Classe para Crusader
   - Id: 3016
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3017
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3018
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3019
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3020
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3021
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3022
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3023
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3024
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3025
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3026
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3027
-    Title: Job Change to Monk
+    Title: Mudança de Classe para Monk
   - Id: 3028
-    Title: Job Change to Monk - Marathon
+    Title: Mudança de Classe para Monk - Marathon
   - Id: 3029
-    Title: Job Change to Monk - Final test
+    Title: Mudança de Classe para Monk - Final test
   - Id: 3031
-    Title: Job Change to Monk - Spiritual Training
+    Title: Mudança de Classe para Monk - Spiritual Training
   - Id: 3032
-    Title: Job Change to Monk - Become a Monk
+    Title: Mudança de Classe para Monk - Become a Monk
   - Id: 3040
-    Title: The Curse of Baphomet
+    Title: A maldição de Bafomé
     TimeLimit: +12h
   - Id: 3041
-    Title: The Curse of Baphomet
+    Title: A maldição de Bafomé
     TimeLimit: +3mn
   - Id: 3042
     Title: The Cursed Baphomet Doll
   - Id: 3043
-    Title: The Gigantic Magestic Goat
+    Title: O bode foda
   - Id: 3044
-    Title: The Gigantic Magestic Goat
+    Title: O bode foda
   - Id: 3045
-    Title: Sealed Shrine
+    Title: Santuário Selado
     TimeLimit: +2h
   - Id: 3046
-    Title: Sealed Shrine After-effect
+    Title: Santuário Selado After-effect
   - Id: 3050
-    Title: Resurrection of Satan Morocc - 1
+    Title: Renascimento de Satan Morroc - 1
   - Id: 3051
-    Title: Resurrection of Satan Morocc - 2
+    Title: Renascimento de Satan Morroc - 2
   - Id: 3052
-    Title: Resurrection of Satan Morocc - 3
+    Title: Renascimento de Satan Morroc - 3
   - Id: 3053
-    Title: Resurrection of Satan Morocc - 4
+    Title: Renascimento de Satan Morroc - 4
   - Id: 3054
-    Title: Resurrection of Satan Morocc - 5
+    Title: Renascimento de Satan Morroc - 5
   - Id: 3055
-    Title: Resurrection of Satan Morocc - 6
+    Title: Renascimento de Satan Morroc - 6
   - Id: 3056
-    Title: Resurrection of Satan Morocc - 7
+    Title: Renascimento de Satan Morroc - 7
   - Id: 3060
     Title: Kids in Veins - Where's the Little Sis?
   - Id: 3061
@@ -1622,31 +1622,31 @@ Body:
   - Id: 4000
     Title: Sherin's Job Interview
   - Id: 4001
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4002
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4003
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4004
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4005
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4006
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4007
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4008
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4009
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4010
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4011
-    Title: Job Change to Hunter - Test
+    Title: Mudança de Classe para Hunter - Test
   - Id: 4012
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4013
-    Title: Job Change to Hunter
+    Title: Mudança de Classe para Hunter
   - Id: 4133
     Title: Iara
   - Id: 4134
@@ -3257,25 +3257,25 @@ Body:
   - Id: 5942
     Title: Flower Room Opening Ceremony
   - Id: 6000
-    Title: Job Change to Taekwon
+    Title: Mudança de Classe para Taekwon
   - Id: 6001
-    Title: Job Change to Taekwon
+    Title: Mudança de Classe para Taekwon
   - Id: 6002
-    Title: Job Change to Taekwon
+    Title: Mudança de Classe para Taekwon
   - Id: 6005
-    Title: Job Change to Soul-Linker
+    Title: Mudança de Classe para Soul-Linker
   - Id: 6006
-    Title: Job Change to Soul-Linker
+    Title: Mudança de Classe para Soul-Linker
   - Id: 6007
-    Title: Job Change to Soul-Linker
+    Title: Mudança de Classe para Soul-Linker
   - Id: 6008
-    Title: Job Change to Soul-Linker
+    Title: Mudança de Classe para Soul-Linker
   - Id: 6010
-    Title: Job Change to Super Novice
+    Title: Mudança de Classe para Super Novice
   - Id: 6015
     Title: A favor from Cougar
   - Id: 6016
-    Title: A favor from a Suspicious Man
+    Title: A favor from a Man Suspeito
   - Id: 6017
     Title: Red Leopard Joe's Reply
   - Id: 6018
@@ -3289,7 +3289,7 @@ Body:
   - Id: 6023
     Title: Wise Bull Horn's Favor
   - Id: 6024
-    Title: Job Change to Gunslinger!
+    Title: Mudança de Classe para Gunslinger!
   - Id: 6025
     Title: KVM Guillaume
     TimeLimit: +5mn
@@ -3300,19 +3300,19 @@ Body:
     Title: KVM Indicator
     TimeLimit: +5mn
   - Id: 7000
-    Title: Job Change to Dancer!
+    Title: Mudança de Classe para Dancer!
   - Id: 7001
-    Title: Job Change to Dancer!
+    Title: Mudança de Classe para Dancer!
   - Id: 7002
-    Title: Job Change to Dancer!
+    Title: Mudança de Classe para Dancer!
   - Id: 7003
-    Title: Job Change to Dancer!
+    Title: Mudança de Classe para Dancer!
   - Id: 7004
-    Title: Job Change to Dancer!
+    Title: Mudança de Classe para Dancer!
   - Id: 7005
-    Title: Job Change to Dancer!
+    Title: Mudança de Classe para Dancer!
   - Id: 7006
-    Title: Job Change to Dancer!
+    Title: Mudança de Classe para Dancer!
   - Id: 7007
     Title: Warrior of the Sun, the Moon, and the Stars
   - Id: 7008
@@ -3549,7 +3549,7 @@ Body:
   - Id: 7116
     Title: Information of a old man
   - Id: 7117
-    Title: Your first quest!
+    Title: Sua Primeira Missão!
   - Id: 7118
     Title: Novice Training
   - Id: 7119
@@ -3576,7 +3576,7 @@ Body:
   - Id: 7126
     Title: Selling items
   - Id: 7127
-    Title: Battle Basics -Thief
+    Title: Battle Basics -Gatuno
     Targets:
       - Mob: WILOW
         Count: 5
@@ -4406,13 +4406,13 @@ Body:
   - Id: 7479
     Title: Friend or Foe?
   - Id: 7480
-    Title: Regarding Thief job
+    Title: Regarding Gatuno job
   - Id: 7481
     Title: Vicente's class
   - Id: 7482
     Title: Vercassel's class
   - Id: 7483
-    Title: Use the Thief Manual
+    Title: Use the Gatuno Manual
   - Id: 7484
     Title: Shop owner! Order to steal!
   - Id: 7485
@@ -4443,52 +4443,52 @@ Body:
   - Id: 7494
     Title: Cleanup of the mushroom farm
   - Id: 7501
-    Title: 1 Suspicious Babe
+    Title: 1 Babe Suspeito
     TimeLimit: +4h
     Targets:
       - Mob: BABY_STRANGE
         Count: 1
   - Id: 7502
-    Title: 10 Suspicious Babes
+    Title: 10 Babes Suspeito
     TimeLimit: +4h
     Targets:
       - Mob: BABY_STRANGE
         Count: 10
   - Id: 7503
-    Title: 30 Suspicious Babes
+    Title: 30 Babes Suspeito
     TimeLimit: +4h
     Targets:
       - Mob: BABY_STRANGE
         Count: 30
   - Id: 7504
-    Title: Destroy 1 Emperium
+    Title: Destrua 1 Emperium
     TimeLimit: +4h
     Targets:
       - Mob: EMPELIUM
         Count: 1
   - Id: 7505
-    Title: Destroy 3 Emperiums
+    Title: Destrua 3 Emperiums
     TimeLimit: +4h
     Targets:
       - Mob: EMPELIUM
         Count: 3
   - Id: 7506
-    Title: Destroy 5 Emperiums
+    Title: Destrua 5 Emperiums
     TimeLimit: +4h
     Targets:
       - Mob: EMPELIUM
         Count: 5
   - Id: 7507
-    Title: 10 Small Wooden Boxes
+    Title: 10 Pequenas Caixas
     TimeLimit: +4h
   - Id: 7508
-    Title: 20 Small Wooden Boxes
+    Title: 20 Pequenas Caixas
     TimeLimit: +4h
   - Id: 7509
-    Title: 30 Small Wooden Boxes
+    Title: 30 Pequenas Caixas
     TimeLimit: +4h
   - Id: 7510
-    Title: Fight Off a Thief
+    Title: Fight Off a Gatuno
     TimeLimit: +4h
     Targets:
       - Mob: THIEF_PORING
@@ -4761,7 +4761,7 @@ Body:
   - Id: 7569
     Title: Treat the injured
   - Id: 7570
-    Title: Destroy the demons
+    Title: Destrua the demons
     Targets:
       - Mob: MM_EVIL_SHADOW1
         Count: 7
@@ -5026,7 +5026,7 @@ Body:
   - Id: 7687
     Title: Participating in the Banquet
   - Id: 7688
-    Title: Suspicious Movement
+    Title: Movement Suspeito
   - Id: 7689
     Title: Find Nyhill
   - Id: 7690
@@ -5155,23 +5155,23 @@ Body:
   - Id: 7751
     Title: Portable Sewing Kit
   - Id: 7752
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7753
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7754
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7755
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7756
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7757
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7758
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7759
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7760
-    Title: Well hidden
+    Title: Bem escondido
   - Id: 7761
     Title: Make Chimeras rest in peace
     Targets:
@@ -5183,7 +5183,7 @@ Body:
     Title: Make Chimeras rest in peace (Standby)
     TimeLimit: 4h
   - Id: 7776
-    Title: Suspicious sign
+    Title: Quadro Suspeito
   - Id: 7777
     Title: What happened?
   - Id: 7778
@@ -5406,37 +5406,37 @@ Body:
   - Id: 8000
     Title: Quitting Job Change
   - Id: 8001
-    Title: Job Change to Assassin
+    Title: Mudança de Classe para Assassin
   - Id: 8002
-    Title: Job Change to Assassin
+    Title: Mudança de Classe para Assassin
   - Id: 8003
-    Title: Job Change to Assassin
+    Title: Mudança de Classe para Assassin
   - Id: 8004
-    Title: Job Change to Assassin
+    Title: Mudança de Classe para Assassin
   - Id: 8005
-    Title: Job Change to Assassin
+    Title: Mudança de Classe para Assassin
   - Id: 8006
     Title: Find the Guild Master!
   - Id: 8007
     Title: Acceptance from the Guild Master
   - Id: 8008
-    Title: Job Change to Assassin
+    Title: Mudança de Classe para Assassin
   - Id: 8009
     Title: Applying for Job Change to Priest
   - Id: 8010
-    Title: Job Change to Priest
+    Title: Mudança de Classe para Priest
   - Id: 8011
-    Title: Job Change to Priest
+    Title: Mudança de Classe para Priest
   - Id: 8012
-    Title: Job Change to Priest
+    Title: Mudança de Classe para Priest
   - Id: 8013
-    Title: Job Change to Priest
+    Title: Mudança de Classe para Priest
   - Id: 8014
-    Title: Job Change to Priest
+    Title: Mudança de Classe para Priest
   - Id: 8015
-    Title: Job Change to Priest
+    Title: Mudança de Classe para Priest
   - Id: 8016
-    Title: Job Change to Priest
+    Title: Mudança de Classe para Priest
   - Id: 8017
     Title: Factory Inspection
   - Id: 8018
@@ -5634,7 +5634,7 @@ Body:
   - Id: 8114
     Title: Bruspetti's Diary
   - Id: 8115
-    Title: Suspicious Katinshuell
+    Title: Katinshuell Suspeito
   - Id: 8116
     Title: Lachellen's Testimony
   - Id: 8117
@@ -5714,29 +5714,29 @@ Body:
   - Id: 8154
     Title: The Keymaker
   - Id: 8155
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8156
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8157
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8158
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8159
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8160
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8161
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8162
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8163
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8164
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8165
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8166
-    Title: Baba Yaga's Favor
+    Title: Ajuda da Baba Yaga
   - Id: 8167
     Title: The Golden Key
   - Id: 8168
@@ -6326,7 +6326,7 @@ Body:
   - Id: 8684
     Title: State of Conflict
   - Id: 8685
-    Title: Suspicious Movement
+    Title: Movement Suspeito
   - Id: 8686
     Title: Intruder of the Temple
   - Id: 8687
@@ -6419,7 +6419,7 @@ Body:
     Title: Shared Memories - Standby
     TimeLimit: 4h
   - Id: 9000
-    Title: Job Change to Knight
+    Title: Mudança de Classe para Knight
   - Id: 9001
     Title: Loyalty of a Knight
   - Id: 9002
@@ -6445,15 +6445,15 @@ Body:
   - Id: 9012
     Title: Glory of a Knight!
   - Id: 9013
-    Title: Job Change to Wizard
+    Title: Mudança de Classe para Wizard
   - Id: 9014
-    Title: Job Change to Wizard
+    Title: Mudança de Classe para Wizard
   - Id: 9015
-    Title: Job Change to Wizard
+    Title: Mudança de Classe para Wizard
   - Id: 9016
-    Title: Job Change to Wizard
+    Title: Mudança de Classe para Wizard
   - Id: 9017
-    Title: Job Change to Wizard
+    Title: Mudança de Classe para Wizard
   - Id: 9018
     Title: Certified as a Wizard!
   - Id: 9024
@@ -8298,7 +8298,7 @@ Body:
     Title: "[Cooldown] Oz Labyrinth 2F"
     TimeLimit: 4h
   - Id: 11769
-    Title: Job Change to Spirit Handler
+    Title: Mudança de Classe para Spirit Handler
   - Id: 11770
     Title: How to make friends with spirits
   - Id: 11771
@@ -8650,7 +8650,7 @@ Body:
   - Id: 12128
     Title: Preparation for Heating
   - Id: 12129
-    Title: Suspicious Food
+    Title: Food Suspeito
   - Id: 12130
     Title: Useful Material
   - Id: 12131
@@ -10521,7 +10521,7 @@ Body:
   - Id: 14515
     Title: Sparkling Star
   - Id: 14516
-    Title: Suspicious Shadow
+    Title: Shadow Suspeito
   - Id: 14518
     Title: Bubble Gum re-usable Time
     TimeLimit: 4h
@@ -11315,33 +11315,33 @@ Body:
   - Id: 16081
     Title: Failed to Get Juice Mix Package
   - Id: 16082
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16083
     Title: Discovered Wasteland Cactuten
   - Id: 16084
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16085
     Title: Discovered Coyote
   - Id: 16086
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16087
     Title: Discovered Cactus Girl
   - Id: 16088
     Title: Discovered Coyote
   - Id: 16089
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16090
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16091
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16092
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16093
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16094
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16095
-    Title: Discovered Suspicious Sand Pile
+    Title: Discovered Sand Pile Suspeito
   - Id: 16096
     Title: To the unknown tortoise island
   - Id: 16097
@@ -11551,9 +11551,9 @@ Body:
   - Id: 16354
     Title: Operation of Elyumina
   - Id: 16355
-    Title: Suspicious Box
+    Title: Box Suspeito
   - Id: 16356
-    Title: Suspicious Box
+    Title: Box Suspeito
   - Id: 16357
     Title: Elyumina Secured
   - Id: 16358

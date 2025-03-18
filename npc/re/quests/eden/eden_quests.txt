@@ -20,7 +20,7 @@
 //= 2.3 Added use of F_HasEdenGroupMark function. [Ragno]
 //============================================================
 
-moc_para01,25,35,4	script	Instructor Boya#para01	4_M_KNIGHT_GOLD,{
+moc_para01,25,35,4	script	Instrutora Boya#para01	4_M_KNIGHT_GOLD,{
 	mes "[Boya]";
 	if (!callfunc("F_HasEdenGroupMark")) {
 		mes "You are not in my group are you?";
@@ -987,7 +987,7 @@ prt_sewb1,131,262,3	script	Timid Cat#para04	422,{
 			mes "Thanks for participating in the Conquer the Culvert training mission.";
 			next;
 			mes "[Timid Cat]";
-			mes "Now go back to the headquarters and ask Instructor Boya to make sure he has the beautiful tuna...";
+			mes "Now go back to the headquarters and ask Instrutora Boya to make sure he has the beautiful tuna...";
 			mes "I will be waiting here.";
 			next;
 			mes "[Timid Cat]";
@@ -2377,7 +2377,7 @@ moc_para01,179,44,3	script	Chef	820,{
 					next;
 					mes "[Chef]";
 					mes "To get it you need to complete their missions.";
-					mes "If you have any interest, meet Instructor Boya at the desk.";
+					mes "If you have any interest, meet Instrutora Boya at the desk.";
 					close;
 				}
 				mes "[Chef]";
@@ -2394,7 +2394,7 @@ moc_para01,179,44,3	script	Chef	820,{
 				next;
 				mes "[Chef]";
 				mes "You can't get it easily but..";
-				mes "If you have an interest, ask Instructor Boya at the desk.";
+				mes "If you have an interest, ask Instrutora Boya at the desk.";
 				close;
 			}
 			mes "[Chef]";
