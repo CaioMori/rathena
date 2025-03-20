@@ -24,125 +24,125 @@
 ice_dun04,33,166,3	script	Frozen Boy	925,{
 	cutin "ra_sboy.bmp",2;
 	mes "["+strcharinfo(0)+"]";
-	mes "This boy must be the one who Ktullanux tried to protect.";
+	mes "Este menino deve ser aquele que Ktullanux tentou proteger.";
 	next;
-	mes "- The boy was frozen inside a giant ice pole, and he looks as if he is in sleep rather than dead. -";
+	mes "- O menino estava congelado dentro de um gigantesco poste de gelo, e ele parece estar dormindo em vez de morto. -";
 	next;
-	mes "- You felt freezing as you come closer to the giant ice pole that held the boy within,";
-	mes "- but for some reason, you felt a mysterious power from the pole. -";
+	mes "- Você sentiu um frio intenso ao se aproximar do gigantesco poste de gelo que mantinha o menino dentro, -";
+	mes "- mas por alguma razão, você sentiu um poder misterioso do poste. -";
 	next;
-	mes "- The boy appeared to be snowy white, and beautiful from the head to the toe. -";
+	mes "- O menino parecia ser branco como a neve, e belo da cabeça aos pés. -";
 	next;
-	mes "- You wondered why a young boy had to be confined within this isolated cave, -";
-	mes "- you instinctively knew that no mage in this world would be able to release him from the ice pole.";
+	mes "- Você se perguntou por que um jovem menino teve que ser confinado dentro desta caverna isolada, -";
+	mes "- você instintivamente sabia que nenhum mago neste mundo seria capaz de libertá-lo do poste de gelo.";
 	next;
 	mes "["+strcharinfo(0)+"]";
-	mes "What happened to this boy?";
+	mes "O que aconteceu com este menino?";
 	close2;
 	cutin "",255;
 	end;
 }
 
 ra_san04,137,48,3	script	Loomin-1st Class Secret	111,{
-	mes "^3131FFLoomin, the boy";
-	mes "trapped in the Ice Cave.^000000";
-	mes "Class: 1st";
+	mes "^3131FFLoomin, o menino";
+	mes "preso na Caverna de Gelo.^000000";
+	mes "Classe: 1ª";
 	mes " ";
 	mes " ";
 	mes " ";
-	mes "^333333The pope was born together";
-	mes "with a twin brother, a fair";
-	mes "skinned boy with pale skin";
-	mes "and silver blond hair. This";
-	mes "had never happened before";
-	mes "and presented a unique problem";
+	mes "^333333A papa nasceu junto";
+	mes "com um irmão gêmeo, um menino";
+	mes "de pele clara com pele pálida";
+	mes "e cabelo loiro prateado. Isso";
+	mes "nunca havia acontecido antes";
+	mes "e apresentou um problema único";
 	mes " ";
-	mes "High Priest Niren acted as";
-	mes "their maternity nurse and";
-	mes "came to Rachel, where the";
-	mes "twins were cared for by the";
-	mes "Priests. They all argued";
-	mes "over the boy's ultimate fate...";
+	mes "O Sumo Sacerdote Niren atuou como";
+	mes "enfermeiro de maternidade deles e";
+	mes "veio para Rachel, onde os";
+	mes "gêmeos foram cuidados pelos";
+	mes "Sacerdotes. Todos eles discutiram";
+	mes "sobre o destino final do menino...";
 	mes " ";
-	mes "No one doubted that the boy";
-	mes "was spiritually powerful, but";
-	mes "was he a sacred complement to";
-	mes "his sister, or a great evil that";
-	mes "was in direct opposition to";
-	mes "her? It was a grueling debate";
+	mes "Ninguém duvidava que o menino";
+	mes "era espiritualmente poderoso, mas";
+	mes "ele era um complemento sagrado para";
+	mes "sua irmã, ou um grande mal que";
+	mes "estava em oposição direta a";
+	mes "ela? Foi um debate extenuante";
 	mes " ";
-	mes "In the end, the High Priests";
-	mes "decided that the boy posed";
-	mes "a great risk to their society";
-	mes "People may not consider the";
-	mes "pope's birth as divine if they";
-	mes "knew she had a twin brother.";
+	mes "No final, os Sumos Sacerdotes";
+	mes "decidiram que o menino representava";
+	mes "um grande risco para a sociedade deles";
+	mes "As pessoas poderiam não considerar o";
+	mes "nascimento da papa como divino se elas";
+	mes "soubessem que ela tinha um irmão gêmeo.";
 	mes " ";
-	mes "However, not wanting to fear";
-	mes "the wrath of the gods, the";
-	mes "High Priests did not kill the";
-	mes "boy. Instead, they sealed";
-	mes "him in the Ice Cave.";
+	mes "No entanto, não querendo temer";
+	mes "a ira dos deuses, os";
+	mes "Sumos Sacerdotes não mataram o";
+	mes "menino. Em vez disso, eles o selaram";
+	mes "na Caverna de Gelo.";
 	mes " ";
-	mes "The High Priests made";
-	mes "a contract with Ktullanux,";
-	mes "a fearsome ice monster, to";
-	mes "guard the boy's prison, and";
-	mes "to insure that no one would.";
+	mes "Os Sumos Sacerdotes fizeram";
+	mes "um contrato com Ktullanux,";
+	mes "um temível monstro de gelo, para";
+	mes "guardar a prisão do menino, e";
+	mes "para garantir que ninguém iria.";
 	close;
 }
 
 rachel,124,132,1	script	Citizen#1 	921,{
-	mes "[Citizen]";
-	mes "May Freya bless";
-	mes "you, and give you an";
-	mes "abundance of health,";
-	mes "wealth, joy, and happiness!";
+	mes "[Cidadão]";
+	mes "Que Freya abençoe";
+	mes "você, e lhe dê uma";
+	mes "abundância de saúde,";
+	mes "riqueza, alegria e felicidade!";
 	next;
-	mes "[Citizen]";
-	mes "Freya is the goddess of";
-	mes "love and beauty. Do you";
-	mes "think that if I pray hard";
-	mes "enough, she'll help me";
-	mes "get a really pretty girlfriend?";
+	mes "[Cidadão]";
+	mes "Freya é a deusa do";
+	mes "amor e da beleza. Você";
+	mes "acha que se eu rezar com bastante";
+	mes "força, ela vai me ajudar a";
+	mes "conseguir uma namorada muito bonita?";
 	close;
 }
 
 rachel,74,150,7	script	Girl#1	914,{
-	mes "[Girl]";
-	mes "I've never seen our pope";
-	mes "before, I hear that she has";
-	mes "silver blond hair and really";
-	mes "white skin. Daddy says that";
-	mes "only one girl is like that";
-	mes "in every generation.";
+	mes "[Menina]";
+	mes "Nunca vi nossa papa";
+	mes "antes, ouvi dizer que ela tem";
+	mes "cabelo loiro prateado e pele";
+	mes "muito branca. Papai diz que";
+	mes "apenas uma menina é assim";
+	mes "em cada geração.";
 	next;
-	mes "[Girl]";
-	mes "My daddy says the pope is";
-	mes "very special to us because";
-	mes "she's Freya. I mean, Freya";
-	mes "is a goddess, but she also";
-	mes "becomes people like us to talk";
-	mes "to us. Well, just the priests...";
+	mes "[Menina]";
+	mes "Meu papai diz que a papa é";
+	mes "muito especial para nós porque";
+	mes "ela é Freya. Quer dizer, Freya";
+	mes "é uma deusa, mas ela também";
+	mes "se torna pessoas como nós para falar";
+	mes "conosco. Bem, apenas com os sacerdotes...";
 	next;
-	mes "[Girl]";
-	mes "I don't get it all,";
-	mes "but it sounds like";
-	mes "she's a secret princess.";
-	mes "Doesn't that sound so nice?";
-	mes "But when I tell that to Daddy,";
-	mes "he gets so mad at me! Oh, well.";
+	mes "[Menina]";
+	mes "Não entendo tudo,";
+	mes "mas parece que";
+	mes "ela é uma princesa secreta.";
+	mes "Isso não soa tão legal?";
+	mes "Mas quando digo isso ao Papai,";
+	mes "ele fica tão bravo comigo! Bem, deixa pra lá.";
 	close;
 }
 
 rachel,144,243,5	script	Cheshrumnir Guard::ChesGuard	934,{
-	mes "[Cheshrumnir Guard]";
-	mes "You are at Cheshrumnir,";
-	mes "the hallowed grounds occupied";
-	mes "by our pope, Freya's mortal";
-	mes "incarnation. In respect for";
-	mes "her Excellency, I expect you";
-	mes "to enter with a pious heart.";
+	mes "[Guarda de Cheshrumnir]";
+	mes "Você está em Cheshrumnir,";
+	mes "os terrenos sagrados ocupados";
+	mes "por nossa papa, a encarnação mortal";
+	mes "de Freya. Em respeito a";
+	mes "sua Excelência, espero que";
+	mes "você entre com um coração piedoso.";
 	close;
 }
 
@@ -150,34 +150,34 @@ rachel,155,243,3	duplicate(ChesGuard)	Cheshrumnir Guard	934
 
 
 rachel,209,198,3	script	Kinos#aru	921,{
-	mes "[Kid]";
-	mes "If you open this door, you";
-	mes "can go inside this house,";
-	mes "and live in one of the rooms!";
-	mes "Then, you can add your couches";
-	mes "and a bed, and all of your stuff!";
+	mes "[Criança]";
+	mes "Se você abrir esta porta, você";
+	mes "pode entrar nesta casa,";
+	mes "e morar em um dos quartos!";
+	mes "Então, você pode adicionar seus sofás";
+	mes "e uma cama, e todas as suas coisas!";
 	next;
-	mes "[Kid]";
-	mes "All you gotta do is...";
-	mes "Ugh! Turn this knob";
-	mes "and... Grrrrah! Open";
-	mes "this door... But it's";
-	mes "almost impossible..";
+	mes "[Criança]";
+	mes "Tudo que você tem que fazer é...";
+	mes "Ugh! Girar esta maçaneta";
+	mes "e... Grrrrah! Abrir";
+	mes "esta porta... Mas é";
+	mes "quase impossível..";
 	close;
 }
 
 rachel,260,175,3	script	Anku#aru	914,{
 	mes "[Anku]";
-	mes "It's been so long";
-	mes "already! I can't find";
-	mes "Himuhimu! Hide-and-Seek";
-	mes "shouldn't take this long...";
+	mes "Já faz tanto tempo!";
+	mes "Não consigo encontrar";
+	mes "Himuhimu! Esconde-esconde";
+	mes "não deveria demorar tanto...";
 	next;
 	mes "[Anku]";
-	mes "Oh, I'm already hungry...";
-	mes "Himuhimu, come out so";
-	mes "we can go home and eat!";
-	mes "Himuhimu! I give up!";
+	mes "Oh, já estou com fome...";
+	mes "Himuhimu, saia para";
+	mes "podermos ir para casa e comer!";
+	mes "Himuhimu! Eu desisto!";
 	mes "H-Himuhimu...?";
 	close;
 }
@@ -185,21 +185,21 @@ rachel,260,175,3	script	Anku#aru	914,{
 rachel,272,141,3	script	Himuhimu#aru	921,{
 	mes "[Himuhimu]";
 	mes "Zzzz...Z...";
-	mes "Anku, you'll never";
-	mes "find m... never find";
-	mes "me here... Zzzzz...";
-	mes "... So hungry...";
+	mes "Anku, você nunca";
+	mes "vai me encon... nunca vai";
+	mes "me encontrar aqui... Zzzzz...";
+	mes "... Tão faminto...";
 	close;
 }
 
 rachel,268,120,1	script	Rachel Guard#1aru::RaGuard	934,{
-	mes "[Rachel Guard]";
-	mes "Welcome to Rachel";
-	mes "the capital of Arunafeltz.";
-	mes "Please ask our guide";
-	mes "at the center of the city";
-	mes "for information and";
-	mes "guest services.";
+	mes "[Guarda de Rachel]";
+	mes "Bem-vindo a Rachel";
+	mes "a capital de Arunafeltz.";
+	mes "Por favor, pergunte ao nosso guia";
+	mes "no centro da cidade";
+	mes "para informações e";
+	mes "serviços para visitantes.";
 	close;
 }
 
@@ -208,105 +208,105 @@ rachel,125,33,5	duplicate(RaGuard)	Rachel Guard#2aru	934
 rachel,31,130,3	duplicate(RaGuard)	Rachel Guard#3aru	934
 
 rachel,76,77,3	script	Rachel Priest	927,{
-	mes "[Rachel Priest]";
-	mes "Bwahahaha! Somehow,";
-	mes "drinks taste much better";
-	mes "during work hours!";
+	mes "[Sacerdote de Rachel]";
+	mes "Bwahahaha! De alguma forma,";
+	mes "as bebidas têm um gosto muito melhor";
+	mes "durante o horário de trabalho!";
 	close;
 }
 
 ra_fild12,45,230,3	script	Airship Guide#Fild	934,{
-	mes "[Airship Guide]";
-	mes "The Schwarzwald Republic's";
-	mes "international Airship service";
-	mes "for Arunafeltz can only be";
-	mes "accessed in Rachel. Please";
-	mes "follow the mark on your";
-	mes "Mini-Map to find the Airport.";
+	mes "[Guia de Aeronave]";
+	mes "O serviço internacional de Aeronave";
+	mes "da República de Schwarzwald";
+	mes "para Arunafeltz só pode ser";
+	mes "acessado em Rachel. Por favor,";
+	mes "siga a marca em seu";
+	mes "Mini-Mapa para encontrar o Aeroporto.";
 	viewpoint 1,293,208,1,0xFF0000;
 	close;
 }
 
 //rachel,201,174,3	script	Freya's Follower	927,{
 rachel,201,174,3	script	Freya's Follower	926,{
-	mes "[Freya's Follower]";
-	mes "All of Arunafeltz believes";
-	mes "in the goddess Freya, but";
-	mes "there are those of us that";
-	mes "are more seriously involved";
-	mes "in adoration and worship.";
+	mes "[Seguidor de Freya]";
+	mes "Toda Arunafeltz acredita";
+	mes "na deusa Freya, mas";
+	mes "há aqueles de nós que";
+	mes "estão mais seriamente envolvidos";
+	mes "em adoração e culto.";
 	next;
-	mes "[Freya's Follower]";
-	mes "First, there are ''Freya's";
-	mes "Followers,'' men and women";
-	mes "like me that dress in holy masks";
-	mes "and garments. I realize that our";
-	mes "dress may seem a bit peculiar";
-	mes "to you, but that is our way.";
+	mes "[Seguidor de Freya]";
+	mes "Primeiro, há os ''Seguidores de";
+	mes "Freya,'' homens e mulheres";
+	mes "como eu que se vestem com máscaras sagradas";
+	mes "e vestes. Eu percebo que nossa";
+	mes "vestimenta pode parecer um pouco peculiar";
+	mes "para você, mas esse é o nosso modo.";
 	next;
-	mes "[Freya's Follower]";
-	mes "Then, there are the Priests";
-	mes "who dress in clean, white";
-	mes "flowing robes. They work in";
-	mes "the temple and serve the";
-	mes "community as religious leaders.";
+	mes "[Seguidor de Freya]";
+	mes "Então, há os Sacerdotes";
+	mes "que se vestem com túnicas brancas,";
+	mes "limpas e fluidas. Eles trabalham no";
+	mes "templo e servem à";
+	mes "comunidade como líderes religiosos.";
 	next;
-	mes "[Freya's Follower]";
-	mes "Among these priests are";
-	mes "the elite High Priests that";
-	mes "directly assist our pope.";
-	mes "They wear more colorful";
-	mes "clothes as a sign of their";
-	mes "higher status in Rachel.";
+	mes "[Seguidor de Freya]";
+	mes "Entre esses sacerdotes estão";
+	mes "os Sumos Sacerdotes de elite que";
+	mes "auxiliam diretamente nossa papa.";
+	mes "Eles usam roupas mais coloridas";
+	mes "como um sinal de seu";
+	mes "status mais elevado em Rachel.";
 	next;
-	mes "[Freya's Follower]";
-	mes "All of us work tirelessly";
-	mes "to bring prosperity to";
-	mes "Arunafeltz, and to carry";
-	mes "out the teachings of our";
-	mes "beloved goddess Freya.";
+	mes "[Seguidor de Freya]";
+	mes "Todos nós trabalhamos incansavelmente";
+	mes "para trazer prosperidade a";
+	mes "Arunafeltz, e para realizar";
+	mes "os ensinamentos de nossa";
+	mes "amada deusa Freya.";
 	close;
 }
 
 rachel,206,30,3	script	Freya's Priest#play	920,{
-	mes "[Freya's Priest]";
-	mes "This...";
-	mes "bores me...";
+	mes "[Sacerdote de Freya]";
+	mes "Isso...";
+	mes "me entedia...";
 	next;
-	mes "[Freya's Priest]";
-	mes "You!";
-	mes "Entertain me!";
+	mes "[Sacerdote de Freya]";
+	mes "Você!";
+	mes "Me entretenha!";
 	emotion ET_ANGER;
 	next;
 	if (select("What? You can't tell me what to do!:You got it.") == 1) {
-		mes "[Freya's Priest]";
-		mes "Oh. That much is";
-		mes "true, I suppose.";
+		mes "[Sacerdote de Freya]";
+		mes "Oh. Isso é";
+		mes "verdade, eu suponho.";
 		close;
 	}
-	mes "[Freya's Priest]";
-	mes "Well, then,";
-	mes "what will you be";
-	mes "doing to entertain me?";
+	mes "[Sacerdote de Freya]";
+	mes "Bem, então,";
+	mes "o que você vai";
+	mes "fazer para me entreter?";
 	next;
 	if (select("Here's a funny story...:I will do what you want me to do.") == 1) {
-		mes "^3355FFYou told her the first";
-		mes "funny story that you";
-		mes "could think of.^000000";
+		mes "^3355FFVocê contou a ela a primeira";
+		mes "história engraçada que";
+		mes "conseguiu pensar.^000000";
 		specialeffect2 EF_TALK_FROSTJOKE;
 		next;
-		mes "[Freya's Priest]";
-		mes "That's supposed to";
-		mes "be funny? I suppose";
-		mes "that I don't understand";
-		mes "hoi polloi humor.";
+		mes "[Sacerdote de Freya]";
+		mes "Isso é para ser";
+		mes "engraçado? Eu suponho";
+		mes "que não entendo";
+		mes "o humor da plebe.";
 		close;
 	}
-	mes "[Freya's Priest]";
-	mes "Fine, fine~";
-	mes "Let me see what these";
-	mes "item of yours can do...";
-	mes "Oh? Oh! That's wonderful!";
+	mes "[Sacerdote de Freya]";
+	mes "Tudo bem, tudo bem~";
+	mes "Deixe-me ver o que esses";
+	mes "itens seus podem fazer...";
+	mes "Oh? Oh! Isso é maravilhoso!";
 	close2;
 	set .@play,rand(1,10);
 	if (.@play < 3)
@@ -320,25 +320,25 @@ rachel,206,30,3	script	Freya's Priest#play	920,{
 }
 
 rachel,197,137,3	script	Bard#aru	51,{
-	mes "[Bard]";
-	mes "I've wandered this";
-	mes "land, singing my songs~";
-	mes "Searching for someone";
-	mes "for my heart longs~";
+	mes "[Bardo]";
+	mes "Eu vaguei por esta";
+	mes "terra, cantando minhas canções~";
+	mes "Procurando por alguém";
+	mes "por quem meu coração anseia~";
 	next;
-	mes "[Bard]";
-	mes "Can I fulfill this hope~?";
-	mes "Meeting the girl with";
-	mes "skin as white as lilies,";
-	mes "eyes sparkling like stars~";
-	mes "Yes, I'm talking about the pope~";
-	mes "Pope, yeah~ Pope, yeah~";
+	mes "[Bardo]";
+	mes "Posso realizar esta esperança~?";
+	mes "Encontrar a garota com";
+	mes "pele tão branca quanto lírios,";
+	mes "olhos brilhando como estrelas~";
+	mes "Sim, estou falando da papa~";
+	mes "Papa, sim~ Papa, sim~";
 	next;
 	mes "["+strcharinfo(0)+"]";
-	mes "You must be off your";
-	mes "rocker singing that";
-	mes "kind of song here";
-	mes "in Arunafeltz!";
+	mes "Você deve estar fora de";
+	mes "juízo cantando esse";
+	mes "tipo de canção aqui";
+	mes "em Arunafeltz!";
 	next;
 	mes ".........";
 	mes ".........";
@@ -348,88 +348,88 @@ rachel,197,137,3	script	Bard#aru	51,{
 }
 
 ra_temple,148,91,3	script	Follower Akarna	916,{
-	mes "[Follower Akarna]";
+	mes "[Seguidor Akarna]";
 	mes "Cheshrumnir...";
-	mes "It is said that one";
-	mes "day, our goddess Freya";
-	mes "will descend to this place";
-	mes "in all of her glory. I hope";
-	mes "that I live to see that.";
+	mes "Diz-se que um";
+	mes "dia, nossa deusa Freya";
+	mes "descerá a este lugar";
+	mes "em toda a sua glória. Espero";
+	mes "viver para ver isso.";
 	close;
 }
 
 ra_temple,115,148,7	script	Follower Yakum	916,{
-	mes "[Follower Yakum]";
+	mes "[Seguidor Yakum]";
 	mes "......";
 	mes ".........";
 	mes "............";
 	next;
-	mes "^3355FFShe is completely";
-	mes "immersed in deep,";
-	mes "meditative prayer.";
-	mes "It'd be rude to";
-	mes "disturb her now.^000000";
+	mes "^3355FFEla está completamente";
+	mes "imersa em profunda";
+	mes "oração meditativa.";
+	mes "Seria rude";
+	mes "perturbá-la agora.^000000";
 	close;
 }
 
 ra_temin,287,88,7	script	Follower Lekua	926,{
-	mes "[Follower Lekua]";
-	mes "Look at these flowers.";
-	mes "Aren't they so beautiful?";
-	mes "I've spent a lot of time";
-	mes "cultivating this flower garden.";
+	mes "[Seguidor Lekua]";
+	mes "Olhe para estas flores.";
+	mes "Não são tão bonitas?";
+	mes "Passei muito tempo";
+	mes "cultivando este jardim de flores.";
 	next;
-	mes "[Follower Lekua]";
-	mes "I think it's Freya's";
-	mes "will for us to";
-	mes "bring as much beauty into";
-	mes "the world as we can. What";
-	mes "do you think about that?";
+	mes "[Seguidor Lekua]";
+	mes "Acho que é a vontade";
+	mes "de Freya para nós";
+	mes "trazer tanta beleza para";
+	mes "o mundo quanto pudermos. O que";
+	mes "você acha disso?";
 	close;
 }
 
 //ra_temin,228,303,5	script	Freya's Follower#in1	927,{
 ra_temin,228,303,5	script	Freya's Follower#in1	926,{
-	mes "[Freya's Follower]";
-	mes "Once again, I didn't get";
-	mes "any sleep yesterday... I'm";
-	mes "praying so hard for Freya's";
-	mes "second coming. I'm exhausted,";
-	mes "but I feel pretty good about";
-	mes "making that small sacrifice.";
+	mes "[Seguidor de Freya]";
+	mes "Mais uma vez, não dormi";
+	mes "nada ontem... Estou";
+	mes "rezando tanto pela segunda";
+	mes "vinda de Freya. Estou exausto,";
+	mes "mas me sinto muito bem por";
+	mes "fazer esse pequeno sacrifício.";
 	close;
 }
 
 //ra_temin,230,303,3	script	Freya's Follower#in2	927,{
 ra_temin,230,303,3	script	Freya's Follower#in2	926,{
-	mes "[Freya's Follower]";
-	mes "You have done well,";
-	mes "my brother. I am certain";
-	mes "that Freya would be proud";
-	mes "of all your effots.";
+	mes "[Seguidor de Freya]";
+	mes "Você fez bem,";
+	mes "meu irmão. Tenho certeza";
+	mes "de que Freya estaria orgulhosa";
+	mes "de todos os seus esforços.";
 	close;
 }
 
 ra_temin,138,64,5	script	Child Follower#in1	921,{
-	mes "[Child Follower]";
-	mes "No! My Mingming is dead!";
+	mes "[Seguidor Criança]";
+	mes "Não! Meu Mingming está morto!";
 	next;
 	select("Mingming?");
-	mes "[Child Follower]";
-	mes "Mingming is a sick bird";
-	mes "I found on the street, and";
-	mes "I really wanted it to just";
-	mes "rest and be healthy again";
-	mes "but it died! Waaaaah!";
+	mes "[Seguidor Criança]";
+	mes "Mingming é um pássaro doente";
+	mes "que encontrei na rua, e";
+	mes "eu realmente queria que ele apenas";
+	mes "descansasse e ficasse saudável novamente";
+	mes "mas ele morreu! Waaaaah!";
 	emotion ET_CRY;
 	next;
-	mes "[Child Follower]";
-	mes "I... I'm going to";
-	mes "try to ask the pope!";
-	mes "M-maybe she can bring";
-	mes "Mingming back to life!";
-	mes "Do you know how I can";
-	mes "find our pope?";
+	mes "[Seguidor Criança]";
+	mes "Eu... Eu vou";
+	mes "tentar pedir à papa!";
+	mes "T-talvez ela possa trazer";
+	mes "Mingming de volta à vida!";
+	mes "Você sabe como posso";
+	mes "encontrar nossa papa?";
 	close;
 }
 
@@ -438,249 +438,249 @@ ra_temin,138,64,5	script	Child Follower#in1	921,{
 ra_fild12,283,208,3	script	Apprentice Priestess	914,{
 	if ($rachel_donate < 10000) {
 		mes "[Papaii]";
-		mes "Welcome to Arunafeltz,";
-		mes "adventurer! Enjoy your stay~";
+		mes "Bem-vindo a Arunafeltz,";
+		mes "aventureiro! Aproveite sua estadia~";
 		next;
 		if (select("Are you a guide?:Thanks, have a good day.") == 1) {
 			mes "[Papaii]";
-			mes "Oh, actually, if you";
-			mes "want to speak to a guide,";
-			mes "head west to Rachel, and";
-			mes "then go north from the plaza";
-			mes "in the center of the city.";
-			mes "You'll find one over there.";
+			mes "Oh, na verdade, se você";
+			mes "quiser falar com um guia,";
+			mes "vá para oeste até Rachel, e";
+			mes "então vá para o norte da praça";
+			mes "no centro da cidade.";
+			mes "Você encontrará um por lá.";
 			next;
 			mes "[Papaii]";
-			mes "My name is Papaii,";
-			mes "and I've been sent here to";
-			mes "promote the upcoming festival";
-			mes "in honor of Freya. I encourage";
-			mes "you to donate for our festival";
-			mes "if you can spare the zeny.";
+			mes "Meu nome é Papaii,";
+			mes "e fui enviado aqui para";
+			mes "promover o próximo festival";
+			mes "em honra a Freya. Eu o encorajo";
+			mes "a doar para nosso festival";
+			mes "se puder dispensar o zeny.";
 			next;
 			mes "[Papaii]";
-			mes "If you're interested in";
-			mes "learning more, then please";
-			mes "visit our temple, which will";
-			mes "be accepting donations and";
-			mes "hosting the festival, and";
-			mes "speak to Priestess Nemma.";
+			mes "Se você estiver interessado em";
+			mes "aprender mais, então por favor";
+			mes "visite nosso templo, que estará";
+			mes "aceitando doações e";
+			mes "sediando o festival, e";
+			mes "fale com a Sacerdotisa Nemma.";
 			next;
 			mes "[Papaii]";
-			mes "If you donate, you can";
-			mes "receive Lottery Tickets";
-			mes "that you can redeem for";
-			mes "randomly selected items from";
-			mes "the temple's storage. May";
-			mes "Freya bless you, traveler~";
+			mes "Se você doar, poderá";
+			mes "receber Bilhetes de Loteria";
+			mes "que você pode trocar por";
+			mes "itens selecionados aleatoriamente do";
+			mes "armazenamento do templo. Que";
+			mes "Freya o abençoe, viajante~";
 			close;
 		}
 		mes "[Papaii]";
-		mes "May Freya bless you.";
-		mes "If you have time, please";
-		mes "visit our temple and make";
-		mes "a donation if you can~";
+		mes "Que Freya o abençoe.";
+		mes "Se tiver tempo, por favor";
+		mes "visite nosso templo e faça";
+		mes "uma doação se puder~";
 		close;
 	}
 	mes "[Papaii]";
-	mes "Welcome to Arunafeltz!";
-	mes "The city over the rampart";
-	mes "is Rachel, the capital of";
-	mes "Arunafeltz. If you'd like to";
-	mes "rest from your travels, why";
-	mes "don't you visit Rachel?";
+	mes "Bem-vindo a Arunafeltz!";
+	mes "A cidade além da muralha";
+	mes "é Rachel, a capital de";
+	mes "Arunafeltz. Se quiser";
+	mes "descansar de suas viagens, por que";
+	mes "não visita Rachel?";
 	next;
 	if (select("Are you a guide?:Tell me more about Rachel.") == 1) {
 		mes "[Papaii]";
-		mes "Actually, my name is";
-		mes "Papaii, and I'm stationed";
-		mes "here on behalf of the temple";
-		mes "spread awareness of this our";
-		mes "religion to visiting tourists.";
+		mes "Na verdade, meu nome é";
+		mes "Papaii, e estou estacionado";
+		mes "aqui em nome do templo";
+		mes "para divulgar nossa";
+		mes "religião aos turistas visitantes.";
 		next;
 		mes "[Papaii]";
-		mes "The entire nation of";
-		mes "Arunafeltz worships the";
-		mes "goddess Freya, and most";
-		mes "aspects of our lives are";
-		mes "largely influenced by our";
-		mes "religion. Did you know that?";
+		mes "A nação inteira de";
+		mes "Arunafeltz adora a";
+		mes "deusa Freya, e a maioria";
+		mes "dos aspectos de nossas vidas são";
+		mes "largamente influenciados por nossa";
+		mes "religião. Você sabia disso?";
 		next;
 		mes "[Papaii]";
-		mes "I invite you to visit";
-		mes "our temple if you'd like";
-		mes "to learn more about goddess";
-		mes "Freya. May Freya guide you";
-		mes "in all that you do, and may she";
-		mes "protect you in your journeys!";
+		mes "Convido-o a visitar";
+		mes "nosso templo se quiser";
+		mes "aprender mais sobre a deusa";
+		mes "Freya. Que Freya o guie";
+		mes "em tudo o que fizer, e que ela";
+		mes "o proteja em suas jornadas!";
 		next;
 		mes "[Papaii]";
-		mes "Welcome to Arunafeltz!";
-		mes "The city over the rampart";
-		mes "is Rachel, the capital of";
-		mes "Arunafeltz. If you'd like to";
-		mes "rest from your travels, why";
-		mes "don't you visit Rachel?";
+		mes "Bem-vindo a Arunafeltz!";
+		mes "A cidade além da muralha";
+		mes "é Rachel, a capital de";
+		mes "Arunafeltz. Se quiser";
+		mes "descansar de suas viagens, por que";
+		mes "não visita Rachel?";
 		close;
 	}
 	mes "[Papaii]";
-	mes "Well, Rachel used to be";
-	mes "a barren desert until our";
-	mes "goddess led our ancestors to";
-	mes "this land. They cultivated the";
-	mes "desert by Freya's grace, and";
-	mes "made this area habitable.";
+	mes "Bem, Rachel costumava ser";
+	mes "um deserto árido até que nossa";
+	mes "deusa conduziu nossos ancestrais a";
+	mes "esta terra. Eles cultivaram o";
+	mes "deserto pela graça de Freya, e";
+	mes "tornaram esta área habitável.";
 	next;
 	mes "[Papaii]";
-	mes "Everything that you see here";
-	mes "has been artificially created";
-	mes "by humans. See? The blessings";
-	mes "of Freya truly enable us to";
-	mes "do miraculous things. You'll";
-	mes "see once you enter the capital.";
+	mes "Tudo o que você vê aqui";
+	mes "foi artificialmente criado";
+	mes "por humanos. Vê? As bênçãos";
+	mes "de Freya realmente nos permitem";
+	mes "fazer coisas milagrosas. Você";
+	mes "verá quando entrar na capital.";
 	close;
 }
 
 rachel,127,117,4	script	Child Follower#2	914,{
 	mes "[Deno]";
-	mes "Although we pray to";
-	mes "the goddess Freya and";
-	mes "ask her for all sorts of";
-	mes "things, we can't expect";
-	mes "her to do everything for us.";
+	mes "Embora rezemos para";
+	mes "a deusa Freya e";
+	mes "pedimos a ela todo tipo de";
+	mes "coisas, não podemos esperar";
+	mes "que ela faça tudo por nós.";
 	next;
 	mes "[Deno]";
-	mes "As humans, it is our";
-	mes "responsibility to do all";
-	mes "in our power to conceive";
-	mes "our own happiness. We";
-	mes "believe that if it is Freya's";
-	mes "will, then it shall be realized.";
+	mes "Como humanos, é nossa";
+	mes "responsabilidade fazer tudo";
+	mes "em nosso poder para conceber";
+	mes "nossa própria felicidade. Nós";
+	mes "acreditamos que se for a vontade de Freya,";
+	mes "então será realizado.";
 	next;
 	emotion ET_QUESTION;
 	mes "[Deno]";
-	mes "I know it might seem";
-	mes "a little confusing to";
-	mes "an outsider, the idea of";
-	mes "being reliant on our goddess";
-	mes "while relying our ourselves.";
+	mes "Sei que pode parecer";
+	mes "um pouco confuso para";
+	mes "um forasteiro, a ideia de";
+	mes "ser dependente de nossa deusa";
+	mes "enquanto confiamos em nós mesmos.";
 	close;
 }
 
 ra_temple,167,155,4	script	Child Follower#3	914,{
 	mes "[Lewei]";
 	mes "Shushh!";
-	mes "Be quiet.";
+	mes "Fique quieto.";
 	next;
 	mes "[Lewei]";
 	mes "......";
 	mes ".........";
 	next;
 	mes "[Lewei]";
-	mes "Go away! If someone!";
-	mes "sees you, I'm gonna";
-	mes "get caught, you jerk!";
+	mes "Vá embora! Se alguém!";
+	mes "te ver, eu vou";
+	mes "ser pego, seu idiota!";
 	next;
 	if (select("What are you doing?:Alright.") == 1) {
 		mes "[Lewei]";
-		mes "Hellooo~?";
-		mes "Can't you see?";
-		mes "It's called Hide-and-";
-		mes "Go-Seek. Gee whiz!";
-		mes "Hurry, get away!";
+		mes "Olááá~?";
+		mes "Não consegue ver?";
+		mes "É chamado Esconde-e-";
+		mes "Procura. Caramba!";
+		mes "Rápido, vá embora!";
 		close;
 	}
 	mes "[Lewei]";
-	mes "Hurry, and get";
-	mes "outta here!";
+	mes "Rápido, e saia";
+	mes "daqui!";
 	close;
 }
 
 ra_temple,179,161,7	script	Child Follower#4	921,{
 	mes "[Zhikka]";
-	mes "Shh! I'm playing";
-	mes "Hide-and-Seek. Would";
-	mes "you leave me alone, please?";
-	mes "I don't wanna get caught again!";
-	mes "Maybe it's because I always";
-	mes "use the same hiding place...";
+	mes "Shh! Estou jogando";
+	mes "Esconde-Esconde. Você";
+	mes "poderia me deixar em paz, por favor?";
+	mes "Não quero ser pego de novo!";
+	mes "Talvez seja porque eu sempre";
+	mes "uso o mesmo esconderijo...";
 	close;
 }
 
 ra_temple,77,114,7	script	Child Follower#5	921,{
 	mes "[Emmet]";
-	mes "Oh my Freya! You scared me!";
-	mes "I thought you were one of the";
-	mes "kids playing Hide-and-Seek!";
-	mes "Ack! Get away, get away!";
-	mes "Can't let them find me!";
+	mes "Oh minha Freya! Você me assustou!";
+	mes "Pensei que você fosse uma das";
+	mes "crianças jogando Esconde-Esconde!";
+	mes "Ai! Afaste-se, afaste-se!";
+	mes "Não posso deixá-los me encontrar!";
 	close;
 }
 
 ra_temple,172,113,5	script	Child Follower#6	921,{
 	mes "[Harse]";
-	mes "Where are yoooou~";
-	mes "Come out, come out";
-	mes "wherever you are~";
+	mes "Onde vocês estãããão~";
+	mes "Saiam, saiam";
+	mes "onde quer que estejam~";
 	next;
 	mes "[Harse]";
-	mes "What the Freya?";
-	mes "What's a grown-up";
-	mes "doing around here?";
-	mes "Can't you see I'm";
-	mes "playing Hide-and-Go-Seek?";
+	mes "Que Freya é essa?";
+	mes "O que um adulto";
+	mes "está fazendo por aqui?";
+	mes "Não consegue ver que estou";
+	mes "jogando Esconde-e-Procura?";
 	close;
 }
 
 airplane,238,54,7	script	Adventurer	4_M_ORIENT01,{
 	if ($rachel_donate < 10000) {
-		mes "[Adventurer]";
-		mes "You know that the temple";
-		mes "in Rachel is accepting";
-		mes "donations? They're asking";
-		mes "for a lot of zeny, but my buddies";
-		mes "and I donated anyway. Heck, we";
-		mes "wanted to see what we could win~";
+		mes "[Aventureiro]";
+		mes "Você sabe que o templo";
+		mes "em Rachel está aceitando";
+		mes "doações? Eles estão pedindo";
+		mes "muito zeny, mas meus amigos";
+		mes "e eu doamos mesmo assim. Caramba, nós";
+		mes "queríamos ver o que poderíamos ganhar~";
 		next;
-		mes "[Adventurer]";
-		mes "One of my buddies was";
-		mes "real freakin' lucky. He";
-		mes "got some kind of album,";
-		mes "opened it up and found";
-		mes "some kinda card inside.";
-		mes "Really pretty stuff.";
+		mes "[Aventureiro]";
+		mes "Um dos meus amigos foi";
+		mes "muito sortudo mesmo. Ele";
+		mes "conseguiu algum tipo de álbum,";
+		mes "abriu-o e encontrou";
+		mes "algum tipo de carta dentro.";
+		mes "Coisas realmente bonitas.";
 		next;
-		mes "[Adventurer]";
-		mes "Another buddy of mine?";
-		mes "Not so lucky. He got a";
-		mes "Condensed White Potion...";
-		mes "Yeah, I don't blame him for";
-		mes "feeling a little gypped, but he";
-		mes "donated for a good cause, right?";
+		mes "[Aventureiro]";
+		mes "Outro amigo meu?";
+		mes "Não tão sortudo. Ele conseguiu uma";
+		mes "Poção Branca Condensada...";
+		mes "Sim, não o culpo por";
+		mes "se sentir um pouco enganado, mas ele";
+		mes "doou para uma boa causa, certo?";
 		next;
-		mes "[Adventurer]";
-		mes "Me? I got some yellow";
-		mes "bell shaped fruit. I didn't";
-		mes "really feel like eating it,";
-		mes "but after I took a bite,";
-		mes "it was like... whoa.";
-		mes "So refreshing!";
+		mes "[Aventureiro]";
+		mes "Eu? Consegui alguma";
+		mes "fruta amarela em forma de sino. Eu não";
+		mes "estava realmente com vontade de comê-la,";
+		mes "mas depois que dei uma mordida,";
+		mes "foi tipo... uau.";
+		mes "Tão refrescante!";
 		next;
-		mes "[Adventurer]";
-		mes "Anyway, all the donations";
-		mes "will be used to fund some";
-		mes "kinda festival. Sooo, I don't";
-		mes "think they'll be holding this";
-		mes "special lottery anymore once";
-		mes "they get enough money, you know?";
+		mes "[Aventureiro]";
+		mes "De qualquer forma, todas as doações";
+		mes "serão usadas para financiar algum";
+		mes "tipo de festival. Então, eu não";
+		mes "acho que eles continuarão realizando esta";
+		mes "loteria especial depois que";
+		mes "conseguirem dinheiro suficiente, sabe?";
 		close;
 	}
-	mes "[Adventurer]";
-	mes "You know, one of the";
-	mes "priestesses at the temple";
-	mes "in Rachel looked troubled";
-	mes "for some reason. I should've";
-	mes "asked what was bothering her,";
-	mes "and offered my help. Mm, nah.";
+	mes "[Aventureiro]";
+	mes "Sabe, uma das";
+	mes "sacerdotisas no templo";
+	mes "em Rachel parecia preocupada";
+	mes "por algum motivo. Eu deveria ter";
+	mes "perguntado o que a estava incomodando,";
+	mes "e oferecido minha ajuda. Mm, não.";
 	close;
 }

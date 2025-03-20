@@ -19,8 +19,8 @@
 // Entrance
 prontera,154,197,3	script	MVP Warper	768,{
 	mes "[ ^0065DFMVP Warper^000000 ]";
-	mes "Would you like to enter";
-	mes "the MVP Arena?";
+	mes "Você gostaria de entrar";
+	mes "na Arena MVP?";
 	if (select("Yes!","No thanks.") == 2) close;
 	warp "quiz_00",50,24;
 	close;
@@ -29,13 +29,13 @@ prontera,154,197,3	script	MVP Warper	768,{
 // Information
 quiz_00,49,31,4	script	MVP Arena Guide	778,{
 	mes "[ ^0065DFMVP Arena Guide^000000 ]";
-	mes "Welcome and behold this sacred place. Here you will find out if you truly have what it takes to call yourself a warrior.";
+	mes "Bem-vindo e contemple este lugar sagrado. Aqui você descobrirá se realmente tem o que é preciso para se chamar de guerreiro.";
 	next;
 	switch(select("Information","Heal me!","Return to Prontera","Cancel")) {
 	case 1:
 		mes "[ ^0065DFMVP Arena Guide^000000 ]";
-		mes "There are four Keepers, and each can spawn four different MVPs.";
-		mes "There are eight rooms per Keeper, and sixteen MVPs in total.";
+		mes "Existem quatro Guardiões, e cada um pode gerar quatro MVPs diferentes.";
+		mes "Existem oito salas por Guardião, e dezesseis MVPs no total.";
 		close;
 	case 2:
 		specialeffect2 EF_HEAL2;
@@ -53,14 +53,14 @@ quiz_00,49,31,4	script	MVP Arena Guide	778,{
 function	script	Keeper	{
 	set .@arg, getarg(0);
 	mes "[ ^0065DF"+strnpcinfo(1)+"^000000 ]";
-	mes "Which arena would you";
-	mes "like to enter?";
+	mes "Qual arena você";
+	mes "gostaria de entrar?";
 	for(set .@i,1; .@i<9; set .@i,.@i+1)
 		set .@menu$, .@menu$+"Arena "+.@i+" ["+getmapusers("pvp_n_"+.@i+"-"+.@arg)+"/20]:";
 	set .@i, select(.@menu$);
 	if (getmapusers("pvp_n_"+.@i+"-"+ .@arg)>19) {
 		mes "[ ^0065DF"+strnpcinfo(1)+"^000000 ]";
-		mes "Sorry, this arena is full!";
+		mes "Desculpe, esta arena está cheia!";
 		close;
 	}
 	warp "pvp_n_"+.@i+"-"+ .@arg,102,102;

@@ -53,6 +53,17 @@ OnInit:
 		"OR `name_aegis` IN ( SELECT DISTINCT `drop9_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) = 0 ) " +
 		"OR `name_aegis` IN ( SELECT DISTINCT `drop10_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) = 0 ) )";
 
+	.@mvp_string$ = "( `name_aegis` IN ( SELECT DISTINCT `drop1_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop2_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop3_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop4_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop5_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop6_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop7_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop8_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop9_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) " +
+		"OR `name_aegis` IN ( SELECT DISTINCT `drop10_item` FROM `" + .@mob_db$ + "` WHERE COALESCE(`mode_mvp`,0) > 0 ) )";
+
 	.@total = query_sql( "SELECT DISTINCT LEFT( `name_english`, 1 ) AS alphabets FROM `"+ .@item_db$ +"` WHERE `type` = 'Card' AND " + .@string$ + " ORDER BY alphabets;", .@alphabet$ );
 	for ( .@i = 0; .@i < .@total; .@i++ ) {
 		.@nb = query_sql( "SELECT `"+ .@item_db$ +"`.`id` FROM `"+ .@item_db$ +"` WHERE `type` = 'Card' AND LEFT( `name_english`, 1 ) = '"+ .@alphabet$[.@i] +"' AND " + .@string$ + " ORDER BY `name_english` LIMIT 128;", .@id );
@@ -67,6 +78,16 @@ OnInit:
 			}
 		}
 	}
+	.@mvp_cards = query_sql( "SELECT `"+ .@item_db$ +"`.`id` FROM `"+ .@item_db$ +"` WHERE `type` = 'Card' AND " + .@mvp_string$ + " ORDER BY `name_english` LIMIT 128;", .@mvp_id );
+	if (.@mvp_cards > 0) {
+		npcshopdelitem "card_mob#MVP", 501;
+		for ( .@j = 0; .@j < .@mvp_cards; .@j++ ) {
+			if (getiteminfo(.@mvp_id[.@j], ITEMINFO_SUBTYPE) == CARD_ENCHANT)
+				continue;
+			npcshopadditem "card_mob#MVP", .@mvp_id[.@j], 1000000;
+		}
+	}
+	
 	freeloop 0;
 	end;
 }
@@ -96,3 +117,4 @@ OnInit:
 -	shop	card_mob#X	-1,501:1000
 -	shop	card_mob#Y	-1,501:1000
 -	shop	card_mob#Z	-1,501:1000
+-	shop	card_mob#MVP	-1,501:1000

@@ -12,7 +12,7 @@
 //= 1.5 Adicionado sc_end_class para resetar mudanças de status relacionadas [sader1992]
 //============================================================
 
-prontera,150,193,4	script	Garota de Reset	760,{
+prontera,150,193,4	script	Garota de Reset	20777,{
 	//	 		Habilidades,	Atributos,	Ambos,	Limite
 	setarray .@Reset,	5000,		5000,		9000,	0;
 	mes "[Garota de Reset]";
