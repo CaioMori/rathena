@@ -145,8 +145,20 @@ function	script	F_Kafra	{
 	.@menu$ = implode(.@K_Menu0$,":");
 	while (true) {
 		.@j = select(.@menu$) - 1;
-		if (.@K_Menu0$[.@j] == "Save")
+		if (.@K_Menu0$[.@j] == "Save") {
+			savepoint "prontera", 156, 191;
+			
+			// Exibe mensagem de confirmação
+			mes "[Funcionária Kafra]";
+			mes "Que delícia, " + strcharinfo(0) + "!";
+			mes "foi salvo aqui em";
+			mes "" + strcharinfo(3) + ".";
+			mes "Obrigada por usar";
+			mes "os Serviços Kafra.";
+			
+			next;
 			return;
+		}
 		else if (.@K_Menu0$[.@j] == "Usar Armazém") {
 			if (.@welcome == 2)// Do not charge for Guild Storage
 				callfunc "F_KafStor",2,0,0;

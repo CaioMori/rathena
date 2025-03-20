@@ -51,42 +51,42 @@
 
 // Duplicatas
 //============================================================
-alberta,25,240,6	duplicate(Curandeira)	Curandeira#alb	758
-aldebaran,135,118,6	duplicate(Curandeira)	Curandeira#alde	758
-amatsu,200,79,4	duplicate(Curandeira)	Curandeira#ama	758
-ayothaya,207,169,6	duplicate(Curandeira)	Curandeira#ayo	758
-comodo,184,158,6	duplicate(Curandeira)	Curandeira#com	758
-einbech,57,36,6	duplicate(Curandeira)	Curandeira#einbe	758
-einbroch,57,202,6	duplicate(Curandeira)	Curandeira#einbr	758
-geffen,115,72,6	duplicate(Curandeira)	Curandeira#gef	758
-gonryun,156,122,6	duplicate(Curandeira)	Curandeira#gon	758
-hugel,89,150,6	duplicate(Curandeira)	Curandeira#hug	758
-izlude,121,150,6	duplicate(Curandeira)	Curandeira#izl	758	//Pre-RE: (125,118)
-jawaii,250,139,4	duplicate(Curandeira)	Curandeira#jaw	758
-lighthalzen,152,100,6	duplicate(Curandeira)	Curandeira#lhz	758
-louyang,226,103,4	duplicate(Curandeira)	Curandeira#lou	758
-manuk,272,144,6	duplicate(Curandeira)	Curandeira#man	758
-mid_camp,203,289,6	duplicate(Curandeira)	Curandeira#mid	758
-moc_ruins,72,164,4	duplicate(Curandeira)	Curandeira#moc	758
-morocc,153,97,6	duplicate(Curandeira)	Curandeira#mor	758
-moscovia,220,191,4	duplicate(Curandeira)	Curandeira#mos	758
-niflheim,212,182,5	duplicate(Curandeira)	Curandeira#nif	758
-payon,179,106,4	duplicate(Curandeira)	Curandeira#pay	758
-prontera,162,193,4	duplicate(Curandeira)	Curandeira#prt	758
-rachel,125,116,6	duplicate(Curandeira)	Curandeira#rac	758
-splendide,201,153,4	duplicate(Curandeira)	Curandeira#spl	758
-thor_camp,249,74,4	duplicate(Curandeira)	Curandeira#thor	758
-umbala,105,148,3	duplicate(Curandeira)	Curandeira#umb	758
-veins,217,121,4	duplicate(Curandeira)	Curandeira#ve	758
-xmas,143,136,4	duplicate(Curandeira)	Curandeira#xmas	758
-yuno,164,45,4	duplicate(Curandeira)	Curandeira#yuno	758
+alberta,25,240,6	duplicate(Curandeira)	Curandeira#alb	10441
+aldebaran,135,118,6	duplicate(Curandeira)	Curandeira#alde	10441
+amatsu,200,79,4	duplicate(Curandeira)	Curandeira#ama	10441
+ayothaya,207,169,6	duplicate(Curandeira)	Curandeira#ayo	10441
+comodo,184,158,6	duplicate(Curandeira)	Curandeira#com	10441
+einbech,57,36,6	duplicate(Curandeira)	Curandeira#einbe	10441
+einbroch,57,202,6	duplicate(Curandeira)	Curandeira#einbr	10441
+geffen,115,72,6	duplicate(Curandeira)	Curandeira#gef	10441
+gonryun,156,122,6	duplicate(Curandeira)	Curandeira#gon	10441
+hugel,89,150,6	duplicate(Curandeira)	Curandeira#hug	10441
+izlude,121,150,6	duplicate(Curandeira)	Curandeira#izl	10441	//Pre-RE: (125,118)
+jawaii,250,139,4	duplicate(Curandeira)	Curandeira#jaw	10441
+lighthalzen,152,100,6	duplicate(Curandeira)	Curandeira#lhz	10441
+louyang,226,103,4	duplicate(Curandeira)	Curandeira#lou	10441
+manuk,272,144,6	duplicate(Curandeira)	Curandeira#man	10441
+mid_camp,203,289,6	duplicate(Curandeira)	Curandeira#mid	10441
+moc_ruins,72,164,4	duplicate(Curandeira)	Curandeira#moc	10441
+morocc,153,97,6	duplicate(Curandeira)	Curandeira#mor	10441
+moscovia,220,191,4	duplicate(Curandeira)	Curandeira#mos	10441
+niflheim,212,182,5	duplicate(Curandeira)	Curandeira#nif	10441
+payon,179,106,4	duplicate(Curandeira)	Curandeira#pay	10441
+prontera,162,193,4	duplicate(Curandeira)	Curandeira#prt	10441
+rachel,125,116,6	duplicate(Curandeira)	Curandeira#rac	10441
+splendide,201,153,4	duplicate(Curandeira)	Curandeira#spl	10441
+thor_camp,249,74,4	duplicate(Curandeira)	Curandeira#thor	10441
+umbala,105,148,3	duplicate(Curandeira)	Curandeira#umb	10441
+veins,217,121,4	duplicate(Curandeira)	Curandeira#ve	10441
+xmas,143,136,4	duplicate(Curandeira)	Curandeira#xmas	10441
+yuno,164,45,4	duplicate(Curandeira)	Curandeira#yuno	10441
 
 // Duplicatas (Renovação)
 //============================================================
-brasilis,194,221,6	duplicate(Curandeira)	Curandeira#bra	758
-dewata,195,187,4	duplicate(Curandeira)	Curandeira#dew	758
-dicastes01,201,194,4	duplicate(Curandeira)	Curandeira#dic	758
-ecl_in01,45,60,4	duplicate(Curandeira)	Curandeira#ecl	758
-malangdo,132,114,6	duplicate(Curandeira)	Curandeira#mal	758
-malaya,227,204,6	duplicate(Curandeira)	Curandeira#ma	758
-mora,55,152,4	duplicate(Curandeira)	Curandeira#mora	758
+brasilis,194,221,6	duplicate(Curandeira)	Curandeira#bra	10441
+dewata,195,187,4	duplicate(Curandeira)	Curandeira#dew	10441
+dicastes01,201,194,4	duplicate(Curandeira)	Curandeira#dic	10441
+ecl_in01,45,60,4	duplicate(Curandeira)	Curandeira#ecl	10441
+malangdo,132,114,6	duplicate(Curandeira)	Curandeira#mal	10441
+malaya,227,204,6	duplicate(Curandeira)	Curandeira#ma	10441
+mora,55,152,4	duplicate(Curandeira)	Curandeira#mora	10441

@@ -238,6 +238,20 @@ prontera,152,326,3	script	Funcionária Kafra::kaf_prontera	112,{
 	savepoint "prontera",157,327,1,1;
 	callfunc "F_KafEnd",0,1,"na cidade de Prontera";
 }
+prontera,155,190,4	script	Funcionária Kafra::kaf_prontera6	721,{
+	cutin "kafra_07",2;
+	callfunc "F_KafSet";
+	mes "[Funcionária Kafra]";
+	mes "Bem-vindo à";
+	mes "Corporação Kafra~";
+	mes "Os Serviços Kafra estão";
+	mes "sempre aqui para apoiar";
+	mes "você. Como posso ser";
+	mes "útil hoje?";
+	callfunc "F_Kafra",5,0,0,40,800;
+	savepoint "prontera",159,192,1,1;
+	callfunc "F_KafEnd",0,1,"na cidade de Prontera";
+}
 
 prontera,151,29,0	script	Funcionária Kafra::kaf_prontera2	115,{
 	cutin "kafra_03",2;

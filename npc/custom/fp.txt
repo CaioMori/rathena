@@ -1,0 +1,102 @@
+prontera,0,0,0	script	FakePlayers	-1,{
+OnInit:
+    setarray .fake_players[0], 0;
+    deletearray .fake_players[0], 1;
+
+    // Lista de classes populares
+    setarray .job_list[0], 
+        4001, 4002, 4008, 4015, 4030, 
+        4054, 4056, 4060, 4064, 4073;
+        
+    // Lista de mapas populares (reduzida para os principais)
+    setarray .map$[0], 
+        "prontera", "geffen", "payon", 
+        "alberta", "izlude", "morocc";
+    
+    // Processar em blocos para evitar loop infinito
+    .total_maps = getarraysize(.map$);
+    .current_map = 0;
+
+    // Contador global para garantir variação entre todos os jogadores
+    .global_counter = 0;
+
+    // Inicia o processamento em blocos
+    donpcevent strnpcinfo(0)+"::OnProcessBlock";
+    end;
+
+OnProcessBlock:
+    // Processa um bloco de mapas (5 por vez)
+    .end_map = .current_map + 5;
+    if (.end_map > .total_maps) .end_map = .total_maps;
+    
+    for (.@m = .current_map; .@m < .end_map; .@m++) {
+        // Número reduzido de jogadores por mapa (10-50)
+        .@num_players = rand(40, 50);
+        
+        for (.@i = 0; .@i < .@num_players; .@i++) {
+            // Contador global para garantir variação entre todos os jogadores
+            .global_counter++;
+
+            // Escolher classe aleatória
+            .@job_index = rand(0, getarraysize(.job_list[0]) - 1);
+            .@job = .job_list[.@job_index];
+            
+            // Gerar nome aleatório
+            .@name$ = "Player " + .@i + 1000;
+            
+            // Valores aleatórios para aparência - MOVIDO PARA DENTRO DO LOOP
+            .@sex$ = 0;
+            .@hair$ = rand(0, 10);
+            .@hair_color$ = rand(0, 10);
+            .@cloth_color$ = 0;
+            
+            .@weapon = 13413;
+            .@shield = 2122;
+            .@head_top = rand(0, 2000) + (.global_counter / 10) % 10;
+            .@head_mid = 2276 + .global_counter % 6;
+            .@head_bottom = 2260 + .global_counter % 16;
+            
+            // Posição aleatória no mapa
+            if (.map$[.@m] == "prontera") {
+                .@x = 155 + rand(-50, 50);
+                .@y = 180 + rand(-50, 50);
+            } else if (.map$[.@m] == "geffen") {
+                .@x = 119 + rand(-30, 30);
+                .@y = 59 + rand(-30, 30);
+            } else if (.map$[.@m] == "payon") {
+                .@x = 177 + rand(-30, 30);
+                .@y = 111 + rand(-30, 30);
+            } else if (.map$[.@m] == "alberta") {
+                .@x = 117 + rand(-30, 30);
+                .@y = 57 + rand(-30, 30);
+            } else if (.map$[.@m] == "izlude") {
+                .@x = 128 + rand(-30, 30);
+                .@y = 114 + rand(-30, 30);
+            } else if (.map$[.@m] == "morocc") {
+                .@x = 156 + rand(-40, 40);
+                .@y = 93 + rand(-40, 40);
+            } else {
+                // Coordenadas seguras para outros mapas
+                .@x = 150 + rand(-50, 50);
+                .@y = 150 + rand(-50, 50);
+            }
+
+            if (.@x < 0) .@x = 0;
+            if (.@y < 0) .@y = 0;
+            
+            fakeplayer(.map$[.@m], .@x, .@y, .@name$, .@job, .@sex, .@hair, .@hair_color, .@weapon, .@shield, .@head_top, .@head_mid, .@head_bottom, 0, .@cloth_color);
+
+            fakeplayer(.map$[.@m], .@x, .@y, .@name$ + " Ablube", 4015, 1, 1, 1, .@weapon, .@shield, 2220, 2220, 2220, 0, .@cloth_color);
+        }
+    }
+    
+    // Atualiza o contador de mapas
+    .current_map = .end_map;
+    
+    // Se ainda há mapas para processar, agenda o próximo bloco
+    if (.current_map < .total_maps) {
+        sleep 1; // Pausa para resetar o contador de loop
+        donpcevent strnpcinfo(0)+"::OnProcessBlock";
+    }
+    end;
+}

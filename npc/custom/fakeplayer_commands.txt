@@ -1,0 +1,71 @@
+-	script	FakePlayerCommands	-1,{
+OnInit:
+    setarray .fake_players[0], 0;
+    deletearray .fake_players[0], 1;
+    
+    bindatcmd("fakeplayer", strnpcinfo(0)+"::OnCommand", 0, 99);
+    end;
+
+OnCommand:
+    if (getarg(0) == 0 || getarg(0) == "") {
+        dispbottom("Comandos disponiveis:");
+        dispbottom("@fakeplayer add <mapa> <quantidade> - Adiciona jogadores falsos");
+        dispbottom("@fakeplayer remove all - Remove todos os jogadores falsos");
+        dispbottom("@fakeplayer list - Lista os jogadores falsos ativos");
+        end;
+    }
+    
+    if (compare(getarg(0), "add") == 0) {
+        .@map$ = getarg(1, strcharinfo(3));
+        .@count = getarg(2, 5);
+        
+        if (.@count > 30) {
+            dispbottom("Numero maximo de jogadores falsos por comando e 30.");
+            .@count = 30;
+        }
+        
+        for (.@i = 0; .@i < .@count; .@i++) {
+            .@x =  rand(-10, 10);
+            .@y = rand(-10, 10);
+            
+            .@job = rand(4001, 4080);
+            .@sex = rand(0, 1);
+            .@hair = 3;
+            .@hair_color = 0;
+            .@weapon = rand(13412, 13413);
+            .@shield = 2122;
+            .@head_top = 5151;
+            .@head_mid = 5151;
+            .@head_bottom = 20239;
+            .@cloth_color = 1;
+            
+            .@name$ = "Player" + rand(1000, 9999);
+            
+            .@gid = fakeplayer(.@map$, .@x, .@y, .@name$, .@job, .@sex, .@hair, .@hair_color, .@weapon, .@shield, .@head_top, .@head_mid, .@head_bottom, 0, .@cloth_color);
+            
+            if (.@gid) {
+                setarray .fake_players[getarraysize(.fake_players)], .@gid;
+            }
+        }
+        
+        dispbottom("Adicionados " + .@count + " jogadores falsos em " + .@map$ + ".");
+        end;
+    }
+    
+    if (compare(getarg(0), "remove") == 0 && compare(getarg(1), "all") == 0) {
+        .@count = getarraysize(.fake_players);
+        
+        deletearray .fake_players[0], .@count;
+        dispbottom("Removidos " + .@count + " jogadores falsos.");
+        end;
+    }
+    
+    if (compare(getarg(0), "list") == 0) {
+        .@count = getarraysize(.fake_players);
+        dispbottom("Jogadores falsos ativos: " + .@count);
+        end;
+    }
+    
+    dispbottom("Comando desconhecido. Use @fakeplayer para ver a lista de comandos.");
+    end;
+}

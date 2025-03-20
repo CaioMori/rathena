@@ -1,0 +1,61 @@
+-	script	ItemOnKill	-1,{
+OnInit:
+	// Registra o evento para ser acionado quando um monstro é morto
+	bindatcmd("script:OnNPCKillEvent", strnpcinfo(0), "OnNPCKillEvent", 0);
+	end;
+
+OnNPCKillEvent:
+    set .percent, rand(1, 100);
+    // 33% de chance de dropar um item
+    if (.percent < 33) {
+        // Array com os IDs dos itens que podem ser adicionados
+        setarray .ItemIDs[0], 23280, 1774, 578, 603, 14533, 14592, 547;
+        // Número total de itens no array
+        set .ItemCount, getarraysize(.ItemIDs);
+        // Seleciona um item aleatório do array
+        set .RandomItem, .ItemIDs[rand(.ItemCount)];
+        // Adiciona o item ao inventário do jogador
+        getitem .RandomItem, 10;
+        // Mensagem informando o jogador
+        dispbottom "Você recebeu um item por matar um monstro!";
+    } else if (.percent < 13) {
+        // Array com os IDs dos itens que podem ser adicionados
+        setarray .ItemIDs[0], 984, 6240, 7620, 985, 6439, 7619, 31488, 18740, 20243;
+        // Número total de itens no array
+        set .ItemCount, getarraysize(.ItemIDs);
+        // Seleciona um item aleatório do array
+        set .RandomItem, .ItemIDs[rand(.ItemCount)];
+        // Adiciona o item ao inventário do jogador
+        getitem .RandomItem, 1;
+        // Mensagem informando o jogador
+        dispbottom "Você recebeu um item por matar um monstro!";
+    } else if (.percent < 8) {
+        // Array com os IDs dos itens que podem ser adicionados
+        setarray .ItemIDs[0], 400278, 430005, 19578, 20185, 19525, 20233, 20189, 19955, 400502, 20266,
+		20296, 31564, 19760, 19790, 5915, 20217, 20220, 31912, 400133, 19587,
+		20299, 410296, 410048, 19928, 31534, 31184, 31830, 31487, 31449, 19512,
+		19511, 19289, 19551, 31463, 19638, 410055, 31403, 20391, 19534, 31942,
+		420059, 420172, 19805, 19606, 420320, 19993, 420103, 420109, 420132, 420233,
+		420275, 420274, 420273, 420276, 31638, 31640, 31644, 31641, 31642, 31639;
+        // Número total de itens no array
+        set .ItemCount, getarraysize(.ItemIDs);
+        // Seleciona um item aleatório do array
+        set .RandomItem, .ItemIDs[rand(.ItemCount)];
+        // Adiciona o item ao inventário do jogador
+        getitem .RandomItem, 1;
+        // Mensagem informando o jogador
+        dispbottom "Você recebeu um item por matar um monstro!";
+    } else if (.percent < 3) {
+        // Array com os IDs dos itens que podem ser adicionados
+        setarray .ItemIDs[0], 400006, 500009, 22178, 490037, 480023, 15374, 28520, 22191, 19314, 28910, 480197, 400021, 480025, 700019, 410140, 19138, 19446, 400287, 520003, 460023, 400307, 12259, 15385;
+        // Número total de itens no array
+        set .ItemCount, getarraysize(.ItemIDs);
+        // Seleciona um item aleatório do array
+        set .RandomItem, .ItemIDs[rand(.ItemCount)];
+        // Adiciona o item ao inventário do jogador
+        getitem .RandomItem, 1;
+        // Mensagem informando o jogador
+        dispbottom "Você recebeu um item por matar um monstro!";
+    }
+    end;
+}
