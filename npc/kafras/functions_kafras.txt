@@ -145,7 +145,13 @@ function	script	F_Kafra	{
 	.@menu$ = implode(.@K_Menu0$,":");
 	while (true) {
 		.@j = select(.@menu$) - 1;
-		if (.@K_Menu0$[.@j] == "Save")
+		if (.@K_Menu0$[.@j] == "Salvar")
+			mes "[Funcionária Kafra]";
+			mes "Seu local de renascimento foi salvo aqui.";
+			set .@map$, strcharinfo(3);
+			getmapxy(.@x, .@y, 0);
+			savepoint .@map$, .@x, .@y;
+			close;
 			return;
 		else if (.@K_Menu0$[.@j] == "Usar Armazém") {
 			if (.@welcome == 2)// Do not charge for Guild Storage
