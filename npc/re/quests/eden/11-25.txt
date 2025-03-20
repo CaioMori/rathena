@@ -19,9 +19,9 @@
 
 moc_para01,36,38,3	script	Mission [11 - 25]#Tuto	4_BOARD3,{
 	if (!callfunc("F_HasEdenGroupMark")) {
-		mes "- You need to have an -";
-		mes "- ^4d4dff'Eden Group Mark'^000000 -";
-		mes "- to receive these missions. -";
+		mes "- Você precisa ter uma -";
+		mes "- ^4d4dff'Marca do Grupo Eden'^000000 -";
+		mes "- para receber estas missões. -";
 		close;
 	}
 	for ( .@i = 11124; .@i < 11134; .@i++ )
@@ -29,37 +29,37 @@ moc_para01,36,38,3	script	Mission [11 - 25]#Tuto	4_BOARD3,{
 	for( .@i = 11114; .@i < 11124; .@i++ ) {
 		.@j = checkquest(.@i,HUNTING);
 		if (.@j == 2) {
-			mes " - You must collect your - ";
-			mes " - reward before starting - ";
-			mes " - a new mission. - ";
+			mes " - Você deve coletar sua - ";
+			mes " - recompensa antes de iniciar - ";
+			mes " - uma nova missão. - ";
 			mes " ";
-			mes " - Manager : Spike - ";
+			mes " - Gerente: Spike - ";
 			close;
 		}
 		else if (.@j >= 0) {
-			mes " - You can only request - ";
-			mes " - one mission at a time. - ";
+			mes " - Você só pode solicitar - ";
+			mes " - uma missão por vez. - ";
 			mes " ";
-			mes " - Manager : Spike - ";
+			mes " - Gerente: Spike - ";
 			close;
 		}
 	}
 	if (BaseLevel < 11) {
-		mes " - There are no tasks - ";
-		mes " - open for you right now. - ";
+		mes " - Não há tarefas - ";
+		mes " - abertas para você agora. - ";
 		close;
 	}
 	if (BaseLevel > 25) {
-		mes " - These missions are too - ";
-		mes " - easy for your caliber - ";
-		mes " - search for a more level - ";
-		mes " - appropriate mission. - ";
+		mes " - Estas missões são muito - ";
+		mes " - fáceis para o seu calibre - ";
+		mes " - procure por uma missão - ";
+		mes " - mais apropriada ao seu nível. - ";
 		close;
 	}
-	mes " - Mission bulletin board -";
-	mes " - for beginners. -";
+	mes " - Quadro de avisos de missões -";
+	mes " - para iniciantes. -";
 	mes " ";
-	mes " - Manager : Spike -";
+	mes " - Gerente: Spike -";
 	next;
 	switch(select("Hornet Hunting:Condor Hunting:Grasshopper's Leg:Worm Tail Hunting:Spore Hunting:Pest Control:Muka Hunting:Familiar Hunting:Collect Feathers:Collect Poison Spores:Cancel")) {
 		case 1: callsub L_Quest,11114,"Hornet Hunting"," - Hunt 10 ^4d4dff'Hornets'^000000 - "," - northwest of Prontera. - ";
@@ -73,28 +73,28 @@ moc_para01,36,38,3	script	Mission [11 - 25]#Tuto	4_BOARD3,{
 		case 9: callsub L_Quest,11122,"Collect Feathers"," - Hunt 30 ^4d4dff'Peco Pecos'^000000 - "," - south of Prontera. - ";
 		case 10: callsub L_Quest,11123,"Collect Poison Spores"," - Hunt 30 ^4d4dffPoison Spores^000000 - "," - inside the Geffen Tower and - "," - bring 5 ^4d4dffPoison Spores^000000. - ";
 		case 11:
-			mes " - Stop reading the bulletin board. - ";
+			mes " - Pare de ler o quadro de avisos. - ";
 			close;
 	}
 
 L_Quest:
 	.@quest_status = checkquest(getarg(0)+10,PLAYTIME);
 	if (.@quest_status == 0 || .@quest_status == 1) {
-		mes " - Mission ^4d4dff"+ getarg(1) +"^000000 - ";
-		mes " - is already finished for today. - ";
+		mes " - Missão ^4d4dff"+ getarg(1) +"^000000 - ";
+		mes " - já foi concluída por hoje. - ";
 		mes " ";
-		mes " - Manager : Spike - ";
+		mes " - Gerente: Spike - ";
 		close;
 	}
-	mes " - Mission '"+ getarg(1) +"' - ";
+	mes " - Missão '"+ getarg(1) +"' - ";
 	for ( .@i = 2; .@i < getargcount(); .@i++ )
 		mes getarg(.@i);
 	mes " ";
-	mes " - Manager : Spike - ";
+	mes " - Gerente: Spike - ";
 	next;
 	if (select("I will do this mission.:Look for other missions.") == 2) {
-		mes " - Let's search for -";
-		mes " - other missions. - ";
+		mes " - Vamos procurar por -";
+		mes " - outras missões. - ";
 		close;
 	}
 	for ( .@i = 2; .@i < getargcount(); .@i++ )
@@ -122,17 +122,17 @@ moc_para01,32,30,6	script	Spike	4_F_CHILD,{
 		}
 		else if (.@j >= 0) {
 			mes "[Spike]";
-			mes "You haven't finished your mission yet.";
-			mes "Keep up the good work. You are almost done.";
+			mes "Você ainda não terminou sua missão.";
+			mes "Continue o bom trabalho. Você está quase terminando.";
 			close;
 		}
 	}
 	mes "[Spike]";
-	mes "Are you looking for a job?";
-	mes "We always have lots of work to do.";
+	mes "Está procurando um trabalho?";
+	mes "Sempre temos muitas tarefas para fazer.";
 	next;
 	mes "[Spike]";
-	mes "Why don't you look around and find some interesting tasks?";
+	mes "Por que você não dá uma olhada e encontra algumas tarefas interessantes?";
 	close;
 
 L_Quest:
@@ -143,19 +143,19 @@ L_Quest:
 		if (.@item_req) {
 			if (countitem(.@item_req) < .@req_amount) {
 				mes "[Spike]";
-				mes "You don't have enough "+ getitemname(.@item_req) +".";
-				mes "You need to bring "+ .@req_amount +" "+ getitemname(.@item_req) +".";
+				mes "Você não tem "+ getitemname(.@item_req) +" suficiente.";
+				mes "Você precisa trazer "+ .@req_amount +" "+ getitemname(.@item_req) +".";
 				close;
 			}
 		}
 		mes "[Spike]";
-		mes "Hmm... let me see~";
-		mes "You have completed the '"+ getarg(1) +"' mission.";
+		mes "Hmm... deixe-me ver~";
+		mes "Você completou a missão '"+ getarg(1) +"'.";
 		next;
 		mes "[Spike]";
-		mes "Good work~!!";
-		mes "Our client is so happy with your work. He will appreciate what you have done.";
-		mes "Please help us again. Thanks!";
+		mes "Bom trabalho~!!";
+		mes "Nosso cliente está muito feliz com seu trabalho. Ele vai apreciar o que você fez.";
+		mes "Por favor, ajude-nos novamente. Obrigado!"
 		if (.@item_req)
 			delitem .@item_req,.@req_amount;
 		erasequest .@quest_id;

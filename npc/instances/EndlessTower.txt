@@ -40,120 +40,120 @@
 
 alberta,214,77,6	script	Captain Janssen	709,{
 	if (checkweight(1201,1) == 0) {
-		mes "^008800Wait here!!";
-		mes "You're carrying too much stuff. Why don't you put some of it away, and then come back.^000000";
+		mes "^008800Espere aqui!!";
+		mes "Você está carregando muitas coisas. Por que não guarda algumas delas e depois volta.^000000";
 		close;
 	}
 	if (BaseLevel < 50) {
-		mes "[Captain Janssen]";
-		mes "Sigh... I don't know if I can ever go back to sailing the sea...";
+		mes "[Capitão Janssen]";
+		mes "Suspiro... Não sei se algum dia poderei voltar a navegar pelo mar...";
 		close;
 	}
 	set .@name$,strcharinfo(0);
 	if (in_102tower == 1) {
-		mes "^0000ffLooking incredibly excited, the old man ran into the marine shop hurriedly ordering goods. You don't have anything better to do, so you decide to ask him why he is in such a rush.^000000";
+		mes "^0000ffParecendo incrivelmente animado, o velho homem correu para a loja marítima apressadamente fazendo pedidos. Você não tem nada melhor para fazer, então decide perguntar a ele por que está com tanta pressa.^000000";
 		next;
-		mes "^0000ffThe old man, after finishing his orders, walks towards you.^000000";
+		mes "^0000ffO velho homem, depois de terminar seus pedidos, caminha em sua direção.^000000";
 		next;
-		mes "[Captain Janssen]";
-		mes "I was touched when you accepted a request from me, a stranger, so easily. You must truly be one of those good, heroic adventurers. Are you interested in setting out on an ocean voyage?";
+		mes "[Capitão Janssen]";
+		mes "Fiquei tocado quando você aceitou um pedido meu, um estranho, tão facilmente. Você deve realmente ser um daqueles bons e heroicos aventureiros. Você está interessado em partir em uma viagem oceânica?";
 		next;
 		mes "["+.@name$+"]";
-		mes "I've sailed a few times... But now that I think about it, I've never gone across the continent.";
+		mes "Já naveguei algumas vezes... Mas agora que penso nisso, nunca atravessei o continente.";
 		next;
-		mes "[Captain Janssen]";
-		mes "No, that's good enough. I may just have one small fishing vessel, but I used to be a captain that commanded a fleet.";
+		mes "[Capitão Janssen]";
+		mes "Não, isso é bom o suficiente. Posso ter apenas um pequeno barco de pesca, mas costumava ser um capitão que comandava uma frota.";
 		next;
-		mes "[Captain Janssen]";
-		mes "As you may know after a few sea voyages, not many people have gone across the ocean beyond the continent. I too have failed to conquer the ocean.";
+		mes "[Capitão Janssen]";
+		mes "Como você deve saber depois de algumas viagens marítimas, não muitas pessoas atravessaram o oceano além do continente. Eu também falhei em conquistar o oceano.";
 		next;
-		mes "^0000ffMr. Janssen talked about his perilous ocean journeys for quite a while. You have enough time on your hands, so you sit down, quietly listening to his story.^000000";
+		mes "^0000ffSr. Janssen falou sobre suas perigosas viagens oceânicas por um bom tempo. Você tem tempo suficiente, então se senta, ouvindo silenciosamente sua história.^000000";
 		next;
-		mes "^0000ffAt least half of his story sounded grossly exaggerated, but something caught your ear: he insists that a humongous tower exists on the ocean, and that it's so tall, it scrapes across the sky.^000000";
+		mes "^0000ffPelo menos metade de sua história parecia grosseiramente exagerada, mas algo chamou sua atenção: ele insiste que existe uma torre gigantesca no oceano, e que é tão alta que raspa o céu.^000000";
 		set in_102tower,2;
 		close;
 	} else if (in_102tower == 2) {
-		mes "[Captain Janssen]";
-		mes "So all I could do was cast anchor at that humongous tower after my fleet was wrecked. At first, we were only going to stay there until the rainstorm was over, but it didn't end as soon as we had hoped.";
+		mes "[Capitão Janssen]";
+		mes "Então tudo o que pude fazer foi lançar âncora naquela torre gigantesca depois que minha frota foi destruída. No início, íamos ficar lá apenas até a tempestade passar, mas não acabou tão cedo quanto esperávamos.";
 		next;
-		mes "[Captain Janssen]";
-		mes "My crew was starving, and a few of them walked into the tower in order to find food... They never came back.";
-		next;
-		mes "["+.@name$+"]";
-		mes "Why didn't you go in there with them?";
-		next;
-		mes "[Captain Janssen]";
-		mes "My instincts told me that tower was dangerous. I was curious, but I wasn't going to risk my life. We waited for them to come back for 7 days until the rainstorm was finally over, but no one returned.";
-		next;
-		mes "[Captain Janssen]";
-		mes "In our desperation to survive, we abandoned all our goods, and left the tower only with a little bit of the water and edible plants we'd found around the tower. When we finally reached land, I was the only one alive...";
-		next;
-		mes "^0000ffYou could imagine the heartwretching scene of the dying fleet on their last voyage, even if he didn't explain it any further. A look of somber regret swept over his face as he remained silent a while, and then he said:^000000";
-		next;
-		mes "[Captain Janssen]";
-		mes "I have something I must do before I die. I must retrieve the remains of my crew that died in the tower, and give them a proper burial.";
-		next;
-		mes "[Captain Janssen]";
-		mes "I feel so lucky to meet a warm-hearted adventurer like you. With the money you've given me, I can finally go sailing to the tower again.";
+		mes "[Capitão Janssen]";
+		mes "Minha tripulação estava morrendo de fome, e alguns deles entraram na torre para encontrar comida... Eles nunca voltaram.";
 		next;
 		mes "["+.@name$+"]";
-		mes "How about hiring me as your first mate?";
+		mes "Por que você não entrou lá com eles?";
 		next;
-		mes "[Captain Janssen]";
-		mes "Thank you, but it is an extremely dangerous place. I have my duty to fulfill, but you don't have any obligation to me or them. I don't wish to sacrifice someone as young as you to such a dangerous place.";
+		mes "[Capitão Janssen]";
+		mes "Meus instintos me disseram que aquela torre era perigosa. Eu estava curioso, mas não ia arriscar minha vida. Esperamos que eles voltassem por 7 dias até que a tempestade finalmente acabou, mas ninguém retornou.";
+		next;
+		mes "[Capitão Janssen]";
+		mes "Em nosso desespero para sobreviver, abandonamos todos os nossos bens e deixamos a torre apenas com um pouco de água e plantas comestíveis que encontramos ao redor da torre. Quando finalmente chegamos à terra, eu era o único vivo...";
+		next;
+		mes "^0000ffVocê poderia imaginar a cena de partir o coração da frota moribunda em sua última viagem, mesmo que ele não a explicasse mais. Um olhar de sombrio arrependimento varreu seu rosto enquanto ele permaneceu em silêncio por um tempo, e então disse:^000000";
+		next;
+		mes "[Capitão Janssen]";
+		mes "Tenho algo que devo fazer antes de morrer. Devo recuperar os restos da minha tripulação que morreu na torre e dar-lhes um enterro adequado.";
+		next;
+		mes "[Capitão Janssen]";
+		mes "Me sinto tão sortudo por conhecer um aventureiro de bom coração como você. Com o dinheiro que você me deu, finalmente posso navegar até a torre novamente.";
 		next;
 		mes "["+.@name$+"]";
-		mes "No...";
+		mes "Que tal me contratar como seu imediato?";
+		next;
+		mes "[Capitão Janssen]";
+		mes "Obrigado, mas é um lugar extremamente perigoso. Tenho meu dever a cumprir, mas você não tem nenhuma obrigação comigo ou com eles. Não desejo sacrificar alguém tão jovem quanto você em um lugar tão perigoso.";
+		next;
+		mes "["+.@name$+"]";
+		mes "Não...";
 		mes ".";
 		mes ".";
-		mes "As an adventurer, there's my obligation to those in need. I'm also very curious about that place...";
+		mes "Como aventureiro, existe minha obrigação com aqueles que precisam. Também estou muito curioso sobre esse lugar...";
 		next;
-		mes "[Captain Janssen]";
-		mes "I was going to leave right away, but since you've joined me, I should give you time to prepare. I'll be waiting here until you're ready to go.";
+		mes "[Capitão Janssen]";
+		mes "Eu ia partir imediatamente, mas já que você se juntou a mim, devo lhe dar tempo para se preparar. Estarei esperando aqui até que você esteja pronto para ir.";
 		next;
-		mes "[Captain Janssen]";
-		mes "...Okay then...";
-		mes "Welcome aboard, first mate.";
+		mes "[Capitão Janssen]";
+		mes "...Tudo bem então...";
+		mes "Bem-vindo a bordo, imediato.";
 		set in_102tower,3;
 		close;
 	} else if (in_102tower == 3) {
-		mes "[Captain Janssen]";
-		mes "Shall we leave now?";
+		mes "[Capitão Janssen]";
+		mes "Devemos partir agora?";
 		next;
 		switch(select("Yes, let's go!:No, I'm not quite ready...")) {
 		case 1:
-			mes "[Captain Janssen]";
-			mes "Then pull up the anchor, first mate!";
+			mes "[Capitão Janssen]";
+			mes "Então levante a âncora, imediato!";
 			close2;
 			set in_102tower,4;
 			warp "e_tower",70,114;
 			end;
 		case 2:
-			mes "[Captain Janssen]";
-			mes "Sure, no problem. Come back when you're ready.";
+			mes "[Capitão Janssen]";
+			mes "Claro, sem problemas. Volte quando estiver pronto.";
 			close;
 		}
 	} else if (in_102tower > 3) {
-		mes "[Captain Janssen]";
-		mes "Well, to travel the ocean again, we need to restock on goods. If you give me 10,000 Zeny, I'll take care of the rest.";
+		mes "[Capitão Janssen]";
+		mes "Bem, para viajar pelo oceano novamente, precisamos reabastecer os bens. Se você me der 10.000 Zeny, cuidarei do resto.";
 		next;
 		switch(select("I'll come back later.:Let's go, now!")) {
 		case 1:
 			mes "["+.@name$+"]";
-			mes "I'm sorry, but I don't have that much money. I'll come back when I save enough.";
+			mes "Sinto muito, mas não tenho tanto dinheiro. Voltarei quando economizar o suficiente.";
 			next;
-			mes "[Captain Janssen]";
-			mes "Sure, no problem. I'll be waiting for your return.";
+			mes "[Capitão Janssen]";
+			mes "Claro, sem problemas. Estarei esperando seu retorno.";
 			close;
 		case 2:
 			if (Zeny < 10000) {
-				mes "[Captain Janssen]";
-				mes "I'm sorry, but you don't have enough money. I need at least 10,000 Zeny to restock our supplies...";
+				mes "[Capitão Janssen]";
+				mes "Sinto muito, mas você não tem dinheiro suficiente. Preciso de pelo menos 10.000 Zeny para reabastecer nossos suprimentos...";
 				close;
 			}
 			else {
-				mes "[Captain Janssen]";
-				mes "Excellent! Now we're good to go. Let's pull up the anchor again!";
+				mes "[Capitão Janssen]";
+				mes "Excelente! Agora estamos prontos para ir. Vamos levantar a âncora novamente!";
 				set Zeny, Zeny-10000;
 				close2;
 				warp "e_tower",70,114;
@@ -161,39 +161,39 @@ alberta,214,77,6	script	Captain Janssen	709,{
 			}
 		}
 	} else {
-		mes "[Captain Janssen]";
-		mes "Excuse me, are you an adventurer?";
+		mes "[Capitão Janssen]";
+		mes "Com licença, você é um aventureiro?";
 		next;
-		mes "[Captain Janssen]";
-		mes "I'm sorry to ask you this, especially when this is the first time we've ever met, but can you do me a favor? I'll make it short.";
+		mes "[Capitão Janssen]";
+		mes "Sinto muito por lhe pedir isso, especialmente quando esta é a primeira vez que nos encontramos, mas pode me fazer um favor? Serei breve.";
 		next;
-		mes "[Captain Janssen]";
-		mes "Can you donate ^0000ff10,000 Zeny^000000 to me? It's for a cause that's important to me...";
+		mes "[Capitão Janssen]";
+		mes "Pode doar ^0000ff10.000 Zeny^000000 para mim? É para uma causa que é importante para mim...";
 		next;
 		switch(select("No!:Sure thing.")) {
 		case 1:
 			mes "["+.@name$+"]";
-			mes "I'm sorry, but you've got the wrong person to ask that.";
+			mes "Sinto muito, mas você escolheu a pessoa errada para pedir isso.";
 			next;
-			mes "[Captain Janssen]";
-			mes "I see... Sorry to bother you. I understand it was too rude to ask something like that to begin with.";
+			mes "[Capitão Janssen]";
+			mes "Entendo... Desculpe incomodá-lo. Compreendo que foi muito rude pedir algo assim para começar.";
 			close;
 		case 2:
-			mes "[Captain Janssen]";
-			mes "Huh? Are you sure that you don't mind giving me that much money? Wow, thank you so much!";
+			mes "[Capitão Janssen]";
+			mes "Hã? Tem certeza de que não se importa em me dar tanto dinheiro? Uau, muito obrigado!";
 			next;
 			if (Zeny < 10000) {
-				mes "[Captain Janssen]";
-				mes "...I'm sorry, but I don't think you have 10,000 Zeny. Thank you for your kindness, but I need more than that.";
+				mes "[Capitão Janssen]";
+				mes "...Sinto muito, mas acho que você não tem 10.000 Zeny. Obrigado por sua gentileza, mas preciso de mais do que isso.";
 				close;
 			} else {
 				mes "["+.@name$+"]";
-				mes "I don't know why you'd need so much money, but here. You can take it.";
+				mes "Não sei por que você precisaria de tanto dinheiro, mas aqui está. Pode pegá-lo.";
 				next;
-				mes "^0000ffYou have donated 10,000 Zeny to Captain Janssen^000000.";
+				mes "^0000ffVocê doou 10.000 Zeny para o Capitão Janssen^000000.";
 				next;
-				mes "[Captain Janssen]";
-				mes "Thank you so much! Now I can stock up on food and materials for my ship. You're kind, very kind!";
+				mes "[Capitão Janssen]";
+				mes "Muito obrigado! Agora posso estocar comida e materiais para meu navio. Você é gentil, muito gentil!";
 				set Zeny, Zeny-10000;
 				set in_102tower,1;
 				close;
@@ -211,29 +211,29 @@ e_tower,81,105,0	script	Tower Protection Stone	406,{
 	set .@etower_timer2,checkquest(60201,PLAYTIME); // 4 hours
 
 	if (!instance_check_party(.@party_id,2)) {
-		mes "Make or join a party with more than 1 member and try again.";
+		mes "Crie ou junte-se a um grupo com mais de 1 membro e tente novamente.";
 		close;
 	}
 	switch(.@etower_timer) {
 	case -1:
 		if (is_party_leader() == true) {
-			mes "Confirmed the party has been made. Would you like to reserve entrance to the Endless Tower?";
+			mes "Confirmado que o grupo foi criado. Gostaria de reservar a entrada para a Torre Sem Fim?";
 			next;
 			switch(select("Generate dungeon "+.@md_name$+":Enter the dungeon:Return to Alberta:Cancel")) {
 			case 1:
 				if (instance_create(.@md_name$) < 0) {
-					mes "Party Name: "+ getpartyname(.@party_id);
-					mes "Party Leader: "+strcharinfo(0);
-					mes "^0000ff"+.@md_name$+" ^000000- Reservation Failed!";
+					mes "Nome do Grupo: "+ getpartyname(.@party_id);
+					mes "Líder do Grupo: "+strcharinfo(0);
+					mes "^0000ff"+.@md_name$+" ^000000- Reserva Falhou!";
 					close;
 				}
-				mes "^0000ff"+.@md_name$+"^000000 - Try to reserve";
-				mes "After making a reservation, you have to talk to NPC behind and select the menu 'Enter the Dungeon' to enter the dungeon.";
+				mes "^0000ff"+.@md_name$+"^000000 - Tente reservar";
+				mes "Depois de fazer uma reserva, você deve falar com o NPC atrás e selecionar o menu 'Entrar na Masmorra' para entrar na masmorra.";
 				close;
 			case 2:
 				callsub L_Enter,0,1;
 			case 3:
-				mes "I will move you to Alberta.";
+				mes "Vou levá-lo para Alberta.";
 				close2;
 				warp "alberta",223,36;
 				end;
@@ -245,7 +245,7 @@ e_tower,81,105,0	script	Tower Protection Stone	406,{
 		case 1:
 			callsub L_Enter,1,1;
 		case 2:
-			mes "I will move you to Alberta.";
+			mes "Vou levá-lo para Alberta.";
 			close2;
 			warp "alberta",223,36;
 			end;
@@ -255,13 +255,13 @@ e_tower,81,105,0	script	Tower Protection Stone	406,{
 	case 0:
 	case 1:
 		if (.@etower_timer2 < 2 && getcharid(1) == etower_partyid) {
-			mes "If you have the dungeon generated already, you can enter it. ";
+			mes "Se você já tiver a masmorra gerada, pode entrar nela. ";
 			next;
 			switch(select("Enter the "+.@md_name$+":Return to Alberta:Cancel")) {
 			case 1:
 				callsub L_Enter,0,0;
 			case 2:
-				mes "I will move you to Alberta.";
+				mes "Vou levá-lo para Alberta.";
 				close2;
 				warp "alberta",223,36;
 				end;
@@ -277,9 +277,9 @@ e_tower,81,105,0	script	Tower Protection Stone	406,{
 			set .@dun_m,(.@dun_ent_t - (.@dun_h * 3600)) / 60;
 			set .@dun_s,.@dun_ent_t - ((.@dun_h * 3600) + (.@dun_m * 60));
 
-			mes "Due to the tower's aftereffects, you cannot enter the dungeon right now, " + .@dun_h + "hours " + .@dun_m + "minutes " + .@dun_s + "seconds left to enter the next dungeon.";
+			mes "Devido aos efeitos posteriores da torre, você não pode entrar na masmorra agora, faltam " + .@dun_h + " horas " + .@dun_m + " minutos " + .@dun_s + " segundos para entrar na próxima masmorra.";
 			next;
-			mes "It is dangerous here. Let me move you to Alberta.";
+			mes "É perigoso aqui. Deixe-me levá-lo para Alberta.";
 			close2;
 			warp "alberta",223,36;
 			end;
@@ -288,21 +288,21 @@ e_tower,81,105,0	script	Tower Protection Stone	406,{
 		set etower_timer,0;
 		erasequest 60200;
 		erasequest 60201;
-		mes "^0000ffThe records and after effects related to the Endless Tower have been removed. You can generate and enter the Endless Tower again.^000000";
+		mes "^0000ffOs registros e efeitos posteriores relacionados à Torre Sem Fim foram removidos. Você pode gerar e entrar na Torre Sem Fim novamente.^000000";
 		close;
 	}
 
 L_Enter:
 	switch(instance_enter("Endless Tower")) {
 	case IE_OTHER:
-		mes "An unknown error has occurred.";
+		mes "Ocorreu um erro desconhecido.";
 		close;
 	case IE_NOINSTANCE:
-		mes "The memorial dungeon Endless Tower does not exist.";
-		mes "The party leader did not generate the dungeon yet.";
+		mes "A masmorra memorial Torre Sem Fim não existe.";
+		mes "O líder do grupo ainda não gerou a masmorra.";
 		close;
 	case IE_NOMEMBER:
-		mes "You can enter the dungeon after making the party.";
+		mes "Você pode entrar na masmorra depois de fazer o grupo.";
 		close;
 	case IE_OK:
 		mapannounce "e_tower", strcharinfo(0) +" of the party, "+ getpartyname( getcharid(1) ) +", is entering the dungeon, Endless Tower.",bc_map,"0x00ff99",FW_NORMAL,12;
@@ -329,33 +329,33 @@ OnTouch:
 // Original name: "#102Administrator Mode104"
 e_tower,1,1,2	script	#102Administrator Mode	844,{
 	callfunc "F_GM_NPC";
-	mes "Please enter the password";
+	mes "Por favor, digite a senha";
 	set .@i, callfunc("F_GM_NPC","dmc2008",1);
 	next;
 	if (.@i == 1) {
 		switch(select("Generate Purification Stone:Remove Purification Stone:Cancel")) {
 		case 1:
-			mes "Create the Purification Stone that stays for 30 minutes.";
+			mes "Criar a Pedra de Purificação que permanece por 30 minutos.";
 			donpcevent "Purification Stone#et1::OnEnable";
 			break;
 		case 2:
-			mes "Destroy the Purification Stone immediately";
+			mes "Destruir a Pedra de Purificação imediatamente";
 			donpcevent "Purification Stone#et1::OnDisable";
 			break;
 		case 3:
-			mes "You have canceled it.";
+			mes "Você cancelou.";
 			break;
 		}
 		close;
 	} else {
-		mes "Enter the password exactly.";
+		mes "Digite a senha exatamente.";
 		close;
 	}
 }
 
 e_tower,69,117,4	script	Purification Stone#et1	406,{
 	set etower_timer,0;
-	mes "^0000ffThe records and aftereffects related to the Endless Tower have been removed. You can generate and enter the Endless Tower again.^000000";
+	mes "^0000ffOs registros e efeitos posteriores relacionados à Torre Sem Fim foram removidos. Você pode gerar e entrar na Torre Sem Fim novamente.^000000";
 	close;
 
 OnInit:
@@ -1482,20 +1482,20 @@ OnTouch_:
 
 2@tower,71,1,0	script	#Manager Mode2	844,{
 	callfunc "F_GM_NPC";
-	mes "Please enter the password.";
+	mes "Por favor, digite a senha.";
 	set .@i, callfunc("F_GM_NPC","dmc2008",1);
 	next;
 	if (.@i == 1) {
-		mes "This NPC manages the tower from the 26st to the 50th Level.";
-		mes "Please enter the Level number to open.";
-		mes "(i.g.: 26F->26, 50F->50)";
+		mes "Este NPC gerencia a torre do 26º ao 50º Andar.";
+		mes "Por favor, digite o número do Andar para abrir.";
+		mes "(ex.: 26F->26, 50F->50)";
 		input .@input,26,50;
 		next;
 		if (.@onput < 26 || .@input > 50)
-			mes "You can only enter a number from 26 to 50.";
+			mes "Você só pode digitar um número de 26 a 50.";
 		else {
 			donpcevent instance_npcname(.@input+"FGate102tower")+"::OnEnable";
-			mes "*** Level "+ .@input + " is now being opened. ***";
+			mes "*** Andar "+ .@input + " está sendo aberto agora. ";
 		}
 	}
 	close;
@@ -1598,20 +1598,20 @@ OnTouch_:
 
 3@tower,71,1,0	script	#Manager Mode3	844,{
 	callfunc "F_GM_NPC";
-	mes "Please enter the password.";
+	mes "Por favor, digite a senha.";
 	set .@i, callfunc("F_GM_NPC","dmc2008",1);
 	next;
 	if (.@i == 1) {
-		mes "This NPC manages the tower from the 51st to the 75th Level.";
-		mes "Please enter the Level number to open.";
-		mes "(i.g.: 51F->51, 75F->75)";
+		mes "Este NPC gerencia a torre do 51º ao 75º Andar.";
+		mes "Por favor, digite o número do Andar para abrir.";
+		mes "(ex.: 51F->51, 75F->75)";
 		input .@input,51,75;
 		next;
 		if (.@input < 51 || .@input > 75)
-			mes "You can only enter a number from 51 to 75.";
+			mes "Você só pode digitar um número de 51 a 75.";
 		else {
 			donpcevent instance_npcname(.@input+"FGate102tower")+"::OnEnable";
-			mes "*** Level "+ .@input + " is now being opened. ***";
+			mes " Andar "+ .@input + " está sendo aberto agora. ";
 		}
 	}
 	close;
@@ -1713,20 +1713,20 @@ OnTouch_:
 
 4@tower,71,1,0	script	#Manager Mode4	844,{
 	callfunc "F_GM_NPC";
-	mes "Please enter the password.";
+	mes "Por favor, digite a senha.";
 	set .@i, callfunc("F_GM_NPC","dmc2008",1);
 	next;
 	if (.@i == 1) {
-		mes "This NPC manages the tower from the 76th to the 99th Level.";
-		mes "Please enter the Level number to open.";
-		mes "(i.g.: 76F->76, 99F->99)";
+		mes "Este NPC gerencia a torre do 76º ao 99º Andar.";
+		mes "Por favor, digite o número do Andar para abrir.";
+		mes "(ex.: 76F->76, 99F->99)";
 		input .@input,76,99;
 		next;
 		if (.@input < 76 || .@input > 99)
-			mes "You can only enter a number from 76 to 99.";
+			mes "Você só pode digitar um número de 76 a 99.";
 		else {
 			donpcevent instance_npcname(.@input+"FGate102tower")+"::OnEnable";
-			mes "*** Level "+ .@input + " is now being opened. ***";
+			mes " Andar "+ .@input + " está sendo aberto agora. ***";
 		}
 	}
 	close;
@@ -1736,40 +1736,40 @@ OnTouch_:
 //============================================================
 5@tower,106,109,2	script	Lucid Crystal#102	844,{
 	if (in_102tower < 10) {
-		mes "^0000ffA mysterious voice echoes through the room as you touch the lucid crystal radiating a strong light.^000000";
+		mes "^0000ffUma voz misteriosa ecoa pela sala enquanto você toca o cristal lúcido que irradia uma luz forte.^000000";
 		next;
-		mes "[Mysterious Voice]";
-		mes "Welcome to my place, intruders. I've had fun watching you endure all the difficulties I've set before you.";
+		mes "[Voz Misteriosa]";
+		mes "Bem-vindos ao meu lugar, intrusos. Eu me diverti assistindo vocês suportarem todas as dificuldades que coloquei diante de vocês.";
 		next;
-		mes "[Mysterious Voice]";
-		mes "Unfortunately, the time has come to end the show.";
+		mes "[Voz Misteriosa]";
+		mes "Infelizmente, chegou a hora de encerrar o espetáculo.";
 		next;
-		mes "[Mysterious Voice]";
-		mes "It's still too early to celebrate your victory against my right-hand man Knothen because he isn't completely destroyed!";
+		mes "[Voz Misteriosa]";
+		mes "Ainda é muito cedo para celebrar sua vitória contra meu braço direito Knothen porque ele não está completamente destruído!";
 		next;
-		mes "[Mysterious Voice]";
-		mes "I shall resurrect him for your next show. Defeat him again, and then I'll gladly accept your challenge.";
+		mes "[Voz Misteriosa]";
+		mes "Eu o ressuscitarei para seu próximo espetáculo. Derrote-o novamente, e então aceitarei com prazer seu desafio.";
 		next;
-		mes "[Mysterious Voice]";
-		mes "Good-bye for now.";
-		mes "Once again, I had such a great time, humans. I look forward to seeing you again.";
+		mes "[Voz Misteriosa]";
+		mes "Adeus por enquanto.";
+		mes "Mais uma vez, eu me diverti muito, humanos. Estou ansioso para vê-los novamente.";
 		next;
-		mes "^0000ffAs soon as the voice stopped talking, an irresistible force lifted and moved you somewhere else.";
+		mes "^0000ffAssim que a voz parou de falar, uma força irresistível o levantou e o moveu para outro lugar.";
 		close2;
 		set in_102tower,10;
 		warp "alberta",223,36;
 	}
 	else {
-		mes "^0000ffThe radiating crystal piece seems to beckon you, just like last time.^000000";
+		mes "^0000ffO pedaço de cristal radiante parece chamá-lo, assim como da última vez.^000000";
 		next;
-		mes "[Mysterious Voice]";
-		mes "I must have underestimated you... I didn't expect to see you again.";
+		mes "[Voz Misteriosa]";
+		mes "Devo ter subestimado vocês... Não esperava vê-los novamente.";
 		next;
-		mes "[Mysterious Voice]";
-		mes "I can smell your sweat, hear the gasps of your exhaustion in combat. Ah~ The human desire for victory always excites me.";
+		mes "[Voz Misteriosa]";
+		mes "Posso sentir o cheiro do seu suor, ouvir os suspiros de sua exaustão em combate. Ah~ O desejo humano pela vitória sempre me excita.";
 		next;
-		mes "[Mysterious Voice]";
-		mes "I now allow you to come receive an audience from me. Come to me, to Nacht Sieger the Hegemon-King of the Darkness!";
+		mes "[Voz Misteriosa]";
+		mes "Agora permito que venham receber uma audiência comigo. Venham a mim, a Nacht Sieger, o Rei-Hegemon da Escuridão!";
 		close2;
 		warp instance_mapname("6@tower"),32,12;
 	}
@@ -1905,21 +1905,21 @@ OnEnable:
 
 5@tower,71,1,0	script	#Manager Mode5	844,{
 	callfunc "F_GM_NPC";
-	mes "This NPC manages the crystal on the 100th Level. Please enter the password.";
+	mes "Este NPC gerencia o cristal no 100º Andar. Por favor, digite a senha.";
 	set .@i, callfunc("F_GM_NPC","dmc2008",1);
 	next;
 	if (.@i == 1) {
 		donpcevent instance_npcname("Lucid Crystal#102")+"::OnEnable";
-		mes "The 100th Level's crystal has been activated.";
+		mes "O cristal do 100º Andar foi ativado.";
 	} else
-		mes "Please enter the correct password.";
+		mes "Por favor, digite a senha correta.";
 	close;
 }
 
 // Level 101
 //============================================================
 6@tower,45,89,2	script	Life Spring#1	844,{
-	mes "^0066ffYou took a sip of the spring's clear water, and you feel invigorated.^000000";
+	mes "^0066ffVocê tomou um gole da água clara da fonte, e se sente revigorado.^000000";
 	heal (MaxHp-Hp),(MaxSp-Sp);
 	close;
 
@@ -2116,55 +2116,55 @@ OnMyMobDead:
 
 6@tower,169,127,2	script	Lost Soul#102	796,{
 	if (checkweight(1201,1) == 0) {
-		mes "You're carrying too much stuff. Why don't you put some of it away, and then come back?";
+		mes "Você está carregando muitas coisas. Por que não guarda algumas delas e depois volta?";
 		close;
 	}
-	mes "[Lost Souls]";
-	mes "It's you that have liberated us from the evil Nacht Sieger.";
+	mes "[Almas Perdidas]";
+	mes "Foi você que nos libertou do maligno Nacht Sieger.";
 	next;
-	mes "[Lost Souls]";
-	mes "Thank you so much. Now we can escape from this cold and dark place... to heaven.";
+	mes "[Almas Perdidas]";
+	mes "Muito obrigado. Agora podemos escapar deste lugar frio e escuro... para o céu.";
 	next;
 	if ((countitem(13412) > 0) && (countitem(13413) > 0)) {
-		mes "[Lost Souls]";
-		mes "Hey, you have the remnants of Nacht Sieger with you.";
+		mes "[Almas Perdidas]";
+		mes "Ei, você tem os restos de Nacht Sieger com você.";
 		next;
-		mes "[Lost Souls]";
-		mes "They may appear to be one-handed swords, but I can put them together to make a two-handed one if you want. That's the only way I can repay you for freeing me.";
+		mes "[Almas Perdidas]";
+		mes "Eles podem parecer espadas de uma mão, mas posso juntá-las para fazer uma de duas mãos se você quiser. Essa é a única maneira que posso retribuir por me libertar.";
 		next;
 		switch(select("Make a Two-Handed Sword.:No, thanks.")) {
 		case 1:
-			mes "[Lost Souls]";
-			mes "If it is already upgraded or has a card inside, those effects will be disappear. Is this ok with you?";
+			mes "[Almas Perdidas]";
+			mes "Se já estiver aprimorada ou tiver um card dentro, esses efeitos desaparecerão. Isso está bem para você?";
 			next;
 			switch(select("It's fine with me. Please make one.:No way!")) {
 			case 1:
-				mes "[Lost Souls]";
-				mes "Good, then I'll combine these to create a two-handed sword.";
+				mes "[Almas Perdidas]";
+				mes "Bom, então vou combinar estas para criar uma espada de duas mãos.";
 				next;
 				delitem 13412,1; //Twin_Edge_B
 				delitem 13413,1; //Twin_Edge_R
 				getitem 1185,1; //Violet_Fear
 				break;
 			case 2:
-				mes "[Lost Souls]";
-				mes "I see. I guess you aren't as greedy or ambitious as those other adventurers.";
+				mes "[Almas Perdidas]";
+				mes "Entendo. Acho que você não é tão ganancioso ou ambicioso quanto aqueles outros aventureiros.";
 				next;
 				break;
 			}
 			break;
 		case 2:
-			mes "[Lost Souls]";
-			mes "I see. I guess you aren't as greedy or ambitious as those other adventurers.";
+			mes "[Almas Perdidas]";
+			mes "Entendo. Acho que você não é tão ganancioso ou ambicioso quanto aqueles outros aventureiros.";
 			next;
 			break;
 		}
 	}
-	mes "[Lost Souls]";
-	mes "I'd like to talk to you more, but I've... I've got to go now.";
+	mes "[Almas Perdidas]";
+	mes "Eu gostaria de conversar mais com você, mas eu... eu tenho que ir agora.";
 	next;
-	mes "[Lost Souls]";
-	mes "Farewell, young adventurer. I wish you good luck.";
+	mes "[Almas Perdidas]";
+	mes "Adeus, jovem aventureiro. Desejo-lhe boa sorte.";
 	close2;
 	warp "alberta",223,36;
 	end;

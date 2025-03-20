@@ -58,19 +58,19 @@
 // Notices in the old Hunter Guild.
 //============================================================
 in_hunter,99,99,4	script	Hunter Info#hnt::HntNotice	727,{
-	mes "============ Notice ============";
-	mes "We would like to inform that the Hunter Job Change Location";
-	mes "has been moved to ^ff0000Hugel^000000 in the Schwarzwald Republic.";
+	mes "============ Aviso ============";
+	mes "Gostaríamos de informar que o Local de Mudança de Classe para Caçador";
+	mes "foi movido para ^ff0000Hugel^000000 na República de Schwarzwald.";
 	next;
-	mes "You can now use the Hugel airline, so please use the airship to visit Hugel.";
+	mes "Agora você pode usar a linha aérea de Hugel, então por favor use a aeronave para visitar Hugel.";
 	next;
-	mes "You will find the new Job Change Location at ^ff0000 Hugel 208 222 ^000000.";
+	mes "Você encontrará o novo Local de Mudança de Classe em ^ff0000 Hugel 208 222 ^000000.";
 	next;
-	mes "^804000(You found a tiny line written at the end of the notice.)^000000";
+	mes "^804000(Você encontrou uma pequena linha escrita no final do aviso.)^000000";
 	mes " ";
 	mes " ";
 	mes " ";
-	mes "I, the Falcon breeder have moved out as well.";
+	mes "Eu, o criador de Falcões, também me mudei.";
 	close;
 }
 
@@ -80,113 +80,113 @@ pay_fild10,148,252,3	duplicate(HntNotice)	Job Change Location#hu	857
 //============================================================
 hu_in01,386,373,4	script	Hunter Guildsman#hnt	727,{
 	if (Upper == 1) {
-		mes "[Hunter Sherin]";
-		mes "Oh, how have you been? It's been a long time, hasn't it?";
+		mes "[Caçadora Sherin]";
+		mes "Oh, como você tem estado? Faz muito tempo, não é?";
 		next;
-		mes "[Hunter Sherin]";
-		mes "...Wait.";
-		mes "Oops! I'm sorry, I could have sworn that we've met before. Huh. How weird.";
+		mes "[Caçadora Sherin]";
+		mes "...Espere.";
+		mes "Ops! Desculpe, eu poderia jurar que já nos conhecíamos. Hã. Que estranho.";
 		close;
 	}
 	if (BaseJob == Job_Archer && JobLevel < 40) {
-		mes "[Hunter Guildsman]";
-		mes "Eh? You haven't had enough training as an Archer yet. To become a Hunter, you must gain a certain level of experience as an Archer first.";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Eh? Você ainda não teve treinamento suficiente como Arqueiro. Para se tornar um Caçador, você deve ganhar um certo nível de experiência como Arqueiro primeiro.";
 		next;
-		mes "[Hunter Guildsman]";
-		mes "Go out and train yourself a bit more. You'll need to be at least Job Level 40 before you'll be ready to become a Hunter. Of course, you can train more than that if you want.";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Saia e treine um pouco mais. Você precisará estar pelo menos no Nível de Classe 40 antes de estar pronto para se tornar um Caçador. Claro, você pode treinar mais do que isso se quiser.";
 		next;
-		mes "[Hunter Guildsman]";
-		mes "See you next time~";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Até a próxima~";
 		close;
 	}
 	if (SkillPoint) {
-		mes "[Hunter Sherin]";
-		mes "You can't change jobs without using all your skill points. Please use all of your skill points before applying to change jobs~";
+		mes "[Caçadora Sherin]";
+		mes "Você não pode mudar de classe sem usar todos os seus pontos de habilidade. Por favor, use todos os seus pontos de habilidade antes de solicitar a mudança de classe~";
 		close;
 	}
 	if (BaseClass == Job_Novice) {
-		mes "[Hunter Guildsman]";
-		mes "You must be...";
-		mes "a Novice? Wow, you've got a long way ahead of you. I don't think there's much you can do here.";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Você deve ser...";
+		mes "um Aprendiz? Uau, você tem um longo caminho pela frente. Não acho que haja muito que você possa fazer aqui.";
 		close;
 	}
 	else if (BaseClass == Job_Swordman) {
-		mes "[Hunter Guildsman]";
-		mes "You have chosen the path of the sword. I can respect the strength of your blade. Of course, from far away, you can't really afford to throw your sword at enemies, can you?";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Você escolheu o caminho da espada. Posso respeitar a força da sua lâmina. Claro, de longe, você realmente não pode se dar ao luxo de jogar sua espada nos inimigos, pode?";
 		close;
 	}
 	else if (BaseClass == Job_Mage) {
-		mes "[Hunter Guildsman]";
-		mes "You deal with magic? It must feel great to be able to wield mystic power.";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Você lida com magia? Deve ser ótimo poder manejar poder místico.";
 		close;
 	}
 	else if (BaseClass == Job_Acolyte) {
-		mes "[Hunter Guildsman]";
-		mes "Oh, a person who serves God! Nice to meet you. There aren't many people like you that visit this place~ Hehe.";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Oh, uma pessoa que serve a Deus! Prazer em conhecê-lo. Não há muitas pessoas como você que visitam este lugar~ Hehe.";
 		close;
 	}
 	else if (BaseClass == Job_Merchant) {
-		mes "[Hunter Guildsman]";
+		mes "[Membro da Guilda de Caçadores]";
 		mes "Oh...";
-		mes "How's your business coming along?";
+		mes "Como vai seu negócio?";
 		close;
 	}
 	else if (BaseClass == Job_Thief) {
-		mes "[Hunter Guildsman]";
+		mes "[Membro da Guilda de Caçadores]";
 		mes "Agh?!";
-		mes "This place doesn't have anything worth stealing or anyone worth killing!!";
+		mes "Este lugar não tem nada que valha a pena roubar ou alguém que valha a pena matar!!";
 		close;
 	}
 	else if (BaseJob == Job_Dancer || BaseJob == Job_Bard) {
-		mes "[Hunter Guildsman]";
-		mes "Phew...sometimes it is really hard for being a hunter, you know...";
-		mes "So how do you like your bohemian life? Yeah, I am envious of you for having so much freedom...";
+		mes "[Membro da Guilda de Caçadores]";
+		mes "Ufa... às vezes é realmente difícil ser um caçador, sabe...";
+		mes "Então, como você está gostando da sua vida boêmia? Sim, tenho inveja de você por ter tanta liberdade...";
 		close;
 	}
 	else if (BaseJob == Job_Hunter) {
-		mes "[Hunter Sherin]";
+		mes "[Caçadora Sherin]";
 		mes "Oh~ " + strcharinfo(0) + "!!";
-		mes "Long time no see~ What brings you here? Did your Falcon run away or something?";
+		mes "Há quanto tempo~ O que te traz aqui? Seu Falcão fugiu ou algo assim?";
 		next;
-		mes "[Hunter Sherin]";
-		mes "I don't really have any official notices from the guild at the moment, so I hope you didn't come here just for that...";
+		mes "[Caçadora Sherin]";
+		mes "Eu realmente não tenho nenhum aviso oficial da guilda no momento, então espero que você não tenha vindo aqui apenas para isso...";
 		close;
 	}
 	else if (BaseJob == Job_Archer) {
 		if (HNTR_Q == 17 && countitem(1007) == 0) {
-			mes "[Hunter Sherin]";
-			mes "Hmm... I've been informed that you passed the test. But you don't have the necessary 'Necklace of Wisdom (Penetration)' that proves your accomplishment.";
+			mes "[Caçadora Sherin]";
+			mes "Hmm... Fui informada de que você passou no teste. Mas você não tem o necessário 'Colar da Sabedoria (Penetração)' que comprova sua realização.";
 			next;
-			mes "[Hunter Sherin]";
-			mes "I'll let you change your job, but you must bring back a 'Necklace of Wisdom (Penetration),' no matter what it takes.";
+			mes "[Caçadora Sherin]";
+			mes "Vou deixar você mudar sua classe, mas você deve trazer de volta um 'Colar da Sabedoria (Penetração)', não importa o que seja preciso.";
 			close;
 		}
 		else if (HNTR_Q == 17 && countitem(1007) > 0) {
-			mes "[Hunter Sherin]";
+			mes "[Caçadora Sherin]";
 			mes "Oh...?";
-			mes "You passed";
-			mes "the job test?!";
-			mes "Congratulations~!!";
+			mes "Você passou";
+			mes "no teste de classe?!";
+			mes "Parabéns~!!";
 			next;
-			mes "[Hunter Sherin]";
-			mes "Well then,";
-			mes "I will now change";
-			mes "your job to a Hunter~";
+			mes "[Caçadora Sherin]";
+			mes "Bem, então,";
+			mes "agora vou mudar";
+			mes "sua classe para Caçador~";
 			next;
 			delitem 1007,1; // Penetration
-			mes "[Hunter Sherin]";
-			mes "Tada~ Congratulations!";
-			mes "You look great as a Hunter!!";
+			mes "[Caçadora Sherin]";
+			mes "Tada~ Parabéns!";
+			mes "Você fica ótimo como Caçador!!";
 			.@joblvl = JobLevel;
 			completequest 4013;
 			callfunc "Job_Change",Job_Hunter;
 			callfunc "F_ClearJobVar";		// clears all job variables for the current player
 			next;
-			mes "[Hunter Sherin]";
-			mes "Become a noble person and become a worthy representative of our Hunter Guild. Show your love of nature as a Hunter~";
+			mes "[Caçadora Sherin]";
+			mes "Torne-se uma pessoa nobre e torne-se um digno representante de nossa Guilda de Caçadores. Mostre seu amor pela natureza como um Caçador~";
 			next;
-			mes "[Hunter Sherin]";
-			mes "And also, here is a little reward for all the effort you put in. It's from me, of course~";
+			mes "[Caçadora Sherin]";
+			mes "E também, aqui está uma pequena recompensa por todo o esforço que você fez. É de mim, claro~";
 			if (.@joblvl > 49)
 				getitem 1718,1; //Hunter_Bow
 			else
@@ -195,84 +195,84 @@ hu_in01,386,373,4	script	Hunter Guildsman#hnt	727,{
 		}
 		else if (HNTR_Q == 0 || HNTR_Q == 1) {
 			if (HNTR_Q == 0) {
-				mes "[Hunter Guildsman]";
-				mes "Oh, you're an Archer! It seems as if you've trained enough as an Archer... You came here to become a Hunter, right?";
+				mes "[Membro da Guilda de Caçadores]";
+				mes "Oh, você é um Arqueiro! Parece que você treinou o suficiente como Arqueiro... Você veio aqui para se tornar um Caçador, certo?";
 				next;
 				switch( select( "Yes. That's what I'm here for.", "What are the requirements to change jobs?", "....I don't want to change yet." ) ) {
 				case 1:
-					mes "[Hunter Guildsman]";
+					mes "[Membro da Guilda de Caçadores]";
 					mes "Hehe~";
-					mes "I was right! Let me put you on the candidate list. Let's see~*";
+					mes "Eu estava certo! Deixe-me colocá-lo na lista de candidatos. Vamos ver~";
 					next;
-					mes "[Hunter Guildsman]";
-					mes "Hmm... Let's start with the interview. Wait and relax a moment. No need to worry, I'll prepare everything~";
+					mes "[Membro da Guilda de Caçadores]";
+					mes "Hmm... Vamos começar com a entrevista. Espere e relaxe um momento. Não precisa se preocupar, vou preparar tudo~";
 					next;
-					mes "^3355FF*Gathers and flips through papers*^000000";
+					mes "^3355FFReúne e folheia papéis*^000000";
 					next;
-					mes "^3355FF*Rummage rummage*^000000";
+					mes "^3355FFRemexe remexe^000000";
 					next;
-					mes "[Hunter Guildsman]";
+					mes "[Membro da Guilda de Caçadores]";
 					mes "Ah!";
-					mes "Here they are: the interview questions~ First of all, my name is 'Sherin.' Nice to meet you!";
+					mes "Aqui estão: as perguntas da entrevista~ Antes de tudo, meu nome é 'Sherin.' Prazer em conhecê-lo!";
 					next;
-					mes "[Hunter Sherin]";
-					mes "Well then,";
-					mes "shall we begin?";
+					mes "[Caçadora Sherin]";
+					mes "Bem, então,";
+					mes "vamos começar?";
 					next;
 					if (select( "Yes~ Let's start now.", "No, I'll be back later.") == 2) {
-						mes "[Hunter Sherin]";
-						mes "Okay...";
-						mes "Come back";
-						mes "when you're ready~";
+						mes "[Caçadora Sherin]";
+						mes "Ok...";
+						mes "Volte";
+						mes "quando estiver pronto~";
 						close;
 					}
 					if (isbegin_quest(4000) == 0)
 						setquest 4000;
-					mes "[Hunter Sherin]";
-					mes "Listen carefully to the scenarios I describe. When I ask a question, you choose an answer. Pretty simple, don't you think?";
+					mes "[Caçadora Sherin]";
+					mes "Ouça atentamente os cenários que eu descrevo. Quando eu fizer uma pergunta, você escolhe uma resposta. Bem simples, não acha?";
 					next;
-					mes "[Hunter Sherin]";
-					mes "I just want to know how you think about life, and why you want to become a Hunter, so there's no need to be nervous.";
+					mes "[Caçadora Sherin]";
+					mes "Eu só quero saber como você pensa sobre a vida, e por que você quer se tornar um Caçador, então não há necessidade de ficar nervoso.";
 					break;
 				case 2:
-					mes "[Hunter Guildsman]";
-					mes "Job change";
-					mes "requirements?";
-					mes "First...";
-					mes "You must be an Archer.";
+					mes "[Membro da Guilda de Caçadores]";
+					mes "Requisitos para";
+					mes "mudança de classe?";
+					mes "Primeiro...";
+					mes "Você deve ser um Arqueiro.";
 					next;
-					mes "[Hunter Guildsman]";
-					mes "Second...";
-					mes "You must be";
-					mes "at least Job Level 40.";
+					mes "[Membro da Guilda de Caçadores]";
+					mes "Segundo...";
+					mes "Você deve estar";
+					mes "pelo menos no Nível de Classe 40.";
 					next;
-					mes "[Hunter Guildsman]";
-					mes "Third...";
-					mes "You must bring all of the items that will be requested by the guild. You can worry about that later.";
+					mes "[Membro da Guilda de Caçadores]";
+					mes "Terceiro...";
+					mes "Você deve trazer todos os itens que serão solicitados pela guilda. Você pode se preocupar com isso mais tarde.";
 					next;
-					mes "[Hunter Guildsman]";
-					mes "Fourth...";
-					mes "You've gotta pass the test administered by the guild. If you have had enough training as an Archer, you should be able to pass the test~";
+					mes "[Membro da Guilda de Caçadores]";
+					mes "Quarto...";
+					mes "Você tem que passar no teste administrado pela guilda. Se você teve treinamento suficiente como Arqueiro, você deve ser capaz de passar no teste~";
 					close;
 				case 3:
-					mes "[Hunter Guildsman]";
-					mes "Okay then,";
-					mes "see you next time~";
+					mes "[Membro da Guilda de Caçadores]";
+					mes "Ok então,";
+					mes "até a próxima~";
 					close;
 				}
 			}
 			else if (HNTR_Q == 1) {
-				mes "[Hunter Sherin]";
-				mes "Welcome back...!";
-				mes "Well, let's start with the interview. This time, carefully think about the answers to each question.";
+				mes "[Caçadora Sherin]";
+				mes "Bem-vindo de volta...!";
+				mes "Bem, vamos começar com a entrevista. Desta vez, pense cuidadosamente sobre as respostas para cada pergunta.";
 			}
 			next;
-			mes "[Hunter Sherin]";
-			mes "Well then,";
-			mes "let's begin.";
+			mes "[Caçadora Sherin]";
+			mes "Bem, então,";
+			mes "vamos começar.";
 			next;
-			mes "[Hunter Sherin]";
-			mes "You are an Archer, and you don't know where you should go to hunt. What do you do?";
+			mes "[Caçadora Sherin]";
+			mes "Você é um Arqueiro, e não sabe para onde deve ir caçar. O que você faz?";
 			next;
 			switch( select( "Scream out loud asking where you should go.", "Quietly ask a person passing by.", "Wander around alone and search for a place." ) ) {
 			case 2:
@@ -281,12 +281,12 @@ hu_in01,386,373,4	script	Hunter Guildsman#hnt	727,{
 			default:
 				break;
 			}
-			mes "[Hunter Sherin]";
-			mes "So you've decided on a place to hunt. You're going to hunt the monsters known as Hodes in the Sograt Desert.";
+			mes "[Caçadora Sherin]";
+			mes "Então você decidiu um lugar para caçar. Você vai caçar os monstros conhecidos como Hodes no Deserto de Sograt.";
 			next;
-			mes "[Hunter Sherin]";
-			mes "But you are in Payon!!";
-			mes "How do you go to the desert?";
+			mes "[Caçadora Sherin]";
+			mes "Mas você está em Payon!!";
+			mes "Como você vai para o deserto?";
 			next;
 			switch( select( "Ask a Priest to open a free warp portal.", "Use the Kafra service.", "Walk with a friend." ) ) {
 			case 2:
@@ -295,13 +295,13 @@ hu_in01,386,373,4	script	Hunter Guildsman#hnt	727,{
 			default:
 				break;
 			}
-			mes "[Hunter Sherin]";
-			mes "There is no Priest to ask for a warp, and no friend is around to walk with you. You must use the Kafra service, but you have no Zeny!";
+			mes "[Caçadora Sherin]";
+			mes "Não há Sacerdote para pedir um portal, e nenhum amigo está por perto para caminhar com você. Você deve usar o serviço Kafra, mas não tem Zeny!";
 			next;
-			mes "[Hunter Sherin]";
-			mes "How would you go";
-			mes "about to make the";
-			mes "Zeny that you need?";
+			mes "[Caçadora Sherin]";
+			mes "Como você faria";
+			mes "para conseguir o";
+			mes "Zeny de que precisa?";
 			next;
 			switch( select( "Beg here and there.", "Sell items I do not need.", "Hunt at a nearby field." ) ) {
 			case 2:
@@ -310,10 +310,10 @@ hu_in01,386,373,4	script	Hunter Guildsman#hnt	727,{
 			default:
 				break;
 			}
-			mes "[Hunter Sherin]";
-			mes "So you finally arrive at the Sograt Desert. But you realize that Hodes are a bit too strong for you to hunt alone.";
+			mes "[Caçadora Sherin]";
+			mes "Então você finalmente chega ao Deserto de Sograt. Mas você percebe que os Hodes são um pouco fortes demais para você caçar sozinho.";
 			next;
-			mes "[Hunter Sherin]";
+			mes "[Caçadora Sherin]";
 			mes "What is your";
 			mes "solution to this";
 			mes "situation?";
